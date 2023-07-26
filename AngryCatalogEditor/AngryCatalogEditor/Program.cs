@@ -25,6 +25,18 @@ namespace AngryCatalogEditor
 		public List<LevelInfo> Levels;
 	}
 
+	public class ScriptInfo
+	{
+		public string FileName { get; set; }
+		public string Hash { get; set; }
+		public int Size { get; set; }
+	}
+
+	public class ScriptCatalog
+	{
+		public List<ScriptInfo> Scripts;
+	}
+
 	public class AngryBundleData
 	{
 		public List<string> levelDataPaths;
@@ -36,11 +48,14 @@ namespace AngryCatalogEditor
 	internal class Program
 	{
 		static LevelCatalog catalog;
+		static ScriptCatalog scriptCatalog;
 
 		static void LoadCatalog()
 		{
 			string catalogPath = Path.Combine(projectRoot, "LevelCatalog.json");
 			catalog = JsonConvert.DeserializeObject<LevelCatalog>(File.ReadAllText(catalogPath));
+			string scriptCatalogPath = Path.Combine(projectRoot, "ScriptCatalog.json");
+			scriptCatalog = JsonConvert.DeserializeObject<ScriptCatalog>(File.ReadAllText(scriptCatalogPath));
 		}
 
 		static void SaveCatalog()
@@ -55,6 +70,17 @@ namespace AngryCatalogEditor
 
 			File.WriteAllText(catalogPath, catalogSerialized);
 			File.WriteAllText(catalogHashPath, hash);
+
+			string scriptCatalogPath = Path.Combine(projectRoot, "ScriptCatalog.json");
+			string scriptCatalogHashPath = Path.Combine(projectRoot, "ScriptCatalogHash.txt");
+			string scriptCatalogSerialized = JsonConvert.SerializeObject(scriptCatalog);
+
+			md5 = MD5.Create();
+			hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(scriptCatalogSerialized));
+			hash = Convert.ToHexString(hashArr).ToLower();
+
+			File.WriteAllText(scriptCatalogPath, scriptCatalogSerialized);
+			File.WriteAllText(scriptCatalogHashPath, hash);
 		}
 
 		static void ResizeToMinimum(MagickImage img, int width, int height)
@@ -316,6 +342,85 @@ namespace AngryCatalogEditor
 			}
 		}
 
+		static void ChangeAuthorName()
+		{
+			Console.Write("Author: ");
+			string author = Console.ReadLine();
+
+			if (string.IsNullOrEmpty(author))
+			{
+				Console.WriteLine("Aborted");
+				return;
+			}
+
+			Console.Write("New Name: ");
+			string newName = Console.ReadLine();
+
+			if (string.IsNullOrEmpty(newName))
+			{
+				Console.WriteLine("Aborted");
+				return;
+			}
+
+			if (catalog.Levels.Where(bundle => bundle.Author == newName).FirstOrDefault() != null)
+			{
+				Console.WriteLine("New name already exists, aborting");
+				return;
+			}
+
+			catalog.Levels.ForEach(level =>
+			{
+				if (level.Author == author) level.Author = newName;
+			});
+
+			SaveCatalog();
+		}
+
+		static void AddOrUpdateScript()
+		{
+			Console.Write("Script path: ");
+			string scriptPath = ProcessPath(Console.ReadLine());
+			if (!File.Exists(scriptPath))
+			{
+				Console.WriteLine("Aborted");
+				return;
+			}
+
+			string certificatePath = scriptPath + ".cert";
+			if (!File.Exists(certificatePath))
+			{
+				Console.WriteLine("Certificate not found");
+				return;
+			}
+
+			MD5 md5 = MD5.Create();
+			byte[] hashArr = md5.ComputeHash(File.ReadAllBytes(scriptPath));
+			string scriptHash = Convert.ToHexString(hashArr).ToLower();
+
+			string scriptName = Path.GetFileName(scriptPath);
+			File.Copy(scriptPath, Path.Combine(projectRoot, "Scripts", scriptName), true);
+			File.Copy(scriptPath + ".cert", Path.Combine(projectRoot, "Scripts", scriptName + ".cert"));
+
+			int size = 0;
+			using (FileStream fs = File.Open(scriptPath, FileMode.Open, FileAccess.Read))
+			{
+				size = (int)fs.Length;
+			}
+
+			ScriptInfo info = scriptCatalog.Scripts.Where(script => script.FileName == scriptName).FirstOrDefault();
+			if (info == null)
+			{
+				info = new ScriptInfo();
+				scriptCatalog.Scripts.Add(info);
+			}
+
+			info.FileName = scriptName;
+			info.Hash = scriptHash;
+			info.Size = size;
+
+			SaveCatalog();
+		}
+
 		static string projectRoot;
 		static void Main(string[] args)
 		{
@@ -330,6 +435,10 @@ namespace AngryCatalogEditor
 				Console.WriteLine("1 - Add bundle");
 				Console.WriteLine("2 - Update bundle");
 				Console.WriteLine("3 - Delete bundle");
+				Console.WriteLine();
+				Console.WriteLine("4 - Change author name");
+				Console.WriteLine();
+				Console.WriteLine("5 - Add or update script");
 				Console.Write("> ");
 
 				string str = Console.ReadLine();
@@ -341,6 +450,10 @@ namespace AngryCatalogEditor
 						UpdateBundle();
 					else if (choice == 3)
 						DeleteBundle();
+					else if (choice == 4)
+						ChangeAuthorName();
+					else if (choice == 5)
+						AddOrUpdateScript();
 				}
 			}
 		}
