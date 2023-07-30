@@ -111,6 +111,45 @@ namespace AngryCatalogEditor
 			return Convert.ToHexString(b).ToLower();
 		}
 
+		static AngryBundleData DataFromBundle(string filePath)
+		{
+			using (ZipArchive zip = new ZipArchive(File.Open(filePath, FileMode.Open, FileAccess.Read)))
+			{
+				var entry = zip.GetEntry("data.json");
+
+				using (TextReader reader = new StreamReader(entry.Open()))
+				{
+					AngryBundleData data = JsonConvert.DeserializeObject<AngryBundleData>(reader.ReadToEnd());
+					return data;
+				}
+			}
+		}
+
+		static string GuidFromBundle(string path)
+		{
+			return DataFromBundle(path).bundleGuid;
+		}
+
+		static bool IsGUID(string guid)
+		{
+			if (guid == null || guid.Length != 32)
+				return false;
+
+			foreach (char c in guid)
+			{
+				if (c >= '0' && c <= '9')
+					continue;
+				if (c >= 'a' && c <= 'f')
+					continue;
+				if (c >= 'A' && c <= 'F')
+					continue;
+
+				return false;
+			}
+
+			return true;
+		}
+
 		static string ProcessPath(string path)
 		{
 			if (path.StartsWith('"') && path.EndsWith('"'))
@@ -237,8 +276,23 @@ namespace AngryCatalogEditor
 
 		static void UpdateBundle()
 		{
-			Console.Write("GUID: ");
+			Console.Write("GUID or path: ");
 			string guid = Console.ReadLine();
+			
+			if (!IsGUID(guid))
+			{
+				string path = ProcessPath(guid);
+				if (File.Exists(path))
+				{
+					guid = GuidFromBundle(path);
+				}
+				else
+				{
+					Console.WriteLine("Invalid GUID");
+					return;
+				}
+			}
+			
 			LevelInfo bundle = catalog.Levels.Where(level => level.Guid == guid).FirstOrDefault();
 			if (bundle == null)
 			{
