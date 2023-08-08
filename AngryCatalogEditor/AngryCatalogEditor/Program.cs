@@ -75,6 +75,7 @@ namespace AngryCatalogEditor
 			string catalogPath = Path.Combine(projectRoot, "LevelCatalog.json");
 			string catalogHashPath = Path.Combine(projectRoot, "LevelCatalogHash.txt");
 			string catalogSerialized = JsonConvert.SerializeObject(catalog, Formatting.Indented);
+			catalogSerialized = catalogSerialized.Replace("\r", "");
 
 			MD5 md5 = MD5.Create();
 			byte[] hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(catalogSerialized));
@@ -86,6 +87,7 @@ namespace AngryCatalogEditor
 			string scriptCatalogPath = Path.Combine(projectRoot, "ScriptCatalog.json");
 			string scriptCatalogHashPath = Path.Combine(projectRoot, "ScriptCatalogHash.txt");
 			string scriptCatalogSerialized = JsonConvert.SerializeObject(scriptCatalog, Formatting.Indented);
+			scriptCatalogSerialized = scriptCatalogSerialized.Replace("\r", "");
 
 			md5 = MD5.Create();
 			hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(scriptCatalogSerialized));
