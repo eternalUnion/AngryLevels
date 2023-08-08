@@ -1,1 +1,14 @@
-{"Scripts":[{"FileName":"eternalUnion.PhysicsExtensions.dll","Hash":"45fdb4e85e97d9612d286ffb97ce79f3","Size":8192},{"FileName":"PlayerStatScripts.dll","Hash":"6865d85b513cecd3934d3c8c2f27633e","Size":13824}]}
+{
+  "Scripts": [
+    {
+      "FileName": "eternalUnion.PhysicsExtensions.dll",
+      "Hash": "45fdb4e85e97d9612d286ffb97ce79f3",
+      "Size": 8192
+    },
+    {
+      "FileName": "PlayerStatScripts.dll",
+      "Hash": "6865d85b513cecd3934d3c8c2f27633e",
+      "Size": 13824
+    }
+  ]
+}

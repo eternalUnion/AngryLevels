@@ -6,6 +6,7 @@ using System.Drawing;
 using ImageMagick;
 using System.Runtime.InteropServices;
 using System;
+using System.Globalization;
 
 namespace AngryCatalogEditor
 {
@@ -62,7 +63,7 @@ namespace AngryCatalogEditor
 		{
 			string catalogPath = Path.Combine(projectRoot, "LevelCatalog.json");
 			string catalogHashPath = Path.Combine(projectRoot, "LevelCatalogHash.txt");
-			string catalogSerialized = JsonConvert.SerializeObject(catalog);
+			string catalogSerialized = JsonConvert.SerializeObject(catalog, Formatting.Indented);
 
 			MD5 md5 = MD5.Create();
 			byte[] hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(catalogSerialized));
@@ -73,7 +74,7 @@ namespace AngryCatalogEditor
 
 			string scriptCatalogPath = Path.Combine(projectRoot, "ScriptCatalog.json");
 			string scriptCatalogHashPath = Path.Combine(projectRoot, "ScriptCatalogHash.txt");
-			string scriptCatalogSerialized = JsonConvert.SerializeObject(scriptCatalog);
+			string scriptCatalogSerialized = JsonConvert.SerializeObject(scriptCatalog, Formatting.Indented);
 
 			md5 = MD5.Create();
 			hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(scriptCatalogSerialized));
@@ -396,6 +397,12 @@ namespace AngryCatalogEditor
 			}
 		}
 
+		static void ListAuthorNames()
+		{
+			foreach (string author in catalog.Levels.Select(level => level.Author).Distinct())
+				Console.WriteLine($"- '{author}'");
+		}
+
 		static void ChangeAuthorName()
 		{
 			Console.Write("Author: ");
@@ -478,8 +485,28 @@ namespace AngryCatalogEditor
 		static string projectRoot;
 		static void Main(string[] args)
 		{
-			Console.Write("Project root: ");
-			projectRoot = Console.ReadLine();
+			CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
+			projectRoot = "";
+
+			string currentDir = Directory.GetCurrentDirectory();
+			while (Directory.Exists(currentDir))
+			{
+				if (Directory.GetFiles(currentDir).Select(file => Path.GetFileName(file)).Contains("LevelCatalog.json"))
+				{
+					projectRoot = currentDir;
+					break;
+				}
+				else
+				{
+					currentDir = Path.GetDirectoryName(currentDir);
+				}
+			}
+
+			if (projectRoot == "")
+			{
+				Console.Write("Project root: ");
+				projectRoot = Console.ReadLine();
+			}
 
 			Console.WriteLine("Loading catalog...");
 			LoadCatalog();
@@ -490,9 +517,12 @@ namespace AngryCatalogEditor
 				Console.WriteLine("2 - Update bundle");
 				Console.WriteLine("3 - Delete bundle");
 				Console.WriteLine();
-				Console.WriteLine("4 - Change author name");
+				Console.WriteLine("4 - List all authors");
+				Console.WriteLine("5 - Change author name");
 				Console.WriteLine();
-				Console.WriteLine("5 - Add or update script");
+				Console.WriteLine("6 - Add or update script");
+				Console.WriteLine();
+				Console.WriteLine("7 - Force save catalog");
 				Console.Write("> ");
 
 				string str = Console.ReadLine();
@@ -505,9 +535,13 @@ namespace AngryCatalogEditor
 					else if (choice == 3)
 						DeleteBundle();
 					else if (choice == 4)
-						ChangeAuthorName();
+						ListAuthorNames();
 					else if (choice == 5)
+						ChangeAuthorName();
+					else if (choice == 6)
 						AddOrUpdateScript();
+					else if (choice == 7)
+						SaveCatalog();
 				}
 			}
 		}
