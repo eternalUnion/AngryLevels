@@ -299,7 +299,7 @@ namespace AngryCatalogEditor
 			newInfo.ThumbnailHash = RandomGuid();
 			newInfo.Size = size;
 			newInfo.LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds();
-			newInfo.Updates = new List<LevelInfo.UpdateInfo>() { new LevelInfo.UpdateInfo() { Hash = bundleInfo.buildHash, Message = "Initial version" } };
+			newInfo.Updates = new List<LevelInfo.UpdateInfo>() { new LevelInfo.UpdateInfo() { Hash = bundleInfo.buildHash, Message = "Initial upload" } };
 
 			catalog.Levels.Add(newInfo);
 			SaveCatalog();

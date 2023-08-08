@@ -1,6 +1,12 @@
 {
   "Levels": [
     {
+      "Updates": [
+        {
+          "Hash": "576f09f9073ab1147926ab6b8cd996cf",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "The Greybox Skill Test",
       "Author": "william1321",
       "Size": 34353969,
@@ -10,6 +16,12 @@
       "LastUpdate": 1690323923
     },
     {
+      "Updates": [
+        {
+          "Hash": "989d1127fedb0ad46be74381b61f08fb",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "Castle",
       "Author": "Grapes",
       "Size": 13550082,
@@ -19,6 +31,12 @@
       "LastUpdate": 1690471858
     },
     {
+      "Updates": [
+        {
+          "Hash": "dacc7441762d7014f93925fb804c2756",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "GG's Levels",
       "Author": "GGGamesXDlol",
       "Size": 16237656,
@@ -28,6 +46,12 @@
       "LastUpdate": 1690743443
     },
     {
+      "Updates": [
+        {
+          "Hash": "7821e9688bfc44146b84638126f36d2a",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "Doilus",
       "Author": "RedNova",
       "Size": 19283293,
@@ -37,6 +61,12 @@
       "LastUpdate": 1690414015
     },
     {
+      "Updates": [
+        {
+          "Hash": "dbbb9bf172c81ee468b58c023686b041",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "NovaKaizo",
       "Author": "RedNova",
       "Size": 15753640,
@@ -46,6 +76,12 @@
       "LastUpdate": 1690615822
     },
     {
+      "Updates": [
+        {
+          "Hash": "8861d57cf774f6840962e3c71f3a2412",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "PRELUDE /// ENCORE",
       "Author": "SpelunkyGaming",
       "Size": 8006063,
@@ -55,6 +91,12 @@
       "LastUpdate": 1690335289
     },
     {
+      "Updates": [
+        {
+          "Hash": "6aae8d393d4f78e4596a534ff55f75bf",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "IGOR",
       "Author": "ballfartchungus43",
       "Size": 75992869,
@@ -64,6 +106,12 @@
       "LastUpdate": 1690924683
     },
     {
+      "Updates": [
+        {
+          "Hash": "bbf3c6bfb5fb9ff45884e84397cfae8a",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "All Guts, No Glory",
       "Author": "william1321",
       "Size": 25761040,
@@ -73,6 +121,12 @@
       "LastUpdate": 1690968859
     },
     {
+      "Updates": [
+        {
+          "Hash": "8a0a067869a6dff4f84f6ebeb3df11f0",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "The Plushie Heist",
       "Author": "william1321",
       "Size": 9391292,
@@ -82,6 +136,12 @@
       "LastUpdate": 1691484645
     },
     {
+      "Updates": [
+        {
+          "Hash": "1d08ccb5aa089ce478cc24b46b50aa74",
+          "Message": "Initial upload"
+        }
+      ],
       "Name": "CerberusEX",
       "Author": "RedNova",
       "Size": 14442392,
