@@ -20,6 +20,22 @@
         {
           "Hash": "989d1127fedb0ad46be74381b61f08fb",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "989d1127fedb0ad46be74381b61f08fa",
+          "Message": "current version"
+        },
+        {
+          "Hash": "0000000000000000000000000000000a",
+          "Message": "- Line 1\\nLine 2\\nLine3"
+        },
+        {
+          "Hash": "0000000000000000000000000000000b",
+          "Message": "- <b>Bold line 1</b>\\n- <color=red>color line 2</color>"
+        },
+        {
+          "Hash": "989d1127fedb0ad46be74381b61f08fb",
+          "Message": "Latest"
         }
       ],
       "Name": "Castle",
