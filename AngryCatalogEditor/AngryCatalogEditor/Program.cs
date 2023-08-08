@@ -14,13 +14,21 @@ namespace AngryCatalogEditor
 {
 	public class LevelInfo
 	{
+		public class UpdateInfo
+		{
+			public string Hash { get; set; }
+			public string Message { get; set; }
+		}
+
 		public string Name { get; set; }
 		public string Author { get; set; }
 		public int Size { get; set; }
 		public string Guid { get; set; }
 		public string Hash { get; set; }
 		public string ThumbnailHash { get; set; }
+
 		public long LastUpdate { get; set; }
+		public List<UpdateInfo> Updates;
 	}
 
 	public class LevelCatalog
@@ -33,6 +41,7 @@ namespace AngryCatalogEditor
 		public string FileName { get; set; }
 		public string Hash { get; set; }
 		public int Size { get; set; }
+		public List<string> Updates;
 	}
 
 	public class ScriptCatalog
@@ -42,10 +51,12 @@ namespace AngryCatalogEditor
 
 	public class AngryBundleData
 	{
-		public List<string> levelDataPaths;
+		public string bundleName { get; set; }
+		public string bundleAuthor { get; set; }
 		public string bundleGuid { get; set; }
 		public string buildHash { get; set; }
 		public string bundleDataPath { get; set; }
+		public List<string> levelDataPaths;
 	}
 
 	internal class Program
@@ -66,6 +77,7 @@ namespace AngryCatalogEditor
 			string catalogPath = Path.Combine(projectRoot, "LevelCatalog.json");
 			string catalogHashPath = Path.Combine(projectRoot, "LevelCatalogHash.txt");
 			string catalogSerialized = JsonConvert.SerializeObject(catalog, Formatting.Indented);
+			catalogSerialized = catalogSerialized.Replace("\r", "");
 
 			MD5 md5 = MD5.Create();
 			byte[] hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(catalogSerialized));
@@ -77,6 +89,7 @@ namespace AngryCatalogEditor
 			string scriptCatalogPath = Path.Combine(projectRoot, "ScriptCatalog.json");
 			string scriptCatalogHashPath = Path.Combine(projectRoot, "ScriptCatalogHash.txt");
 			string scriptCatalogSerialized = JsonConvert.SerializeObject(scriptCatalog, Formatting.Indented);
+			scriptCatalogSerialized = scriptCatalogSerialized.Replace("\r", "");
 
 			md5 = MD5.Create();
 			hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(scriptCatalogSerialized));
@@ -160,6 +173,26 @@ namespace AngryCatalogEditor
 			return path;
 		}
 
+		static void WriteWarning(string message)
+		{
+			ConsoleColor fg = Console.ForegroundColor;
+			ConsoleColor bg = Console.BackgroundColor;
+
+			Console.ForegroundColor = ConsoleColor.Yellow;
+			Console.BackgroundColor = ConsoleColor.Black;
+
+			Console.Write(message);
+
+			Console.ForegroundColor = fg;
+			Console.BackgroundColor = bg;
+		}
+
+		static void WriteLineWarning(string message)
+		{
+			WriteWarning(message);
+			Console.WriteLine();
+		}
+
 		struct BundleInfo
 		{
 			public string guid;
@@ -179,6 +212,10 @@ namespace AngryCatalogEditor
 
 					info.guid = data.bundleGuid;
 					info.buildHash = data.buildHash;
+					if (string.IsNullOrEmpty(data.bundleName))
+						WriteLineWarning("No bundle name");
+					if (string.IsNullOrEmpty(data.bundleAuthor))
+						WriteLineWarning("No bundle author");
 				}
 
 				var iconEntry = angry.GetEntry("icon.png");
@@ -266,6 +303,7 @@ namespace AngryCatalogEditor
 			newInfo.ThumbnailHash = RandomGuid();
 			newInfo.Size = size;
 			newInfo.LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds();
+			newInfo.Updates = new List<LevelInfo.UpdateInfo>() { new LevelInfo.UpdateInfo() { Hash = bundleInfo.buildHash, Message = "Initial upload" } };
 
 			catalog.Levels.Add(newInfo);
 			SaveCatalog();
@@ -333,16 +371,21 @@ namespace AngryCatalogEditor
 				BundleInfo info;
 				if (!ProcessBundle(bundlePath, tempPath, out info))
 				{
-					Console.WriteLine("Could not process bundle, skipping");
+					Console.WriteLine("Could not process bundle");
+					return;
 				}
 				else
 				{
 					if (info.guid != guid)
 					{
 						Console.WriteLine("Bundle guid does not match with the request");
+						return;
 					}
 					else
 					{
+						Console.Write("Update message: ");
+						string updateMsg = Console.ReadLine();
+
 						File.Copy(bundlePath, Path.Combine(projectRoot, "Levels", guid, "level.angry"), true);
 						bundle.Hash = info.buildHash;
 						bundle.LastUpdate = ((DateTimeOffset)DateTime.UtcNow).ToUnixTimeSeconds();
@@ -350,6 +393,9 @@ namespace AngryCatalogEditor
 						using (FileStream fs = File.Open(bundlePath, FileMode.Open, FileAccess.Read))
 							size = (int)fs.Length;
 						bundle.Size = size;
+						if (bundle.Updates == null)
+							bundle.Updates = new List<LevelInfo.UpdateInfo>();
+						bundle.Updates.Add(new LevelInfo.UpdateInfo() { Hash = info.buildHash, Message = updateMsg });
 						changed = true;
 					}
 				}
@@ -474,12 +520,16 @@ namespace AngryCatalogEditor
 			if (info == null)
 			{
 				info = new ScriptInfo();
+				info.Updates = new List<string>();
 				scriptCatalog.Scripts.Add(info);
 			}
 
 			info.FileName = scriptName;
 			info.Hash = scriptHash;
 			info.Size = size;
+			if (info.Updates == null)
+				info.Updates = new List<string>();
+			info.Updates.Add(scriptHash);
 
 			SaveCatalog();
 		}
