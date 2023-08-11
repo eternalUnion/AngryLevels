@@ -164,6 +164,21 @@
       "Hash": "8d1016533b7ea3f4dba5bc1e1d3cf8ba",
       "ThumbnailHash": "1455a70cba824be3ac806447d2c9f502",
       "LastUpdate": 1691676185
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "4110ebec54f51a940b62cf844d332371",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "ULTRADOOM",
+      "Author": "Paolotto",
+      "Size": 10996036,
+      "Guid": "0c346597c1e5c3041a0cbc7fc4a22b97",
+      "Hash": "4110ebec54f51a940b62cf844d332371",
+      "ThumbnailHash": "504064eac369a6acb278419d0627d24a",
+      "LastUpdate": 1691767325
     }
   ]
 }
