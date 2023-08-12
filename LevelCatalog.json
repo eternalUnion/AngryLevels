@@ -170,15 +170,19 @@
         {
           "Hash": "4110ebec54f51a940b62cf844d332371",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "f25342c4c777d8f47837cac693068943",
+          "Message": "- Fixed a bug allowing the player to clip trough the ground at the end"
         }
       ],
       "Name": "ULTRADOOM",
       "Author": "Paolotto",
-      "Size": 10996036,
+      "Size": 10995236,
       "Guid": "0c346597c1e5c3041a0cbc7fc4a22b97",
-      "Hash": "4110ebec54f51a940b62cf844d332371",
+      "Hash": "f25342c4c777d8f47837cac693068943",
       "ThumbnailHash": "504064eac369a6acb278419d0627d24a",
-      "LastUpdate": 1691767325
+      "LastUpdate": 1691843538
     }
   ]
 }
