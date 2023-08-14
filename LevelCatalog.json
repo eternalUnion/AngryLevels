@@ -83,7 +83,7 @@
         }
       ],
       "Name": "PRELUDE /// ENCORE",
-      "Author": "SpelunkyGaming",
+      "Author": "Spelunky",
       "Size": 8006063,
       "Guid": "04a3b6ca5f371194e8a981a68057b305",
       "Hash": "8861d57cf774f6840962e3c71f3a2412",
@@ -183,6 +183,21 @@
       "Hash": "f25342c4c777d8f47837cac693068943",
       "ThumbnailHash": "504064eac369a6acb278419d0627d24a",
       "LastUpdate": 1691843538
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "7bf186006281ce64ca59cad8bbe60558",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "FRAUDULENCE",
+      "Author": "Spelunky",
+      "Size": 49636960,
+      "Guid": "033ce9db13ba74d4aa07bdae343d49c2",
+      "Hash": "7bf186006281ce64ca59cad8bbe60558",
+      "ThumbnailHash": "177af585f84a65863d572a9394a41ba1",
+      "LastUpdate": 1692030308
     }
   ]
 }
