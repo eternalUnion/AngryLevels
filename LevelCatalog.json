@@ -35,15 +35,19 @@
         {
           "Hash": "dacc7441762d7014f93925fb804c2756",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "5a5fbf0399cb3d04a96f76c0b69b3f44",
+          "Message": "- Fixed enemies clipping trough walls in the small room"
         }
       ],
       "Name": "GG's Levels",
       "Author": "GGGamesXDlol",
-      "Size": 16237656,
+      "Size": 18040519,
       "Guid": "84271207136e5b541a530d5fd042723d",
-      "Hash": "dacc7441762d7014f93925fb804c2756",
+      "Hash": "5a5fbf0399cb3d04a96f76c0b69b3f44",
       "ThumbnailHash": "f04a34e569f36380c1612bc7d7361290",
-      "LastUpdate": 1690743443
+      "LastUpdate": 1692120331
     },
     {
       "Updates": [
