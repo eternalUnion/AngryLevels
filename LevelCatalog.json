@@ -202,6 +202,21 @@
       "Hash": "7bf186006281ce64ca59cad8bbe60558",
       "ThumbnailHash": "177af585f84a65863d572a9394a41ba1",
       "LastUpdate": 1692030308
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "7d223caead2ef0e4195a99bc434e923a",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "Spelunky's Sandbox DEMO",
+      "Author": "RoundCat",
+      "Size": 7977596,
+      "Guid": "d8ed7e9d694a52a488d588ceab345a26",
+      "Hash": "7d223caead2ef0e4195a99bc434e923a",
+      "ThumbnailHash": "1a320701e88811265fb70cfab83fc59c",
+      "LastUpdate": 1692469261
     }
   ]
 }
