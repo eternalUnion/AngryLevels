@@ -382,7 +382,7 @@ namespace AngryCatalogEditor
 					else
 					{
 						Console.Write("Update message: ");
-						string updateMsg = Console.ReadLine();
+						string updateMsg = Console.ReadLine().Replace("\\n", "\n");
 
 						File.Copy(bundlePath, Path.Combine(projectRoot, "Levels", guid, "level.angry"), true);
 						bundle.Hash = info.buildHash;
