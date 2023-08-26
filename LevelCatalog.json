@@ -197,15 +197,19 @@
         {
           "Hash": "bc832e0d70cd62244b8603f938341416",
           "Message": "- Finally removes navmesh encroaching on posts & railings\n- Fixes '10 second speedrun' clip\n- New scrollable credits\n- New painting courtesy of Illuminion"
+        },
+        {
+          "Hash": "43d6a159521eeba44b410d13fd2508be",
+          "Message": "- Fixes credits not properly muting music\n- Fixes final arena speedrun clip"
         }
       ],
       "Name": "FRAUDULENCE",
       "Author": "Spelunky",
-      "Size": 49580455,
+      "Size": 49602902,
       "Guid": "033ce9db13ba74d4aa07bdae343d49c2",
-      "Hash": "bc832e0d70cd62244b8603f938341416",
+      "Hash": "43d6a159521eeba44b410d13fd2508be",
       "ThumbnailHash": "177af585f84a65863d572a9394a41ba1",
-      "LastUpdate": 1692869517
+      "LastUpdate": 1693060766
     },
     {
       "Updates": [
