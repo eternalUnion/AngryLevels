@@ -240,6 +240,21 @@
       "Hash": "168c4b49db50c784fa150473cee1abdc",
       "ThumbnailHash": "e9242bfc89d7de1456a1e5f3bf06e163",
       "LastUpdate": 1692643788
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "137ae5ebc2a25c64580935b69a71266c",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "RETURN OF THE KING",
+      "Author": "JoshuqTheHusk",
+      "Size": 13416950,
+      "Guid": "cab7958469b33734ba2a61c9bdb40a23",
+      "Hash": "137ae5ebc2a25c64580935b69a71266c",
+      "ThumbnailHash": "78715314425f262529d1a0cc1935a920",
+      "LastUpdate": 1693160744
     }
   ]
 }
