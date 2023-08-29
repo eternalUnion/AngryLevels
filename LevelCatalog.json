@@ -276,15 +276,19 @@
         {
           "Hash": "306fe834c58d8414e9d6ca627ee0d8a1",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "734469704510b0d4d86ffffea4852558",
+          "Message": "- Fixed a softlock when you die on the secret encounter\n- Fixed a few lights not working properly"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 41078134,
+      "Size": 41076417,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "306fe834c58d8414e9d6ca627ee0d8a1",
+      "Hash": "734469704510b0d4d86ffffea4852558",
       "ThumbnailHash": "67da6cc2df71dfb1a06818a0647b1a6d",
-      "LastUpdate": 1693320286
+      "LastUpdate": 1693336647
     },
     {
       "Updates": [
