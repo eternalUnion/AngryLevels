@@ -280,15 +280,19 @@
         {
           "Hash": "734469704510b0d4d86ffffea4852558",
           "Message": "- Fixed a softlock when you die on the secret encounter\n- Fixed a few lights not working properly"
+        },
+        {
+          "Hash": "cf4cf6c54cca983409dc7f5c8ec5b9aa",
+          "Message": "- Fixed an exploit which allowed players to break protected idols earlier than intended"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 41076417,
+      "Size": 41075563,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "734469704510b0d4d86ffffea4852558",
+      "Hash": "cf4cf6c54cca983409dc7f5c8ec5b9aa",
       "ThumbnailHash": "67da6cc2df71dfb1a06818a0647b1a6d",
-      "LastUpdate": 1693336647
+      "LastUpdate": 1693493076
     },
     {
       "Updates": [
