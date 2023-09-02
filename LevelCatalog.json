@@ -284,15 +284,19 @@
         {
           "Hash": "cf4cf6c54cca983409dc7f5c8ec5b9aa",
           "Message": "- Fixed an exploit which allowed players to break protected idols earlier than intended"
+        },
+        {
+          "Hash": "1e08c2832a1b59a479b12b890d6750bd",
+          "Message": "- Fixed miscellanous/decoration-related issues (z-fighting, noticeable vertex lighting mistakes, etc.)"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 41075563,
+      "Size": 41076876,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "cf4cf6c54cca983409dc7f5c8ec5b9aa",
+      "Hash": "1e08c2832a1b59a479b12b890d6750bd",
       "ThumbnailHash": "67da6cc2df71dfb1a06818a0647b1a6d",
-      "LastUpdate": 1693493076
+      "LastUpdate": 1693635681
     },
     {
       "Updates": [
