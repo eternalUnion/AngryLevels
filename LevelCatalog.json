@@ -5,15 +5,19 @@
         {
           "Hash": "576f09f9073ab1147926ab6b8cd996cf",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "879702ea34ecd7d44a5e24fb9506c8a2",
+          "Message": "- 3 new secrets, totaling up to 5\n- Fixed around a bajllion issues (ferryman clips, secrets actually work properly now)\n- Fixed some abhorrent geometry\n- Chair props have been readded\n- Glass hitscan beam issue fixed\n- Added OOB (Out of bounds) messages\n- Going OOB now fails challenge\n- Fixed timer by just not bothering with it (timer starts as soon as level is loaded so have fun)"
         }
       ],
       "Name": "The Greybox Skill Test",
       "Author": "william1321",
-      "Size": 34353969,
+      "Size": 35067652,
       "Guid": "e6e51ab05de12b946a6429b141adf219",
-      "Hash": "576f09f9073ab1147926ab6b8cd996cf",
-      "ThumbnailHash": "a67e3b1cd797e51ac9c1d75ebd73a1b0",
-      "LastUpdate": 1690323923
+      "Hash": "879702ea34ecd7d44a5e24fb9506c8a2",
+      "ThumbnailHash": "9ca021b6073cb50e3ca2b02281a9c687",
+      "LastUpdate": 1693667362
     },
     {
       "Updates": [
