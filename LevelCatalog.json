@@ -5,15 +5,20 @@
         {
           "Hash": "576f09f9073ab1147926ab6b8cd996cf",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "879702ea34ecd7d44a5e24fb9506c8a2",
+          "Message": "- 3 new secrets, totaling up to 5\n- Fixed around a bajllion issues (ferryman clips, secrets actually work properly now)\n- Fixed some abhorrent geometry\n- Chair props have been readded\n- Glass hitscan beam issue fixed\n- Added OOB (Out of bounds) messages\n- Going OOB now fails challenge\n- Fixed timer by just not bothering with it (timer starts as soon as level is loaded so have fun)"
         }
       ],
       "Name": "The Greybox Skill Test",
       "Author": "william1321",
-      "Size": 34353969,
+      "Size": 35067652,
       "Guid": "e6e51ab05de12b946a6429b141adf219",
-      "Hash": "576f09f9073ab1147926ab6b8cd996cf",
-      "ThumbnailHash": "a67e3b1cd797e51ac9c1d75ebd73a1b0",
-      "LastUpdate": 1690323923
+      "Hash": "879702ea34ecd7d44a5e24fb9506c8a2",
+      "ThumbnailHash": "9ca021b6073cb50e3ca2b02281a9c687",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/e6e51ab05de12b946a6429b141adf219/level.angry",
+      "LastUpdate": 1693667362
     },
     {
       "Updates": [
@@ -44,6 +49,7 @@
       "Guid": "141b1f4fe8e90d24e8af04315eb83f66",
       "Hash": "989d1127fedb0ad46be74381b61f08fb",
       "ThumbnailHash": "1e571cedff2b2274605162597b740a20",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/141b1f4fe8e90d24e8af04315eb83f66/level.angry",
       "LastUpdate": 1690471858
     },
     {
@@ -51,15 +57,20 @@
         {
           "Hash": "dacc7441762d7014f93925fb804c2756",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "5a5fbf0399cb3d04a96f76c0b69b3f44",
+          "Message": "- Fixed enemies clipping trough walls in the small room"
         }
       ],
       "Name": "GG's Levels",
       "Author": "GGGamesXDlol",
-      "Size": 16237656,
+      "Size": 18040519,
       "Guid": "84271207136e5b541a530d5fd042723d",
-      "Hash": "dacc7441762d7014f93925fb804c2756",
+      "Hash": "5a5fbf0399cb3d04a96f76c0b69b3f44",
       "ThumbnailHash": "f04a34e569f36380c1612bc7d7361290",
-      "LastUpdate": 1690743443
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/84271207136e5b541a530d5fd042723d/level.angry",
+      "LastUpdate": 1692120331
     },
     {
       "Updates": [
@@ -74,6 +85,7 @@
       "Guid": "dc67a85e749ff0c4a846cb7c3fe6b3ff",
       "Hash": "7821e9688bfc44146b84638126f36d2a",
       "ThumbnailHash": "1be8ecf3e8273f5287b58eff8739a1d3",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/dc67a85e749ff0c4a846cb7c3fe6b3ff/level.angry",
       "LastUpdate": 1690414015
     },
     {
@@ -89,6 +101,7 @@
       "Guid": "f38753c95f382ad40b672e07f73ed298",
       "Hash": "dbbb9bf172c81ee468b58c023686b041",
       "ThumbnailHash": "7c4d867f7fc66ef5e2a6e81caa0aabf5",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/f38753c95f382ad40b672e07f73ed298/level.angry",
       "LastUpdate": 1690615822
     },
     {
@@ -99,11 +112,12 @@
         }
       ],
       "Name": "PRELUDE /// ENCORE",
-      "Author": "SpelunkyGaming",
+      "Author": "Spelunky",
       "Size": 8006063,
       "Guid": "04a3b6ca5f371194e8a981a68057b305",
       "Hash": "8861d57cf774f6840962e3c71f3a2412",
       "ThumbnailHash": "46ac2c06cc493e1e6e1e2870fbbd39d0",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/04a3b6ca5f371194e8a981a68057b305/level.angry",
       "LastUpdate": 1690335289
     },
     {
@@ -119,6 +133,7 @@
       "Guid": "cd6b4f66c990db24e8d3d30cce46b923",
       "Hash": "6aae8d393d4f78e4596a534ff55f75bf",
       "ThumbnailHash": "5b6861d16cff9f36885d76e77251ee22",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/cd6b4f66c990db24e8d3d30cce46b923/level.angry",
       "LastUpdate": 1690924683
     },
     {
@@ -134,6 +149,7 @@
       "Guid": "cb7241caee3c8f54597ff6ef9d1b2357",
       "Hash": "bbf3c6bfb5fb9ff45884e84397cfae8a",
       "ThumbnailHash": "a359eda39acfcb7637ea1112fa997b11",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/cb7241caee3c8f54597ff6ef9d1b2357/level.angry",
       "LastUpdate": 1690968859
     },
     {
@@ -149,6 +165,7 @@
       "Guid": "1d5f823807fde924d82b88d0be589286",
       "Hash": "8a0a067869a6dff4f84f6ebeb3df11f0",
       "ThumbnailHash": "bdce28e6f33e4d4cdeaf3066eac2c609",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/1d5f823807fde924d82b88d0be589286/level.angry",
       "LastUpdate": 1691484645
     },
     {
@@ -164,7 +181,216 @@
       "Guid": "28a65ed10b316234089e72e1c8b0d08d",
       "Hash": "1d08ccb5aa089ce478cc24b46b50aa74",
       "ThumbnailHash": "4c3faa7a20143be3d890c215b1d2c7bb",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/28a65ed10b316234089e72e1c8b0d08d/level.angry",
       "LastUpdate": 1691280163
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "8d1016533b7ea3f4dba5bc1e1d3cf8ba",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "ULTRAPAINT",
+      "Author": "Grapes",
+      "Size": 3122636,
+      "Guid": "d89674d3eae6fe147b51d0e0af21adbf",
+      "Hash": "8d1016533b7ea3f4dba5bc1e1d3cf8ba",
+      "ThumbnailHash": "1455a70cba824be3ac806447d2c9f502",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/d89674d3eae6fe147b51d0e0af21adbf/level.angry",
+      "LastUpdate": 1691676185
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "4110ebec54f51a940b62cf844d332371",
+          "Message": "Initial upload"
+        },
+        {
+          "Hash": "f25342c4c777d8f47837cac693068943",
+          "Message": "- Fixed a bug allowing the player to clip trough the ground at the end"
+        }
+      ],
+      "Name": "ULTRADOOM",
+      "Author": "Paolotto",
+      "Size": 10995236,
+      "Guid": "0c346597c1e5c3041a0cbc7fc4a22b97",
+      "Hash": "f25342c4c777d8f47837cac693068943",
+      "ThumbnailHash": "504064eac369a6acb278419d0627d24a",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/0c346597c1e5c3041a0cbc7fc4a22b97/level.angry",
+      "LastUpdate": 1691843538
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "7bf186006281ce64ca59cad8bbe60558",
+          "Message": "Initial upload"
+        },
+        {
+          "Hash": "bc832e0d70cd62244b8603f938341416",
+          "Message": "- Finally removes navmesh encroaching on posts & railings\n- Fixes '10 second speedrun' clip\n- New scrollable credits\n- New painting courtesy of Illuminion"
+        },
+        {
+          "Hash": "43d6a159521eeba44b410d13fd2508be",
+          "Message": "- Fixes credits not properly muting music\n- Fixes final arena speedrun clip"
+        }
+      ],
+      "Name": "FRAUDULENCE",
+      "Author": "Spelunky",
+      "Size": 49602902,
+      "Guid": "033ce9db13ba74d4aa07bdae343d49c2",
+      "Hash": "43d6a159521eeba44b410d13fd2508be",
+      "ThumbnailHash": "177af585f84a65863d572a9394a41ba1",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/033ce9db13ba74d4aa07bdae343d49c2/level.angry",
+      "LastUpdate": 1693060766
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "7d223caead2ef0e4195a99bc434e923a",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "Spelunky's Sandbox DEMO",
+      "Author": "RoundCat",
+      "Size": 7977596,
+      "Guid": "d8ed7e9d694a52a488d588ceab345a26",
+      "Hash": "7d223caead2ef0e4195a99bc434e923a",
+      "ThumbnailHash": "1a320701e88811265fb70cfab83fc59c",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/d8ed7e9d694a52a488d588ceab345a26/level.angry",
+      "LastUpdate": 1692469261
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "168c4b49db50c784fa150473cee1abdc",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "Bubble Wrap",
+      "Author": "darkerbit",
+      "Size": 17282703,
+      "Guid": "1c8d8bbcc556a1c4daa362df1f2cf348",
+      "Hash": "168c4b49db50c784fa150473cee1abdc",
+      "ThumbnailHash": "e9242bfc89d7de1456a1e5f3bf06e163",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/1c8d8bbcc556a1c4daa362df1f2cf348/level.angry",
+      "LastUpdate": 1692643788
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "137ae5ebc2a25c64580935b69a71266c",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "RETURN OF THE KING",
+      "Author": "JoshuqTheHusk",
+      "Size": 13416950,
+      "Guid": "cab7958469b33734ba2a61c9bdb40a23",
+      "Hash": "137ae5ebc2a25c64580935b69a71266c",
+      "ThumbnailHash": "78715314425f262529d1a0cc1935a920",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/cab7958469b33734ba2a61c9bdb40a23/level.angry",
+      "LastUpdate": 1693160744
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "09e22bfb5b9d47b488e38020adf4959d",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "1-5: Eden's Garden",
+      "Author": "Frizou",
+      "Size": 13191541,
+      "Guid": "49137f1401de69a4cb6e8049d3d9151e",
+      "Hash": "09e22bfb5b9d47b488e38020adf4959d",
+      "ThumbnailHash": "ac374194915005d75547a83b36093756",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/49137f1401de69a4cb6e8049d3d9151e/level.angry",
+      "LastUpdate": 1693320246
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "306fe834c58d8414e9d6ca627ee0d8a1",
+          "Message": "Initial upload"
+        },
+        {
+          "Hash": "734469704510b0d4d86ffffea4852558",
+          "Message": "- Fixed a softlock when you die on the secret encounter\n- Fixed a few lights not working properly"
+        },
+        {
+          "Hash": "cf4cf6c54cca983409dc7f5c8ec5b9aa",
+          "Message": "- Fixed an exploit which allowed players to break protected idols earlier than intended"
+        },
+        {
+          "Hash": "1e08c2832a1b59a479b12b890d6750bd",
+          "Message": "- Fixed miscellanous/decoration-related issues (z-fighting, noticeable vertex lighting mistakes, etc.)"
+        },
+        {
+          "Hash": "918a2f83bc155be4eaa4a36d9826c7c2",
+          "Message": "- Fixed a rare occurrence where the Insurrectionist would sometimes jump out of bounds and get stuck on ceilings"
+        }
+      ],
+      "Name": "LAYERS OF GRIEF",
+      "Author": "QoDaX",
+      "Size": 41079797,
+      "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
+      "Hash": "918a2f83bc155be4eaa4a36d9826c7c2",
+      "ThumbnailHash": "67da6cc2df71dfb1a06818a0647b1a6d",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/facb8f107e6ae1b47acc0fdf09d67865/level.angry",
+      "LastUpdate": 1693669991
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "4101dfe881431704ca5893e7efac5883",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "SOMETHING WICKED ENCORE",
+      "Author": "Ted",
+      "Size": 3637755,
+      "Guid": "379ca0d366732f14fa3685b9aea24465",
+      "Hash": "4101dfe881431704ca5893e7efac5883",
+      "ThumbnailHash": "902f7cdbab8ffc5bae35deb8e5c44a1c",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/379ca0d366732f14fa3685b9aea24465/level.angry",
+      "LastUpdate": 1693320349
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "f3c566ffad3a65941943cab9d0867f17",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "MINI HELL",
+      "Author": "MEGACHEB",
+      "Size": 43776320,
+      "Guid": "c10731c87bbd7924c8a8244b5cc402f5",
+      "Hash": "f3c566ffad3a65941943cab9d0867f17",
+      "ThumbnailHash": "220ff5ddc844c4bff275d3d39f69d200",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/c10731c87bbd7924c8a8244b5cc402f5/level.angry",
+      "LastUpdate": 1693320398
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "f7e23705755bf114494acdff79fd25ab",
+          "Message": "Initial upload"
+        },
+        {
+          "Hash": "f9ffb9d568f166e40801b5ef0f294dfe",
+          "Message": "- Bug fixes and qol"
+        }
+      ],
+      "Name": "Primordial Hunger",
+      "Author": "William1321 and ballfartchungus43",
+      "Size": 34106823,
+      "Guid": "5c8005296a43d9e42b7956a5f2744bf0",
+      "Hash": "f9ffb9d568f166e40801b5ef0f294dfe",
+      "ThumbnailHash": "177af585f84a65863d572a9394a41ba1",
+      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/5c8005296a43d9e42b7956a5f2744bf0/level.angry",
+      "LastUpdate": 1693425481
     }
   ]
 }

@@ -27,7 +27,8 @@ namespace AngryCatalogEditor
 		public string Hash { get; set; }
 		public string ThumbnailHash { get; set; }
 
-		public long LastUpdate { get; set; }
+		public string ExternalLink { get; set; }
+        public long LastUpdate { get; set; }
 		public List<UpdateInfo> Updates;
 	}
 
@@ -305,12 +306,20 @@ namespace AngryCatalogEditor
 			newInfo.LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds();
 			newInfo.Updates = new List<LevelInfo.UpdateInfo>() { new LevelInfo.UpdateInfo() { Hash = bundleInfo.buildHash, Message = "Initial upload" } };
 
+			Console.Write("External link (leave empty to upload to github): ");
+			string externalLink = Console.ReadLine();
+			string bundleDir = Path.Combine(projectRoot, "Levels", bundleInfo.guid);
+			if (string.IsNullOrEmpty(externalLink))
+			{
+                externalLink = $"https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/{bundleInfo.guid}/level.angry";
+				File.Copy(bundlePath, Path.Combine(bundleDir, "level.angry"));
+            }
+            newInfo.ExternalLink = externalLink;
+
 			catalog.Levels.Add(newInfo);
 			SaveCatalog();
 
-			string bundleDir = Path.Combine(projectRoot, "Levels", bundleInfo.guid);
 			Directory.CreateDirectory(bundleDir);
-			File.Copy(bundlePath, Path.Combine(bundleDir, "level.angry"));
 			File.Copy(tempThumbnailPath, Path.Combine(bundleDir, "thumbnail.png"));
 			File.Delete(tempThumbnailPath);
 		}
@@ -384,9 +393,18 @@ namespace AngryCatalogEditor
 					else
 					{
 						Console.Write("Update message: ");
-						string updateMsg = Console.ReadLine();
+						string updateMsg = Console.ReadLine().Replace("\\n", "\n");
 
-						File.Copy(bundlePath, Path.Combine(projectRoot, "Levels", guid, "level.angry"), true);
+						Console.WriteLine($"Old link: {bundle.ExternalLink}");
+                        Console.Write("New external link (leave empty to upload to github): ");
+                        string externalLink = Console.ReadLine();
+                        if (string.IsNullOrEmpty(externalLink))
+                        {
+                            externalLink = $"https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/{bundle.Guid}/level.angry";
+							File.Copy(bundlePath, Path.Combine(projectRoot, "Levels", guid, "level.angry"), true);
+                        }
+                        bundle.ExternalLink = externalLink;
+
 						bundle.Hash = info.buildHash;
 						bundle.LastUpdate = ((DateTimeOffset)DateTime.UtcNow).ToUnixTimeSeconds();
 						int size;
@@ -562,7 +580,7 @@ namespace AngryCatalogEditor
 
 			Console.WriteLine("Loading catalog...");
 			LoadCatalog();
-			
+
 			while (true)
 			{
 				Console.WriteLine("1 - Add bundle");
