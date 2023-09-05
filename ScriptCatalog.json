@@ -23,6 +23,14 @@
       "FileName": "DoomMechanicPrj.dll",
       "Hash": "8b403bb05e6d402af326c47aefdc08c5",
       "Size": 8192
+    },
+    {
+      "Updates": [
+        "ce2bf3c15bd7e0bff4213c32346e1325"
+      ],
+      "FileName": "LUKAsExtenstions.dll",
+      "Hash": "ce2bf3c15bd7e0bff4213c32346e1325",
+      "Size": 34304
     }
   ]
 }

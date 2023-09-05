@@ -391,6 +391,22 @@
       "ThumbnailHash": "177af585f84a65863d572a9394a41ba1",
       "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/5c8005296a43d9e42b7956a5f2744bf0/level.angry",
       "LastUpdate": 1693425481
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "534e49e1e8de8de4a8756181f7759de7",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "AGONY (BETA)",
+      "Author": "LUKA",
+      "Size": 190716207,
+      "Guid": "bb2596ea890ce754ba07715754d85078",
+      "Hash": "534e49e1e8de8de4a8756181f7759de7",
+      "ThumbnailHash": "9fa115b3d0b6292ca6c79f98d6a4b331",
+      "ExternalLink": "https://dl.dropboxusercontent.com/scl/fi/3bd49j1rguoz62sis32a5/AGONY-BETA-10-0-PATCH.angry?rlkey=8k3rv26v19ar3e2fv3x51b6e9&dl=0",
+      "LastUpdate": 1693942935
     }
   ]
 }
