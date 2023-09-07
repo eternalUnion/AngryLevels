@@ -407,6 +407,22 @@
       "ThumbnailHash": "9fa115b3d0b6292ca6c79f98d6a4b331",
       "ExternalLink": "https://dl.dropboxusercontent.com/scl/fi/3bd49j1rguoz62sis32a5/AGONY-BETA-10-0-PATCH.angry?rlkey=8k3rv26v19ar3e2fv3x51b6e9&dl=0",
       "LastUpdate": 1693942935
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "de4a0ae511003db4fbfa75fac8a260be",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "THE CHEB MUSEUM",
+      "Author": "__megga and MEGACHEB",
+      "Size": 120784076,
+      "Guid": "fbad391461a64c144989207f0eb8e7fc",
+      "Hash": "de4a0ae511003db4fbfa75fac8a260be",
+      "ThumbnailHash": "199f44fe36117f2acf2df0de577f4140",
+      "ExternalLink": "https://prod-3673eea23f97c8a.wdckeystone.com/7fc432ed-009e-422a-a2fc-dd5fda48a08e/sdk/v2/files/zlafpcojfeeoqooqfrsdemd2/content?download=true&access_token=eyJraWQiOiJNOHNrM1VSdnZHMnhKZ3FkZDdYdGhWZnhyQVptdmVvMyIsImFsZyI6IlJTMjU2In0.eyJqdGkiOiJKV1QiLCJhdWQiOiJrZXlzdG9uZSIsImlzcyI6Im0ybS10b2tlbi1zZXJ2aWNlIiwic3ViIjoicHVibGljX3NoYXJlIiwic2NvcGVzIjoibmFzX3JlYWRfb25seSBuYXNfcmVhZF93cml0ZSIsImN1c3RvbUNsYWltcyI6eyJkZXZpY2VJZCI6IjdmYzQzMmVkLTAwOWUtNDIyYS1hMmZjLWRkNWZkYTQ4YTA4ZSIsImF1dGhfaWQiOiJmZmY2MGY3MC02MzlmLTRlMjItOTgzYi0yNWI2MDZmNWU1MmQifSwiZXhwIjoxNjk0MTQ1MTE0fQ.XJ31d46cUhgc8s7JCeF2vOOAFb-7JtYrTil9k8a9Avs6w9csosxhwG9J96kf97C6KGspGZLrVsWjrwVxOrQ7d0xhZXDnx-uCGczd00wQLbJ10t4fNIyiNp6K3dqUJDsdEEB_NnRns6UbPBrUIOSuvKRVZQr7tVU5flQ0SXaYDt1WJc4T0DvuUSi4mESZM5-ll4Zv9EPc5OlK8Jgd-JDdIzZ8HvZVmmbzgSWWKaGUHHP1qKqufZW3Y4ZgHEd6qP5D6YK19LkwtYqC0lZ41sVGMRbNQXmPuTrLl5n4NDBOk7BnQFs8pTk0nUVAZndC5WgPZfXIXFTz1kSFTc6SzmDe2g",
+      "LastUpdate": 1694109218
     }
   ]
 }
