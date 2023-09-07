@@ -401,16 +401,20 @@
         {
           "Hash": "534e49e1e8de8de4a8756181f7759de7",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "488692f95af9a9443a242fab02ca867c",
+          "Message": "- Lots of performance upgrades\n- Added performance mode for 10-0\n- Bug fixes\n- Coins now work on the divine fountains (saws too)\n- Saws now work on the waterfall abomination\n- Waterfall abomination's armor now works properly\n- Some general level updates"
         }
       ],
       "Name": "AGONY (BETA)",
       "Author": "LUKA",
-      "Size": 190716207,
+      "Size": 183254573,
       "Guid": "bb2596ea890ce754ba07715754d85078",
-      "Hash": "534e49e1e8de8de4a8756181f7759de7",
+      "Hash": "488692f95af9a9443a242fab02ca867c",
       "ThumbnailHash": "9fa115b3d0b6292ca6c79f98d6a4b331",
-      "ExternalLink": "https://dl.dropboxusercontent.com/scl/fi/3bd49j1rguoz62sis32a5/AGONY-BETA-10-0-PATCH.angry?rlkey=8k3rv26v19ar3e2fv3x51b6e9&dl=0",
-      "LastUpdate": 1693942935
+      "ExternalLink": "https://prod-3673eea23f97c8a.wdckeystone.com/7fc432ed-009e-422a-a2fc-dd5fda48a08e/sdk/v2/files/zf2lap5tu5sivzuvovnpr4d3/content?download=true&access_token=eyJraWQiOiJNOHNrM1VSdnZHMnhKZ3FkZDdYdGhWZnhyQVptdmVvMyIsImFsZyI6IlJTMjU2In0.eyJqdGkiOiJKV1QiLCJhdWQiOiJrZXlzdG9uZSIsImlzcyI6Im0ybS10b2tlbi1zZXJ2aWNlIiwic3ViIjoicHVibGljX3NoYXJlIiwic2NvcGVzIjoibmFzX3JlYWRfb25seSBuYXNfcmVhZF93cml0ZSIsImN1c3RvbUNsYWltcyI6eyJkZXZpY2VJZCI6IjdmYzQzMmVkLTAwOWUtNDIyYS1hMmZjLWRkNWZkYTQ4YTA4ZSIsImF1dGhfaWQiOiJmZTJhYzBjMS02ZjgxLTQ5MjMtYTU0Yy1iZjU2MDJlYzk2MDgifSwiZXhwIjoxNjk0MTQ3ODgwfQ.Kv9mPxI9FuyV7SCCPRC57WdkwdVOyb4bjTkM4P_ARM7N-WwGYuPRV_W9RRcVp_bD-ghg2PXRMBQ5CToIx-hsuyIv7EcryEu9UXV6mm5AUf5qVze2q0IQx8LyTuImr4kkE4Pf1QrAdFIRkGQo-HIsgsahcNSdWAU1RN4GCu9xX0G2eXQlTK38rJ31VzkV8aFg3n1PoWQ5DyFK-Htwgp68_SBL5sh_1MdGqL1ZYSwo631UBRG1-69GIA4ODdVVW3YZuTfUwUr_u1qPO4e0unnDe0Xbn9_WTpRuGmabgJzIP9sb1qpiNfaKtSaw2_ZbnXlQHgxFeNh1XOg7xsE_JYEvpw",
+      "LastUpdate": 1694112000
     },
     {
       "Updates": [
