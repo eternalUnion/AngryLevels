@@ -249,16 +249,20 @@
         {
           "Hash": "7d223caead2ef0e4195a99bc434e923a",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "ddd5aae5fe629dc488600cff89915d8d",
+          "Message": "- New music\n- Secrets\n- Drainable water\n- First room overhaul\n- Lava room tweaks\n- Water room tweaks\n- Level challenge\n- Changed lightning\n- New skybox"
         }
       ],
       "Name": "Spelunky's Sandbox DEMO",
       "Author": "RoundCat",
-      "Size": 7977596,
+      "Size": 10707280,
       "Guid": "d8ed7e9d694a52a488d588ceab345a26",
-      "Hash": "7d223caead2ef0e4195a99bc434e923a",
+      "Hash": "ddd5aae5fe629dc488600cff89915d8d",
       "ThumbnailHash": "1a320701e88811265fb70cfab83fc59c",
       "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/d8ed7e9d694a52a488d588ceab345a26/level.angry",
-      "LastUpdate": 1692469261
+      "LastUpdate": 1694111633
     },
     {
       "Updates": [
