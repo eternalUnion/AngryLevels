@@ -418,6 +418,20 @@ namespace AngryCatalogEditor
 					}
 				}
 			}
+			else
+			{
+				Console.Write("New external link: ");
+				string link = Console.ReadLine();
+
+				if (!string.IsNullOrEmpty(link))
+				{
+					string angryFile = Path.Combine(projectRoot, "Levels", bundle.Guid, "level.angry");
+					if (File.Exists(angryFile))
+						File.Delete(angryFile);
+					bundle.ExternalLink = link;
+					changed = true;
+				}
+			}
 
 			Console.Write($"New thumbnail path: ");
 			string thumbnailPath = ProcessPath(Console.ReadLine());
@@ -585,7 +599,7 @@ namespace AngryCatalogEditor
 			{
 				Console.WriteLine("1 - Add bundle");
 				Console.WriteLine("2 - Update bundle");
-				Console.WriteLine("3 - Delete bundle");
+                Console.WriteLine("3 - Delete bundle");
 				Console.WriteLine();
 				Console.WriteLine("4 - List all authors");
 				Console.WriteLine("5 - Change author name");
