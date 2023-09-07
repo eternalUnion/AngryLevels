@@ -7,6 +7,8 @@ using ImageMagick;
 using System.Runtime.InteropServices;
 using System;
 using System.Globalization;
+using Octokit;
+using FileMode = System.IO.FileMode;
 
 namespace AngryCatalogEditor
 {
@@ -591,6 +593,7 @@ namespace AngryCatalogEditor
 				Console.WriteLine("6 - Add or update script");
 				Console.WriteLine();
 				Console.WriteLine("7 - Force save catalog");
+				Console.WriteLine("8 - Get repo info");
 				Console.Write("> ");
 
 				string str = Console.ReadLine();
@@ -610,8 +613,36 @@ namespace AngryCatalogEditor
 						AddOrUpdateScript();
 					else if (choice == 7)
 						SaveCatalog();
+					else if (choice == 8)
+						GetRepo().Wait();
 				}
 			}
+		}
+
+		static async Task GetRepo()
+		{
+			var ownerName = "eternalUnion";
+			var repositoryName = "AngryLevels";
+			var defaultBranchName = "heads/dev";
+
+			var client = new GitHubClient(new ProductHeaderValue("eternalUnion"))
+			{
+
+			};
+
+			var repo = await client.Repository.Get(ownerName, repositoryName);
+			var defaultBranch = await client.Git.Reference.Get(ownerName, repositoryName, defaultBranchName);
+
+			Console.WriteLine(repo.GitUrl);
+			Console.WriteLine(repo.FullName);
+			Console.WriteLine(repo.Description);
+			Console.WriteLine(defaultBranch.Url);
+
+			var featureBranch = await client.Git.Reference.Create(ownerName,
+				repositoryName,
+				new NewReference("refs/heads/feature", defaultBranch.Object.Sha));
+
+			
 		}
 	}
 }

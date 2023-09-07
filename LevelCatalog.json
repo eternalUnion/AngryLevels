@@ -25,6 +25,22 @@
         {
           "Hash": "989d1127fedb0ad46be74381b61f08fb",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "989d1127fedb0ad46be74381b61f08fa",
+          "Message": "current version"
+        },
+        {
+          "Hash": "0000000000000000000000000000000a",
+          "Message": "- Line 1\\nLine 2\\nLine3"
+        },
+        {
+          "Hash": "0000000000000000000000000000000b",
+          "Message": "- <b>Bold line 1</b>\\n- <color=red>color line 2</color>"
+        },
+        {
+          "Hash": "989d1127fedb0ad46be74381b61f08fb",
+          "Message": "Latest"
         }
       ],
       "Name": "Castle",
@@ -233,16 +249,20 @@
         {
           "Hash": "7d223caead2ef0e4195a99bc434e923a",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "ddd5aae5fe629dc488600cff89915d8d",
+          "Message": "- New music\n- Secrets\n- Drainable water\n- First room overhaul\n- Lava room tweaks\n- Water room tweaks\n- Level challenge\n- Changed lightning\n- New skybox"
         }
       ],
       "Name": "Spelunky's Sandbox DEMO",
       "Author": "RoundCat",
-      "Size": 7977596,
+      "Size": 10707280,
       "Guid": "d8ed7e9d694a52a488d588ceab345a26",
-      "Hash": "7d223caead2ef0e4195a99bc434e923a",
+      "Hash": "ddd5aae5fe629dc488600cff89915d8d",
       "ThumbnailHash": "1a320701e88811265fb70cfab83fc59c",
       "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/d8ed7e9d694a52a488d588ceab345a26/level.angry",
-      "LastUpdate": 1692469261
+      "LastUpdate": 1694111633
     },
     {
       "Updates": [
@@ -375,6 +395,42 @@
       "ThumbnailHash": "177af585f84a65863d572a9394a41ba1",
       "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/5c8005296a43d9e42b7956a5f2744bf0/level.angry",
       "LastUpdate": 1693425481
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "534e49e1e8de8de4a8756181f7759de7",
+          "Message": "Initial upload"
+        },
+        {
+          "Hash": "488692f95af9a9443a242fab02ca867c",
+          "Message": "- Lots of performance upgrades\n- Added performance mode for 10-0\n- Bug fixes\n- Coins now work on the divine fountains (saws too)\n- Saws now work on the waterfall abomination\n- Waterfall abomination's armor now works properly\n- Some general level updates"
+        }
+      ],
+      "Name": "AGONY (BETA)",
+      "Author": "LUKA",
+      "Size": 183254573,
+      "Guid": "bb2596ea890ce754ba07715754d85078",
+      "Hash": "488692f95af9a9443a242fab02ca867c",
+      "ThumbnailHash": "9fa115b3d0b6292ca6c79f98d6a4b331",
+      "ExternalLink": "https://prod-3673eea23f97c8a.wdckeystone.com/7fc432ed-009e-422a-a2fc-dd5fda48a08e/sdk/v2/files/zf2lap5tu5sivzuvovnpr4d3/content?download=true&access_token=eyJraWQiOiJNOHNrM1VSdnZHMnhKZ3FkZDdYdGhWZnhyQVptdmVvMyIsImFsZyI6IlJTMjU2In0.eyJqdGkiOiJKV1QiLCJhdWQiOiJrZXlzdG9uZSIsImlzcyI6Im0ybS10b2tlbi1zZXJ2aWNlIiwic3ViIjoicHVibGljX3NoYXJlIiwic2NvcGVzIjoibmFzX3JlYWRfb25seSBuYXNfcmVhZF93cml0ZSIsImN1c3RvbUNsYWltcyI6eyJkZXZpY2VJZCI6IjdmYzQzMmVkLTAwOWUtNDIyYS1hMmZjLWRkNWZkYTQ4YTA4ZSIsImF1dGhfaWQiOiJmZTJhYzBjMS02ZjgxLTQ5MjMtYTU0Yy1iZjU2MDJlYzk2MDgifSwiZXhwIjoxNjk0MTQ3ODgwfQ.Kv9mPxI9FuyV7SCCPRC57WdkwdVOyb4bjTkM4P_ARM7N-WwGYuPRV_W9RRcVp_bD-ghg2PXRMBQ5CToIx-hsuyIv7EcryEu9UXV6mm5AUf5qVze2q0IQx8LyTuImr4kkE4Pf1QrAdFIRkGQo-HIsgsahcNSdWAU1RN4GCu9xX0G2eXQlTK38rJ31VzkV8aFg3n1PoWQ5DyFK-Htwgp68_SBL5sh_1MdGqL1ZYSwo631UBRG1-69GIA4ODdVVW3YZuTfUwUr_u1qPO4e0unnDe0Xbn9_WTpRuGmabgJzIP9sb1qpiNfaKtSaw2_ZbnXlQHgxFeNh1XOg7xsE_JYEvpw",
+      "LastUpdate": 1694112000
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "de4a0ae511003db4fbfa75fac8a260be",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "THE CHEB MUSEUM",
+      "Author": "__megga and MEGACHEB",
+      "Size": 120784076,
+      "Guid": "fbad391461a64c144989207f0eb8e7fc",
+      "Hash": "de4a0ae511003db4fbfa75fac8a260be",
+      "ThumbnailHash": "199f44fe36117f2acf2df0de577f4140",
+      "ExternalLink": "https://prod-3673eea23f97c8a.wdckeystone.com/7fc432ed-009e-422a-a2fc-dd5fda48a08e/sdk/v2/files/zlafpcojfeeoqooqfrsdemd2/content?download=true&access_token=eyJraWQiOiJNOHNrM1VSdnZHMnhKZ3FkZDdYdGhWZnhyQVptdmVvMyIsImFsZyI6IlJTMjU2In0.eyJqdGkiOiJKV1QiLCJhdWQiOiJrZXlzdG9uZSIsImlzcyI6Im0ybS10b2tlbi1zZXJ2aWNlIiwic3ViIjoicHVibGljX3NoYXJlIiwic2NvcGVzIjoibmFzX3JlYWRfb25seSBuYXNfcmVhZF93cml0ZSIsImN1c3RvbUNsYWltcyI6eyJkZXZpY2VJZCI6IjdmYzQzMmVkLTAwOWUtNDIyYS1hMmZjLWRkNWZkYTQ4YTA4ZSIsImF1dGhfaWQiOiJmZmY2MGY3MC02MzlmLTRlMjItOTgzYi0yNWI2MDZmNWU1MmQifSwiZXhwIjoxNjk0MTQ1MTE0fQ.XJ31d46cUhgc8s7JCeF2vOOAFb-7JtYrTil9k8a9Avs6w9csosxhwG9J96kf97C6KGspGZLrVsWjrwVxOrQ7d0xhZXDnx-uCGczd00wQLbJ10t4fNIyiNp6K3dqUJDsdEEB_NnRns6UbPBrUIOSuvKRVZQr7tVU5flQ0SXaYDt1WJc4T0DvuUSi4mESZM5-ll4Zv9EPc5OlK8Jgd-JDdIzZ8HvZVmmbzgSWWKaGUHHP1qKqufZW3Y4ZgHEd6qP5D6YK19LkwtYqC0lZ41sVGMRbNQXmPuTrLl5n4NDBOk7BnQFs8pTk0nUVAZndC5WgPZfXIXFTz1kSFTc6SzmDe2g",
+      "LastUpdate": 1694109218
     }
   ]
 }
