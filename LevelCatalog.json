@@ -425,16 +425,20 @@
         {
           "Hash": "7c9ef03e9be449b439aff589a60da3a6",
           "Message": "- Made the \"Now Playing\" bug disappear"
+        },
+        {
+          "Hash": "d97bca01c8b555f4ea5713d30eb8d4a8",
+          "Message": "2 new songs:\n- Meower\n- ZA TERMINAL\n\nSpeedrunning is now easier\nAdded spinning chebs to the first elevator"
         }
       ],
       "Name": "THE CHEB MUSEUM",
       "Author": "__megga and MEGACHEB",
-      "Size": 120784105,
+      "Size": 125320391,
       "Guid": "fbad391461a64c144989207f0eb8e7fc",
-      "Hash": "7c9ef03e9be449b439aff589a60da3a6",
+      "Hash": "d97bca01c8b555f4ea5713d30eb8d4a8",
       "ThumbnailHash": "199f44fe36117f2acf2df0de577f4140",
-      "ExternalLink": "https://onedrive.live.com/download?resid=D86DBC1B9042CEF5%21109&authkey=!AA7-IV8zuJ4eqkM",
-      "LastUpdate": 1694126694
+      "ExternalLink": "https://tunnel.dnzsoft.com/data/AngryLevels/ChebMuseum/cheb_museum.angry",
+      "LastUpdate": 1694268037
     },
     {
       "Updates": [
