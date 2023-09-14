@@ -469,16 +469,20 @@
         {
           "Hash": "fb66fbf05ed84334caf20a871d74d753",
           "Message": "- Nerfed the final arena waves\n- Adjusted ranking requirements to reflect said nerfs"
+        },
+        {
+          "Hash": "603cc08800c5a8749a7b6faab1d1ec8c",
+          "Message": "- Redid water, hopefully reducing lag"
         }
       ],
       "Name": "GYMNOPEDIE NO. 1",
       "Author": "pkpseudo",
-      "Size": 21418850,
+      "Size": 21415058,
       "Guid": "381d37ec84fbe0841842f42d72898d0c",
-      "Hash": "fb66fbf05ed84334caf20a871d74d753",
+      "Hash": "603cc08800c5a8749a7b6faab1d1ec8c",
       "ThumbnailHash": "3af2a5a99761bded98ec48f72e787bb6",
-      "ExternalLink": "https://drive.google.com/uc?export=download&id=1Q0XH-8EtfxMdpxkpcJ7B71qY2mNotnpC",
-      "LastUpdate": 1694707985
+      "ExternalLink": "https://drive.google.com/uc?export=download&id=1sDI_vg3sivtbyAyv2LHVdl-cEOQy_083",
+      "LastUpdate": 1694726269
     }
   ]
 }
