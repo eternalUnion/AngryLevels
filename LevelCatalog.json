@@ -461,16 +461,20 @@
         {
           "Hash": "0c5c64c470afcbb468bf1c7d095aca72",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "fb66fbf05ed84334caf20a871d74d753",
+          "Message": "- Nerfed the final arena waves\n- Adjusted ranking requirements to reflect said nerfs"
         }
       ],
       "Name": "GYMNOPEDIE NO. 1",
       "Author": "pkpseudo",
-      "Size": 21451068,
+      "Size": 21418850,
       "Guid": "381d37ec84fbe0841842f42d72898d0c",
-      "Hash": "0c5c64c470afcbb468bf1c7d095aca72",
+      "Hash": "fb66fbf05ed84334caf20a871d74d753",
       "ThumbnailHash": "3af2a5a99761bded98ec48f72e787bb6",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1151208935236325446/gymnopedie_no_1.angry",
-      "LastUpdate": 1694539338
+      "ExternalLink": "https://drive.google.com/uc?export=download&id=1Q0XH-8EtfxMdpxkpcJ7B71qY2mNotnpC",
+      "LastUpdate": 1694707985
     }
   ]
 }
