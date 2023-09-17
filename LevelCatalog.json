@@ -485,16 +485,20 @@
         {
           "Hash": "603cc08800c5a8749a7b6faab1d1ec8c",
           "Message": "- Redid water, hopefully reducing lag"
+        },
+        {
+          "Hash": "36a07bc8c8d3f3b488d40aef4d3c4de2",
+          "Message": "- Added a failsafe in case the Insurrectionist kills the Virtue\n- Gave the drones in the last arena a health buff to prevent them from dying easily to Insurrectionist"
         }
       ],
       "Name": "GYMNOPEDIE NO. 1",
       "Author": "pkpseudo",
-      "Size": 21415058,
+      "Size": 21282621,
       "Guid": "381d37ec84fbe0841842f42d72898d0c",
-      "Hash": "603cc08800c5a8749a7b6faab1d1ec8c",
+      "Hash": "36a07bc8c8d3f3b488d40aef4d3c4de2",
       "ThumbnailHash": "3af2a5a99761bded98ec48f72e787bb6",
-      "ExternalLink": "https://drive.google.com/uc?export=download&id=1sDI_vg3sivtbyAyv2LHVdl-cEOQy_083",
-      "LastUpdate": 1694726269
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1153025807938240582/gymnopedie_no_1.angry",
+      "LastUpdate": 1694987892
     },
     {
       "Updates": [
