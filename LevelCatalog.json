@@ -337,16 +337,20 @@
         {
           "Hash": "873dbc27bd89b3a4eb49f0b35e925dd2",
           "Message": "- Small geometry tweaks that should hopefully improve performance\n- Added a \"potato graphics\" option at the beginning of the level for low-end computers, in case lag persists"
+        },
+        {
+          "Hash": "e44a7da8088952248ad3744d5a7b2e56",
+          "Message": "- Fixed an oversight of the previous update that made the level inaccessible/unplayable"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 40768009,
+      "Size": 40748895,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "873dbc27bd89b3a4eb49f0b35e925dd2",
+      "Hash": "e44a7da8088952248ad3744d5a7b2e56",
       "ThumbnailHash": "67da6cc2df71dfb1a06818a0647b1a6d",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1152708316116562030/layersofgrief.angry",
-      "LastUpdate": 1694924637
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1152918018049982567/layersofgrief.angry",
+      "LastUpdate": 1694947702
     },
     {
       "Updates": [
