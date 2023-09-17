@@ -341,16 +341,20 @@
         {
           "Hash": "e44a7da8088952248ad3744d5a7b2e56",
           "Message": "- Fixed an oversight of the previous update that made the level inaccessible/unplayable"
+        },
+        {
+          "Hash": "ef4f5a02f23c87341b4204275891e93a",
+          "Message": "- Added a failsafe that destroys idols incase their targets die prematurely"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 40748895,
+      "Size": 40751583,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "e44a7da8088952248ad3744d5a7b2e56",
+      "Hash": "ef4f5a02f23c87341b4204275891e93a",
       "ThumbnailHash": "67da6cc2df71dfb1a06818a0647b1a6d",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1152918018049982567/layersofgrief.angry",
-      "LastUpdate": 1694947702
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1152965806716616804/layersofgrief.angry",
+      "LastUpdate": 1694959411
     },
     {
       "Updates": [
