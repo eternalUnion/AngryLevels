@@ -333,16 +333,20 @@
         {
           "Hash": "918a2f83bc155be4eaa4a36d9826c7c2",
           "Message": "- Fixed a rare occurrence where the Insurrectionist would sometimes jump out of bounds and get stuck on ceilings"
+        },
+        {
+          "Hash": "873dbc27bd89b3a4eb49f0b35e925dd2",
+          "Message": "- Small geometry tweaks that should hopefully improve performance\n- Added a \"potato graphics\" option at the beginning of the level for low-end computers, in case lag persists"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 41079797,
+      "Size": 40768009,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "918a2f83bc155be4eaa4a36d9826c7c2",
+      "Hash": "873dbc27bd89b3a4eb49f0b35e925dd2",
       "ThumbnailHash": "67da6cc2df71dfb1a06818a0647b1a6d",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/facb8f107e6ae1b47acc0fdf09d67865/level.angry",
-      "LastUpdate": 1693669991
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1152708316116562030/layersofgrief.angry",
+      "LastUpdate": 1694924637
     },
     {
       "Updates": [
@@ -483,6 +487,22 @@
       "ThumbnailHash": "3af2a5a99761bded98ec48f72e787bb6",
       "ExternalLink": "https://drive.google.com/uc?export=download&id=1sDI_vg3sivtbyAyv2LHVdl-cEOQy_083",
       "LastUpdate": 1694726269
+    },
+    {
+      "Updates": [
+        {
+          "Hash": "e4a0a1511109dcf4898f5a452b24f19e",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "Six Thousand Feet Under",
+      "Author": "william1321",
+      "Size": 36985205,
+      "Guid": "364b293c6f0f7194eb45a6da127f7958",
+      "Hash": "e4a0a1511109dcf4898f5a452b24f19e",
+      "ThumbnailHash": "50f78269ea2ddd2d6ab4338fd5c7909c",
+      "ExternalLink": "https://drive.google.com/uc?export=download&id=1W_wTp1zJCdOvCpLfAsFrmHcNYqVGQ6sQ&confirm=t&uuid=b8034f28-80ed-4bfe-978b-53a38943a360&at=AB6BwCAXZuq6XIjgnzJ7BRmKNEls:1694924367463",
+      "LastUpdate": 1694924534
     }
   ]
 }
