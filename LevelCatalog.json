@@ -588,7 +588,8 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1W_wTp1zJCdOvCpLfAsFrmHcNYqVGQ6sQ&confirm=t&uuid=b8034f28-80ed-4bfe-978b-53a38943a360&at=AB6BwCAXZuq6XIjgnzJ7BRmKNEls:1694924367463"
+        "https://drive.google.com/uc?export=download&id=1rzz8h7g4shvhKkpNYEqwUuyDkBrStTqf",
+        "https://drive.google.com/uc?export=download&id=1XKpLZkR5IFizFMCK8o5EpG67feurkgGT"
       ],
       "Updates": [
         {
@@ -602,7 +603,7 @@
       "Guid": "364b293c6f0f7194eb45a6da127f7958",
       "Hash": "e4a0a1511109dcf4898f5a452b24f19e",
       "ThumbnailHash": "50f78269ea2ddd2d6ab4338fd5c7909c",
-      "ExternalLink": "https://drive.google.com/uc?export=download&id=1W_wTp1zJCdOvCpLfAsFrmHcNYqVGQ6sQ&confirm=t&uuid=b8034f28-80ed-4bfe-978b-53a38943a360&at=AB6BwCAXZuq6XIjgnzJ7BRmKNEls:1694924367463",
+      "ExternalLink": "",
       "LastUpdate": 1694924534
     },
     {
