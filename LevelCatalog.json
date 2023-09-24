@@ -587,7 +587,9 @@
       "LastUpdate": 1694987892
     },
     {
-      "Parts": null,
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1W_wTp1zJCdOvCpLfAsFrmHcNYqVGQ6sQ&confirm=t&uuid=b8034f28-80ed-4bfe-978b-53a38943a360&at=AB6BwCAXZuq6XIjgnzJ7BRmKNEls:1694924367463"
+      ],
       "Updates": [
         {
           "Hash": "e4a0a1511109dcf4898f5a452b24f19e",
@@ -604,7 +606,9 @@
       "LastUpdate": 1694924534
     },
     {
-      "Parts": null,
+      "Parts": [
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1154880706376380476/bunker.angry"
+      ],
       "Updates": [
         {
           "Hash": "9de19def9c327e34a93c349105e762d2",
