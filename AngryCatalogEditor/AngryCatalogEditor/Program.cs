@@ -28,6 +28,7 @@ namespace AngryCatalogEditor
 		public string ThumbnailHash { get; set; }
 
 		public string ExternalLink { get; set; }
+		public List<string> Parts;
         public long LastUpdate { get; set; }
 		public List<UpdateInfo> Updates;
 	}
@@ -219,7 +220,7 @@ namespace AngryCatalogEditor
 						WriteLineWarning("No bundle author");
 				}
 
-				var iconEntry = angry.GetEntry("icon.png");
+				/*var iconEntry = angry.GetEntry("icon.png");
 				MagickImage icon;
 				using (Stream iconStream = iconEntry.Open())
 				{
@@ -238,7 +239,7 @@ namespace AngryCatalogEditor
 					iconWriter.Write(File.ReadAllBytes(tempIconLocation));
 				}
 
-				File.Delete(tempIconLocation);
+				File.Delete(tempIconLocation);*/
 				return true;
 			}
 		}
@@ -305,6 +306,7 @@ namespace AngryCatalogEditor
 			newInfo.Size = size;
 			newInfo.LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds();
 			newInfo.Updates = new List<LevelInfo.UpdateInfo>() { new LevelInfo.UpdateInfo() { Hash = bundleInfo.buildHash, Message = "Initial upload" } };
+			newInfo.Parts = new List<string>();
 
 			Console.Write("External link (leave empty to upload to github): ");
 			string externalLink = Console.ReadLine();
@@ -312,9 +314,29 @@ namespace AngryCatalogEditor
 			if (string.IsNullOrEmpty(externalLink))
 			{
                 externalLink = $"https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/{bundleInfo.guid}/level.angry";
+				newInfo.Parts.Add(externalLink);
+				newInfo.ExternalLink = externalLink;
 				File.Copy(bundlePath, Path.Combine(bundleDir, "level.angry"));
             }
-            newInfo.ExternalLink = externalLink;
+			else
+			{
+                newInfo.Parts.Add(externalLink);
+				for (int i = 2; ; i++)
+				{
+                    Console.Write($"External link (part {i}): ");
+					string part = Console.ReadLine();
+					if (string.IsNullOrEmpty(part))
+						break;
+
+					newInfo.Parts.Add(part);
+                }
+
+                newInfo.ExternalLink = externalLink;
+                if (newInfo.Parts.Count != 1)
+				{
+                    newInfo.ExternalLink = "";
+                }
+            }
 
 			catalog.Levels.Add(newInfo);
 			SaveCatalog();
@@ -428,8 +450,23 @@ namespace AngryCatalogEditor
 					string angryFile = Path.Combine(projectRoot, "Levels", bundle.Guid, "level.angry");
 					if (File.Exists(angryFile))
 						File.Delete(angryFile);
+
 					bundle.ExternalLink = link;
-					changed = true;
+					bundle.Parts.Clear();
+					bundle.Parts.Add(link);
+
+                    for (int i = 2; ; i++)
+                    {
+                        Console.Write($"External link (part {i}): ");
+                        string part = Console.ReadLine();
+                        if (string.IsNullOrEmpty(part))
+                            break;
+
+                        bundle.Parts.Add(part);
+						bundle.ExternalLink = "";
+                    }
+
+                    changed = true;
 				}
 			}
 
