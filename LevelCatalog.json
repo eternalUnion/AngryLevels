@@ -15,7 +15,7 @@
         }
       ],
       "Name": "The Greybox Skill Test",
-      "Author": "william1321",
+      "Author": ".willem1321",
       "Size": 35067652,
       "Guid": "e6e51ab05de12b946a6429b141adf219",
       "Hash": "879702ea34ecd7d44a5e24fb9506c8a2",
@@ -168,7 +168,7 @@
         }
       ],
       "Name": "All Guts, No Glory",
-      "Author": "william1321",
+      "Author": ".willem1321",
       "Size": 25761040,
       "Guid": "cb7241caee3c8f54597ff6ef9d1b2357",
       "Hash": "bbf3c6bfb5fb9ff45884e84397cfae8a",
@@ -187,7 +187,7 @@
         }
       ],
       "Name": "The Plushie Heist",
-      "Author": "william1321",
+      "Author": ".willem1321",
       "Size": 9391292,
       "Guid": "1d5f823807fde924d82b88d0be589286",
       "Hash": "8a0a067869a6dff4f84f6ebeb3df11f0",
@@ -598,7 +598,7 @@
         }
       ],
       "Name": "Six Thousand Feet Under",
-      "Author": "william1321",
+      "Author": ".willem1321",
       "Size": 36985205,
       "Guid": "364b293c6f0f7194eb45a6da127f7958",
       "Hash": "e4a0a1511109dcf4898f5a452b24f19e",
@@ -624,6 +624,25 @@
       "ThumbnailHash": "9da0e72ae016acb9ab6540358104e56c",
       "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1154880706376380476/bunker.angry",
       "LastUpdate": 1695417754
+    },
+    {
+      "Parts": [
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1157823076831072266/balladofthemachines.angry?ex=651a0244&is=6518b0c4&hm=d80b757edbf303d39717557275d94ad99321738f9be46ebc436fc1f8d93d6e7d&"
+      ],
+      "Updates": [
+        {
+          "Hash": "01c07c32dc6453f40803a5ae0c7f8e09",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "balladofthemachines",
+      "Author": ".willem1321",
+      "Size": 19769954,
+      "Guid": "1e318f258b8f9bc4a9a8e5fc5e1c53ae",
+      "Hash": "01c07c32dc6453f40803a5ae0c7f8e09",
+      "ThumbnailHash": "ac374194915005d75547a83b36093756",
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1157823076831072266/balladofthemachines.angry?ex=651a0244&is=6518b0c4&hm=d80b757edbf303d39717557275d94ad99321738f9be46ebc436fc1f8d93d6e7d&",
+      "LastUpdate": 1696117008
     }
   ]
 }
