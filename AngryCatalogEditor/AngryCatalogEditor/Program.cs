@@ -420,12 +420,33 @@ namespace AngryCatalogEditor
 						Console.WriteLine($"Old link: {bundle.ExternalLink}");
                         Console.Write("New external link (leave empty to upload to github): ");
                         string externalLink = Console.ReadLine();
-                        if (string.IsNullOrEmpty(externalLink))
-                        {
-                            externalLink = $"https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/{bundle.Guid}/level.angry";
+						if (string.IsNullOrEmpty(externalLink))
+						{
+							bundle.ExternalLink = $"https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/{bundle.Guid}/level.angry";
 							File.Copy(bundlePath, Path.Combine(projectRoot, "Levels", guid, "level.angry"), true);
+							bundle.Parts = new List<string>() { bundle.ExternalLink };
+						}
+						else
+						{
+                            string angryFile = Path.Combine(projectRoot, "Levels", bundle.Guid, "level.angry");
+                            if (File.Exists(angryFile))
+                                File.Delete(angryFile);
+
+                            bundle.ExternalLink = externalLink;
+                            bundle.Parts.Clear();
+                            bundle.Parts.Add(externalLink);
+
+                            for (int i = 2; ; i++)
+                            {
+                                Console.Write($"External link (part {i}): ");
+                                string part = Console.ReadLine();
+                                if (string.IsNullOrEmpty(part))
+                                    break;
+
+                                bundle.Parts.Add(part);
+                                bundle.ExternalLink = "";
+                            }
                         }
-                        bundle.ExternalLink = externalLink;
 
 						bundle.Hash = info.buildHash;
 						bundle.LastUpdate = ((DateTimeOffset)DateTime.UtcNow).ToUnixTimeSeconds();
@@ -436,6 +457,7 @@ namespace AngryCatalogEditor
 						if (bundle.Updates == null)
 							bundle.Updates = new List<LevelInfo.UpdateInfo>();
 						bundle.Updates.Add(new LevelInfo.UpdateInfo() { Hash = info.buildHash, Message = updateMsg });
+						
 						changed = true;
 					}
 				}
@@ -577,7 +599,7 @@ namespace AngryCatalogEditor
 
 			string scriptName = Path.GetFileName(scriptPath);
 			File.Copy(scriptPath, Path.Combine(projectRoot, "Scripts", scriptName), true);
-			File.Copy(scriptPath + ".cert", Path.Combine(projectRoot, "Scripts", scriptName + ".cert"));
+			File.Copy(scriptPath + ".cert", Path.Combine(projectRoot, "Scripts", scriptName + ".cert"), true);
 
 			int size = 0;
 			using (FileStream fs = File.Open(scriptPath, FileMode.Open, FileAccess.Read))

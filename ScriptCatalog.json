@@ -26,11 +26,12 @@
     },
     {
       "Updates": [
-        "ce2bf3c15bd7e0bff4213c32346e1325"
+        "ce2bf3c15bd7e0bff4213c32346e1325",
+        "c387a26f7c0ae589b6f1a8f6522f25ff"
       ],
       "FileName": "LUKAsExtenstions.dll",
-      "Hash": "ce2bf3c15bd7e0bff4213c32346e1325",
-      "Size": 34304
+      "Hash": "c387a26f7c0ae589b6f1a8f6522f25ff",
+      "Size": 37376
     }
   ]
 }
