@@ -654,6 +654,28 @@
       "ThumbnailHash": "ac374194915005d75547a83b36093756",
       "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1157823076831072266/balladofthemachines.angry?ex=651a0244&is=6518b0c4&hm=d80b757edbf303d39717557275d94ad99321738f9be46ebc436fc1f8d93d6e7d&",
       "LastUpdate": 1696117008
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1LcJCDYSvPKT8vSx30wHAvRbVW0ok5fvl",
+        "https://drive.google.com/uc?export=download&id=1HWTNnpiEL_GWbzJKvaiEApPnlqGeuQwr",
+        "https://drive.google.com/uc?export=download&id=1a5lgAc_oUB--i7M-DjcA663ewGVZ772Z",
+        "https://drive.google.com/uc?export=download&id=10Ufv8jTafWNGXc2Yp5T6NmtFm5sCQi70"
+      ],
+      "Updates": [
+        {
+          "Hash": "5fbbd574da1949a45a8ad4a9603e7372",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "MEGAFRAUD",
+      "Author": "MEGACHEB",
+      "Size": 76059634,
+      "Guid": "bc12e4c3f51c0b148a4b14b72394c3de",
+      "Hash": "5fbbd574da1949a45a8ad4a9603e7372",
+      "ThumbnailHash": "4c3faa7a20143be3d890c215b1d2c7bb",
+      "ExternalLink": "",
+      "LastUpdate": 1696183361
     }
   ]
 }
