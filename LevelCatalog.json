@@ -679,24 +679,28 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1mEyoRPKCpJoBZzA2OGvbFKfnaRo7lgXj",
-        "https://drive.google.com/uc?export=download&id=17duL_un3Rhgpf4-Sm3Rpo1cvS1lkjnS3",
-        "https://drive.google.com/uc?export=download&id=1LSCulF84oQ1gnPpe3TgIBF49mDv0pG1i"
+        "https://drive.google.com/uc?export=download&id=1p21k6CV5mc2JL59FGttCXeSUGaoDSgqN",
+        "https://drive.google.com/uc?export=download&id=1dB2JBLE5Gb1oT_HuR6I7Spewvwo4_bp3",
+        "https://drive.google.com/uc?export=download&id=1lctV87K6t-8OZp6hI0scutnufJuJukji"
       ],
       "Updates": [
         {
           "Hash": "9197efaf036b2cd41b96a54a5022a76e",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "81da68f7324b23346a277e413258c912",
+          "Message": "- Fixed kills not being reset after death in Mankind's Failed Hope\n- Moved the checkpoint for the final arena in A tragic desire into the actual room itself and not the hallway to prevent checkpoint bugs"
         }
       ],
       "Name": "JoshuqTheHusk's Absurd Level Collection",
       "Author": "JoshuqTheHusk",
-      "Size": 56930186,
+      "Size": 56935833,
       "Guid": "115fcc25c1c16834b8f2b1eb1340d4e4",
-      "Hash": "9197efaf036b2cd41b96a54a5022a76e",
+      "Hash": "81da68f7324b23346a277e413258c912",
       "ThumbnailHash": "d7b19f269b363c25f4ea349d792c8da4",
       "ExternalLink": "",
-      "LastUpdate": 1696278731
+      "LastUpdate": 1696368154
     }
   ]
 }
