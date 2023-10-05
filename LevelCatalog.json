@@ -514,11 +514,11 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1SqcR7JDAh6HEDTq_bRBp6PaAqIfz3onn",
-        "https://drive.google.com/uc?export=download&id=1DAEAA3Wo1n_5mHLcLgccN2gW99ek8X04",
-        "https://drive.google.com/uc?export=download&id=1KD_OUJHW1wUP7WFhQrxla1_04StuB7i7",
-        "https://drive.google.com/uc?export=download&id=1B9Q3mMarY2eDX07lT4twaYYIlpALtRoO",
-        "https://drive.google.com/uc?export=download&id=12utPXkJw_NiI21GmiSz8_WzqUpd3JuIp"
+        "https://drive.google.com/uc?export=download&id=1rO-sgcVDHs3F2v_9HQKnOojHMn3PTIRQ",
+        "https://drive.google.com/uc?export=download&id=1CgPU-RHu5TugmasKzA1rzegiNmOwrIis",
+        "https://drive.google.com/uc?export=download&id=1lB9PilymxnwYjV7VejNLFGQXssF-cY2I",
+        "https://drive.google.com/uc?export=download&id=1bJdIfUNjyx4o4ZsHYINSl_12upv9jH-z",
+        "https://drive.google.com/uc?export=download&id=1vJ8IwUgWAUFRicqO3wVbQSCskLMVpcRN"
       ],
       "Updates": [
         {
@@ -532,16 +532,20 @@
         {
           "Hash": "d97bca01c8b555f4ea5713d30eb8d4a8",
           "Message": "2 new songs:\n- Meower\n- ZA TERMINAL\n\nSpeedrunning is now easier\nAdded spinning chebs to the first elevator"
+        },
+        {
+          "Hash": "746b011a3bb43464fafbb94c34685d7f",
+          "Message": "- Minor tweaks to the level\n- Made the looping of chebus better\n- Removed NavMesh"
         }
       ],
       "Name": "THE CHEB MUSEUM",
       "Author": "__megga and MEGACHEB",
-      "Size": 125320391,
+      "Size": 125489642,
       "Guid": "fbad391461a64c144989207f0eb8e7fc",
-      "Hash": "d97bca01c8b555f4ea5713d30eb8d4a8",
+      "Hash": "746b011a3bb43464fafbb94c34685d7f",
       "ThumbnailHash": "199f44fe36117f2acf2df0de577f4140",
       "ExternalLink": "",
-      "LastUpdate": 1694268037
+      "LastUpdate": 1696526474
     },
     {
       "Parts": [
