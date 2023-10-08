@@ -689,6 +689,28 @@
       "ThumbnailHash": "d7b19f269b363c25f4ea349d792c8da4",
       "ExternalLink": "",
       "LastUpdate": 1696368154
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1-nO6A0ffdjyr-ajj0Xu1V2DmXlowWnFq",
+        "https://drive.google.com/uc?export=download&id=1-iOx2ovI6hTq51e2ifSrmDtUcdGbx52d",
+        "https://drive.google.com/uc?export=download&id=1RsbvPHOH9Kt-dWWWPDv397iAjEDcuk3Q",
+        "https://drive.google.com/uc?export=download&id=137Vgd6fcEeEEeP81B4kyKx_CatRAYmI6"
+      ],
+      "Updates": [
+        {
+          "Hash": "3a139df749d830040b27ffa5f5238d9b",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "Bloodbath Palace",
+      "Author": "__megga",
+      "Size": 92016340,
+      "Guid": "00ef27ac05110b244b0f945be420e58a",
+      "Hash": "3a139df749d830040b27ffa5f5238d9b",
+      "ThumbnailHash": "5b6861d16cff9f36885d76e77251ee22",
+      "ExternalLink": "",
+      "LastUpdate": 1696807154
     }
   ]
 }
