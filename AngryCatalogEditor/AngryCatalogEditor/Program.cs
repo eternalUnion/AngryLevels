@@ -412,6 +412,11 @@ namespace AngryCatalogEditor
 						Console.WriteLine("Bundle guid does not match with the request");
 						return;
 					}
+					else if (bundle.Updates.Where(update => update.Hash == info.buildHash).Any())
+					{
+                        Console.WriteLine("Bundle with the same build hash is already in the updates list");
+                        return;
+                    }
 					else
 					{
 						Console.Write("Update message: ");
