@@ -66,6 +66,20 @@ namespace AngryCatalogEditor
 		static LevelCatalog catalog;
 		static ScriptCatalog scriptCatalog;
 
+		static string GetMD5Hash(string data)
+		{
+            MD5 md5 = MD5.Create();
+            byte[] hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(data));
+            return Convert.ToHexString(hashArr).ToLower();
+        }
+
+		static string GetMD5Hash(byte[] data)
+		{
+            MD5 md5 = MD5.Create();
+            byte[] hashArr = md5.ComputeHash(data);
+            return Convert.ToHexString(hashArr).ToLower();
+        }
+
 		static void LoadCatalog()
 		{
 			string catalogPath = Path.Combine(projectRoot, "LevelCatalog.json");
@@ -81,9 +95,7 @@ namespace AngryCatalogEditor
 			string catalogSerialized = JsonConvert.SerializeObject(catalog, Formatting.Indented);
 			catalogSerialized = catalogSerialized.Replace("\r", "");
 
-			MD5 md5 = MD5.Create();
-			byte[] hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(catalogSerialized));
-			string hash = Convert.ToHexString(hashArr).ToLower();
+			string hash = GetMD5Hash(catalogSerialized);
 
 			File.WriteAllText(catalogPath, catalogSerialized);
 			File.WriteAllText(catalogHashPath, hash);
@@ -93,9 +105,7 @@ namespace AngryCatalogEditor
 			string scriptCatalogSerialized = JsonConvert.SerializeObject(scriptCatalog, Formatting.Indented);
 			scriptCatalogSerialized = scriptCatalogSerialized.Replace("\r", "");
 
-			md5 = MD5.Create();
-			hashArr = md5.ComputeHash(Encoding.ASCII.GetBytes(scriptCatalogSerialized));
-			hash = Convert.ToHexString(hashArr).ToLower();
+			hash = GetMD5Hash(scriptCatalogSerialized);
 
 			File.WriteAllText(scriptCatalogPath, scriptCatalogSerialized);
 			File.WriteAllText(scriptCatalogHashPath, hash);
@@ -302,7 +312,7 @@ namespace AngryCatalogEditor
 			newInfo.Author = author;
 			newInfo.Guid = bundleInfo.guid;
 			newInfo.Hash = bundleInfo.buildHash;
-			newInfo.ThumbnailHash = RandomGuid();
+			newInfo.ThumbnailHash = GetMD5Hash(File.ReadAllBytes(tempThumbnailPath));
 			newInfo.Size = size;
 			newInfo.LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds();
 			newInfo.Updates = new List<LevelInfo.UpdateInfo>() { new LevelInfo.UpdateInfo() { Hash = bundleInfo.buildHash, Message = "Initial upload" } };
@@ -508,9 +518,9 @@ namespace AngryCatalogEditor
 				var opt = new ImageOptimizer();
 				opt.LosslessCompress(tempThumbnailPath);
 
+				bundle.ThumbnailHash = GetMD5Hash(File.ReadAllBytes(tempThumbnailPath));
 				File.Copy(tempThumbnailPath, Path.Combine(projectRoot, "Levels", guid, "thumbnail.png"), true);
 				File.Delete(tempThumbnailPath);
-				bundle.ThumbnailHash = RandomGuid();
 				changed = true;
 			}
 		
