@@ -32,6 +32,14 @@
       "FileName": "LUKAsExtenstions.dll",
       "Hash": "c387a26f7c0ae589b6f1a8f6522f25ff",
       "Size": 37376
+    },
+    {
+      "Updates": [
+        "566401f00237d925d83b14eca5032c3b"
+      ],
+      "FileName": "CarcassEnemy.dll",
+      "Hash": "566401f00237d925d83b14eca5032c3b",
+      "Size": 5158400
     }
   ]
 }
