@@ -719,6 +719,25 @@
       "ThumbnailHash": "05b01e13169b353af1a452ca5cbaafbc",
       "ExternalLink": "",
       "LastUpdate": 1696863267
+    },
+    {
+      "Parts": [
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1164295730354204722/envy.angry?ex=6542b1e5&is=65303ce5&hm=9bd741f6053fb682b6692d55acdf11100d871bbe90c9000ac0ccab381357df5a&"
+      ],
+      "Updates": [
+        {
+          "Hash": "8eab2c3344077e54a9783ad799efa527",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "ENVY",
+      "Author": "Raifu",
+      "Size": 15034330,
+      "Guid": "515486d54abac2a4694e34cb1b31d18f",
+      "Hash": "8eab2c3344077e54a9783ad799efa527",
+      "ThumbnailHash": "ee266ce421463737b427a145118b3779",
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1164295730354204722/envy.angry?ex=6542b1e5&is=65303ce5&hm=9bd741f6053fb682b6692d55acdf11100d871bbe90c9000ac0ccab381357df5a&",
+      "LastUpdate": 1697660239
     }
   ]
 }
