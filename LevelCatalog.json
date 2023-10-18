@@ -349,7 +349,7 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1152965806716616804/layersofgrief.angry"
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1164260615808897074/layersofgrief.angry?ex=65429131&is=65301c31&hm=a263e9a19f7fa719437961f6d841ea6af7d474fb237e1094bdb6b2ec2d1df406&"
       ],
       "Updates": [
         {
@@ -383,16 +383,20 @@
         {
           "Hash": "ef4f5a02f23c87341b4204275891e93a",
           "Message": "- Added a failsafe that destroys idols incase their targets die prematurely"
+        },
+        {
+          "Hash": "4848ee65380563e44add9b12db11e2ca",
+          "Message": "- Improved some lighting/added new lights to better guide the player where to go\n- Replaced the 3 blue skulls system with a blue and red one, allowing for more a casual-friendly experience as only one path is now needed to complete the level (Both parts still need to be cleared to obtain a P Rank)\n- Nerfed the style requirement down to 48k and added 5 more seconds to the time\n- Added an additional visual for crowds to help them stand out better in dark areas\n- Added an (invisible) checkpoint in the middle of the double swordsmachines sequence to make the arena less frustrating\n- Changed the beginning ambient noise"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 40751583,
+      "Size": 42927474,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "ef4f5a02f23c87341b4204275891e93a",
+      "Hash": "4848ee65380563e44add9b12db11e2ca",
       "ThumbnailHash": "a4aa762e4bc9ee341cce3f335ff0f4e8",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1152965806716616804/layersofgrief.angry",
-      "LastUpdate": 1694959411
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1164260615808897074/layersofgrief.angry?ex=65429131&is=65301c31&hm=a263e9a19f7fa719437961f6d841ea6af7d474fb237e1094bdb6b2ec2d1df406&",
+      "LastUpdate": 1697653052
     },
     {
       "Parts": [
