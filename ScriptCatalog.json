@@ -41,6 +41,14 @@
       "FileName": "CarcassEnemy.dll",
       "Hash": "72f67a58355c2c34c949dc0c6a57fa2a",
       "Size": 67072
+    },
+    {
+      "Updates": [
+        "7ed7fc751cd56b96f8e96e8811aa980d"
+      ],
+      "FileName": "PixelColorChangerActuallyFrThisTime1.dll",
+      "Hash": "7ed7fc751cd56b96f8e96e8811aa980d",
+      "Size": 7168
     }
   ]
 }

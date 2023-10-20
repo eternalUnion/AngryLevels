@@ -200,22 +200,26 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/d89674d3eae6fe147b51d0e0af21adbf/level.angry"
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1165048284054822912/ultrapaint.angry?ex=65456ec4&is=6532f9c4&hm=22fd4fe7d81be421109a1f33ea5c0af17a2a61f584b344037ecec9ccfb2b8c9d&"
       ],
       "Updates": [
         {
           "Hash": "8d1016533b7ea3f4dba5bc1e1d3cf8ba",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "d884c2bcd98972b44ad5b4c145f527e1",
+          "Message": "- Complete overhaul of the Pixel Boards:\n    * Now capable of creating practically any color via RGB sliders\n    * Recent Colors system\n    * Brighter colors (big thanks to Crash for making this all possible!)\n- Added more Pixel Boards (6x6-32x32)\n- Added a custom track \"Painting Quarters\" by oklahomatíc\n- Added a Music Changer\n- Overhauled Theme Changer and new themes (Evening, Burning, Forest)\n- Added a playable Jenga!\n- Added Featured Art from other people to get your inspiration!\n- Improved lighting and a lot of Quality Of Life changes"
         }
       ],
       "Name": "ULTRAPAINT",
       "Author": "Grapes",
-      "Size": 3122636,
+      "Size": 9036364,
       "Guid": "d89674d3eae6fe147b51d0e0af21adbf",
-      "Hash": "8d1016533b7ea3f4dba5bc1e1d3cf8ba",
-      "ThumbnailHash": "5446119ae5df146b4caeb73453052c19",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/d89674d3eae6fe147b51d0e0af21adbf/level.angry",
-      "LastUpdate": 1691676185
+      "Hash": "d884c2bcd98972b44ad5b4c145f527e1",
+      "ThumbnailHash": "a1621c7f8ba0cda3eadd3df4d1e2624a",
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1165048284054822912/ultrapaint.angry?ex=65456ec4&is=6532f9c4&hm=22fd4fe7d81be421109a1f33ea5c0af17a2a61f584b344037ecec9ccfb2b8c9d&",
+      "LastUpdate": 1697839857
     },
     {
       "Parts": [

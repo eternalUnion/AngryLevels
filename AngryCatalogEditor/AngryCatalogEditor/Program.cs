@@ -669,6 +669,16 @@ namespace AngryCatalogEditor
 			Console.WriteLine("Loading catalog...");
 			LoadCatalog();
 
+			// DEBUG
+			foreach (var level in catalog.Levels)
+			{
+				string thumbnailPath = Path.Combine(currentDir, "Levels", level.Guid, "thumbnail.png");
+				string newHash = GetMD5Hash(File.ReadAllBytes(thumbnailPath));
+				level.ThumbnailHash = newHash;
+			}
+
+			SaveCatalog();
+
 			while (true)
 			{
 				Console.WriteLine("1 - Add bundle");
