@@ -404,22 +404,26 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/379ca0d366732f14fa3685b9aea24465/level.angry"
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1167205688255193258/smthwickedencore.angry?ex=654d4801&is=653ad301&hm=896748054145f298d4b6f5586a8eba446500669b793d0d70565e4d2df8e228a6&"
       ],
       "Updates": [
         {
           "Hash": "4101dfe881431704ca5893e7efac5883",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "742340d2784f59341860035773d45c6c",
+          "Message": "\"im posting it way too early but its just to replace the old one. trust me im going to make more levels soon\"\n- Fully remade the area\n- Added a \"WEAK\" mode\""
         }
       ],
       "Name": "SOMETHING WICKED ENCORE",
-      "Author": "Ted",
-      "Size": 3637755,
+      "Author": "Feodoridis",
+      "Size": 7928403,
       "Guid": "379ca0d366732f14fa3685b9aea24465",
-      "Hash": "4101dfe881431704ca5893e7efac5883",
+      "Hash": "742340d2784f59341860035773d45c6c",
       "ThumbnailHash": "8e0ca7d730399f829cc94aee70c0ac1c",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/379ca0d366732f14fa3685b9aea24465/level.angry",
-      "LastUpdate": 1693320349
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1167205688255193258/smthwickedencore.angry?ex=654d4801&is=653ad301&hm=896748054145f298d4b6f5586a8eba446500669b793d0d70565e4d2df8e228a6&",
+      "LastUpdate": 1698354416
     },
     {
       "Parts": [
