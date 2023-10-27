@@ -404,7 +404,7 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1167205688255193258/smthwickedencore.angry?ex=654d4801&is=653ad301&hm=896748054145f298d4b6f5586a8eba446500669b793d0d70565e4d2df8e228a6&"
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1167514175338201158/swencore.angry?ex=654e674e&is=653bf24e&hm=9edc26ba0730874e4dfc45db29d4b9463fa7fa1f5a1c9f87c968ae108070d97f&"
       ],
       "Updates": [
         {
@@ -414,16 +414,20 @@
         {
           "Hash": "742340d2784f59341860035773d45c6c",
           "Message": "\"im posting it way too early but its just to replace the old one. trust me im going to make more levels soon\"\n- Fully remade the area\n- Added a \"WEAK\" mode\""
+        },
+        {
+          "Hash": "1c17d8e352959bc4295fcfe04b4053b8",
+          "Message": "- The old level can't be accessed anymore\n- Fixed an oob bug that kicks you out of the level if you go there"
         }
       ],
       "Name": "SOMETHING WICKED ENCORE",
       "Author": "Feodoridis",
-      "Size": 7928403,
+      "Size": 7185437,
       "Guid": "379ca0d366732f14fa3685b9aea24465",
-      "Hash": "742340d2784f59341860035773d45c6c",
+      "Hash": "1c17d8e352959bc4295fcfe04b4053b8",
       "ThumbnailHash": "8e0ca7d730399f829cc94aee70c0ac1c",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1167205688255193258/smthwickedencore.angry?ex=654d4801&is=653ad301&hm=896748054145f298d4b6f5586a8eba446500669b793d0d70565e4d2df8e228a6&",
-      "LastUpdate": 1698354416
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1167514175338201158/swencore.angry?ex=654e674e&is=653bf24e&hm=9edc26ba0730874e4dfc45db29d4b9463fa7fa1f5a1c9f87c968ae108070d97f&",
+      "LastUpdate": 1698428441
     },
     {
       "Parts": [
