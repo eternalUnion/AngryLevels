@@ -50,6 +50,14 @@
       "FileName": "PixelColorChangerActuallyFrThisTime1.dll",
       "Hash": "7ed7fc751cd56b96f8e96e8811aa980d",
       "Size": 7168
+    },
+    {
+      "Updates": [
+        "7db465bfe188482aa76fc3529efd4d60"
+      ],
+      "FileName": "Waffle.Revenant.dll",
+      "Hash": "7db465bfe188482aa76fc3529efd4d60",
+      "Size": 44032
     }
   ]
 }
