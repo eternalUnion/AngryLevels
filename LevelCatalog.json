@@ -778,6 +778,25 @@
       "ThumbnailHash": "64145b3907de6519741c53e6d4548abb",
       "ExternalLink": "",
       "LastUpdate": 1698760597
+    },
+    {
+      "Parts": [
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1168974093899538482/PaolottoCustomIntermissionScript.dll?ex=6553b6f6&is=654141f6&hm=38547274d3ce991989bd5c07eca7e4fab736f046a23d9e696eec8fc5c1c2fbc5&"
+      ],
+      "Updates": [
+        {
+          "Hash": "7ccfb137242fc1b49a37f5fe58d5b947",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "All Hallows Eve",
+      "Author": "Paolotto",
+      "Size": 5085171,
+      "Guid": "b6bf0642355a9494d9c1704640c4ec8f",
+      "Hash": "7ccfb137242fc1b49a37f5fe58d5b947",
+      "ThumbnailHash": "fa600bacc7ab4e3ee2db1842f1714288",
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1168974093899538482/PaolottoCustomIntermissionScript.dll?ex=6553b6f6&is=654141f6&hm=38547274d3ce991989bd5c07eca7e4fab736f046a23d9e696eec8fc5c1c2fbc5&",
+      "LastUpdate": 1698784228
     }
   ]
 }

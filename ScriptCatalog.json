@@ -58,6 +58,22 @@
       "FileName": "Waffle.Revenant.dll",
       "Hash": "7db465bfe188482aa76fc3529efd4d60",
       "Size": 44032
+    },
+    {
+      "Updates": [
+        "9405c67679723904620a9f1f48eb1d72"
+      ],
+      "FileName": "PaolottoHallowenMap.dll",
+      "Hash": "9405c67679723904620a9f1f48eb1d72",
+      "Size": 14848
+    },
+    {
+      "Updates": [
+        "c1c5e4537ed21e478473ba965f4f4a20"
+      ],
+      "FileName": "PaolottoCustomIntermissionScript.dll",
+      "Hash": "c1c5e4537ed21e478473ba965f4f4a20",
+      "Size": 12288
     }
   ]
 }
