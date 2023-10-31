@@ -753,8 +753,8 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=11W-SExstk9QVqnbrVkiAh5kljDZ8bKVX",
-        "https://drive.google.com/uc?export=download&id=1eqEL-KKPjNDuxXZX0Re--Pdz1K-LiOJF"
+        "https://drive.google.com/uc?export=download&id=1NeCm04IGEM-JjfOwuhRqOqiLGeX8ZOfS",
+        "https://drive.google.com/uc?export=download&id=1mIB3cnKrvtkrep0tJ_aET3bF-168ntY9"
       ],
       "Updates": [
         {
@@ -764,16 +764,20 @@
         {
           "Hash": "40b235ceb35e7b04fbfec3c0a0ace594",
           "Message": "- Fixed an issue that blocked progression from lava room after two deaths"
+        },
+        {
+          "Hash": "48d91a861655a724092e9ea3536a9df3",
+          "Message": "- Various balancing and quality of life changes"
         }
       ],
       "Name": "ULTRAKILL /// REPRISE",
       "Author": "Smallkloon",
-      "Size": 32355271,
+      "Size": 32370725,
       "Guid": "727cca746f27c4147b4d4bcc406209de",
-      "Hash": "40b235ceb35e7b04fbfec3c0a0ace594",
+      "Hash": "48d91a861655a724092e9ea3536a9df3",
       "ThumbnailHash": "64145b3907de6519741c53e6d4548abb",
       "ExternalLink": "",
-      "LastUpdate": 1698676811
+      "LastUpdate": 1698760597
     }
   ]
 }
