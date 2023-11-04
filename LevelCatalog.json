@@ -781,22 +781,26 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1168974094541279242/halloween.angry?ex=6553b6f6&is=654141f6&hm=a3e3d5b2727a6bef665b5690164b2dfaf3974d9857443a8066ef4612e54e8a6b&"
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1170475478084222996/halloween.angry?ex=65592d3c&is=6546b83c&hm=bd9ca64178993bd28abe5cb99e49915a5de46e70e7529a48fe50cc5e65ef7387&"
       ],
       "Updates": [
         {
           "Hash": "7ccfb137242fc1b49a37f5fe58d5b947",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "54a723dcaf5d59e4aba53fd752788103",
+          "Message": "- Better graphics\n- Extra content"
         }
       ],
       "Name": "All Hallows Eve",
       "Author": "Paolotto",
-      "Size": 5085171,
+      "Size": 6529461,
       "Guid": "b6bf0642355a9494d9c1704640c4ec8f",
-      "Hash": "7ccfb137242fc1b49a37f5fe58d5b947",
+      "Hash": "54a723dcaf5d59e4aba53fd752788103",
       "ThumbnailHash": "fa600bacc7ab4e3ee2db1842f1714288",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1168974094541279242/halloween.angry?ex=6553b6f6&is=654141f6&hm=a3e3d5b2727a6bef665b5690164b2dfaf3974d9857443a8066ef4612e54e8a6b&",
-      "LastUpdate": 1698784228
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1170475478084222996/halloween.angry?ex=65592d3c&is=6546b83c&hm=bd9ca64178993bd28abe5cb99e49915a5de46e70e7529a48fe50cc5e65ef7387&",
+      "LastUpdate": 1699133644
     }
   ]
 }

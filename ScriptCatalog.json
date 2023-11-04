@@ -61,11 +61,12 @@
     },
     {
       "Updates": [
-        "9405c67679723904620a9f1f48eb1d72"
+        "9405c67679723904620a9f1f48eb1d72",
+        "ea620e725681da51f02efe7665479d89"
       ],
       "FileName": "PaolottoHallowenMap.dll",
-      "Hash": "9405c67679723904620a9f1f48eb1d72",
-      "Size": 14848
+      "Hash": "ea620e725681da51f02efe7665479d89",
+      "Size": 16384
     },
     {
       "Updates": [
