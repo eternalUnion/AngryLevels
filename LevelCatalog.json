@@ -44,7 +44,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/84271207136e5b541a530d5fd042723d/level.angry"
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1170831818208051311/ggs_levels.angry?ex=655a791a&is=6548041a&hm=5ce13e913732586df13dce219ab0c966a253c0ab7fedecf57ee555bc47e4e84c&"
       ],
       "Updates": [
         {
@@ -54,16 +54,20 @@
         {
           "Hash": "5a5fbf0399cb3d04a96f76c0b69b3f44",
           "Message": "- Fixed enemies clipping trough walls in the small room"
+        },
+        {
+          "Hash": "13155e1b9ca0cbe438b2e89ff6a5758c",
+          "Message": "- Minor Tweaks so the levels don't break with layer 7 update and bug fixes\n- Sorry no G-2 yet ;)"
         }
       ],
       "Name": "GG's Levels",
       "Author": "GGGamesXDlol",
-      "Size": 18040519,
+      "Size": 16389177,
       "Guid": "84271207136e5b541a530d5fd042723d",
-      "Hash": "5a5fbf0399cb3d04a96f76c0b69b3f44",
+      "Hash": "13155e1b9ca0cbe438b2e89ff6a5758c",
       "ThumbnailHash": "ca0131799196f2ac505c67baeed81714",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/84271207136e5b541a530d5fd042723d/level.angry",
-      "LastUpdate": 1692120331
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1170831818208051311/ggs_levels.angry?ex=655a791a&is=6548041a&hm=5ce13e913732586df13dce219ab0c966a253c0ab7fedecf57ee555bc47e4e84c&",
+      "LastUpdate": 1699219509
     },
     {
       "Parts": [
