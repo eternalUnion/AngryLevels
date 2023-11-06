@@ -757,8 +757,8 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1NeCm04IGEM-JjfOwuhRqOqiLGeX8ZOfS",
-        "https://drive.google.com/uc?export=download&id=1mIB3cnKrvtkrep0tJ_aET3bF-168ntY9"
+        "https://drive.google.com/uc?export=download&id=1vqV_3b-KLVoP0j-pInIUEquCAZjHyZXF",
+        "https://drive.google.com/uc?export=download&id=18caKa1wVLOOrMtS4MIaMqKUSiQX238P4"
       ],
       "Updates": [
         {
@@ -772,16 +772,20 @@
         {
           "Hash": "48d91a861655a724092e9ea3536a9df3",
           "Message": "- Various balancing and quality of life changes"
+        },
+        {
+          "Hash": "1e5070518fe77724090410a5f084426c",
+          "Message": "- Made some small visual changes to the entire level\n- Reworked final room to be more interesting\n- Adjusted P-Rank requirements accordingly"
         }
       ],
       "Name": "ULTRAKILL /// REPRISE",
       "Author": "Smallkloon",
-      "Size": 32370725,
+      "Size": 35357474,
       "Guid": "727cca746f27c4147b4d4bcc406209de",
-      "Hash": "48d91a861655a724092e9ea3536a9df3",
+      "Hash": "1e5070518fe77724090410a5f084426c",
       "ThumbnailHash": "64145b3907de6519741c53e6d4548abb",
       "ExternalLink": "",
-      "LastUpdate": 1698760597
+      "LastUpdate": 1699280492
     },
     {
       "Parts": [
