@@ -640,6 +640,40 @@ namespace AngryCatalogEditor
 			SaveCatalog();
 		}
 
+		static void SearchBundle()
+		{
+			Console.Write("Bundle name: ");
+			string name = Console.ReadLine();
+
+			if (string.IsNullOrEmpty(name))
+				return;
+
+			string[] query = name.Split(' ').Select(s => s.ToLower()).ToArray();
+
+			bool found = false;
+			foreach (var bundle in catalog.Levels)
+			{
+				bool skip = false;
+
+				string currentName = bundle.Name.ToLower();
+				foreach (string queryString in query)
+					if (!currentName.Contains(queryString))
+					{
+						skip = true;
+						break;
+					}
+
+				if (skip)
+					continue;
+
+				found = true;
+				Console.WriteLine($"{bundle.Guid}: {bundle.Name}");
+			}
+
+			if (!found)
+				Console.WriteLine("Not found");
+		}
+
 		static string projectRoot;
 		static void Main(string[] args)
 		{
@@ -692,6 +726,8 @@ namespace AngryCatalogEditor
 				Console.WriteLine();
 				Console.WriteLine("7 - Force save catalog");
 				Console.WriteLine("8 - Get repo info");
+				Console.WriteLine();
+				Console.WriteLine("9 - Search bundle");
 				Console.Write("> ");
 
 				string str = Console.ReadLine();
@@ -713,6 +749,8 @@ namespace AngryCatalogEditor
 						SaveCatalog();
 					else if (choice == 8)
 						GetRepo().Wait();
+					else if (choice == 9)
+						SearchBundle();
 				}
 			}
 		}
