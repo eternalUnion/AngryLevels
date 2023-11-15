@@ -75,6 +75,14 @@
       "FileName": "PaolottoCustomIntermissionScript.dll",
       "Hash": "c1c5e4537ed21e478473ba965f4f4a20",
       "Size": 12288
+    },
+    {
+      "Updates": [
+        "571852dc9dd2663b82a25129b45a7f94"
+      ],
+      "FileName": "LuaForUK.dll",
+      "Hash": "571852dc9dd2663b82a25129b45a7f94",
+      "Size": 512512
     }
   ]
 }
