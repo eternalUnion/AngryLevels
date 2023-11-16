@@ -83,6 +83,14 @@
       "FileName": "LuaForUK.dll",
       "Hash": "571852dc9dd2663b82a25129b45a7f94",
       "Size": 512512
+    },
+    {
+      "Updates": [
+        "77c54e73cc540e62bc8952b28767ce4a"
+      ],
+      "FileName": "WafflePort.MovementPlusHook.dll",
+      "Hash": "77c54e73cc540e62bc8952b28767ce4a",
+      "Size": 11776
     }
   ]
 }
