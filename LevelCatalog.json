@@ -817,24 +817,28 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1KlaRB4f3cCp7Z47ZTPW09LnjYK2ObzDA",
-        "https://drive.google.com/uc?export=download&id=1jiVnWY7XUCQ8_nImnEu2wmxnV391HX9o",
-        "https://drive.google.com/uc?export=download&id=1lMUrfO_zOEtUrZUpbZW7jB6e67sZhve_"
+        "https://drive.google.com/uc?export=download&id=1ZDdMqAqJJk56gOgh7RX56dBFCmnOkbHn",
+        "https://drive.google.com/uc?export=download&id=1q8QfZhpQ9AUEhnThD5dBTmn4d38eiDAD",
+        "https://drive.google.com/uc?export=download&id=1m1HLXd5hTb1HVAyfDVBByYP671EPf0vg"
       ],
       "Updates": [
         {
           "Hash": "ee9e44c153f99a046bdaa0af5bb1b455",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "64a13cfa794d417409b00492604c720c",
+          "Message": "- Fixed some missing walls\n- Minor bug fixes\n- Actual optimization"
         }
       ],
       "Name": "HERESY EXTRA",
       "Author": "HaphazardlyLad",
-      "Size": 56367266,
+      "Size": 56447139,
       "Guid": "34b15d04ed3cc6e498e37b193598f07b",
-      "Hash": "ee9e44c153f99a046bdaa0af5bb1b455",
+      "Hash": "64a13cfa794d417409b00492604c720c",
       "ThumbnailHash": "3e3f8e329cab17d22c4bda2aa8a366ac",
       "ExternalLink": "",
-      "LastUpdate": 1700206654
+      "LastUpdate": 1700243884
     }
   ]
 }
