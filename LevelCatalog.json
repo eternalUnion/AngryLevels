@@ -814,6 +814,27 @@
       "ThumbnailHash": "fa600bacc7ab4e3ee2db1842f1714288",
       "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1170475478084222996/halloween.angry?ex=65592d3c&is=6546b83c&hm=bd9ca64178993bd28abe5cb99e49915a5de46e70e7529a48fe50cc5e65ef7387&",
       "LastUpdate": 1699133644
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1KlaRB4f3cCp7Z47ZTPW09LnjYK2ObzDA",
+        "https://drive.google.com/uc?export=download&id=1jiVnWY7XUCQ8_nImnEu2wmxnV391HX9o",
+        "https://drive.google.com/uc?export=download&id=1lMUrfO_zOEtUrZUpbZW7jB6e67sZhve_"
+      ],
+      "Updates": [
+        {
+          "Hash": "ee9e44c153f99a046bdaa0af5bb1b455",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "HERESY EXTRA",
+      "Author": "HaphazardlyLad",
+      "Size": 56367266,
+      "Guid": "34b15d04ed3cc6e498e37b193598f07b",
+      "Hash": "ee9e44c153f99a046bdaa0af5bb1b455",
+      "ThumbnailHash": "3e3f8e329cab17d22c4bda2aa8a366ac",
+      "ExternalLink": "",
+      "LastUpdate": 1700206654
     }
   ]
 }
