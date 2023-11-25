@@ -2,7 +2,9 @@
   "Levels": [
     {
       "Parts": [
-        "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/e6e51ab05de12b946a6429b141adf219/level.angry"
+        "https://drive.google.com/uc?export=download&id=14f7CjJ8p1yZA0luaal36pfa7kPNyMrn2",
+        "https://drive.google.com/uc?export=download&id=1NmzPhDljrCo3VbYrL4AFjj1rfyEh1_sl",
+        "https://drive.google.com/uc?export=download&id=18gwff6C6Ur9xbAe0Zn9gs-McanugxUwX"
       ],
       "Updates": [
         {
@@ -12,16 +14,20 @@
         {
           "Hash": "879702ea34ecd7d44a5e24fb9506c8a2",
           "Message": "- 3 new secrets, totaling up to 5\n- Fixed around a bajllion issues (ferryman clips, secrets actually work properly now)\n- Fixed some abhorrent geometry\n- Chair props have been readded\n- Glass hitscan beam issue fixed\n- Added OOB (Out of bounds) messages\n- Going OOB now fails challenge\n- Fixed timer by just not bothering with it (timer starts as soon as level is loaded so have fun)"
+        },
+        {
+          "Hash": "3d5970ee8e3cab84db5d4d2f2b39df12",
+          "Message": "- Replace some old assets with new skilltest 2 ones\n- Timer stop chicanery is gone; timer just runs like in any other level now\n- Stairs have been textured\n- Timer no longer starts in firstroom\n- Waves with fake statue cerberi no longer end prematurely\n- Added edgeloops to final arena to prevent flickering\n- Geometry in some arenas redone\n- Challenge is less strict to compensate with timer changes\n- Some missing sounds readded\n- <color=red>Leaderboards wiped</color> to prevent past records being unobtainable"
         }
       ],
       "Name": "The Greybox Skill Test",
       "Author": ".willem1321",
-      "Size": 35067652,
+      "Size": 58556534,
       "Guid": "e6e51ab05de12b946a6429b141adf219",
-      "Hash": "879702ea34ecd7d44a5e24fb9506c8a2",
+      "Hash": "3d5970ee8e3cab84db5d4d2f2b39df12",
       "ThumbnailHash": "d6f027bb6939c8585bb30be715fa0e7b",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/e6e51ab05de12b946a6429b141adf219/level.angry",
-      "LastUpdate": 1693667362
+      "ExternalLink": "",
+      "LastUpdate": 1700924447
     },
     {
       "Parts": [
