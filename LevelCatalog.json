@@ -648,7 +648,7 @@
         },
         {
           "Hash": "0b7b7f515fe749e409d810c794a7cde6",
-          "Message": "- Remastered B-1 and fixed some lighting bugs\n- Added B-2\n- Added new Bundle Icon and B-1 icon\n- Fixed ferryman clipping in some arenas\n- Removed insurrectionist"
+          "Message": "- Remastered B-1 and fixed some lighting bugs (<color=red>leaderboard reset</color>)\n- Added B-2\n- Added new Bundle Icon and B-1 icon\n- Fixed ferryman clipping in some arenas\n- Removed insurrectionist"
         }
       ],
       "Name": "Bunker",
