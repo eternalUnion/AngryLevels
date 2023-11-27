@@ -50,7 +50,7 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1170831818208051311/ggs_levels.angry?ex=655a791a&is=6548041a&hm=5ce13e913732586df13dce219ab0c966a253c0ab7fedecf57ee555bc47e4e84c&"
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1178443720463491082/ggs_levels.angry?ex=65762a3d&is=6563b53d&hm=e8136be995032bd8d444f0370fffc9820a125f8925b485e01bef8aa0128e5429&"
       ],
       "Updates": [
         {
@@ -64,16 +64,20 @@
         {
           "Hash": "13155e1b9ca0cbe438b2e89ff6a5758c",
           "Message": "- Minor Tweaks so the levels don't break with layer 7 update and bug fixes\n- Sorry no G-2 yet ;)"
+        },
+        {
+          "Hash": "358bf0b029793444592eeefeac849a92",
+          "Message": "- Fixed a bug that made the level imposible to complete\n- Sorry no G-2 yet ;)"
         }
       ],
       "Name": "GG's Levels",
       "Author": "GGGamesXDlol",
-      "Size": 16389177,
+      "Size": 16384829,
       "Guid": "84271207136e5b541a530d5fd042723d",
-      "Hash": "13155e1b9ca0cbe438b2e89ff6a5758c",
+      "Hash": "358bf0b029793444592eeefeac849a92",
       "ThumbnailHash": "ca0131799196f2ac505c67baeed81714",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1170831818208051311/ggs_levels.angry?ex=655a791a&is=6548041a&hm=5ce13e913732586df13dce219ab0c966a253c0ab7fedecf57ee555bc47e4e84c&",
-      "LastUpdate": 1699219509
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1178443720463491082/ggs_levels.angry?ex=65762a3d&is=6563b53d&hm=e8136be995032bd8d444f0370fffc9820a125f8925b485e01bef8aa0128e5429&",
+      "LastUpdate": 1701098541
     },
     {
       "Parts": [
