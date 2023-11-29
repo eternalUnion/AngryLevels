@@ -637,9 +637,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1Cp-98GbxwFLFlLnzCdoH65KHHBunE2_X",
-        "https://drive.google.com/uc?export=download&id=1u3W259swpFvGuGcx3fIiV7lqTgSLmyo4",
-        "https://drive.google.com/uc?export=download&id=13C2LfByw50Rmx2KAPS9LuCGz48vIRl5j"
+        "https://drive.google.com/uc?export=download&id=1wH0UWsBfZG5ejPvCeuDRK0PXOncUOJzT",
+        "https://drive.google.com/uc?export=download&id=1fU_74LAI6uKwzL2ssX9CBgk39uc5MK51",
+        "https://drive.google.com/uc?export=download&id=1x7SCiORnXVJTWOD31U8u-iudQudDqXQR"
       ],
       "Updates": [
         {
@@ -649,16 +649,20 @@
         {
           "Hash": "0b7b7f515fe749e409d810c794a7cde6",
           "Message": "- Remastered B-1 and fixed some lighting bugs (<color=red>leaderboard reset</color>)\n- Added B-2\n- Added new Bundle Icon and B-1 icon\n- Fixed ferryman clipping in some arenas\n- Removed insurrectionist"
+        },
+        {
+          "Hash": "15883bd95c9269745a831ec571c6b2f3",
+          "Message": "- Improved B-2 P-rank requirements\n- Fixed broken checkpoint in B-2\n- Fixed ferryman clipping in B-2\n- Rebalanced some arenas to be less chaotic in B-2"
         }
       ],
       "Name": "Bunker",
       "Author": "Noah",
-      "Size": 57225545,
+      "Size": 57496885,
       "Guid": "6e84b78e89ebcf64c9052ca5c54be67a",
-      "Hash": "0b7b7f515fe749e409d810c794a7cde6",
+      "Hash": "15883bd95c9269745a831ec571c6b2f3",
       "ThumbnailHash": "9da19759f6422ec9ffc51d1feb3227bf",
       "ExternalLink": "",
-      "LastUpdate": 1701109984
+      "LastUpdate": 1701267385
     },
     {
       "Parts": [
