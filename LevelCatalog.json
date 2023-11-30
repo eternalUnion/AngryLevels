@@ -908,6 +908,25 @@
       "ThumbnailHash": "2abf8d525a2314fd21e0b7045af45d26",
       "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1175680069931384984/SlimedsDungeon.angry?ex=656c1c63&is=6559a763&hm=7ed008239afd3f77beb3efb282d861ae9bdec891c2354f7d648bb6cbf68f5209&",
       "LastUpdate": 1700374421
+    },
+    {
+      "Parts": [
+        "https://cdn.discordapp.com/attachments/1133473397276426280/1179892804273578134/rubiconfirst.angry?ex=657b6fcd&is=6568facd&hm=93bd737335e0dfafb6b53fce85d34fb191ac7c415f8b133c0bc046792d304c7d&"
+      ],
+      "Updates": [
+        {
+          "Hash": "de2fc2df2419db54f9d50baa7424bf1b",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "CARCASS",
+      "Author": "Rem_Safe_Space, Hydraxous, Duv",
+      "Size": 50334944,
+      "Guid": "c787a9514436db941be69ef24af53010",
+      "Hash": "de2fc2df2419db54f9d50baa7424bf1b",
+      "ThumbnailHash": "319c6b2a3d1b75bcb40e46b66739c948",
+      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1179892804273578134/rubiconfirst.angry?ex=657b6fcd&is=6568facd&hm=93bd737335e0dfafb6b53fce85d34fb191ac7c415f8b133c0bc046792d304c7d&",
+      "LastUpdate": 1701379801
     }
   ]
 }
