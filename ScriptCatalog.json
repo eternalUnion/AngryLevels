@@ -37,11 +37,12 @@
       "Updates": [
         "566401f00237d925d83b14eca5032c3b",
         "72f67a58355c2c34c949dc0c6a57fa2a",
-        "1a70f8a54e8de3802bdeff1d3ff63169"
+        "1a70f8a54e8de3802bdeff1d3ff63169",
+        "65d9eb60f9911cacd81d304bae3fbce1"
       ],
       "FileName": "CarcassEnemy.dll",
-      "Hash": "1a70f8a54e8de3802bdeff1d3ff63169",
-      "Size": 67584
+      "Hash": "65d9eb60f9911cacd81d304bae3fbce1",
+      "Size": 67072
     },
     {
       "Updates": [
