@@ -92,6 +92,14 @@
       "FileName": "WafflePort.MovementPlusHook.dll",
       "Hash": "77c54e73cc540e62bc8952b28767ce4a",
       "Size": 11776
+    },
+    {
+      "Updates": [
+        "0cf3a52b44197bfa827e4e536d5a9250"
+      ],
+      "FileName": "HydraxousRudeExtensions.dll",
+      "Hash": "0cf3a52b44197bfa827e4e536d5a9250",
+      "Size": 30208
     }
   ]
 }
