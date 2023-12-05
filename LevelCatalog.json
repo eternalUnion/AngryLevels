@@ -949,23 +949,27 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1n3h65eazGYAiFRYtNW7fCFPY9zZ8uIcj",
-        "https://drive.google.com/uc?export=download&id=1rZVfP26P9f02-qrSkSBlhui9FcUGzGnS"
+        "https://drive.google.com/uc?export=download&id=1FSo4nsot4GCRc1U7l3wc7EDTr13TUXPn",
+        "https://drive.google.com/uc?export=download&id=1IVse8kxcVvtzHmf2Eq1YZc7PFus26UKM"
       ],
       "Updates": [
         {
           "Hash": "f57cfba726406884fb956ab9608839d3",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "779fa782420f75347a2b8638f3afab50",
+          "Message": "- Level can now me completed with enemies disabled\n- Added extra info on the terminal\n- Fixed p-rank requirements"
         }
       ],
       "Name": "SANDS OF THE STARS - FULL SEA",
       "Author": "GGGamesXDlol",
-      "Size": 35118346,
+      "Size": 35158465,
       "Guid": "d72b2e1928edc0b4f9b9629264723a78",
-      "Hash": "f57cfba726406884fb956ab9608839d3",
+      "Hash": "779fa782420f75347a2b8638f3afab50",
       "ThumbnailHash": "2e5219981b4f7025c480a0eb0b20d3dd",
       "ExternalLink": "",
-      "LastUpdate": 1701720720
+      "LastUpdate": 1701804872
     }
   ]
 }
