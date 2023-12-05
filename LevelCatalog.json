@@ -930,22 +930,27 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1181048244814491708/convoy_catastrophe.angry?ex=657fa3e4&is=656d2ee4&hm=48698131ff10fa07914cff79b1fd29cdc26105ae61aa8ad52311c778e3c1ddae&"
+        "https://drive.google.com/uc?export=download&id=1sqiHr8x1FLSIZhaDfX81zQzSL8Mxo18M",
+        "https://drive.google.com/uc?export=download&id=123ghHageM1oDbn-uPkw5C90ZkO5ib9yL"
       ],
       "Updates": [
         {
           "Hash": "d042a0eaaa3fb894d8e3d86a8864ee66",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "639f66f5df1796048911cf1e0d9362ab",
+          "Message": "- Made all secrets like.. actually obtainable now.\n- Added level challenge\n- Fixed a few bugged checkpoints"
         }
       ],
       "Name": "Convoy Catastrophe",
       "Author": "ceo_of_gaming",
-      "Size": 25719049,
+      "Size": 25679576,
       "Guid": "ca20bbb92f5739944a1ea4863f8f3316",
-      "Hash": "d042a0eaaa3fb894d8e3d86a8864ee66",
+      "Hash": "639f66f5df1796048911cf1e0d9362ab",
       "ThumbnailHash": "177e0ec917f840c8f9c505f9574cfa41",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1181048244814491708/convoy_catastrophe.angry?ex=657fa3e4&is=656d2ee4&hm=48698131ff10fa07914cff79b1fd29cdc26105ae61aa8ad52311c778e3c1ddae&",
-      "LastUpdate": 1701708303
+      "ExternalLink": "",
+      "LastUpdate": 1701807312
     },
     {
       "Parts": [
