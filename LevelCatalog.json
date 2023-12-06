@@ -998,6 +998,51 @@
       "ThumbnailHash": "cef168c2e77faa76f8efecfef07d3809",
       "ExternalLink": "",
       "LastUpdate": 1701815028
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1tmnK0TQgbYHijuh22LmcEbL42npRZHWU",
+        "https://drive.google.com/uc?export=download&id=1vbNXAvwdAfgOEThDeVolBNexY0q6_Eus"
+      ],
+      "Updates": [
+        {
+          "Hash": "0c4d7086764b0d940965fc3d25b390c8",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "CANIA",
+      "Author": "Smallkloon & Spelunky",
+      "Size": 33578883,
+      "Guid": "4837f9ca4a704014cb078b0a427dc546",
+      "Hash": "0c4d7086764b0d940965fc3d25b390c8",
+      "ThumbnailHash": "68d1b12cc5cc0d67d01e8e7d22c8983f",
+      "ExternalLink": "",
+      "LastUpdate": 1701871459
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1hTr0lL5l9aHpNYNj_nyDyBrizLAuLjLg",
+        "https://drive.google.com/uc?export=download&id=1ieD47Vppuj9R567xEVw0dMtlV0gCG9iK",
+        "https://drive.google.com/uc?export=download&id=1nFhpF5Wn53ERjbsBqRb6ccwRqA8Jiiro",
+        "https://drive.google.com/uc?export=download&id=1qn4yeXVqZiEuRwDlHgShqRj9FaT-mrkY",
+        "https://drive.google.com/uc?export=download&id=1V9oifQMbIwxPqvJxqhHf6dya2QiNHR7b",
+        "https://drive.google.com/uc?export=download&id=1mRw7quURBSyjX6neYn3f-M6tV7nGiw1i",
+        "https://drive.google.com/uc?export=download&id=1DxrKncvf_sA2U5r9y2cZ7xsFKv-XZ5jL"
+      ],
+      "Updates": [
+        {
+          "Hash": "493ba1679df67d44aa67a9420798fe2a",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "monster in paradise / td_rudejam1",
+      "Author": "TeamDoodz",
+      "Size": 152845347,
+      "Guid": "247d01e7f8d636b498d57fcf972a88f6",
+      "Hash": "493ba1679df67d44aa67a9420798fe2a",
+      "ThumbnailHash": "18b9125f8dfd34763e45d3a4a7b3e38f",
+      "ExternalLink": "",
+      "LastUpdate": 1701871661
     }
   ]
 }
