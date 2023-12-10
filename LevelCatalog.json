@@ -367,7 +367,9 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1164260615808897074/layersofgrief.angry?ex=65429131&is=65301c31&hm=a263e9a19f7fa719437961f6d841ea6af7d474fb237e1094bdb6b2ec2d1df406&"
+        "https://drive.google.com/uc?export=download&id=1xZ37cCLGcfmlQpUDwcdCKLvAnj4RY4sp",
+        "https://drive.google.com/uc?export=download&id=1dolf0MDTp4hl38O0s25-h-TPOpiATBMn",
+        "https://drive.google.com/uc?export=download&id=1YASod7Uo5MmPIp0UW3e2p_iLurlKwCjN"
       ],
       "Updates": [
         {
@@ -405,16 +407,20 @@
         {
           "Hash": "4848ee65380563e44add9b12db11e2ca",
           "Message": "- Improved some lighting/added new lights to better guide the player where to go\n- Replaced the 3 blue skulls system with a blue and red one, allowing for more a casual-friendly experience as only one path is now needed to complete the level (Both parts still need to be cleared to obtain a P Rank)\n- Nerfed the style requirement down to 48k and added 5 more seconds to the time\n- Added an additional visual for crowds to help them stand out better in dark areas\n- Added an (invisible) checkpoint in the middle of the double swordsmachines sequence to make the arena less frustrating\n- Changed the beginning ambient noise"
+        },
+        {
+          "Hash": "4f37a86f19cf674479a8fdac31da875b",
+          "Message": "<color=cyan>Additions</color>:\n- Added 3-1!\n- Added terminal entries for custom enemies\n- Added the new custom enemy to 5-1\n\n<color=cyan>Fixes/Misc.</color>:\n- 5-1 is now Clash Mode-compatible\n- 5-1 is now nomo/nomow-compatible (the disabled enemies cheat, not the gamemode)\n- Fixed a softlock where Swordmachines could get stuck on platforms after jumping onto them\n- Added a hint for where to go when both red and blue skulls are collected\n- Patched up some areas which had missing geometry\n- Slightly changed some enemies' placement to prevent them from spawning in the player's face"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 42927474,
+      "Size": 68073014,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "4848ee65380563e44add9b12db11e2ca",
+      "Hash": "4f37a86f19cf674479a8fdac31da875b",
       "ThumbnailHash": "a4aa762e4bc9ee341cce3f335ff0f4e8",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1164260615808897074/layersofgrief.angry?ex=65429131&is=65301c31&hm=a263e9a19f7fa719437961f6d841ea6af7d474fb237e1094bdb6b2ec2d1df406&",
-      "LastUpdate": 1697653052
+      "ExternalLink": "",
+      "LastUpdate": 1702192162
     },
     {
       "Parts": [
