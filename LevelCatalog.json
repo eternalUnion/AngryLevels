@@ -411,16 +411,20 @@
         {
           "Hash": "4f37a86f19cf674479a8fdac31da875b",
           "Message": "<color=cyan>Additions</color>:\n- Added 3-1!\n- Added terminal entries for custom enemies\n- Added the new custom enemy to 5-1\n\n<color=cyan>Fixes/Misc.</color>:\n- 5-1 is now Clash Mode-compatible\n- 5-1 is now nomo/nomow-compatible (the disabled enemies cheat, not the gamemode)\n- Fixed a softlock where Swordmachines could get stuck on platforms after jumping onto them\n- Added a hint for where to go when both red and blue skulls are collected\n- Patched up some areas which had missing geometry\n- Slightly changed some enemies' placement to prevent them from spawning in the player's face"
+        },
+        {
+          "Hash": "d935283529f3f0c42b688abe14ee0476",
+          "Message": "- Fixed a bug where the introductory knight fight would sometimes not spawn at all after completing the first deal (3-1)\n- Fixed a small glitch where text from Statues would sometimes appear really small (3-1)\n- Added missing collision to some geometry, which in some cases could softlock players going into unintended parts of the map (3-1, 5-1)\n- Added discord gaming status images for both levels respectively"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 68073014,
+      "Size": 68061963,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "4f37a86f19cf674479a8fdac31da875b",
+      "Hash": "d935283529f3f0c42b688abe14ee0476",
       "ThumbnailHash": "a4aa762e4bc9ee341cce3f335ff0f4e8",
       "ExternalLink": "",
-      "LastUpdate": 1702192162
+      "LastUpdate": 1702334545
     },
     {
       "Parts": [
