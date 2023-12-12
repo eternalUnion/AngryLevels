@@ -415,16 +415,20 @@
         {
           "Hash": "d935283529f3f0c42b688abe14ee0476",
           "Message": "- Fixed a bug where the introductory knight fight would sometimes not spawn at all after completing the first deal (3-1)\n- Fixed a small glitch where text from Statues would sometimes appear really small (3-1)\n- Added missing collision to some geometry, which in some cases could softlock players going into unintended parts of the map (3-1, 5-1)\n- Added discord gaming status images for both levels respectively"
+        },
+        {
+          "Hash": "f94b5c1b626b54a40a724a3d722e375d",
+          "Message": "- Fixed a bug where some waves of enemies wouldn't spawn, making P ranks impossible"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 68061963,
+      "Size": 68060622,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "d935283529f3f0c42b688abe14ee0476",
+      "Hash": "f94b5c1b626b54a40a724a3d722e375d",
       "ThumbnailHash": "a4aa762e4bc9ee341cce3f335ff0f4e8",
       "ExternalLink": "",
-      "LastUpdate": 1702334545
+      "LastUpdate": 1702396482
     },
     {
       "Parts": [
