@@ -367,9 +367,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1xZ37cCLGcfmlQpUDwcdCKLvAnj4RY4sp",
-        "https://drive.google.com/uc?export=download&id=1dolf0MDTp4hl38O0s25-h-TPOpiATBMn",
-        "https://drive.google.com/uc?export=download&id=1YASod7Uo5MmPIp0UW3e2p_iLurlKwCjN"
+        "https://drive.google.com/uc?export=download&id=1i0U4Fy-CGk5LFz5W3h6h_UjQjuX2N_Z9",
+        "https://drive.google.com/uc?export=download&id=1egQWdo6DfwNi1LsyKmE8icMkVnxuMDlg",
+        "https://drive.google.com/uc?export=download&id=1dE47CP6fFKArDA7LmSPh97vTJVKwvvtZ"
       ],
       "Updates": [
         {
@@ -419,16 +419,20 @@
         {
           "Hash": "f94b5c1b626b54a40a724a3d722e375d",
           "Message": "- Fixed a bug where some waves of enemies wouldn't spawn, making P ranks impossible"
+        },
+        {
+          "Hash": "73cecf960b7433b4692f24cf4069af44",
+          "Message": "- Made time requirements for A, B and C ranks less strict\n- Fixed a glitch where knights' AI would sometimes break and stop doing anything\n- Added some lights to better indicate where some doors are"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 68060622,
+      "Size": 68046995,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "f94b5c1b626b54a40a724a3d722e375d",
+      "Hash": "73cecf960b7433b4692f24cf4069af44",
       "ThumbnailHash": "a4aa762e4bc9ee341cce3f335ff0f4e8",
       "ExternalLink": "",
-      "LastUpdate": 1702396482
+      "LastUpdate": 1702650200
     },
     {
       "Parts": [
