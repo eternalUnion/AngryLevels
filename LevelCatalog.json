@@ -176,25 +176,6 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/1d5f823807fde924d82b88d0be589286/level.angry"
-      ],
-      "Updates": [
-        {
-          "Hash": "8a0a067869a6dff4f84f6ebeb3df11f0",
-          "Message": "Initial upload"
-        }
-      ],
-      "Name": "The Plushie Heist",
-      "Author": ".willem1321",
-      "Size": 9391292,
-      "Guid": "1d5f823807fde924d82b88d0be589286",
-      "Hash": "8a0a067869a6dff4f84f6ebeb3df11f0",
-      "ThumbnailHash": "97d24120868267dc1761635273a8238c",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/1d5f823807fde924d82b88d0be589286/level.angry",
-      "LastUpdate": 1691484645
-    },
-    {
-      "Parts": [
         "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/28a65ed10b316234089e72e1c8b0d08d/level.angry"
       ],
       "Updates": [
