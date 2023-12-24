@@ -785,8 +785,8 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1vqV_3b-KLVoP0j-pInIUEquCAZjHyZXF",
-        "https://drive.google.com/uc?export=download&id=18caKa1wVLOOrMtS4MIaMqKUSiQX238P4"
+        "https://drive.google.com/uc?export=download&id=1e61mgYypo3awjhu5wO7jyemclv_7IsVT",
+        "https://drive.google.com/uc?export=download&id=1QUnsy4ZqQb-ic-au0oiVoX29GoVj-IuI"
       ],
       "Updates": [
         {
@@ -804,16 +804,20 @@
         {
           "Hash": "1e5070518fe77724090410a5f084426c",
           "Message": "- Made some small visual changes to the entire level\n- Reworked final room to be more interesting\n- Adjusted P-Rank requirements accordingly"
+        },
+        {
+          "Hash": "4e83a7099a3d97342a34f291cf5ed124",
+          "Message": "- Updated to be compatible with Violence update\n- Changed one room in 0-R\n- Changed credits terminals\n- Changed 1-R tip of the day\n- Removed flickery lights in 0-R"
         }
       ],
       "Name": "ULTRAKILL /// REPRISE",
       "Author": "Smallkloon",
-      "Size": 35357474,
+      "Size": 38650061,
       "Guid": "727cca746f27c4147b4d4bcc406209de",
-      "Hash": "1e5070518fe77724090410a5f084426c",
+      "Hash": "4e83a7099a3d97342a34f291cf5ed124",
       "ThumbnailHash": "64145b3907de6519741c53e6d4548abb",
       "ExternalLink": "",
-      "LastUpdate": 1699280492
+      "LastUpdate": 1703449511
     },
     {
       "Parts": [
