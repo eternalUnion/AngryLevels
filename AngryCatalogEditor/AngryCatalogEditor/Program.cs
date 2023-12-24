@@ -9,6 +9,7 @@ using System;
 using System.Globalization;
 using Octokit;
 using FileMode = System.IO.FileMode;
+using System.ComponentModel;
 
 namespace AngryCatalogEditor
 {
@@ -55,6 +56,8 @@ namespace AngryCatalogEditor
 	{
 		public string bundleName { get; set; }
 		public string bundleAuthor { get; set; }
+		[DefaultValue(2)]
+		public int bundleVersion { get; set; }
 		public string bundleGuid { get; set; }
 		public string buildHash { get; set; }
 		public string bundleDataPath { get; set; }
@@ -228,6 +231,8 @@ namespace AngryCatalogEditor
 						WriteLineWarning("No bundle name");
 					if (string.IsNullOrEmpty(data.bundleAuthor))
 						WriteLineWarning("No bundle author");
+					if (data.bundleVersion != 3)
+						WriteLineWarning($"Old bundle version: {data.bundleVersion}");
 				}
 
 				/*var iconEntry = angry.GetEntry("icon.png");
