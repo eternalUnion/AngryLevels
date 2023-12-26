@@ -821,29 +821,6 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1170475478084222996/halloween.angry?ex=65592d3c&is=6546b83c&hm=bd9ca64178993bd28abe5cb99e49915a5de46e70e7529a48fe50cc5e65ef7387&"
-      ],
-      "Updates": [
-        {
-          "Hash": "7ccfb137242fc1b49a37f5fe58d5b947",
-          "Message": "Initial upload"
-        },
-        {
-          "Hash": "54a723dcaf5d59e4aba53fd752788103",
-          "Message": "- Better graphics\n- Extra content"
-        }
-      ],
-      "Name": "All Hallows Eve",
-      "Author": "Paolotto",
-      "Size": 6529461,
-      "Guid": "b6bf0642355a9494d9c1704640c4ec8f",
-      "Hash": "54a723dcaf5d59e4aba53fd752788103",
-      "ThumbnailHash": "fa600bacc7ab4e3ee2db1842f1714288",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1170475478084222996/halloween.angry?ex=65592d3c&is=6546b83c&hm=bd9ca64178993bd28abe5cb99e49915a5de46e70e7529a48fe50cc5e65ef7387&",
-      "LastUpdate": 1699133644
-    },
-    {
-      "Parts": [
         "https://drive.google.com/uc?export=download&id=1Jgb6-bNpb6AgbQkZJX0blaBzsWGqSPbF",
         "https://drive.google.com/uc?export=download&id=1rTnKdn2Bfy4BxkHEg4Ipp7CKeHGRlwjX",
         "https://drive.google.com/uc?export=download&id=1DjWY_hgQaPzoB0tKvkS0z04ZM9J3Bj1c"
