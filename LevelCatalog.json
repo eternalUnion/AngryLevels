@@ -1087,16 +1087,20 @@
         {
           "Hash": "2107378829bcab94fa7704e3160fb8db",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "45c4170517070ec45ac51bf3d3f6ff19",
+          "Message": "- Balance changes to make the level more fun than hard\n- Added secrets\n- Added challenge\n- Added 7-S entrance\n- Fixed the hungry suicide tree not resetting after checkpointing/dying"
         }
       ],
       "Name": "VIOLENCE ENCORE",
       "Author": "brushtromein",
-      "Size": 17281938,
+      "Size": 17627078,
       "Guid": "f4fd6a2096904e545ac7566981b30fb0",
-      "Hash": "2107378829bcab94fa7704e3160fb8db",
+      "Hash": "45c4170517070ec45ac51bf3d3f6ff19",
       "ThumbnailHash": "8fabc01e7a7d03429ec7c3e1988ff83b",
       "ExternalLink": "https://drive.google.com/uc?export=download&id=1d1BnKQpUKZrcvKuhHz4PRVjfSnIo0MRm",
-      "LastUpdate": 1703612315
+      "LastUpdate": 1703793476
     }
   ]
 }
