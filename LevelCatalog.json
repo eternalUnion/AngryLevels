@@ -527,11 +527,11 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1rO-sgcVDHs3F2v_9HQKnOojHMn3PTIRQ",
-        "https://drive.google.com/uc?export=download&id=1CgPU-RHu5TugmasKzA1rzegiNmOwrIis",
-        "https://drive.google.com/uc?export=download&id=1lB9PilymxnwYjV7VejNLFGQXssF-cY2I",
-        "https://drive.google.com/uc?export=download&id=1bJdIfUNjyx4o4ZsHYINSl_12upv9jH-z",
-        "https://drive.google.com/uc?export=download&id=1vJ8IwUgWAUFRicqO3wVbQSCskLMVpcRN"
+        "https://drive.google.com/uc?export=download&id=1it_5QNZhWGbRvpSkq0fCK0Lk9X-GMQmY",
+        "https://drive.google.com/uc?export=download&id=1YxL_moatbPg-R0KnL9jddqHYRfkU33Ko",
+        "https://drive.google.com/uc?export=download&id=1Sbvbluv5Fhky6iBHMz_yENSQpJIsQs4d",
+        "https://drive.google.com/uc?export=download&id=1Zm9duLbsEDnjx7Hy3s8oGEacZoDVpUF9",
+        "https://drive.google.com/uc?export=download&id=18qE0BhqxmN7FN9rCnd8OJA-OjrhVU3-v"
       ],
       "Updates": [
         {
@@ -549,16 +549,20 @@
         {
           "Hash": "746b011a3bb43464fafbb94c34685d7f",
           "Message": "- Minor tweaks to the level\n- Made the looping of chebus better\n- Removed NavMesh"
+        },
+        {
+          "Hash": "4d6d150dc6d80cd4bbe619f1db5b3240",
+          "Message": "- Updated for the new game version"
         }
       ],
       "Name": "THE CHEB MUSEUM",
       "Author": "__megga and MEGACHEB",
-      "Size": 125489642,
+      "Size": 124581989,
       "Guid": "fbad391461a64c144989207f0eb8e7fc",
-      "Hash": "746b011a3bb43464fafbb94c34685d7f",
+      "Hash": "4d6d150dc6d80cd4bbe619f1db5b3240",
       "ThumbnailHash": "374b9c33f9715c387dd59c82259768a4",
       "ExternalLink": "",
-      "LastUpdate": 1696526474
+      "LastUpdate": 1703793116
     },
     {
       "Parts": [
