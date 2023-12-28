@@ -871,16 +871,20 @@
         {
           "Hash": "e26ffff5462df1748bb3e8a7dfa50f75",
           "Message": "- Fixed the Kill count requirement for P-Rank in M-1\n- Disabled rooms more efficiently in M-2\n- Added checkpoints to generator rooms in M-2\n- Fixed many known soft lock issues for M-2\n- All pits excluding water falls no longer instantly kill you in M-2\n- Added support for Disable Enemies cheat for M-2\n- Stopped the timer on the last encounter for both M-1 and M-2\n- Added purpose for red skulls in both M-1 and M-2\n- Fixed transforms of many stone enemies for both M-1 and M-2"
+        },
+        {
+          "Hash": "8f9c9459f3fb0c741b93d7fe6823b40b",
+          "Message": "- Fixed a door not activating rooms\n- Fixed the First Room spawning a duplicate player over the Final Pit, causing the game to bug out on scene load"
         }
       ],
       "Name": "MINESHAFTS",
       "Author": "aggravateexe",
-      "Size": 77115560,
+      "Size": 77003749,
       "Guid": "5615e26489d1cd746bb8f6103db7c7c2",
-      "Hash": "e26ffff5462df1748bb3e8a7dfa50f75",
+      "Hash": "8f9c9459f3fb0c741b93d7fe6823b40b",
       "ThumbnailHash": "9717fc7c33f07fa91305936ff7585516",
       "ExternalLink": "",
-      "LastUpdate": 1703793388
+      "LastUpdate": 1703802277
     },
     {
       "Parts": [
