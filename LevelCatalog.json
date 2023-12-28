@@ -50,7 +50,7 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1178443720463491082/ggs_levels.angry?ex=65762a3d&is=6563b53d&hm=e8136be995032bd8d444f0370fffc9820a125f8925b485e01bef8aa0128e5429&"
+        "https://drive.google.com/uc?export=download&id=1FRaOn3LLZfxMqR7pPPEhBha12FEYW80-"
       ],
       "Updates": [
         {
@@ -68,16 +68,20 @@
         {
           "Hash": "358bf0b029793444592eeefeac849a92",
           "Message": "- Fixed a bug that made the level imposible to complete\n- Sorry no G-2 yet ;)"
+        },
+        {
+          "Hash": "e16a4ad2f360d3241ae5ad658fb9bc6c",
+          "Message": "- Ported for violence update\n- Green door now has green pilars\n- Tweaked idol and skulls capsules\n- Height of the ceiling on the last room aumented to avoid Hideous Mass' attacks from crashing\n- Secret exit on G-1 optimized for faster speedruns\n- G-1 and uG-1 are now possible NoMo% in normal exit\n- Moved the terminal at the end of G-1\n- Power up in uG-1 now resets with checkpoints\n- If you get softlocked on ANY level talk to me on discord (I always have DMs open!): gggamesxdlol\n- Sorry no G-2 yet ;)"
         }
       ],
       "Name": "GG's Levels",
       "Author": "GGGamesXDlol",
-      "Size": 16384829,
+      "Size": 6123969,
       "Guid": "84271207136e5b541a530d5fd042723d",
-      "Hash": "358bf0b029793444592eeefeac849a92",
+      "Hash": "e16a4ad2f360d3241ae5ad658fb9bc6c",
       "ThumbnailHash": "ca0131799196f2ac505c67baeed81714",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1178443720463491082/ggs_levels.angry?ex=65762a3d&is=6563b53d&hm=e8136be995032bd8d444f0370fffc9820a125f8925b485e01bef8aa0128e5429&",
-      "LastUpdate": 1701098541
+      "ExternalLink": "https://drive.google.com/uc?export=download&id=1FRaOn3LLZfxMqR7pPPEhBha12FEYW80-",
+      "LastUpdate": 1703793243
     },
     {
       "Parts": [
