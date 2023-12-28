@@ -858,25 +858,29 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1R4nmVfRVlcTo_tkN1CYAvHZM-7MhF0Qe",
-        "https://drive.google.com/uc?export=download&id=1tTK2kQQj_j2wVYMiTh_hXx3F0vv_jGYi",
-        "https://drive.google.com/uc?export=download&id=166UjBWxW92Rx_X7qUf3boYCi1eOyZlHZ",
-        "https://drive.google.com/uc?export=download&id=1w2bLtm4a5PfaBznhn8wRoFdGqeSjEVUv"
+        "https://drive.google.com/uc?export=download&id=19QSp_QLublPgrV7ufHRz7jlLRfwEzPk0",
+        "https://drive.google.com/uc?export=download&id=1S5-7EvUZD_AC7I5-2Mt3xXB34SvsLSyn",
+        "https://drive.google.com/uc?export=download&id=1jOKtswNJ3tUhoalOCu8qGf4iieD0XLnw",
+        "https://drive.google.com/uc?export=download&id=1dWHyT8JBV37pxcvZSUm53S_lO9052aRs"
       ],
       "Updates": [
         {
           "Hash": "9fccc16703ff5d94498a22eb1e272292",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "e26ffff5462df1748bb3e8a7dfa50f75",
+          "Message": "- Fixed the Kill count requirement for P-Rank in M-1\n- Disabled rooms more efficiently in M-2\n- Added checkpoints to generator rooms in M-2\n- Fixed many known soft lock issues for M-2\n- All pits excluding water falls no longer instantly kill you in M-2\n- Added support for Disable Enemies cheat for M-2\n- Stopped the timer on the last encounter for both M-1 and M-2\n- Added purpose for red skulls in both M-1 and M-2\n- Fixed transforms of many stone enemies for both M-1 and M-2"
         }
       ],
       "Name": "MINESHAFTS",
       "Author": "aggravateexe",
-      "Size": 89028750,
+      "Size": 77115560,
       "Guid": "5615e26489d1cd746bb8f6103db7c7c2",
-      "Hash": "9fccc16703ff5d94498a22eb1e272292",
+      "Hash": "e26ffff5462df1748bb3e8a7dfa50f75",
       "ThumbnailHash": "9717fc7c33f07fa91305936ff7585516",
       "ExternalLink": "",
-      "LastUpdate": 1700373491
+      "LastUpdate": 1703793388
     },
     {
       "Parts": [
