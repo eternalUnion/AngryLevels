@@ -1085,7 +1085,7 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1d1BnKQpUKZrcvKuhHz4PRVjfSnIo0MRm"
+        "https://drive.google.com/uc?export=download&id=1N0OlpXwa8ANtSaBvmsD-KD85iFriTL2H"
       ],
       "Updates": [
         {
@@ -1095,16 +1095,20 @@
         {
           "Hash": "45c4170517070ec45ac51bf3d3f6ff19",
           "Message": "- Balance changes to make the level more fun than hard\n- Added secrets\n- Added challenge\n- Added 7-S entrance\n- Fixed the hungry suicide tree not resetting after checkpointing/dying"
+        },
+        {
+          "Hash": "00b9e367ef3726b4685f99b770eca766",
+          "Message": "- Fixed some arches not being climbable (is this even a word)\n- Finished the finale's track\n- A new book\n- Some other minor changes, i.e. default probuilder textures being replaced.\n- Changed the level numbers."
         }
       ],
       "Name": "VIOLENCE ENCORE",
       "Author": "brushtromein",
-      "Size": 17627078,
+      "Size": 22005864,
       "Guid": "f4fd6a2096904e545ac7566981b30fb0",
-      "Hash": "45c4170517070ec45ac51bf3d3f6ff19",
+      "Hash": "00b9e367ef3726b4685f99b770eca766",
       "ThumbnailHash": "8fabc01e7a7d03429ec7c3e1988ff83b",
-      "ExternalLink": "https://drive.google.com/uc?export=download&id=1d1BnKQpUKZrcvKuhHz4PRVjfSnIo0MRm",
-      "LastUpdate": 1703793476
+      "ExternalLink": "https://drive.google.com/uc?export=download&id=1N0OlpXwa8ANtSaBvmsD-KD85iFriTL2H",
+      "LastUpdate": 1703948246
     }
   ]
 }
