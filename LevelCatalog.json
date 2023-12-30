@@ -245,7 +245,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/033ce9db13ba74d4aa07bdae343d49c2/level.angry"
+        "https://drive.google.com/uc?export=download&id=1tzOUuCTw85hzu1NFcR--3XE0V8csHobS",
+        "https://drive.google.com/uc?export=download&id=1nrmH_Xh6rp0omgtweQpynbuTv95aF24H"
       ],
       "Updates": [
         {
@@ -259,16 +260,20 @@
         {
           "Hash": "43d6a159521eeba44b410d13fd2508be",
           "Message": "- Fixes credits not properly muting music\n- Fixes final arena speedrun clip"
+        },
+        {
+          "Hash": "11d285c4005fc014ba060b83a92fe9ea",
+          "Message": "- Ported to Violence\n- MAJOR balancing changes\n- Final arena cutscene now skips upon checkpointing\n- Book added to final secret\n- Modified P-rank requirements"
         }
       ],
       "Name": "FRAUDULENCE",
       "Author": "Spelunky",
-      "Size": 49602902,
+      "Size": 48695874,
       "Guid": "033ce9db13ba74d4aa07bdae343d49c2",
-      "Hash": "43d6a159521eeba44b410d13fd2508be",
+      "Hash": "11d285c4005fc014ba060b83a92fe9ea",
       "ThumbnailHash": "49dec247c77d3055a58bf2e591ecc2b8",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/033ce9db13ba74d4aa07bdae343d49c2/level.angry",
-      "LastUpdate": 1693060766
+      "ExternalLink": "",
+      "LastUpdate": 1703948493
     },
     {
       "Parts": [
