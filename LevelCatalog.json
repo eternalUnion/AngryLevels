@@ -774,8 +774,8 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1DLYglg2MYyW6K4Tm-OBeJI2NWgTRiWo1",
-        "https://drive.google.com/uc?export=download&id=1qgfEAIkudUmP20K146FmEMokptbODBTQ"
+        "https://drive.google.com/uc?export=download&id=1FXA19g9KQ-lIpYsIKd0WoakJWPiB7otU",
+        "https://drive.google.com/uc?export=download&id=1qmPTo2PlOsKy3i-mt1dDip9Zalh9qA7_"
       ],
       "Updates": [
         {
@@ -785,16 +785,20 @@
         {
           "Hash": "ccffd67fd5c14fd45a0d0080bd878c0d",
           "Message": "- Added new level E-1: LOST FIELDS OF GOLD\n- Added 5 secret orbs on both E-1 and E-3\n- Fixed some bugs in E-3"
+        },
+        {
+          "Hash": "3de0a2981b2b4004cbc48ff98d09b997",
+          "Message": "- Did justice to E-3: CASTLE MANIAC (REPLAY IT)\n- Ported both levels to update violence\n- Updated some visuals"
         }
       ],
       "Name": "ENVY",
       "Author": "Raifu",
-      "Size": 38371083,
+      "Size": 50027148,
       "Guid": "515486d54abac2a4694e34cb1b31d18f",
-      "Hash": "ccffd67fd5c14fd45a0d0080bd878c0d",
+      "Hash": "3de0a2981b2b4004cbc48ff98d09b997",
       "ThumbnailHash": "f8bf95ec8096b4d4ae7b121c46a38299",
       "ExternalLink": "",
-      "LastUpdate": 1699560194
+      "LastUpdate": 1703952977
     },
     {
       "Parts": [
