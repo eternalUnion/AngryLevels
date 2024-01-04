@@ -357,9 +357,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1i0U4Fy-CGk5LFz5W3h6h_UjQjuX2N_Z9",
-        "https://drive.google.com/uc?export=download&id=1egQWdo6DfwNi1LsyKmE8icMkVnxuMDlg",
-        "https://drive.google.com/uc?export=download&id=1dE47CP6fFKArDA7LmSPh97vTJVKwvvtZ"
+        "https://drive.google.com/uc?export=download&id=1PStLHGIkukTAPlN5Qs2gB-qKJ-vpbHAs",
+        "https://drive.google.com/uc?export=download&id=1XUI8BN-U4nEtCYfdcj1_irCsMEfXtLQq",
+        "https://drive.google.com/uc?export=download&id=1K7_UbOV2DhecK5PZn3x0l6Hja_RIr053"
       ],
       "Updates": [
         {
@@ -413,16 +413,20 @@
         {
           "Hash": "73cecf960b7433b4692f24cf4069af44",
           "Message": "- Made time requirements for A, B and C ranks less strict\n- Fixed a glitch where knights' AI would sometimes break and stop doing anything\n- Added some lights to better indicate where some doors are"
+        },
+        {
+          "Hash": "682807bc2e909084491ca281a294505d",
+          "Message": "- Now Violence-compatible\n- Added additional lights to see some doors better (3-1)\n- Changed some enemy placements ever-so-slightly (5-1)\n- Sprinkled in some Violence enemies (3-1, 5-1)"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 68046995,
+      "Size": 51122562,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "73cecf960b7433b4692f24cf4069af44",
+      "Hash": "682807bc2e909084491ca281a294505d",
       "ThumbnailHash": "a4aa762e4bc9ee341cce3f335ff0f4e8",
       "ExternalLink": "",
-      "LastUpdate": 1702650200
+      "LastUpdate": 1704404582
     },
     {
       "Parts": [
