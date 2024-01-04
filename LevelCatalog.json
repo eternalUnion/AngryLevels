@@ -426,7 +426,7 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1167514175338201158/swencore.angry?ex=654e674e&is=653bf24e&hm=9edc26ba0730874e4dfc45db29d4b9463fa7fa1f5a1c9f87c968ae108070d97f&"
+        "https://drive.google.com/uc?export=download&id=1fT-rIGoxkgJw0e00EfbdZWubcAXvEnRi"
       ],
       "Updates": [
         {
@@ -440,16 +440,20 @@
         {
           "Hash": "1c17d8e352959bc4295fcfe04b4053b8",
           "Message": "- The old level can't be accessed anymore\n- Fixed an oob bug that kicks you out of the level if you go there"
+        },
+        {
+          "Hash": "963c1469fb9891d4fbf7c56a3db853a5",
+          "Message": "- Improved the level in many ways"
         }
       ],
       "Name": "SOMETHING WICKED ENCORE",
       "Author": "Feodoridis",
-      "Size": 7185437,
+      "Size": 4939780,
       "Guid": "379ca0d366732f14fa3685b9aea24465",
-      "Hash": "1c17d8e352959bc4295fcfe04b4053b8",
+      "Hash": "963c1469fb9891d4fbf7c56a3db853a5",
       "ThumbnailHash": "8e0ca7d730399f829cc94aee70c0ac1c",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1167514175338201158/swencore.angry?ex=654e674e&is=653bf24e&hm=9edc26ba0730874e4dfc45db29d4b9463fa7fa1f5a1c9f87c968ae108070d97f&",
-      "LastUpdate": 1698428441
+      "ExternalLink": "https://drive.google.com/uc?export=download&id=1fT-rIGoxkgJw0e00EfbdZWubcAXvEnRi",
+      "LastUpdate": 1704396186
     },
     {
       "Parts": [
