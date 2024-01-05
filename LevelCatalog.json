@@ -357,9 +357,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1PStLHGIkukTAPlN5Qs2gB-qKJ-vpbHAs",
-        "https://drive.google.com/uc?export=download&id=1XUI8BN-U4nEtCYfdcj1_irCsMEfXtLQq",
-        "https://drive.google.com/uc?export=download&id=1K7_UbOV2DhecK5PZn3x0l6Hja_RIr053"
+        "https://drive.google.com/uc?export=download&id=1Uxvtq-H674MvjwSN-QbXm5BqxnGqCZ6O",
+        "https://drive.google.com/uc?export=download&id=1nW3BkRJ1o4XeiWefTsmdoDXxUAf4A0xI",
+        "https://drive.google.com/uc?export=download&id=1DWzoeQ3awf5-2kxvoCOoXZB_D4nwqkYZ"
       ],
       "Updates": [
         {
@@ -417,16 +417,20 @@
         {
           "Hash": "682807bc2e909084491ca281a294505d",
           "Message": "- Now Violence-compatible\n- Added additional lights to see some doors better (3-1)\n- Changed some enemy placements ever-so-slightly (5-1)\n- Sprinkled in some Violence enemies (3-1, 5-1)"
+        },
+        {
+          "Hash": "0b5ba3bfb82623543a2eb29042d653dc",
+          "Message": "- Fixed an oversight of the previous update that could result in getting softlocked in 3-1"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 51122562,
+      "Size": 51126642,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "682807bc2e909084491ca281a294505d",
+      "Hash": "0b5ba3bfb82623543a2eb29042d653dc",
       "ThumbnailHash": "a4aa762e4bc9ee341cce3f335ff0f4e8",
       "ExternalLink": "",
-      "LastUpdate": 1704404582
+      "LastUpdate": 1704491495
     },
     {
       "Parts": [
@@ -1129,6 +1133,25 @@
       "ThumbnailHash": "8fabc01e7a7d03429ec7c3e1988ff83b",
       "ExternalLink": "https://drive.google.com/uc?export=download&id=1N0OlpXwa8ANtSaBvmsD-KD85iFriTL2H",
       "LastUpdate": 1703948246
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1uPUOFnqJ4SOjfsjBg8QntkRQUOik9pR-"
+      ],
+      "Updates": [
+        {
+          "Hash": "ec88ab22f6f64b744a4c92c4c019adf3",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "uk_flatgrass",
+      "Author": ".willem1321",
+      "Size": 14472483,
+      "Guid": "02ed3b9674fc9f14f9bb005f1dab5c2f",
+      "Hash": "ec88ab22f6f64b744a4c92c4c019adf3",
+      "ThumbnailHash": "0a4bbff0473268bb043fef70d54582b7",
+      "ExternalLink": "https://drive.google.com/uc?export=download&id=1uPUOFnqJ4SOjfsjBg8QntkRQUOik9pR-",
+      "LastUpdate": 1704491705
     }
   ]
 }
