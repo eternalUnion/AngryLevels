@@ -100,6 +100,14 @@
       "FileName": "HydraxousRudeExtensions.dll",
       "Hash": "0cf3a52b44197bfa827e4e536d5a9250",
       "Size": 30208
+    },
+    {
+      "Updates": [
+        "65ce300fe45f042f5fb7430326ae04be"
+      ],
+      "FileName": "CameraAdjustments.dll",
+      "Hash": "65ce300fe45f042f5fb7430326ae04be",
+      "Size": 9216
     }
   ]
 }
