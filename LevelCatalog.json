@@ -465,22 +465,28 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/c10731c87bbd7924c8a8244b5cc402f5/level.angry"
+        "https://drive.google.com/uc?export=download&id=1yd1B8GaODEAPYLpJr-DbbpzdyEm2YOPE",
+        "https://drive.google.com/uc?export=download&id=1KhjEXou3CnfGlUWF-d66j9CIlM0flNHQ",
+        "https://drive.google.com/uc?export=download&id=12M_j7j4Zg4LIy7zQ0goAZpmFpEwJ4Ivl"
       ],
       "Updates": [
         {
           "Hash": "f3c566ffad3a65941943cab9d0867f17",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "4e22de30b93cdb64ca1239efcccae5fa",
+          "Message": "- Added the Violence layer\n- Created new skulls for every layer (except Wrath I might do that in the future)\n- Added remixed music to every layer\n- Added heath bars for the bosses of each layer\n- Made an emissive vertex lit material for the Mindflayer\n- Removed the 2 pesky Streetcleaners in the last wave of Greed\n- Made it so enemies don't run through the lighthouse in Wrath\n- New P-rank requirements!\n- <color=red>Leaderboard reset</color>"
         }
       ],
       "Name": "MINI HELL",
       "Author": "MEGACHEB",
-      "Size": 43776320,
+      "Size": 54762646,
       "Guid": "c10731c87bbd7924c8a8244b5cc402f5",
-      "Hash": "f3c566ffad3a65941943cab9d0867f17",
-      "ThumbnailHash": "6959aa0f18ccd631c5e1e01166a392a6",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/c10731c87bbd7924c8a8244b5cc402f5/level.angry",
-      "LastUpdate": 1693320398
+      "Hash": "4e22de30b93cdb64ca1239efcccae5fa",
+      "ThumbnailHash": "7256dc054ccba2589bf3ed470dabf0d2",
+      "ExternalLink": "",
+      "LastUpdate": 1704671182
     },
     {
       "Parts": [
