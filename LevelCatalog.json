@@ -465,9 +465,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1yd1B8GaODEAPYLpJr-DbbpzdyEm2YOPE",
-        "https://drive.google.com/uc?export=download&id=1KhjEXou3CnfGlUWF-d66j9CIlM0flNHQ",
-        "https://drive.google.com/uc?export=download&id=12M_j7j4Zg4LIy7zQ0goAZpmFpEwJ4Ivl"
+        "https://drive.google.com/uc?export=download&id=1_GoHjHksbD3AVOKS3PdYZ9D_yMOADeR4",
+        "https://drive.google.com/uc?export=download&id=1teBUl90GRIhDcTF4A2ZaKTJQj7SNOlAI",
+        "https://drive.google.com/uc?export=download&id=14UAa3WJCQn3YM7-_5wK7PSenCkQ_X7t7"
       ],
       "Updates": [
         {
@@ -477,16 +477,20 @@
         {
           "Hash": "4e22de30b93cdb64ca1239efcccae5fa",
           "Message": "- Added the Violence layer\n- Created new skulls for every layer (except Wrath I might do that in the future)\n- Added remixed music to every layer\n- Added heath bars for the bosses of each layer\n- Made an emissive vertex lit material for the Mindflayer\n- Removed the 2 pesky Streetcleaners in the last wave of Greed\n- Made it so enemies don't run through the lighthouse in Wrath\n- New P-rank requirements!\n- <color=red>Leaderboard reset</color>"
+        },
+        {
+          "Hash": "210e257f9099ecc47b2e38ebc9a89a57",
+          "Message": "- Fixed a softlock"
         }
       ],
       "Name": "MINI HELL",
       "Author": "MEGACHEB",
-      "Size": 54762646,
+      "Size": 54766629,
       "Guid": "c10731c87bbd7924c8a8244b5cc402f5",
-      "Hash": "4e22de30b93cdb64ca1239efcccae5fa",
+      "Hash": "210e257f9099ecc47b2e38ebc9a89a57",
       "ThumbnailHash": "7256dc054ccba2589bf3ed470dabf0d2",
       "ExternalLink": "",
-      "LastUpdate": 1704671182
+      "LastUpdate": 1704740199
     },
     {
       "Parts": [
