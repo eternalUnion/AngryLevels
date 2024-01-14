@@ -142,25 +142,6 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/cd6b4f66c990db24e8d3d30cce46b923/level.angry"
-      ],
-      "Updates": [
-        {
-          "Hash": "6aae8d393d4f78e4596a534ff55f75bf",
-          "Message": "Initial upload"
-        }
-      ],
-      "Name": "IGOR",
-      "Author": "ballfartchungus43",
-      "Size": 75992869,
-      "Guid": "cd6b4f66c990db24e8d3d30cce46b923",
-      "Hash": "6aae8d393d4f78e4596a534ff55f75bf",
-      "ThumbnailHash": "4ab2eca4dcd1be9af50c5c29644513f5",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/cd6b4f66c990db24e8d3d30cce46b923/level.angry",
-      "LastUpdate": 1690924683
-    },
-    {
-      "Parts": [
         "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/cb7241caee3c8f54597ff6ef9d1b2357/level.angry"
       ],
       "Updates": [
