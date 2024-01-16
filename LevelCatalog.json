@@ -1212,24 +1212,28 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=15sxphxZSbDSb4SWy11cSylBC3vGzjWb1",
-        "https://drive.google.com/uc?export=download&id=1Skh9Frr5OktueZno_XjBJ2__48rYCeel",
-        "https://drive.google.com/uc?export=download&id=1KElG4w0SCLtNbxfZ60evjrfGB-TwdrEW"
+        "https://drive.google.com/uc?export=download&id=1GM9UV43f6UIB8cUfPabZ1nl80oO_dWLT",
+        "https://drive.google.com/uc?export=download&id=1BMcIuEuhiHMw2IKgtyswYMWh1bNmy7-o",
+        "https://drive.google.com/uc?export=download&id=1kuLCEHe1cduLGhumZgH-fTktUO57maN5"
       ],
       "Updates": [
         {
           "Hash": "b57f61728cd575547bff53630cbc3de4",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "af163bc02b2b1404896954e8e465c561",
+          "Message": "- Made some doors properly unlock after checkpoint restart to prevent softlocking"
         }
       ],
       "Name": "// WHERE THE STREETS HAVE NO NAME //",
       "Author": "pkpseudo",
-      "Size": 53756872,
+      "Size": 53728002,
       "Guid": "92728cc4176b1b842a754d08bbc5b23c",
-      "Hash": "b57f61728cd575547bff53630cbc3de4",
+      "Hash": "af163bc02b2b1404896954e8e465c561",
       "ThumbnailHash": "5b27ca676f2e0598812efd37c59eff40",
       "ExternalLink": "",
-      "LastUpdate": 1705421394
+      "LastUpdate": 1705424049
     }
   ]
 }
