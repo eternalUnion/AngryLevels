@@ -1212,9 +1212,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1GM9UV43f6UIB8cUfPabZ1nl80oO_dWLT",
-        "https://drive.google.com/uc?export=download&id=1BMcIuEuhiHMw2IKgtyswYMWh1bNmy7-o",
-        "https://drive.google.com/uc?export=download&id=1kuLCEHe1cduLGhumZgH-fTktUO57maN5"
+        "https://drive.google.com/uc?export=download&id=1icelG-mh_mxTEzk5KZqgEI3pBMI_3hqR",
+        "https://drive.google.com/uc?export=download&id=1l3gjde57QoVD6hpGMJOf4wdY8W9yy9NK",
+        "https://drive.google.com/uc?export=download&id=1hO11cEvid9WI8BAPqxocTfO0QuTDo1uG"
       ],
       "Updates": [
         {
@@ -1224,16 +1224,20 @@
         {
           "Hash": "af163bc02b2b1404896954e8e465c561",
           "Message": "- Made some doors properly unlock after checkpoint restart to prevent softlocking"
+        },
+        {
+          "Hash": "4ddf0a1f9a16a7746b8c72277bb2a1e5",
+          "Message": "- Prevented the skybox from staying black if the player exits the pre-final arena door too fast"
         }
       ],
       "Name": "// WHERE THE STREETS HAVE NO NAME //",
       "Author": "pkpseudo",
-      "Size": 53728002,
+      "Size": 53749119,
       "Guid": "92728cc4176b1b842a754d08bbc5b23c",
-      "Hash": "af163bc02b2b1404896954e8e465c561",
+      "Hash": "4ddf0a1f9a16a7746b8c72277bb2a1e5",
       "ThumbnailHash": "5b27ca676f2e0598812efd37c59eff40",
       "ExternalLink": "",
-      "LastUpdate": 1705424049
+      "LastUpdate": 1705424833
     }
   ]
 }
