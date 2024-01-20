@@ -1212,9 +1212,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1icelG-mh_mxTEzk5KZqgEI3pBMI_3hqR",
-        "https://drive.google.com/uc?export=download&id=1l3gjde57QoVD6hpGMJOf4wdY8W9yy9NK",
-        "https://drive.google.com/uc?export=download&id=1hO11cEvid9WI8BAPqxocTfO0QuTDo1uG"
+        "https://drive.google.com/uc?export=download&id=1BD9JFJ1eZRNEGSi5mKLKXTTBG7xYoC5x",
+        "https://drive.google.com/uc?export=download&id=1p3FTxVjnz3L4Inw9LzbPYaY0nkKMRf1O",
+        "https://drive.google.com/uc?export=download&id=1CA-jfO3rutdHC5CsP8TXVbtyhN2JvFmF"
       ],
       "Updates": [
         {
@@ -1228,16 +1228,20 @@
         {
           "Hash": "4ddf0a1f9a16a7746b8c72277bb2a1e5",
           "Message": "- Prevented the skybox from staying black if the player exits the pre-final arena door too fast"
+        },
+        {
+          "Hash": "c4a4a9555921fd14ca9eb34c97653382",
+          "Message": "- Made Parasites bigger, more consistent and less buggy (Thanks Robi)\n- Added counter-measure to prevent pesky Mannequins from escaping into the sewer drain in the Plaza Arena\n- Disabled railing collision to prevent the Last Arena Ferryman from freaking out\n- Added trigger to disable fog brushes when going down the exit chute"
         }
       ],
       "Name": "// WHERE THE STREETS HAVE NO NAME //",
       "Author": "pkpseudo",
-      "Size": 53749119,
+      "Size": 53764391,
       "Guid": "92728cc4176b1b842a754d08bbc5b23c",
-      "Hash": "4ddf0a1f9a16a7746b8c72277bb2a1e5",
+      "Hash": "c4a4a9555921fd14ca9eb34c97653382",
       "ThumbnailHash": "5b27ca676f2e0598812efd37c59eff40",
       "ExternalLink": "",
-      "LastUpdate": 1705424833
+      "LastUpdate": 1705735672
     }
   ]
 }
