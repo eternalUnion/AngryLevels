@@ -338,9 +338,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1Uxvtq-H674MvjwSN-QbXm5BqxnGqCZ6O",
-        "https://drive.google.com/uc?export=download&id=1nW3BkRJ1o4XeiWefTsmdoDXxUAf4A0xI",
-        "https://drive.google.com/uc?export=download&id=1DWzoeQ3awf5-2kxvoCOoXZB_D4nwqkYZ"
+        "https://drive.google.com/uc?export=download&id=1UrMXB1sKpp2ZSStjwhMfX6ZAYymzi4Ds",
+        "https://drive.google.com/uc?export=download&id=16EoDH5OhKYYndUWI4ec8_tCNqjMgsNc-",
+        "https://drive.google.com/uc?export=download&id=1ENAxF0RSTY2Cbj-ratu2YFtz6ptOrZvo"
       ],
       "Updates": [
         {
@@ -402,16 +402,20 @@
         {
           "Hash": "0b5ba3bfb82623543a2eb29042d653dc",
           "Message": "- Fixed an oversight of the previous update that could result in getting softlocked in 3-1"
+        },
+        {
+          "Hash": "a21807e06983738429337e3d0fdcc75f",
+          "Message": "- Fixed missing sounds and magenta textures in certain spots\n- Fixed one of the deal messages displaying incorrectly in 3-1\n- Fixed Faustian Brokers not enraging properly"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 51126642,
+      "Size": 51123112,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "0b5ba3bfb82623543a2eb29042d653dc",
+      "Hash": "a21807e06983738429337e3d0fdcc75f",
       "ThumbnailHash": "a4aa762e4bc9ee341cce3f335ff0f4e8",
       "ExternalLink": "",
-      "LastUpdate": 1704491495
+      "LastUpdate": 1705860152
     },
     {
       "Parts": [
