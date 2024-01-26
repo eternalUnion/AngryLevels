@@ -1087,8 +1087,8 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1y2px-8UdRUpVJqkXD3Nd178pjlinNxmR",
-        "https://drive.google.com/uc?export=download&id=1WtcBXt4zborxxlEAMzvhn1u0Kp1pvvDs"
+        "https://drive.google.com/uc?export=download&id=13C2SnQy2yaRQzpOTWv34m5b4Z4KIWLXM",
+        "https://drive.google.com/uc?export=download&id=1yd7SO4JFqOlEnswk4CT2txZUoz4ncPHq"
       ],
       "Updates": [
         {
@@ -1098,16 +1098,20 @@
         {
           "Hash": "b09835c5d15f0ac49a65cc4a29952ec4",
           "Message": "- Updated to violence\n- Sprinkled in some violence enemies here and there\n- Fixed small stuff"
+        },
+        {
+          "Hash": "460cb7572e4b1ff4a91373c7e8b735c8",
+          "Message": "- Added extra events and decorations to make the level a little more interesting to play through (mainly in the last arena)\n- Fixed guttertanks not being parriable\n- Pit in the \"\"\"parkour\"\"\" section no longer instakills you\n- Fixed secret encounter enemies being invisible\n- Songs should sound a little cleaner now\n- Fixed missing models\n- Fixed stupid powerup door in the final arena\n- Replaced glass with new material (thanks riko!)\n- Fixed missing audio clips\n- Made start terminal clearer."
         }
       ],
       "Name": "Skilltest 2",
       "Author": ".willem1321",
-      "Size": 32324539,
+      "Size": 32719753,
       "Guid": "3ed7bda0dfe2f81438a35d1c5c96fcb1",
-      "Hash": "b09835c5d15f0ac49a65cc4a29952ec4",
+      "Hash": "460cb7572e4b1ff4a91373c7e8b735c8",
       "ThumbnailHash": "c106cb50897bc8809de9cc16dd2d640d",
       "ExternalLink": "",
-      "LastUpdate": 1703405376
+      "LastUpdate": 1706264189
     },
     {
       "Parts": [
