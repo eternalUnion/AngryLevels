@@ -338,9 +338,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1UrMXB1sKpp2ZSStjwhMfX6ZAYymzi4Ds",
-        "https://drive.google.com/uc?export=download&id=16EoDH5OhKYYndUWI4ec8_tCNqjMgsNc-",
-        "https://drive.google.com/uc?export=download&id=1ENAxF0RSTY2Cbj-ratu2YFtz6ptOrZvo"
+        "https://drive.google.com/uc?export=download&id=1Uxvtq-H674MvjwSN-QbXm5BqxnGqCZ6O",
+        "https://drive.google.com/uc?export=download&id=1nW3BkRJ1o4XeiWefTsmdoDXxUAf4A0xI",
+        "https://drive.google.com/uc?export=download&id=1DWzoeQ3awf5-2kxvoCOoXZB_D4nwqkYZ"
       ],
       "Updates": [
         {
@@ -406,16 +406,20 @@
         {
           "Hash": "a21807e06983738429337e3d0fdcc75f",
           "Message": "- Fixed missing sounds and magenta textures in certain spots\n- Fixed one of the deal messages displaying incorrectly in 3-1\n- Fixed Faustian Brokers not enraging properly"
+        },
+        {
+          "Hash": "5d66e733810a4e940a49a8dd2b5a2d2e",
+          "Message": "- Fixed a few missing environment sounds in 3-1\n- Fixed a softlock in 3-1's final arena caused by doors not unlocking upon checkpoint restart"
         }
       ],
       "Name": "LAYERS OF GRIEF",
       "Author": "QoDaX",
-      "Size": 51123112,
+      "Size": 51125769,
       "Guid": "facb8f107e6ae1b47acc0fdf09d67865",
-      "Hash": "a21807e06983738429337e3d0fdcc75f",
+      "Hash": "5d66e733810a4e940a49a8dd2b5a2d2e",
       "ThumbnailHash": "a4aa762e4bc9ee341cce3f335ff0f4e8",
       "ExternalLink": "",
-      "LastUpdate": 1705860152
+      "LastUpdate": 1706264075
     },
     {
       "Parts": [
