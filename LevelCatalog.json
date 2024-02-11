@@ -1276,6 +1276,26 @@
       "ThumbnailHash": "0724b66562ef1098735b3132f3ec60d8",
       "ExternalLink": "https://drive.google.com/uc?export=download&id=1rYkQavBEfuu6s8lz_gGTMgmE-b0r57YU",
       "LastUpdate": 1707151208
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1Psv8CLoP4bUw7IfkVDhuBe0QPffrg-b6",
+        "https://drive.google.com/uc?export=download&id=1-TIM-QXet7GP70Az1fZk2xsNxZcvKzGj"
+      ],
+      "Updates": [
+        {
+          "Hash": "c2cae016bbcfdf54496e6cc0c05e62a8",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "EARTH /// SERIES",
+      "Author": "Holawenasx2",
+      "Size": 28725854,
+      "Guid": "9f560f8adb81b134697425d39f4b1a8b",
+      "Hash": "c2cae016bbcfdf54496e6cc0c05e62a8",
+      "ThumbnailHash": "1d513c3652bae4aa1979ded7bc333164",
+      "ExternalLink": "",
+      "LastUpdate": 1707669534
     }
   ]
 }
