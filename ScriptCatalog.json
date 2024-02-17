@@ -109,6 +109,14 @@
       "FileName": "CameraAdjustments.dll",
       "Hash": "65ce300fe45f042f5fb7430326ae04be",
       "Size": 9216
+    },
+    {
+      "Updates": [
+        "8fc27cc9af71bb866f0e3b97f82ef168"
+      ],
+      "FileName": "HealingEnemies.dll",
+      "Hash": "8fc27cc9af71bb866f0e3b97f82ef168",
+      "Size": 7168
     }
   ]
 }
