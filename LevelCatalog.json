@@ -1319,6 +1319,26 @@
       "ThumbnailHash": "dd2e3965547f86481f7103bc20c84a93",
       "ExternalLink": "https://drive.google.com/uc?export=download&id=1MJYn_MjSDXOlpMAEpI0Q08CPJzUiYV99",
       "LastUpdate": 1708632004
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1dftAYryar3vSVPCW1VmeDPDJfH2Aim2u",
+        "https://drive.google.com/uc?export=download&id=1koO6bgZrBjMNO3p_Py5J3_9IfddfPXeW"
+      ],
+      "Updates": [
+        {
+          "Hash": "178caf26e67b12c4aa9d61ae8c3811a2",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "JOURNEY TO LAVANDARIA",
+      "Author": "teamdoodz",
+      "Size": 28564430,
+      "Guid": "598a033295097634cbad50651203c998",
+      "Hash": "178caf26e67b12c4aa9d61ae8c3811a2",
+      "ThumbnailHash": "a6ef5888333dd1db88341a07440cccb3",
+      "ExternalLink": "",
+      "LastUpdate": 1709050110
     }
   ]
 }
