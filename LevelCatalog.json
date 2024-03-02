@@ -547,11 +547,11 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1it_5QNZhWGbRvpSkq0fCK0Lk9X-GMQmY",
-        "https://drive.google.com/uc?export=download&id=1YxL_moatbPg-R0KnL9jddqHYRfkU33Ko",
-        "https://drive.google.com/uc?export=download&id=1Sbvbluv5Fhky6iBHMz_yENSQpJIsQs4d",
-        "https://drive.google.com/uc?export=download&id=1Zm9duLbsEDnjx7Hy3s8oGEacZoDVpUF9",
-        "https://drive.google.com/uc?export=download&id=18qE0BhqxmN7FN9rCnd8OJA-OjrhVU3-v"
+        "https://drive.google.com/uc?export=download&id=1WEI4KT4dHCXR-QlXeQywtZvfG0bxWXMO",
+        "https://drive.google.com/uc?export=download&id=1JHBj0rHk52SArjJTT6Go-2VyXqS8-_tN",
+        "https://drive.google.com/uc?export=download&id=12j3H3mPEbYNydEmOSOFi2smjRINu3lEP",
+        "https://drive.google.com/uc?export=download&id=1s5Fpsy47i-pTiPgTyMHNQejBjHDsqQk_",
+        "https://drive.google.com/uc?export=download&id=1efFc8QcEPq2ZMZZ5aebH4rHxXiFfdFS0"
       ],
       "Updates": [
         {
@@ -573,16 +573,20 @@
         {
           "Hash": "4d6d150dc6d80cd4bbe619f1db5b3240",
           "Message": "- Updated for the new game version"
+        },
+        {
+          "Hash": "4ca914eca28f03441871c0217ce14e50",
+          "Message": "- Revamped Credits shop\n- Remade the Floor\n- Changed the Dev Testament Terminal"
         }
       ],
       "Name": "THE CHEB MUSEUM",
       "Author": "__megga and MEGACHEB",
-      "Size": 124581989,
+      "Size": 124576123,
       "Guid": "fbad391461a64c144989207f0eb8e7fc",
-      "Hash": "4d6d150dc6d80cd4bbe619f1db5b3240",
+      "Hash": "4ca914eca28f03441871c0217ce14e50",
       "ThumbnailHash": "374b9c33f9715c387dd59c82259768a4",
       "ExternalLink": "",
-      "LastUpdate": 1703793116
+      "LastUpdate": 1709415242
     },
     {
       "Parts": [
