@@ -1346,22 +1346,26 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1C6C95pTDUVgxpa3INIwhdSym7xETuRO5"
+        "https://drive.google.com/uc?export=download&id=1IYKGxt1_P0pUy4IN_EE_yTvReNjNlAnf"
       ],
       "Updates": [
         {
           "Hash": "e87d9b048711da44fbd33dd51bdd2fff",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "1dc6ca7f77cefae4f91077b555a07fb0",
+          "Message": "- Fixed the eclipse not appearing\n- Reduced the p-rank requirements\n- Increase door open speed"
         }
       ],
       "Name": "7-4F: CLAIR D'ECLIPSE",
       "Author": "ballfartchungus43",
-      "Size": 15360407,
+      "Size": 15357399,
       "Guid": "1763c89aff9135942a8f0a45cb3580c7",
-      "Hash": "e87d9b048711da44fbd33dd51bdd2fff",
+      "Hash": "1dc6ca7f77cefae4f91077b555a07fb0",
       "ThumbnailHash": "b65e2f99de736ff8f1d8e90362e52743",
-      "ExternalLink": "https://drive.google.com/uc?export=download&id=1C6C95pTDUVgxpa3INIwhdSym7xETuRO5",
-      "LastUpdate": 1709411404
+      "ExternalLink": "https://drive.google.com/uc?export=download&id=1IYKGxt1_P0pUy4IN_EE_yTvReNjNlAnf",
+      "LastUpdate": 1709481772
     }
   ]
 }
