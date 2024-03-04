@@ -1100,7 +1100,14 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1N0OlpXwa8ANtSaBvmsD-KD85iFriTL2H"
+        "https://drive.google.com/uc?export=download&id=19Ir0COm4ljXUu-nxtKdLAuTcIAeWZWh4",
+        "https://drive.google.com/uc?export=download&id=10zA9wK8brxIzjxwyujWXe21-V-syQgwD",
+        "https://drive.google.com/uc?export=download&id=1eDj3R4PN7zXN7NoCdAR6_xgBuxFXH2qa",
+        "https://drive.google.com/uc?export=download&id=1FO535_R00QdRgM3o8hv1FeVOyhynE4cp",
+        "https://drive.google.com/uc?export=download&id=19rDFeFduB7xefmsGqht7fZkNxtLfVK9t",
+        "https://drive.google.com/uc?export=download&id=1GoYccFWFOarQ3CSdeRIFR6b9F2sczyd5",
+        "https://drive.google.com/uc?export=download&id=1qVAR_zLEfKx5O69zAhBSUNGCk2QRadmZ",
+        "https://drive.google.com/uc?export=download&id=12i75IzfzJcOyS8_oc2YOjSamesHOpBsK"
       ],
       "Updates": [
         {
@@ -1114,16 +1121,20 @@
         {
           "Hash": "00b9e367ef3726b4685f99b770eca766",
           "Message": "- Fixed some arches not being climbable (is this even a word)\n- Finished the finale's track\n- A new book\n- Some other minor changes, i.e. default probuilder textures being replaced.\n- Changed the level numbers."
+        },
+        {
+          "Hash": "a3d7004a295284045973380fca5d6f72",
+          "Message": "- Removed 7-3-1 and the Credits (their remasters were taking too long)\n- Added 7-1-1\n- Have fun :3"
         }
       ],
       "Name": "VIOLENCE ENCORE",
       "Author": "brushtromein",
-      "Size": 22005864,
+      "Size": 178244270,
       "Guid": "f4fd6a2096904e545ac7566981b30fb0",
-      "Hash": "00b9e367ef3726b4685f99b770eca766",
+      "Hash": "a3d7004a295284045973380fca5d6f72",
       "ThumbnailHash": "ea2bd2e9890ad6f0157311a732551c7f",
-      "ExternalLink": "https://drive.google.com/uc?export=download&id=1N0OlpXwa8ANtSaBvmsD-KD85iFriTL2H",
-      "LastUpdate": 1703948246
+      "ExternalLink": "",
+      "LastUpdate": 1709563630
     },
     {
       "Parts": [
