@@ -1358,6 +1358,27 @@
       "ThumbnailHash": "b65e2f99de736ff8f1d8e90362e52743",
       "ExternalLink": "https://drive.google.com/uc?export=download&id=1IYKGxt1_P0pUy4IN_EE_yTvReNjNlAnf",
       "LastUpdate": 1709481772
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1oGYfblQEsznv3avf2zy2IEoAy8iwVwDP",
+        "https://drive.google.com/uc?export=download&id=117AA1FJHRYYI3dHNA77b_GoDVSok1CBr",
+        "https://drive.google.com/uc?export=download&id=1JeQdSbD3KjwfZw7KCf10fBL2ITMndd-x"
+      ],
+      "Updates": [
+        {
+          "Hash": "34850eef020a8ec4782de56f716ef7c3",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "Night Palace",
+      "Author": "JoshuqTheHusk",
+      "Size": 51888958,
+      "Guid": "d239799238f741b4995d5fecafb86cb2",
+      "Hash": "34850eef020a8ec4782de56f716ef7c3",
+      "ThumbnailHash": "1585179b7caea3eb92e59da1b677609c",
+      "ExternalLink": "",
+      "LastUpdate": 1709745023
     }
   ]
 }
