@@ -1373,16 +1373,20 @@
         {
           "Hash": "34850eef020a8ec4782de56f716ef7c3",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "cb77e39faa2342240960f8f60e237fa0",
+          "Message": "- Added an extra terminal at the beginning to specify that it is a port of a level from another game"
         }
       ],
       "Name": "Night Palace",
       "Author": "JoshuqTheHusk",
-      "Size": 51888958,
+      "Size": 51894970,
       "Guid": "d239799238f741b4995d5fecafb86cb2",
-      "Hash": "34850eef020a8ec4782de56f716ef7c3",
+      "Hash": "cb77e39faa2342240960f8f60e237fa0",
       "ThumbnailHash": "1585179b7caea3eb92e59da1b677609c",
       "ExternalLink": "",
-      "LastUpdate": 1709745023
+      "LastUpdate": 1709998039
     }
   ]
 }
