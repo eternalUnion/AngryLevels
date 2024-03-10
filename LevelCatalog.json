@@ -1390,24 +1390,28 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1XnfbJyt_O4skxOEAqM1MOx8_4tYMorjX",
-        "https://drive.google.com/uc?export=download&id=11vuH_B8Z1cjdYj-5NeYpm7sRR1GKLksl",
-        "https://drive.google.com/uc?export=download&id=1JBzOSGEHZJSxXzEmbK_afKL1_Y0ZONiI"
+        "https://drive.google.com/uc?export=download&id=19tjMA2fU4MAJzEWvktKOCx3rRm9Weebu",
+        "https://drive.google.com/uc?export=download&id=1eyUK0d4Y4XI1-5mkW3P68Hdqgric1oLp",
+        "https://drive.google.com/uc?export=download&id=1yMYkOwRacL1N1f5Ye9_uRuMUDE5XsPli"
       ],
       "Updates": [
         {
           "Hash": "2adf4ab38b786204d8ef5c0c971d6a50",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "39f7cbc5912ba5a49bbb6d7ad6b0cadf",
+          "Message": "- Fixes a level breaking bug in 1st level"
         }
       ],
       "Name": "ALTWRATH",
       "Author": "Draghtnim",
-      "Size": 51964933,
+      "Size": 51964881,
       "Guid": "dc7d05beb4afba646b07078325fd9385",
-      "Hash": "2adf4ab38b786204d8ef5c0c971d6a50",
+      "Hash": "39f7cbc5912ba5a49bbb6d7ad6b0cadf",
       "ThumbnailHash": "f40099b493e898cf4eee52deee4a64bf",
       "ExternalLink": "",
-      "LastUpdate": 1710056508
+      "LastUpdate": 1710097082
     }
   ]
 }
