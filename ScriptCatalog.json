@@ -56,11 +56,12 @@
     {
       "Updates": [
         "7db465bfe188482aa76fc3529efd4d60",
-        "7db465bfe188482aa76fc3529efd4d60"
+        "7db465bfe188482aa76fc3529efd4d60",
+        "bf7ce13f7f221d2afe5c49d522c4f150"
       ],
       "FileName": "Waffle.Revenant.dll",
-      "Hash": "7db465bfe188482aa76fc3529efd4d60",
-      "Size": 44032
+      "Hash": "bf7ce13f7f221d2afe5c49d522c4f150",
+      "Size": 45568
     },
     {
       "Updates": [
