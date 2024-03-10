@@ -1387,6 +1387,27 @@
       "ThumbnailHash": "1585179b7caea3eb92e59da1b677609c",
       "ExternalLink": "",
       "LastUpdate": 1709998039
+    },
+    {
+      "Parts": [
+        "https://drive.google.com/uc?export=download&id=1XnfbJyt_O4skxOEAqM1MOx8_4tYMorjX",
+        "https://drive.google.com/uc?export=download&id=11vuH_B8Z1cjdYj-5NeYpm7sRR1GKLksl",
+        "https://drive.google.com/uc?export=download&id=1JBzOSGEHZJSxXzEmbK_afKL1_Y0ZONiI"
+      ],
+      "Updates": [
+        {
+          "Hash": "2adf4ab38b786204d8ef5c0c971d6a50",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "ALTWRATH",
+      "Author": "Draghtnim",
+      "Size": 51964933,
+      "Guid": "dc7d05beb4afba646b07078325fd9385",
+      "Hash": "2adf4ab38b786204d8ef5c0c971d6a50",
+      "ThumbnailHash": "f40099b493e898cf4eee52deee4a64bf",
+      "ExternalLink": "",
+      "LastUpdate": 1710056508
     }
   ]
 }
