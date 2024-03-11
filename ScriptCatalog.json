@@ -119,6 +119,14 @@
       "FileName": "HealingEnemies.dll",
       "Hash": "8fc27cc9af71bb866f0e3b97f82ef168",
       "Size": 7168
+    },
+    {
+      "Updates": [
+        "2c1206ff2e0a23adddc51fdf58fd7b74"
+      ],
+      "FileName": "RubiconScripts.dll",
+      "Hash": "2c1206ff2e0a23adddc51fdf58fd7b74",
+      "Size": 51712
     }
   ]
 }
