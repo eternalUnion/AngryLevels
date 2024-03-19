@@ -127,6 +127,22 @@
       "FileName": "RubiconScripts.dll",
       "Hash": "2c1206ff2e0a23adddc51fdf58fd7b74",
       "Size": 51712
+    },
+    {
+      "Updates": [
+        "e739fea6774d557ba8b7a42d4af97de4"
+      ],
+      "FileName": "JoshExtentions.dll",
+      "Hash": "e739fea6774d557ba8b7a42d4af97de4",
+      "Size": 13312
+    },
+    {
+      "Updates": [
+        "0ca912b96ae5f83a39161182b1947d54"
+      ],
+      "FileName": "CustomIntermission.dll",
+      "Hash": "0ca912b96ae5f83a39161182b1947d54",
+      "Size": 10752
     }
   ]
 }
