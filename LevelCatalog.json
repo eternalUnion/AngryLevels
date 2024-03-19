@@ -1437,16 +1437,20 @@
         {
           "Hash": "ba22ebdffa213e546a69779ae4ac4827",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "79548f15d168e724ebebeb665c0a1ee0",
+          "Message": "Fixed an issue with the death zones in C-2, causing players to respawn at the wrong spot."
         }
       ],
       "Name": "ULTRABURST",
       "Author": "JoshuqTheHusk",
-      "Size": 126316600,
+      "Size": 126306695,
       "Guid": "c86e224e807ba45449c8867cd96d981a",
-      "Hash": "ba22ebdffa213e546a69779ae4ac4827",
+      "Hash": "79548f15d168e724ebebeb665c0a1ee0",
       "ThumbnailHash": "d8dd828b6b35ad2401ddac2535a897ba",
       "ExternalLink": "",
-      "LastUpdate": 1710869987
+      "LastUpdate": 1710885094
     },
     {
       "Parts": [
