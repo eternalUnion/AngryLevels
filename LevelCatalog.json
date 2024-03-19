@@ -1089,14 +1089,13 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1dY0ummlqpNWMIcRRrrLRMAH-yEV-fMiW",
-        "https://drive.google.com/uc?export=download&id=1gHIhhTzb-jLqsOaMe4fPIsvgjzutLCRX",
-        "https://drive.google.com/uc?export=download&id=1Bv8DXKS0BVWcTBQCdqZZVgMCBTpwI737",
-        "https://drive.google.com/uc?export=download&id=1JpxwVOe-KV_RbRKCXNCV8GNnlwFUqvcL",
-        "https://drive.google.com/uc?export=download&id=18OuhgfKpLrpqdrGnzpChFeNZvdHQXiIy",
-        "https://drive.google.com/uc?export=download&id=11rhYintmFUs3AbV-9_6YIFZuqEmA0_ZV",
-        "https://drive.google.com/uc?export=download&id=1PMLxgP7Kpu9oRxgFBGLaafiE0BTPrOp0",
-        "https://drive.google.com/uc?export=download&id=1_R0jKiDU3wF5jCJPR2v5essZJvCCx2QH"
+        "https://drive.google.com/uc?export=download&id=1plLofaKgECI-nMA1qMAB1cD8XMziJzYg",
+        "https://drive.google.com/uc?export=download&id=14c_uFmEt-lwWCVOEnkP4-0vaAMsKSvHF",
+        "https://drive.google.com/uc?export=download&id=1TZrTjahekRiYLYhX8qhjGOOjyOihBYUK",
+        "https://drive.google.com/uc?export=download&id=17NcOD3yhAREdKiIDaJuM3fjHJVmBJ2J8",
+        "https://drive.google.com/uc?export=download&id=10D1ze0QDLiFBcC68yCQJQI1gXQsBX9h4",
+        "https://drive.google.com/uc?export=download&id=1NlOq0GriCIQFOgoTumizdACaHaNb00_U",
+        "https://drive.google.com/uc?export=download&id=1AEYsHty-NjylWz62OTKoN-F8gzE8-oUw"
       ],
       "Updates": [
         {
@@ -1118,16 +1117,20 @@
         {
           "Hash": "4a7996c1e132f224fbbcdd6929c976c2",
           "Message": "- Nerfed the final room in 7-1-1\n- Downscaled the tree textures in a desperate performance gain attempt\n- Button to disable the setpieces"
+        },
+        {
+          "Hash": "5e5462d59d0d5e045a1c34ec06510e73",
+          "Message": "- Fixed 7-1-1 final room checkpoint and navmesh\n- Added 7-3-1!"
         }
       ],
       "Name": "VIOLENCE ENCORE",
       "Author": "brushtromein",
-      "Size": 182164156,
+      "Size": 169598273,
       "Guid": "f4fd6a2096904e545ac7566981b30fb0",
-      "Hash": "4a7996c1e132f224fbbcdd6929c976c2",
+      "Hash": "5e5462d59d0d5e045a1c34ec06510e73",
       "ThumbnailHash": "ea2bd2e9890ad6f0157311a732551c7f",
       "ExternalLink": "",
-      "LastUpdate": 1709831148
+      "LastUpdate": 1710868720
     },
     {
       "Parts": [
