@@ -912,22 +912,30 @@
     },
     {
       "Parts": [
-        "https://cdn.discordapp.com/attachments/1133473397276426280/1179892804273578134/rubiconfirst.angry?ex=657b6fcd&is=6568facd&hm=93bd737335e0dfafb6b53fce85d34fb191ac7c415f8b133c0bc046792d304c7d&"
+        "https://drive.google.com/uc?export=download&id=1m3wV_onX_wkXYkPpZunLYAZvIMR-HosV",
+        "https://drive.google.com/uc?export=download&id=1dHBJKTBPkPVrQqaeRg-9SVuTdP0HRDCg",
+        "https://drive.google.com/uc?export=download&id=1u0mosR1ERV4iuxMBpQdAFxnsS5kil4V7",
+        "https://drive.google.com/uc?export=download&id=1uZwfVZ_yA6BHrGTuFD5K5893yEOIF5mA",
+        "https://drive.google.com/uc?export=download&id=12JKr6gITETLKJA9TBvdhTXVjIyJ0BKtF"
       ],
       "Updates": [
         {
           "Hash": "de2fc2df2419db54f9d50baa7424bf1b",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "06769e8311bba504cbbcecb7f1f624f8",
+          "Message": "General:\n- Updated bundle image\n- Updated online thumbnail\n- Updated level image for Carcass\n\nBottomless Pit:\n- Fixed various collision holes\n- Added a cieling to the final exterior arena\n- Removed damage from lightning bomb and jumpscare\n- Made prize screens always enabled\n\nCarcass:\n- Updated an audio file"
         }
       ],
       "Name": "CARCASS",
       "Author": "Rem_Safe_Space, Hydraxous, Duv",
-      "Size": 50334944,
+      "Size": 101615361,
       "Guid": "c787a9514436db941be69ef24af53010",
-      "Hash": "de2fc2df2419db54f9d50baa7424bf1b",
+      "Hash": "06769e8311bba504cbbcecb7f1f624f8",
       "ThumbnailHash": "319c6b2a3d1b75bcb40e46b66739c948",
-      "ExternalLink": "https://cdn.discordapp.com/attachments/1133473397276426280/1179892804273578134/rubiconfirst.angry?ex=657b6fcd&is=6568facd&hm=93bd737335e0dfafb6b53fce85d34fb191ac7c415f8b133c0bc046792d304c7d&",
-      "LastUpdate": 1701379801
+      "ExternalLink": "",
+      "LastUpdate": 1710868486
     },
     {
       "Parts": [
