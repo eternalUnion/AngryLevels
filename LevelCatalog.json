@@ -770,8 +770,10 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1FXA19g9KQ-lIpYsIKd0WoakJWPiB7otU",
-        "https://drive.google.com/uc?export=download&id=1qmPTo2PlOsKy3i-mt1dDip9Zalh9qA7_"
+        "https://drive.google.com/uc?export=download&id=1SUDZFnbmdlDeZlRH3LqxdT0qM3bhP3U7",
+        "https://drive.google.com/uc?export=download&id=19aqDJLsr5KzzIz5q-0ikIOOyYNWPMJO2",
+        "https://drive.google.com/uc?export=download&id=1J_9hEC7OWDCmXXK5aW63h3t_4usXkCIQ",
+        "https://drive.google.com/uc?export=download&id=19pfvsZmNoKGYqKgy8435fmvFFmg86uzL"
       ],
       "Updates": [
         {
@@ -785,16 +787,20 @@
         {
           "Hash": "3de0a2981b2b4004cbc48ff98d09b997",
           "Message": "- Did justice to E-3: CASTLE MANIAC (REPLAY IT)\n- Ported both levels to update violence\n- Updated some visuals"
+        },
+        {
+          "Hash": "207c9febe2c83c5459050df47b0be87b",
+          "Message": "- Added E-2: Palace of Black Spires\n- Hopefuly fixed 3 secret orb in e-1 not collecting for some people\n- Change in P-rank requirements of all levels"
         }
       ],
       "Name": "ENVY",
       "Author": "Raifu",
-      "Size": 50027148,
+      "Size": 99058358,
       "Guid": "515486d54abac2a4694e34cb1b31d18f",
-      "Hash": "3de0a2981b2b4004cbc48ff98d09b997",
+      "Hash": "207c9febe2c83c5459050df47b0be87b",
       "ThumbnailHash": "f8bf95ec8096b4d4ae7b121c46a38299",
       "ExternalLink": "",
-      "LastUpdate": 1703952977
+      "LastUpdate": 1711035162
     },
     {
       "Parts": [
