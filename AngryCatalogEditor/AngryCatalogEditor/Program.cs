@@ -300,7 +300,7 @@ namespace AngryCatalogEditor
 				return;
 			}
 
-			MagickImage thumbnail = new MagickImage(thumbnailPath, MagickFormat.Png);
+			MagickImage thumbnail = new MagickImage(thumbnailPath);
 			ResizeToMinimum(thumbnail, 800, 600);
 			string tempThumbnailPath = Path.Combine(tempPath, "tempThumbnail.png");
 			thumbnail.Write(tempThumbnailPath);
