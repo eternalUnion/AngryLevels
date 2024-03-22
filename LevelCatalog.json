@@ -423,37 +423,6 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1fT-rIGoxkgJw0e00EfbdZWubcAXvEnRi"
-      ],
-      "Updates": [
-        {
-          "Hash": "4101dfe881431704ca5893e7efac5883",
-          "Message": "Initial upload"
-        },
-        {
-          "Hash": "742340d2784f59341860035773d45c6c",
-          "Message": "\"im posting it way too early but its just to replace the old one. trust me im going to make more levels soon\"\n- Fully remade the area\n- Added a \"WEAK\" mode\""
-        },
-        {
-          "Hash": "1c17d8e352959bc4295fcfe04b4053b8",
-          "Message": "- The old level can't be accessed anymore\n- Fixed an oob bug that kicks you out of the level if you go there"
-        },
-        {
-          "Hash": "963c1469fb9891d4fbf7c56a3db853a5",
-          "Message": "- Improved the level in many ways"
-        }
-      ],
-      "Name": "SOMETHING WICKED ENCORE",
-      "Author": "Feodoridis",
-      "Size": 4939780,
-      "Guid": "379ca0d366732f14fa3685b9aea24465",
-      "Hash": "963c1469fb9891d4fbf7c56a3db853a5",
-      "ThumbnailHash": "8e0ca7d730399f829cc94aee70c0ac1c",
-      "ExternalLink": "https://drive.google.com/uc?export=download&id=1fT-rIGoxkgJw0e00EfbdZWubcAXvEnRi",
-      "LastUpdate": 1704396186
-    },
-    {
-      "Parts": [
         "https://drive.google.com/uc?export=download&id=1_GoHjHksbD3AVOKS3PdYZ9D_yMOADeR4",
         "https://drive.google.com/uc?export=download&id=1teBUl90GRIhDcTF4A2ZaKTJQj7SNOlAI",
         "https://drive.google.com/uc?export=download&id=14UAa3WJCQn3YM7-_5wK7PSenCkQ_X7t7"
