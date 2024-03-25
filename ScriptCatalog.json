@@ -122,11 +122,12 @@
     },
     {
       "Updates": [
-        "2c1206ff2e0a23adddc51fdf58fd7b74"
+        "2c1206ff2e0a23adddc51fdf58fd7b74",
+        "4196f8302d1441ad9cffe5c3cc750490"
       ],
       "FileName": "RubiconScripts.dll",
-      "Hash": "2c1206ff2e0a23adddc51fdf58fd7b74",
-      "Size": 51712
+      "Hash": "4196f8302d1441ad9cffe5c3cc750490",
+      "Size": 54272
     },
     {
       "Updates": [
