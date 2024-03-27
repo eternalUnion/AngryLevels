@@ -144,6 +144,14 @@
       "FileName": "CustomIntermission.dll",
       "Hash": "0ca912b96ae5f83a39161182b1947d54",
       "Size": 10752
+    },
+    {
+      "Updates": [
+        "3f7355441c058cd0c7c5db68a8af14da"
+      ],
+      "FileName": "TeamDoodz.UltraUtility.dll",
+      "Hash": "3f7355441c058cd0c7c5db68a8af14da",
+      "Size": 12288
     }
   ]
 }
