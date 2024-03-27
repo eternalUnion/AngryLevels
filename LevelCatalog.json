@@ -773,8 +773,9 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1e61mgYypo3awjhu5wO7jyemclv_7IsVT",
-        "https://drive.google.com/uc?export=download&id=1QUnsy4ZqQb-ic-au0oiVoX29GoVj-IuI"
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.0/ULTRAKILL__REPRISE.angry1",
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.0/ULTRAKILL__REPRISE.angry2",
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.0/ULTRAKILL__REPRISE.angry3"
       ],
       "Updates": [
         {
@@ -796,16 +797,20 @@
         {
           "Hash": "4e83a7099a3d97342a34f291cf5ed124",
           "Message": "- Updated to be compatible with Violence update\n- Changed one room in 0-R\n- Changed credits terminals\n- Changed 1-R tip of the day\n- Removed flickery lights in 0-R"
+        },
+        {
+          "Hash": "296d2fa9cef32ff449da5838063aa195",
+          "Message": "- Added Limbo Reprise: A Dream of Home\n- Updated Prelude Reprise: Ashes to Ashes"
         }
       ],
       "Name": "ULTRAKILL /// REPRISE",
       "Author": "Smallkloon",
-      "Size": 38650061,
+      "Size": 66545738,
       "Guid": "727cca746f27c4147b4d4bcc406209de",
-      "Hash": "4e83a7099a3d97342a34f291cf5ed124",
-      "ThumbnailHash": "64145b3907de6519741c53e6d4548abb",
+      "Hash": "296d2fa9cef32ff449da5838063aa195",
+      "ThumbnailHash": "2e6b7421520bd2fbb537eb8f111765d7",
       "ExternalLink": "",
-      "LastUpdate": 1703449511
+      "LastUpdate": 1711551806
     },
     {
       "Parts": [
