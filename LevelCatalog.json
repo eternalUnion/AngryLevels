@@ -1500,23 +1500,27 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/fissureqt/fraud/main/fraudfirst/FRAUD_ENCORE.angry1",
-        "https://raw.githubusercontent.com/fissureqt/fraud/main/fraudfirst/FRAUD_ENCORE.angry2"
+        "https://raw.githubusercontent.com/fissureqt/fraud/main/fraudfirstpatch/fraudfirstpatch.angry1",
+        "https://raw.githubusercontent.com/fissureqt/fraud/main/fraudfirstpatch/fraudfirstpatch.angry2"
       ],
       "Updates": [
         {
           "Hash": "b2cde36e0a18e6a4d81174829c11e305",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "d915af54ad044aa4f8123d7e0b3e35c7",
+          "Message": "- Added secrets\n- Added a book\n- Changed the rain"
         }
       ],
       "Name": "FRAUD ::: HIGHER THAN THE BLACK SKY",
       "Author": "brushtromein",
-      "Size": 37488213,
+      "Size": 37508740,
       "Guid": "7f1c2e0f5ea80d44982eecbe0229bc07",
-      "Hash": "b2cde36e0a18e6a4d81174829c11e305",
+      "Hash": "d915af54ad044aa4f8123d7e0b3e35c7",
       "ThumbnailHash": "1a2fff2e9eaa9983c0b52c6141bee3e2",
       "ExternalLink": "",
-      "LastUpdate": 1711645306
+      "LastUpdate": 1711652912
     }
   ]
 }
