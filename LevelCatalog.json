@@ -773,9 +773,9 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.0/ULTRAKILL__REPRISE.angry1",
-        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.0/ULTRAKILL__REPRISE.angry2",
-        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.0/ULTRAKILL__REPRISE.angry3"
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.2/ULTRAKILL__REPRISE.angry1",
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.2/ULTRAKILL__REPRISE.angry2",
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.2/ULTRAKILL__REPRISE.angry3"
       ],
       "Updates": [
         {
@@ -801,16 +801,20 @@
         {
           "Hash": "296d2fa9cef32ff449da5838063aa195",
           "Message": "- Added Limbo Reprise: A Dream of Home\n- Updated Prelude Reprise: Ashes to Ashes"
+        },
+        {
+          "Hash": "5c8f82758c32547429037dee99052cfe",
+          "Message": "- Fixed various out of bounds glitches and occlusion errors"
         }
       ],
       "Name": "ULTRAKILL /// REPRISE",
       "Author": "Smallkloon",
-      "Size": 66545738,
+      "Size": 66955632,
       "Guid": "727cca746f27c4147b4d4bcc406209de",
-      "Hash": "296d2fa9cef32ff449da5838063aa195",
+      "Hash": "5c8f82758c32547429037dee99052cfe",
       "ThumbnailHash": "2e6b7421520bd2fbb537eb8f111765d7",
       "ExternalLink": "",
-      "LastUpdate": 1711551806
+      "LastUpdate": 1711645622
     },
     {
       "Parts": [
