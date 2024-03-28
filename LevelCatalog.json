@@ -1493,6 +1493,26 @@
       "ThumbnailHash": "d5367c2dfe5b467e3eafecd677c62d04",
       "ExternalLink": "",
       "LastUpdate": 1711296465
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/fissureqt/fraud/main/fraudfirst/FRAUD_ENCORE.angry1",
+        "https://raw.githubusercontent.com/fissureqt/fraud/main/fraudfirst/FRAUD_ENCORE.angry2"
+      ],
+      "Updates": [
+        {
+          "Hash": "b2cde36e0a18e6a4d81174829c11e305",
+          "Message": "Initial upload"
+        }
+      ],
+      "Name": "FRAUD",
+      "Author": "brushtromein",
+      "Size": 37488213,
+      "Guid": "7f1c2e0f5ea80d44982eecbe0229bc07",
+      "Hash": "b2cde36e0a18e6a4d81174829c11e305",
+      "ThumbnailHash": "1a2fff2e9eaa9983c0b52c6141bee3e2",
+      "ExternalLink": "",
+      "LastUpdate": 1711645306
     }
   ]
 }
