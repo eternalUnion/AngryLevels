@@ -2941,11 +2941,12 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/174ae396eba6bdb4d1e24b2520cbe423d1763506/update/FRAUD__Higher_Than_The_Black_Sky.angry1",
-        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/174ae396eba6bdb4d1e24b2520cbe423d1763506/update/FRAUD__Higher_Than_The_Black_Sky.angry2",
-        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/174ae396eba6bdb4d1e24b2520cbe423d1763506/update/FRAUD__Higher_Than_The_Black_Sky.angry3",
-        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/174ae396eba6bdb4d1e24b2520cbe423d1763506/update/FRAUD__Higher_Than_The_Black_Sky.angry4",
-        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/174ae396eba6bdb4d1e24b2520cbe423d1763506/update/FRAUD__Higher_Than_The_Black_Sky.angry5"
+        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/ae9b629cfc9b176af4ada64bf8c9c11ffd6cd393/update%202/FRAUD__Higher_Than_The_Black_Sky.angry1",
+        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/ae9b629cfc9b176af4ada64bf8c9c11ffd6cd393/update%202/FRAUD__Higher_Than_The_Black_Sky.angry2",
+        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/ae9b629cfc9b176af4ada64bf8c9c11ffd6cd393/update%202/FRAUD__Higher_Than_The_Black_Sky.angry3",
+        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/ae9b629cfc9b176af4ada64bf8c9c11ffd6cd393/update%202/FRAUD__Higher_Than_The_Black_Sky.angry4",
+        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/ae9b629cfc9b176af4ada64bf8c9c11ffd6cd393/update%202/FRAUD__Higher_Than_The_Black_Sky.angry5",
+        "https://raw.githubusercontent.com/FlopsteR1/Fraud-HTTBS/ae9b629cfc9b176af4ada64bf8c9c11ffd6cd393/update%202/FRAUD__Higher_Than_The_Black_Sky.angry6"
       ],
       "Updates": [
         {
@@ -2955,6 +2956,10 @@
         {
           "Hash": "59129b8d593de7e4aab9e4213ea19cd3",
           "Message": "- Fixed the number of kills required for S Rank\n- Medium's tutorial prompt is much clearer now\n- Candles now use 16x16 fire sprite"
+        },
+        {
+          "Hash": "937cca6a25b9acc498075a8a4b2b3200",
+          "Message": "- Reduced boss health to 65 (formerly 80)\n- Fixed a bunch of bugs\n- Heavily optimized level\n- Added new secrets and a secret room\n- Improved and tweaked level visuals"
         }
       ],
       "Levels": [
@@ -2971,12 +2976,12 @@
       ],
       "Name": "FRAUD ::: Higher Than The Black Sky",
       "Author": "Bendya",
-      "Size": 115578100,
+      "Size": 133744302,
       "Guid": "9f26a2c3efa7ced4c94c5b5ded8fcd04",
-      "Hash": "59129b8d593de7e4aab9e4213ea19cd3",
+      "Hash": "937cca6a25b9acc498075a8a4b2b3200",
       "ThumbnailHash": "a3f1c584a4ff96402833d8b6442b7424",
       "ExternalLink": "",
-      "LastUpdate": 1719832508
+      "LastUpdate": 1725356331
     },
     {
       "Parts": [
