@@ -3855,6 +3855,37 @@
       "ThumbnailHash": "abfbd2c790a9cceddfc5bc0f455fcdf0",
       "ExternalLink": "",
       "LastUpdate": 1724962888
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FruitCircuit/ULTRAHEISTS/8a2357cb7d495bc121048ef762ed4b924e165b64/v1.0/THE_ULTRAHEIST.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "cf6f9bfa8049acdf92ec3320197b05b7",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "ULTRACORP BANK",
+          "LevelId": "fruitkote.ultraheist1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE LEVEL IN STEALTH WITHOUT JUMPING"
+        }
+      ],
+      "Name": "THE ULTRAHEISTS",
+      "Author": "FruitCircuit, Kote",
+      "Size": 15819087,
+      "Guid": "fcf5ef6dd449cc24cb82d4155cfcbc99",
+      "Hash": "cf6f9bfa8049acdf92ec3320197b05b7",
+      "ThumbnailHash": "9c822bf5c9a6ff4ebffad904c281bdf1",
+      "ExternalLink": "https://raw.githubusercontent.com/FruitCircuit/ULTRAHEISTS/8a2357cb7d495bc121048ef762ed4b924e165b64/v1.0/THE_ULTRAHEIST.angry",
+      "LastUpdate": 1725749494
     }
   ]
 }
