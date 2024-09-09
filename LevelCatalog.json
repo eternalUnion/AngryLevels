@@ -3694,7 +3694,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FrizouWasThere/Paradiso-heavens-piercer/bf14c48ed99e812d2e65f808159ce04328a674cb/Version%201.1.0/PARADISO.angry"
+        "https://raw.githubusercontent.com/FrizouWasThere/Paradiso-heavens-piercer/bb0ae3273064abe640c01464dd8a7a4a7d84da33/Version%201.1.1/PARADISO.angry1",
+        "https://raw.githubusercontent.com/FrizouWasThere/Paradiso-heavens-piercer/bb0ae3273064abe640c01464dd8a7a4a7d84da33/Version%201.1.1/PARADISO.angry2"
       ],
       "Updates": [
         {
@@ -3704,6 +3705,10 @@
         {
           "Hash": "2fb0daf40865f93020f8aa704e36fbc8",
           "Message": "- Added challenge to 1-1\n- New bundle icon\n- Updated the logo <size=14><i>(Thanks Nyo!)</i></size>\n- Slightly changed the elevators\n- Attempted to fix the ending detection of the final elevators\n- Fixed the landing pad in the starting elevators not properly playing sounds\n- Fixed an OOB at the very beginning of 1-1\n- Fixed the first Virtue in the last arena sometimes escaping the glass cell on its own\n- Changed a few miscellaneous aspects to improve the experience"
+        },
+        {
+          "Hash": "ee64ed392725eae63ffe3311685b18c3",
+          "Message": "- Updated trees\n- Added emissive textures to Guttermen and Guttertanks\n- Modified Elevators\n- Modified Terminals\n- Added arrows to scrolling handles in the Terminals\n- Added new data entry for: Swordsmachine\n- Updated data entry for: Stray\n- Added credits for Bobot <size=14>(Thank you for the Virtue icon, and sorry for not crediting earlier!)</size>\n- Fixed untagged trap walls in the stray room in 1-1\n- Fixed \"new data entry\" pop-up in the Terminals not disappearing after being hidden for the first time\n- Changed a few miscellaneous aspects to improve the experience"
         }
       ],
       "Levels": [
@@ -3724,7 +3729,7 @@
           "requiredDllNames": [],
           "LevelName": "1-2: ???",
           "LevelId": "frizou.paradiso.moonSecond",
-          "isSecretLevel": true,
+          "isSecretLevel": false,
           "secretCount": 0,
           "levelChallengeEnabled": false,
           "levelChallengeText": ""
@@ -3732,12 +3737,12 @@
       ],
       "Name": "<color=#0080ff>PARADISO</color>, Heavens' Piercer",
       "Author": "<color=#003d8c>Frizou</color>",
-      "Size": 22024663,
+      "Size": 33256984,
       "Guid": "bf1915814f5c0bd48a1b735cf4b3cc75",
-      "Hash": "2fb0daf40865f93020f8aa704e36fbc8",
+      "Hash": "ee64ed392725eae63ffe3311685b18c3",
       "ThumbnailHash": "98dc3e1d340923644a76cb020c4c62bf",
-      "ExternalLink": "https://raw.githubusercontent.com/FrizouWasThere/Paradiso-heavens-piercer/bf14c48ed99e812d2e65f808159ce04328a674cb/Version%201.1.0/PARADISO.angry",
-      "LastUpdate": 1724963195
+      "ExternalLink": "",
+      "LastUpdate": 1725871277
     },
     {
       "Parts": [
