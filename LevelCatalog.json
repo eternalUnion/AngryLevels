@@ -3891,6 +3891,49 @@
       "ThumbnailHash": "9c822bf5c9a6ff4ebffad904c281bdf1",
       "ExternalLink": "https://raw.githubusercontent.com/FruitCircuit/ULTRAHEISTS/8a2357cb7d495bc121048ef762ed4b924e165b64/v1.0/THE_ULTRAHEIST.angry",
       "LastUpdate": 1725749494
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL/38cc2c2d7a9f18405e2d7e35d6d735e3fbf38eb8/REVOLTKILL.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "25a61cb789faafac43a44e528e939f40",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "E-1 DAWN OF THE WORLDS",
+          "LevelId": "7771",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "7771"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "TEMPORARY CREDITS",
+          "LevelId": "7772",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "REVOLTKILL",
+      "Author": "thematveykaplay",
+      "Size": 14381012,
+      "Guid": "5bb4c816325d47341b6c7049f097379a",
+      "Hash": "25a61cb789faafac43a44e528e939f40",
+      "ThumbnailHash": "f8f126e01d62000ec86d1f2faef72503",
+      "ExternalLink": "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL/38cc2c2d7a9f18405e2d7e35d6d735e3fbf38eb8/REVOLTKILL.angry",
+      "LastUpdate": 1726238884
     }
   ]
 }
