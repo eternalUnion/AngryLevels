@@ -3934,6 +3934,38 @@
       "ThumbnailHash": "f8f126e01d62000ec86d1f2faef72503",
       "ExternalLink": "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL/38cc2c2d7a9f18405e2d7e35d6d735e3fbf38eb8/REVOLTKILL.angry",
       "LastUpdate": 1726238884
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/825e0c10035e76e95d424793aefb05c72e3df1e0/1.0/Garden_of_lost_desires.angry1",
+        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/825e0c10035e76e95d424793aefb05c72e3df1e0/1.0/Garden_of_lost_desires.angry2"
+      ],
+      "Updates": [
+        {
+          "Hash": "aa5e36edbdd072a2f2a8aa0223ffbf3d",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Garden of lost desires",
+          "LevelId": "Garden of lost desires",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "Garden of lost desires",
+      "Author": "DoodleMan and Bloogoober",
+      "Size": 36562646,
+      "Guid": "00891f35080eebb41bd66b58ba2a3374",
+      "Hash": "aa5e36edbdd072a2f2a8aa0223ffbf3d",
+      "ThumbnailHash": "52907875207ea26b3d8fe5825c4492e9",
+      "ExternalLink": "",
+      "LastUpdate": 1726239052
     }
   ]
 }
