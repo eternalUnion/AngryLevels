@@ -3894,12 +3894,16 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL/38cc2c2d7a9f18405e2d7e35d6d735e3fbf38eb8/REVOLTKILL.angry"
+        "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.1/b8a5f4faacee17fb5afb112a61cbe2027c946371/REVOLTKILL.angry"
       ],
       "Updates": [
         {
           "Hash": "25a61cb789faafac43a44e528e939f40",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "0399bfda03baa7ce4731379098d9069b",
+          "Message": "-Changed some secrets\n-Added secret book\n-Fixed broken geometry in some places"
         }
       ],
       "Levels": [
@@ -3928,12 +3932,12 @@
       ],
       "Name": "REVOLTKILL",
       "Author": "thematveykaplay",
-      "Size": 14381012,
+      "Size": 14378531,
       "Guid": "5bb4c816325d47341b6c7049f097379a",
-      "Hash": "25a61cb789faafac43a44e528e939f40",
+      "Hash": "0399bfda03baa7ce4731379098d9069b",
       "ThumbnailHash": "f8f126e01d62000ec86d1f2faef72503",
-      "ExternalLink": "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL/38cc2c2d7a9f18405e2d7e35d6d735e3fbf38eb8/REVOLTKILL.angry",
-      "LastUpdate": 1726238884
+      "ExternalLink": "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.1/b8a5f4faacee17fb5afb112a61cbe2027c946371/REVOLTKILL.angry",
+      "LastUpdate": 1726245933
     },
     {
       "Parts": [
