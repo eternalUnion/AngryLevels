@@ -3897,13 +3897,17 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/825e0c10035e76e95d424793aefb05c72e3df1e0/1.0/Garden_of_lost_desires.angry1",
-        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/825e0c10035e76e95d424793aefb05c72e3df1e0/1.0/Garden_of_lost_desires.angry2"
+        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/b8ef21814116a03cc1e6a4715d77d90d9593bb5b/1.2/Garden_of_lost_desires.angry1",
+        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/b8ef21814116a03cc1e6a4715d77d90d9593bb5b/1.2/Garden_of_lost_desires.angry2"
       ],
       "Updates": [
         {
           "Hash": "aa5e36edbdd072a2f2a8aa0223ffbf3d",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "9ce8799d52e45e13a3da7a5b4098d99c",
+          "Message": "- Fixed Oob bugs\n- Slightly fixed the checkpoint\n- Made facade's death effect not have any gibs\n- Optimized the level\n- Fixed the map\n- Added my kofi to the credits terminal"
         }
       ],
       "Levels": [
@@ -3920,12 +3924,12 @@
       ],
       "Name": "Garden of lost desires",
       "Author": "DoodleMan and Bloogoober",
-      "Size": 36562646,
+      "Size": 36619577,
       "Guid": "00891f35080eebb41bd66b58ba2a3374",
-      "Hash": "aa5e36edbdd072a2f2a8aa0223ffbf3d",
+      "Hash": "9ce8799d52e45e13a3da7a5b4098d99c",
       "ThumbnailHash": "52907875207ea26b3d8fe5825c4492e9",
       "ExternalLink": "",
-      "LastUpdate": 1726239052
+      "LastUpdate": 1726393768
     }
   ]
 }
