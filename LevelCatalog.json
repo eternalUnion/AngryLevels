@@ -3746,7 +3746,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/GeriGrape9/UCL-The-Weight-Of-The-World/a2bf7051f894ab4f7514e15769fa665c9aa80104/Ver%201.01%20(Post%20Release%20Fixes)/colorredTHE_WEIGHT_OF_THE_WORLDcolorwhite.angry"
+        "https://raw.githubusercontent.com/GeriGrape9/UCL-The-Weight-Of-The-World/ef37dae42bd6c382a700c51d32453668068a1db6/Ver%201.1%20(Balance%20Update)/colorredTHE_WEIGHT_OF_THE_WORLDcolorwhite.angry"
       ],
       "Updates": [
         {
@@ -3756,6 +3756,10 @@
         {
           "Hash": "b4a0c4b71138c86b40e6c4e578039074",
           "Message": "Just turned sandbox tools off"
+        },
+        {
+          "Hash": "5daf8e07d14c487731345cfe32fb701b",
+          "Message": "- Nerfed molten mass (reduced rage radiance level and removed lava barrier)\n- Fixed up navmesh in multiple arenas\n- Blood pools in the second arena can kill the ferryman\n- Changed the position of a virtue in the third arena to prevent cheesing\n- Rebalanced the first arena\n- Remade the first wave of the third encounter\n- Added more geometry to the final arena\n- Changed the position of the yellow orb in the 4th arena, and added a message relating to the challenge portion of the level\n- Added some more detail to different parts of the level\n- Changed the end sequence for the level to prevent soft-locking\n- Added the ability to hear the laughter of thousands as the sky opens up"
         }
       ],
       "Levels": [
@@ -3770,64 +3774,16 @@
           "secretCount": 1,
           "levelChallengeEnabled": true,
           "levelChallengeText": "COMPLETE THE FIRST SUPREME TRIAL"
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [
-            "TheWeightOfTheWorldLongBoi.Gerigrape9"
-          ],
-          "requiredDllNames": [],
-          "LevelName": "THE WEIGHT OF THE WORLD: TAKE NO PRISONERS",
-          "LevelId": "TheWeightOfTheWorldGreed.Gerigrape9",
-          "isSecretLevel": true,
-          "secretCount": 0,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": "COMPLETE THE SECOND SUPREME TRIAL"
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [
-            "TheWeightOfTheWorldLongBoi.Gerigrape9"
-          ],
-          "requiredDllNames": [],
-          "LevelName": "THE WEIGHT OF THE WORLD: WAR",
-          "LevelId": "TheWeightOfTheWorldViolence.Gerigrape9",
-          "isSecretLevel": true,
-          "secretCount": 0,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": "COMPLETE THE THIRD SUPREME TRIAL"
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "THE WEIGHT OF THE WORLD",
-          "LevelId": "TheWeightOfTheWorldLongBoi.Gerigrape9",
-          "isSecretLevel": true,
-          "secretCount": 0,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": "KILL SISYPHUS"
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [
-            "TheWeightOfTheWorldLongBoi.Gerigrape9"
-          ],
-          "requiredDllNames": [
-            "CarcassEnemy.dll"
-          ],
-          "LevelName": "THE WAIT OF THE WORLD (OG Version)",
-          "LevelId": "TheWaitOfTheWorldOG.Gerigrape9",
-          "isSecretLevel": true,
-          "secretCount": 1,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": ""
         }
       ],
       "Name": "<color=#FF0000>THE WEIGHT OF THE WORLD</color>",
       "Author": "Gerigrape9",
-      "Size": 32881699,
+      "Size": 33734448,
       "Guid": "923a8514e7e66e744a5b17aaf252e3e2",
-      "Hash": "b4a0c4b71138c86b40e6c4e578039074",
+      "Hash": "5daf8e07d14c487731345cfe32fb701b",
       "ThumbnailHash": "d7daf7715eac170ed0c5d438fec6aeb9",
-      "ExternalLink": "https://raw.githubusercontent.com/GeriGrape9/UCL-The-Weight-Of-The-World/a2bf7051f894ab4f7514e15769fa665c9aa80104/Ver%201.01%20(Post%20Release%20Fixes)/colorredTHE_WEIGHT_OF_THE_WORLDcolorwhite.angry",
-      "LastUpdate": 1723822417
+      "ExternalLink": "https://raw.githubusercontent.com/GeriGrape9/UCL-The-Weight-Of-The-World/ef37dae42bd6c382a700c51d32453668068a1db6/Ver%201.1%20(Balance%20Update)/colorredTHE_WEIGHT_OF_THE_WORLDcolorwhite.angry",
+      "LastUpdate": 1726393408
     },
     {
       "Parts": [
