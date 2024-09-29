@@ -3850,7 +3850,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.2/42fd30ca35f3bba134c3aaa7e7655bc4abf34a45/REVOLTKILL.angry"
+        "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.3/2401bd7d64576ab7f733259defd0e8707f5ba43f/REVOLTKILL.angry"
       ],
       "Updates": [
         {
@@ -3864,6 +3864,10 @@
         {
           "Hash": "9a3bb3f4e2401ba12978fb296d5ae579",
           "Message": "- Fixed bug with bonus\n- Changed geometry in some places\n- Fixed new filth model"
+        },
+        {
+          "Hash": "74588540ce6c552066099689351e5d7b",
+          "Message": "- Fixed a bug with the final room\n- Added challenge for E-1\n- Slightly changed the first room\n- Fixed bug with navmesh in the sixth room"
         }
       ],
       "Levels": [
@@ -3874,8 +3878,8 @@
           "LevelId": "7771",
           "isSecretLevel": false,
           "secretCount": 5,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FIND THE TREE OF LUCK"
         },
         {
           "requiredCompletedLevelIdsForUnlock": [
@@ -3892,12 +3896,12 @@
       ],
       "Name": "REVOLTKILL",
       "Author": "thematveykaplay",
-      "Size": 14358100,
+      "Size": 14386634,
       "Guid": "5bb4c816325d47341b6c7049f097379a",
-      "Hash": "9a3bb3f4e2401ba12978fb296d5ae579",
+      "Hash": "74588540ce6c552066099689351e5d7b",
       "ThumbnailHash": "f8f126e01d62000ec86d1f2faef72503",
-      "ExternalLink": "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.2/42fd30ca35f3bba134c3aaa7e7655bc4abf34a45/REVOLTKILL.angry",
-      "LastUpdate": 1726819235
+      "ExternalLink": "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.3/2401bd7d64576ab7f733259defd0e8707f5ba43f/REVOLTKILL.angry",
+      "LastUpdate": 1727618594
     },
     {
       "Parts": [
