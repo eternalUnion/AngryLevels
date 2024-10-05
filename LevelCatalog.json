@@ -3903,6 +3903,37 @@
       "ThumbnailHash": "52907875207ea26b3d8fe5825c4492e9",
       "ExternalLink": "",
       "LastUpdate": 1726393768
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Megg4underscore/THE-HOUSE-OF-WRATH/2e3ed32999d4487d00eca9181197b207bb832ff9/THE_HOUSE_OF_WRATH.angry1"
+      ],
+      "Updates": [
+        {
+          "Hash": "bcbaa7605b36c9e80dcab798f478620f",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "THE HOUSE OF WRATH",
+          "LevelId": "THOW.essentials",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT BOTH END ENCOUNTERS"
+        }
+      ],
+      "Name": "THE HOUSE OF WRATH",
+      "Author": "__megga",
+      "Size": 11968491,
+      "Guid": "3707483841d6ed84383be5b1285ea87a",
+      "Hash": "bcbaa7605b36c9e80dcab798f478620f",
+      "ThumbnailHash": "5928f79d66f4be38771a097ec76256d0",
+      "ExternalLink": "https://raw.githubusercontent.com/Megg4underscore/THE-HOUSE-OF-WRATH/2e3ed32999d4487d00eca9181197b207bb832ff9/THE_HOUSE_OF_WRATH.angry1",
+      "LastUpdate": 1728123054
     }
   ]
 }
