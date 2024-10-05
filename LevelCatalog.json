@@ -2482,45 +2482,6 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/pogdogpy/Rematch.angry/main/rematch3.angry"
-      ],
-      "Updates": [
-        {
-          "Hash": "23641c7d9dd13dc418e333657f10e85a",
-          "Message": "Initial upload"
-        },
-        {
-          "Hash": "60676601d25c14540b8731a5c9f82c3e",
-          "Message": "- Fixed an oversight with a trigger being too small\n- Fixed Insurrectionist health being too low and reduced their damage taken\n- Changed Insurrectionst spawn locations so they stop getting stuck\n- Changed P -Rank requirements\nHappy Fighting!"
-        },
-        {
-          "Hash": "7f18657850e6c9c4684cda83aaa88479",
-          "Message": "- Upped P-Rank Time to 3 Mins\n- Fixed a HUGE OOB\n- Fixed not falling down final elevator\n- Added umbreon in the starting room cuz why not\n- Updated credits terminal for umbreon"
-        }
-      ],
-      "Levels": [
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "A Sisyphean Rematch",
-          "LevelId": "pogdoggy.rematch",
-          "isSecretLevel": false,
-          "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
-        }
-      ],
-      "Name": "A Sisyphean Rematch",
-      "Author": "pogdoggy_",
-      "Size": 2165863,
-      "Guid": "5ff629a1ed3b5a549ac334d189b0697a",
-      "Hash": "7f18657850e6c9c4684cda83aaa88479",
-      "ThumbnailHash": "56fab01b15912b104cdb9b356071fd09",
-      "ExternalLink": "https://raw.githubusercontent.com/pogdogpy/Rematch.angry/main/rematch3.angry",
-      "LastUpdate": 1715116601
-    },
-    {
-      "Parts": [
         "https://raw.githubusercontent.com/funcsam/Sins-of-Mankind/main/update/SINS_OF_MANKIND.angry1"
       ],
       "Updates": [
