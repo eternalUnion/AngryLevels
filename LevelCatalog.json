@@ -3694,8 +3694,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FrizouWasThere/Paradiso-heavens-piercer/bb0ae3273064abe640c01464dd8a7a4a7d84da33/Version%201.1.1/PARADISO.angry1",
-        "https://raw.githubusercontent.com/FrizouWasThere/Paradiso-heavens-piercer/bb0ae3273064abe640c01464dd8a7a4a7d84da33/Version%201.1.1/PARADISO.angry2"
+        "https://raw.githubusercontent.com/FrizouWasThere/Paradiso-heavens-piercer/4b1b47ee59014cebf0d3fe1120546f9d5219a893/Version%201.1.2/PARADISO.angry1",
+        "https://raw.githubusercontent.com/FrizouWasThere/Paradiso-heavens-piercer/4b1b47ee59014cebf0d3fe1120546f9d5219a893/Version%201.1.2/PARADISO.angry2"
       ],
       "Updates": [
         {
@@ -3709,6 +3709,10 @@
         {
           "Hash": "ee64ed392725eae63ffe3311685b18c3",
           "Message": "- Updated trees\n- Added emissive textures to Guttermen and Guttertanks\n- Modified Elevators\n- Modified Terminals\n- Added arrows to scrolling handles in the Terminals\n- Added new data entry for: Swordsmachine\n- Updated data entry for: Stray\n- Added credits for Bobot <size=14>(Thank you for the Virtue icon, and sorry for not crediting earlier!)</size>\n- Fixed untagged trap walls in the stray room in 1-1\n- Fixed \"new data entry\" pop-up in the Terminals not disappearing after being hidden for the first time\n- Changed a few miscellaneous aspects to improve the experience"
+        },
+        {
+          "Hash": "c78c8c9c828c9e43f34e4cbef7794153",
+          "Message": "- Updated online and bundle icon, and 1-1 level icon\n- Updated treeline textures\n- Updated skybox\n- Projectiles can now pass through the ceiling of the first area in 1-1\n- Fixed an OOB clip using the trap walls in the stray room in 1-1\n- Changed a few miscellaneous aspects to improve the experience"
         }
       ],
       "Levels": [
@@ -3736,13 +3740,13 @@
         }
       ],
       "Name": "<color=#0080ff>PARADISO</color>, Heavens' Piercer",
-      "Author": "<color=#003d8c>Frizou</color>",
-      "Size": 33256984,
+      "Author": "<color=#004bba>Frizou</color>",
+      "Size": 33613543,
       "Guid": "bf1915814f5c0bd48a1b735cf4b3cc75",
-      "Hash": "ee64ed392725eae63ffe3311685b18c3",
-      "ThumbnailHash": "98dc3e1d340923644a76cb020c4c62bf",
+      "Hash": "c78c8c9c828c9e43f34e4cbef7794153",
+      "ThumbnailHash": "80d1b05a22dbb5747f8bf2adf27b14c1",
       "ExternalLink": "",
-      "LastUpdate": 1725871277
+      "LastUpdate": 1728122334
     },
     {
       "Parts": [
