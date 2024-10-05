@@ -3870,8 +3870,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/b8ef21814116a03cc1e6a4715d77d90d9593bb5b/1.2/Garden_of_lost_desires.angry1",
-        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/b8ef21814116a03cc1e6a4715d77d90d9593bb5b/1.2/Garden_of_lost_desires.angry2"
+        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/f086dda8579507483a64226da7bc1f4ef288c273/1.3/Garden_of_lost_desires.angry1",
+        "https://raw.githubusercontent.com/D0odleMan/Garden-of-lost-desires/f086dda8579507483a64226da7bc1f4ef288c273/1.3/Garden_of_lost_desires.angry2"
       ],
       "Updates": [
         {
@@ -3881,6 +3881,10 @@
         {
           "Hash": "9ce8799d52e45e13a3da7a5b4098d99c",
           "Message": "- Fixed Oob bugs\n- Slightly fixed the checkpoint\n- Made facade's death effect not have any gibs\n- Optimized the level\n- Fixed the map\n- Added my kofi to the credits terminal"
+        },
+        {
+          "Hash": "e2e8cdb3f7ee659cf2e54c743d900b3a",
+          "Message": "- Visually improved some aspects of the level\n- Added a secret\n- Added a challenge\n- Fixed fullbright elevator\n- Improved maze geometry\n- Added homing orbs to facades stomp attack\n- Improved facades visuals\n- Gave facade new attack sounds\n- Fixed various bugs"
         }
       ],
       "Levels": [
@@ -3897,12 +3901,12 @@
       ],
       "Name": "Garden of lost desires",
       "Author": "DoodleMan and Bloogoober",
-      "Size": 36619577,
+      "Size": 35152505,
       "Guid": "00891f35080eebb41bd66b58ba2a3374",
-      "Hash": "9ce8799d52e45e13a3da7a5b4098d99c",
+      "Hash": "e2e8cdb3f7ee659cf2e54c743d900b3a",
       "ThumbnailHash": "52907875207ea26b3d8fe5825c4492e9",
       "ExternalLink": "",
-      "LastUpdate": 1726393768
+      "LastUpdate": 1728124022
     },
     {
       "Parts": [
