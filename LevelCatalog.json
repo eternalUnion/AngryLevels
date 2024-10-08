@@ -3910,12 +3910,16 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Megg4underscore/THE-HOUSE-OF-WRATH/2e3ed32999d4487d00eca9181197b207bb832ff9/THE_HOUSE_OF_WRATH.angry1"
+        "https://raw.githubusercontent.com/Megg4underscore/THE-HOUSE-OF-WRATH/87f04cb3186fa1b5ec0f2f744bc88288d0852fb6/Style%20and%20time%20Points%20update/THE_HOUSE_OF_WRATH.angry1"
       ],
       "Updates": [
         {
           "Hash": "bcbaa7605b36c9e80dcab798f478620f",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "ef92018d8ae0db7d0d077eb0844dc242",
+          "Message": "Time and Style Points Update"
         }
       ],
       "Levels": [
@@ -3932,12 +3936,12 @@
       ],
       "Name": "THE HOUSE OF WRATH",
       "Author": "__megga",
-      "Size": 11968491,
+      "Size": 11964940,
       "Guid": "3707483841d6ed84383be5b1285ea87a",
-      "Hash": "bcbaa7605b36c9e80dcab798f478620f",
+      "Hash": "ef92018d8ae0db7d0d077eb0844dc242",
       "ThumbnailHash": "5928f79d66f4be38771a097ec76256d0",
-      "ExternalLink": "https://raw.githubusercontent.com/Megg4underscore/THE-HOUSE-OF-WRATH/2e3ed32999d4487d00eca9181197b207bb832ff9/THE_HOUSE_OF_WRATH.angry1",
-      "LastUpdate": 1728123054
+      "ExternalLink": "https://raw.githubusercontent.com/Megg4underscore/THE-HOUSE-OF-WRATH/87f04cb3186fa1b5ec0f2f744bc88288d0852fb6/Style%20and%20time%20Points%20update/THE_HOUSE_OF_WRATH.angry1",
+      "LastUpdate": 1728419558
     },
     {
       "Parts": [
