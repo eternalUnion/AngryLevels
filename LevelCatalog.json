@@ -679,11 +679,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/main/cheb_museum_update2/THE_CHEB_MUSEUM.angry1",
-        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/main/cheb_museum_update2/THE_CHEB_MUSEUM.angry2",
-        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/main/cheb_museum_update2/THE_CHEB_MUSEUM.angry3",
-        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/main/cheb_museum_update2/THE_CHEB_MUSEUM.angry4",
-        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/main/cheb_museum_update2/THE_CHEB_MUSEUM.angry5"
+        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/e113bd114afad0d319562954869e532678322570/THE_CHEB_MUSEUM.angry1",
+        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/e113bd114afad0d319562954869e532678322570/THE_CHEB_MUSEUM.angry2",
+        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/e113bd114afad0d319562954869e532678322570/THE_CHEB_MUSEUM.angry3",
+        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/e113bd114afad0d319562954869e532678322570/THE_CHEB_MUSEUM.angry4",
+        "https://raw.githubusercontent.com/Megg4underscore/CHEB-MUSEUM/e113bd114afad0d319562954869e532678322570/THE_CHEB_MUSEUM.angry5"
       ],
       "Updates": [
         {
@@ -717,6 +717,10 @@
         {
           "Hash": "a33b28b13eaff914892a5ba00b689217",
           "Message": "Fixxed small gap on exit door. Thats it \\(^u^)/"
+        },
+        {
+          "Hash": "2aaba2dcf4e63bc86f805fd93ae07cda",
+          "Message": "Updated CHEB MUSEUM terminals to be less blurry"
         }
       ],
       "Levels": [
@@ -733,12 +737,12 @@
       ],
       "Name": "THE CHEB MUSEUM",
       "Author": "__megga and MEGACHEB",
-      "Size": 110350463,
+      "Size": 110358247,
       "Guid": "fbad391461a64c144989207f0eb8e7fc",
-      "Hash": "a33b28b13eaff914892a5ba00b689217",
+      "Hash": "2aaba2dcf4e63bc86f805fd93ae07cda",
       "ThumbnailHash": "374b9c33f9715c387dd59c82259768a4",
       "ExternalLink": "",
-      "LastUpdate": 1714418527
+      "LastUpdate": 1728586427
     },
     {
       "Parts": [
