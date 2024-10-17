@@ -3981,6 +3981,37 @@
       "ThumbnailHash": "58ab44dbb2f87da84d7548bcd08ab7b6",
       "ExternalLink": "https://raw.githubusercontent.com/CyrusPlayz-bit/Totally-Serious/e6cbb9b5451b49046978d32eacd4f04e2ee0c04f/Totally_Serious_Definitive_Edition.angry",
       "LastUpdate": 1728125038
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/5c90536d48b0f18a5a81101380db9cd89f207da8/Fun_Sized_Heresy.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "66e9cd288f3c80fc2f06c1e322100e4b",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Fires Within Fires",
+          "LevelId": "fnchannel.fsheresy.fireswithinfires",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "MAKE A TERRIBLE JOKE"
+        }
+      ],
+      "Name": "Fun Sized Heresy",
+      "Author": "FNChannel",
+      "Size": 16171438,
+      "Guid": "ae6eeb9c8e3741441986985171f75b56",
+      "Hash": "66e9cd288f3c80fc2f06c1e322100e4b",
+      "ThumbnailHash": "0336269f0f66411e1be6c9cc95f66be8",
+      "ExternalLink": "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/5c90536d48b0f18a5a81101380db9cd89f207da8/Fun_Sized_Heresy.angry",
+      "LastUpdate": 1729195363
     }
   ]
 }
