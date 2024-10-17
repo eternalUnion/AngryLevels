@@ -3953,12 +3953,16 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/CyrusPlayz-bit/Totally-Serious/e6cbb9b5451b49046978d32eacd4f04e2ee0c04f/Totally_Serious_Definitive_Edition.angry"
+        "https://raw.githubusercontent.com/CyrusPlayz-bit/Totally-Serious/1e41c54c8707c5364770b6e118d4038d4e2685f3/Totally_Serious_Definitive_Edition.angry"
       ],
       "Updates": [
         {
           "Hash": "c7aa9182b24cdcf4db2820e523b8bf9a",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "21d82eb4ad2393748be58ee39052af31",
+          "Message": "- Changed the texturing of various bits around the level (not tiling of 1 anymore)\n- Improved the look of the HM platform in the Courtyard encounter\n- Changed the skybox since plonk wouldn't stop complaining about it\n- Expanded the outdoors area alot\n- Third secret moved to compensate for no longer being able to go under the map\n- Made the upper floor encounter in arena 3 lock the doors so that enemies can't go outside\n- Slightly improved the lighting in arena 3\n- Changed the Challenge name to be a bit more thematic"
         }
       ],
       "Levels": [
@@ -3975,12 +3979,12 @@
       ],
       "Name": "Totally Serious DEFINITIVE EDITION",
       "Author": "CyrusPlayz",
-      "Size": 12564482,
+      "Size": 13247491,
       "Guid": "ea218d818a5626b4cad876fa6520ec0b",
-      "Hash": "c7aa9182b24cdcf4db2820e523b8bf9a",
+      "Hash": "21d82eb4ad2393748be58ee39052af31",
       "ThumbnailHash": "58ab44dbb2f87da84d7548bcd08ab7b6",
-      "ExternalLink": "https://raw.githubusercontent.com/CyrusPlayz-bit/Totally-Serious/e6cbb9b5451b49046978d32eacd4f04e2ee0c04f/Totally_Serious_Definitive_Edition.angry",
-      "LastUpdate": 1728125038
+      "ExternalLink": "https://raw.githubusercontent.com/CyrusPlayz-bit/Totally-Serious/1e41c54c8707c5364770b6e118d4038d4e2685f3/Totally_Serious_Definitive_Edition.angry",
+      "LastUpdate": 1729195589
     },
     {
       "Parts": [
