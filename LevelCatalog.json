@@ -2580,7 +2580,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/pogdogpy/palestfigures/e72f088330809f6bfdcf3228d767da482cb73a71/Palest_Figuresaugust.angry"
+        "https://raw.githubusercontent.com/pogdogpy/palestfigures/383d0c54ed804e4fc7fb591dfc3d15e6717295f3/Palest_FiguresSpooktoberPatch.angry"
       ],
       "Updates": [
         {
@@ -2602,6 +2602,10 @@
         {
           "Hash": "b57e00321b8538d46b9a549bd18beba2",
           "Message": "Fixed some bugs and slightly changed platforms in big arena :D"
+        },
+        {
+          "Hash": "0fa4182730ec839c52df1eb82404044d",
+          "Message": "Fixed the third arena door lock thing because it was fully no collided :("
         }
       ],
       "Levels": [
@@ -2618,12 +2622,12 @@
       ],
       "Name": "Palest Figures",
       "Author": "pogdoggy_",
-      "Size": 14209724,
+      "Size": 14198320,
       "Guid": "c2ae4ae67844f0f40a169670912ad764",
-      "Hash": "b57e00321b8538d46b9a549bd18beba2",
+      "Hash": "0fa4182730ec839c52df1eb82404044d",
       "ThumbnailHash": "760b263142a95fef967c46af63d5e897",
-      "ExternalLink": "https://raw.githubusercontent.com/pogdogpy/palestfigures/e72f088330809f6bfdcf3228d767da482cb73a71/Palest_Figuresaugust.angry",
-      "LastUpdate": 1723483953
+      "ExternalLink": "https://raw.githubusercontent.com/pogdogpy/palestfigures/383d0c54ed804e4fc7fb591dfc3d15e6717295f3/Palest_FiguresSpooktoberPatch.angry",
+      "LastUpdate": 1729195730
     },
     {
       "Parts": [
@@ -3974,7 +3978,7 @@
           "isSecretLevel": false,
           "secretCount": 3,
           "levelChallengeEnabled": true,
-          "levelChallengeText": "DON'T KILL ANY ENEMIES"
+          "levelChallengeText": "DO THE PACIFIST ROUTE"
         }
       ],
       "Name": "Totally Serious DEFINITIVE EDITION",
