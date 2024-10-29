@@ -2912,7 +2912,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrabus/d4463c2c7949f60bdad5a7fa4db86b3058ffdb03/ULTRABUS.angry"
+        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrabus/da992fa15f3f1c4b844fb9b24637e71385cd0da3/Update01/ULTRABUS.angry"
       ],
       "Updates": [
         {
@@ -2922,6 +2922,10 @@
         {
           "Hash": "36a5a99785a016ff810b3aa37c20d43d",
           "Message": "- Added General Rude Patch contents\n- Added missing sound effect to expert mode toggle and attempted untoggle\n- Fixed rear boundry collision on bus (No longer causes double message at start)\n- Changed how gameCompleted gets toggled at end of Violence layer\n- Removed loadoutfix script (unrequired)\n- Added missing toggle sounds for radio and power buttons\n- Fixed expert mode shop not completely going blank on drive begin\n- Fixed wrong font on \"Be Back Soon\" Sign\n- Fixed missing Instakill in 2 Heresy Tiles"
+        },
+        {
+          "Hash": "d535dc1bee56d20770c485ee5fa0a87a",
+          "Message": "- Added holiday-specific goodies to all characters... and the bus\n- Removed \"Under Construction\" signs\n- Rewrote drive duration sign to better reflect playtime for non-expert mode\n- Fixed slight error in Bus model\n- Updated custom scripts .DLL\n- Fixed being able to see into skybox in Limbo stained glass windows\n- Fixed high-res texture in bottom of well in Limbo\n- Removed some detail to make Limbo well less enticing (Should no longer be mistaken as a pickup)\n- Moved sandcastle in Greed so less likely to be mistaken as a pickup\n- Removed some cheated times from the leaderboard\n- Slight rewrite for Pickup 10 Text"
         }
       ],
       "Levels": [
@@ -2941,12 +2945,12 @@
       ],
       "Name": "Ultrabus",
       "Author": "Streetlamp",
-      "Size": 56042074,
+      "Size": 55605737,
       "Guid": "0181d227bcd43cf4cbc8fd492040f46a",
-      "Hash": "36a5a99785a016ff810b3aa37c20d43d",
+      "Hash": "d535dc1bee56d20770c485ee5fa0a87a",
       "ThumbnailHash": "0d138618f46df9e06ad433752c898643",
-      "ExternalLink": "https://raw.githubusercontent.com/benjaminwcfrank/Ultrabus/d4463c2c7949f60bdad5a7fa4db86b3058ffdb03/ULTRABUS.angry",
-      "LastUpdate": 1719780048
+      "ExternalLink": "https://raw.githubusercontent.com/benjaminwcfrank/Ultrabus/da992fa15f3f1c4b844fb9b24637e71385cd0da3/Update01/ULTRABUS.angry",
+      "LastUpdate": 1730228222
     },
     {
       "Parts": [
