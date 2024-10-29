@@ -2932,7 +2932,6 @@
         {
           "requiredCompletedLevelIdsForUnlock": [],
           "requiredDllNames": [
-            "LoadoutFix.dll",
             "STLPShittyScripts.dll"
           ],
           "LevelName": "HIGHWAY TO HELL",
@@ -3618,10 +3617,10 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e63344f23fa520fb39cf02c07e3c391d49794857/Indulgence%20Second%20Patch/INDULGENCE.angry1",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e63344f23fa520fb39cf02c07e3c391d49794857/Indulgence%20Second%20Patch/INDULGENCE.angry2",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e63344f23fa520fb39cf02c07e3c391d49794857/Indulgence%20Second%20Patch/INDULGENCE.angry3",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e63344f23fa520fb39cf02c07e3c391d49794857/Indulgence%20Second%20Patch/INDULGENCE.angry4"
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/802a121f6ec243e8965909dabd75ae9661711a2b/INDULGENCE v1.3/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/802a121f6ec243e8965909dabd75ae9661711a2b/INDULGENCE v1.3/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/802a121f6ec243e8965909dabd75ae9661711a2b/INDULGENCE v1.3/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/802a121f6ec243e8965909dabd75ae9661711a2b/INDULGENCE v1.3/INDULGENCE.angry4"
       ],
       "Updates": [
         {
@@ -3635,6 +3634,10 @@
         {
           "Hash": "f52f96917a960e8595d90b91953917dd",
           "Message": "- Timer now stops when Hermes dies\n- Removed annoying useless orb attack from Hermes\n- Changed some lighting to make rooms look more diverse\n- Some arenas have been shortened to cut down on level length\n- Rank requirements tweaked to compensate\n- Enabled read and write on tree models\n- Disabled texture Mip-Maps\n- Cravens now properly support seasonal hats\n- Fixed a sentry being able to clip out of bounds causing a softlock\n- Fixed hellmap layering over pause menu for some reason\n- Took Unfortunate Development out back and shot his ass (i removed the entry)"
+        },
+        {
+          "Hash": "28254ee26fd874767c9bb5f6ec62c167",
+          "Message": "Additions\n- Added a new 3D City (Thanks Bobot!!)\n- Replaced 2D Black Hole sprite with a Raymarched Black Hole Shader (Thanks Robi!!)\n- Added Foliage Models around the level\n- Improved Lighting, Textures, Particle Effects, and the Rain Sprite\n- Changed some setpieces to be more in line with I-2 (still in the works, don't expect it this year)\n- Replaced the first book\n- Added a more in-depth credits terminal\n- Updated Doors\n- Updated NoPass/Door Lock Symbol\n- Updated I-1 icon and I-1 Discord RPC Image\n\nChanges and fixes\n- Reworked the second wave in the Red Skull Arena\n- Removed the arena past the red skull door and replaced it with a small platforming section\n- Reduced P Rank Kill Requirements to compensate\n- Cravens are now orange (they'll be getting a new model next update where orange is the secondary colour for more visibility, so I just changed it here for the gameplay benefits)\n- Brutal Cravens' seeker orb now starts out at a slower speed\n- Train Tunnel ceiling no longer deals damage to the player\n- Made the route clearer for first time players\n- Re-implemented Indulgence Terminal Info (oops)\n- Fixed Craven seasonal hat positions\n- Fixed Hermes seasonal hat positions\n- Fixed an issue where the game would randomly go into slow motion until another slowmo effect occured\n- Probably some other fixes I can't remember off the top of my head"
         }
       ],
       "Levels": [
@@ -3653,12 +3656,12 @@
       ],
       "Name": "<color=#6bfa9b>INDULGENCE</color>",
       "Author": "<color=#756bfa>bongwater</color>",
-      "Size": 95206186,
+      "Size": 93354649,
       "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
-      "Hash": "f52f96917a960e8595d90b91953917dd",
+      "Hash": "28254ee26fd874767c9bb5f6ec62c167",
       "ThumbnailHash": "e4ec13acdb8ad0a5bf8182a1ab6389ed",
       "ExternalLink": "",
-      "LastUpdate": 1724965062
+      "LastUpdate": 1730228766
     },
     {
       "Parts": [
