@@ -4009,7 +4009,7 @@
         },
         {
           "Hash": "21d82eb4ad2393748be58ee39052af31",
-          "Message": "- Changed the texturing of various bits around the level (not tiling of 1 anymore)\n- Improved the look of the HM platform in the Courtyard encounter\n- Changed the skybox since plonk wouldn't stop complaining about it\n- Expanded the outdoors area alot\n- Third secret moved to compensate for no longer being able to go under the map\n- Made the upper floor encounter in arena 3 lock the doors so that enemies can't go outside\n- Slightly improved the lighting in arena 3\n- Changed the Challenge name to be a bit more thematic"
+          "Message": "- Changed the texturing of various bits around the level (not tiling of 1 anymore)\n- Improved the look of the HM platform in the Courtyard encounter\n- Changed the skybox\n- Expanded the outdoors area alot\n- Third secret moved to compensate for no longer being able to go under the map\n- Made the upper floor encounter in arena 3 lock the doors so that enemies can't go outside\n- Slightly improved the lighting in arena 3\n- Changed the Challenge name to be a bit more thematic"
         }
       ],
       "Levels": [
