@@ -4067,6 +4067,37 @@
       "ThumbnailHash": "0336269f0f66411e1be6c9cc95f66be8",
       "ExternalLink": "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/5c90536d48b0f18a5a81101380db9cd89f207da8/Fun_Sized_Heresy.angry",
       "LastUpdate": 1729195363
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/PrestoPesto/death-descent/b4e33828b253f7d58cae993f06c582abbf248416/DEATH_DESCENT.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "5b2ce481f5cb4ca4cab49739fa51f74b",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-D: FREE MIND LOOP",
+          "LevelId": "presto.descent.limbo",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Don't pick up the red skull"
+        }
+      ],
+      "Name": "DEATH DESCENT",
+      "Author": "PrestoPesto",
+      "Size": 13179556,
+      "Guid": "e1864872cd4fa324e94571b4eae3a321",
+      "Hash": "5b2ce481f5cb4ca4cab49739fa51f74b",
+      "ThumbnailHash": "0b2f0c78e892a70da6eddd227d9e2285",
+      "ExternalLink": "https://raw.githubusercontent.com/PrestoPesto/death-descent/b4e33828b253f7d58cae993f06c582abbf248416/DEATH_DESCENT.angry",
+      "LastUpdate": 1731698541
     }
   ]
 }
