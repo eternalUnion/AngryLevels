@@ -2074,7 +2074,7 @@
     },
     {
       "Parts": [
-        "https://drive.google.com/uc?export=download&id=1IYKGxt1_P0pUy4IN_EE_yTvReNjNlAnf"
+        "https://raw.githubusercontent.com/ballfartchungus43/clair-d-eclipse/c37f9d4f6d1dc2919e1700f276b21517c86226d2/CLAIR_DECLIPSE.angry"
       ],
       "Updates": [
         {
@@ -2084,6 +2084,10 @@
         {
           "Hash": "1dc6ca7f77cefae4f91077b555a07fb0",
           "Message": "- Fixed the eclipse not appearing\n- Reduced the p-rank requirements\n- Increase door open speed"
+        },
+        {
+          "Hash": "38cbcf1344c265f40b8ccbfbd8e639a3",
+          "Message": "- Updated credits\n- Added v2 brutal ai\n- Changed v2 rocket attack indicator to blue\n- Reduced v2 health in all difficulties\n- Please send any bugs you find to me on discord"
         }
       ],
       "Levels": [
@@ -2100,12 +2104,12 @@
       ],
       "Name": "7-4F: CLAIR D'ECLIPSE",
       "Author": "ballfartchungus43",
-      "Size": 15357399,
+      "Size": 9000007,
       "Guid": "1763c89aff9135942a8f0a45cb3580c7",
-      "Hash": "1dc6ca7f77cefae4f91077b555a07fb0",
+      "Hash": "38cbcf1344c265f40b8ccbfbd8e639a3",
       "ThumbnailHash": "b65e2f99de736ff8f1d8e90362e52743",
-      "ExternalLink": "https://drive.google.com/uc?export=download&id=1IYKGxt1_P0pUy4IN_EE_yTvReNjNlAnf",
-      "LastUpdate": 1709481772
+      "ExternalLink": "https://raw.githubusercontent.com/ballfartchungus43/clair-d-eclipse/c37f9d4f6d1dc2919e1700f276b21517c86226d2/CLAIR_DECLIPSE.angry",
+      "LastUpdate": 1731698853
     },
     {
       "Parts": [
