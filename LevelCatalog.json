@@ -4106,6 +4106,38 @@
       "ThumbnailHash": "aad4bb4ce44876daa00a8728e7aeb8b2",
       "ExternalLink": "https://raw.githubusercontent.com/PrestoPesto/death-descent/fab7867a18b406cb62488d7122cf2eb48ad8a8e5/DEATH_DESCENT.angry",
       "LastUpdate": 1731717236
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/5bf3ba71840401efa11167feb0cd7bcaf70583c9/officialrelease/WALK_IN_THE_PARK.angry1",
+        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/5bf3ba71840401efa11167feb0cd7bcaf70583c9/officialrelease/WALK_IN_THE_PARK.angry2"
+      ],
+      "Updates": [
+        {
+          "Hash": "384dc2980447e105ff16157ec602fdc5",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "WALK IN THE PARK",
+          "LevelId": "alexplays.walkinthepark.newversion",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMPLETE THE LEVEL IN UNDER 8 MINUTES"
+        }
+      ],
+      "Name": "WALK IN THE PARK",
+      "Author": "Alex Plays",
+      "Size": 40783518,
+      "Guid": "28563526fe3a92240860cf9d3b654204",
+      "Hash": "384dc2980447e105ff16157ec602fdc5",
+      "ThumbnailHash": "d809c61d3a6424bd5d711d9125825ec5",
+      "ExternalLink": "",
+      "LastUpdate": 1731718043
     }
   ]
 }
