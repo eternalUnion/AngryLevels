@@ -4109,13 +4109,17 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/5bf3ba71840401efa11167feb0cd7bcaf70583c9/officialrelease/WALK_IN_THE_PARK.angry1",
-        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/5bf3ba71840401efa11167feb0cd7bcaf70583c9/officialrelease/WALK_IN_THE_PARK.angry2"
+        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/f85d95d8c92c51861a768102993b84e0cba6a240/officialrelease/v1.1/WALK_IN_THE_PARK.angry1",
+        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/f85d95d8c92c51861a768102993b84e0cba6a240/officialrelease/v1.1/WALK_IN_THE_PARK.angry2"
       ],
       "Updates": [
         {
           "Hash": "384dc2980447e105ff16157ec602fdc5",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "89d83440f8f3adbbc3bd97c8713c90ac",
+          "Message": "- Made the credits terminal in first room\n- Fixed various floating objects in the climax room (not all)\n- Corrected the grass color in the climax room\n- Removed the stalker in the corrupted encounter (because the swordsmachine would just kill it instantly)\n- I will add an option to remove the voices I promise!"
         }
       ],
       "Levels": [
@@ -4132,12 +4136,12 @@
       ],
       "Name": "WALK IN THE PARK",
       "Author": "Alex Plays",
-      "Size": 40783518,
+      "Size": 40816895,
       "Guid": "28563526fe3a92240860cf9d3b654204",
-      "Hash": "384dc2980447e105ff16157ec602fdc5",
+      "Hash": "89d83440f8f3adbbc3bd97c8713c90ac",
       "ThumbnailHash": "d809c61d3a6424bd5d711d9125825ec5",
       "ExternalLink": "",
-      "LastUpdate": 1731718043
+      "LastUpdate": 1731879657
     }
   ]
 }
