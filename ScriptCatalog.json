@@ -225,6 +225,14 @@
       "FileName": "STLPShittyScripts.dll",
       "Hash": "9b9e2563b0e51db1ce821be52004c9ff",
       "Size": 30208
+    },
+    {
+      "Updates": [
+        "9aad507eac40d430455b8384bf85b738"
+      ],
+      "FileName": "HeartOfTheMachineScripts.dll",
+      "Hash": "9aad507eac40d430455b8384bf85b738",
+      "Size": 98816
     }
   ]
 }

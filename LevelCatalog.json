@@ -4067,6 +4067,45 @@
       "ThumbnailHash": "d809c61d3a6424bd5d711d9125825ec5",
       "ExternalLink": "",
       "LastUpdate": 1731879657
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry1",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry2",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry3",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry4",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry5",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry6",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry7"
+      ],
+      "Updates": [
+        {
+          "Hash": "a866fd1ccc37aec4f882c784fd03a1b0",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "HeartOfTheMachineScripts.dll"
+          ],
+          "LevelName": "Heart Of The Machine",
+          "LevelId": "bobot.hellfacility.hotm",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "ENSURE THE 4 DEVELOPERS' SAFETY"
+        }
+      ],
+      "Name": "ATHENA RESEARCH FACILITY",
+      "Author": "Bobot & deezeehuh",
+      "Size": 158403630,
+      "Guid": "255ce156d5ae53c449106c1a31ed384a",
+      "Hash": "a866fd1ccc37aec4f882c784fd03a1b0",
+      "ThumbnailHash": "155b2c8bc80df34f6f84a679f3c21a18",
+      "ExternalLink": "",
+      "LastUpdate": 1732320110
     }
   ]
 }
