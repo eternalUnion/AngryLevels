@@ -4034,8 +4034,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/f85d95d8c92c51861a768102993b84e0cba6a240/officialrelease/v1.1/WALK_IN_THE_PARK.angry1",
-        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/f85d95d8c92c51861a768102993b84e0cba6a240/officialrelease/v1.1/WALK_IN_THE_PARK.angry2"
+        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/624d3510f5632cd8acb1e9793df656ff4a8e1a79/officialrelease/v1.1.1/WALK_IN_THE_PARK.angry1",
+        "https://raw.githubusercontent.com/AlexPlaysRR/walk_in_the_park/624d3510f5632cd8acb1e9793df656ff4a8e1a79/officialrelease/v1.1.1/WALK_IN_THE_PARK.angry2"
       ],
       "Updates": [
         {
@@ -4045,6 +4045,10 @@
         {
           "Hash": "89d83440f8f3adbbc3bd97c8713c90ac",
           "Message": "- Made the credits terminal in first room\n- Fixed various floating objects in the climax room (not all)\n- Corrected the grass color in the climax room\n- Removed the stalker in the corrupted encounter (because the swordsmachine would just kill it instantly)\n- I will add an option to remove the voices I promise!"
+        },
+        {
+          "Hash": "1756162e6753f338b7047f94e01f370d",
+          "Message": "- Added a way to turn down the voices, turn them down through the sound effects slider in the settings\n- Fixed the ending audio clips volume not being adjustable with the music slider"
         }
       ],
       "Levels": [
@@ -4061,12 +4065,12 @@
       ],
       "Name": "WALK IN THE PARK",
       "Author": "Alex Plays",
-      "Size": 40816895,
+      "Size": 40819619,
       "Guid": "28563526fe3a92240860cf9d3b654204",
-      "Hash": "89d83440f8f3adbbc3bd97c8713c90ac",
+      "Hash": "1756162e6753f338b7047f94e01f370d",
       "ThumbnailHash": "d809c61d3a6424bd5d711d9125825ec5",
       "ExternalLink": "",
-      "LastUpdate": 1731879657
+      "LastUpdate": 1732491537
     },
     {
       "Parts": [
