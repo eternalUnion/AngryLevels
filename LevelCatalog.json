@@ -4074,18 +4074,22 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry1",
-        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry2",
-        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry3",
-        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry4",
-        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry5",
-        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry6",
-        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/d483381179e8c3bf8bd0d31106805fb6969d6712/1.0.0/Athena_Research_Facility.angry7"
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/7fa1dbceee23f72e6b541c9b0f9247918326d2b7/1.1.0/Athena_Research_Facility.angry1",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/7fa1dbceee23f72e6b541c9b0f9247918326d2b7/1.1.0/Athena_Research_Facility.angry2",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/7fa1dbceee23f72e6b541c9b0f9247918326d2b7/1.1.0/Athena_Research_Facility.angry3",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/7fa1dbceee23f72e6b541c9b0f9247918326d2b7/1.1.0/Athena_Research_Facility.angry4",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/7fa1dbceee23f72e6b541c9b0f9247918326d2b7/1.1.0/Athena_Research_Facility.angry5",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/7fa1dbceee23f72e6b541c9b0f9247918326d2b7/1.1.0/Athena_Research_Facility.angry6",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/7fa1dbceee23f72e6b541c9b0f9247918326d2b7/1.1.0/Athena_Research_Facility.angry7"
       ],
       "Updates": [
         {
           "Hash": "a866fd1ccc37aec4f882c784fd03a1b0",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "3fcbe9de04da2bc41846a89740604822",
+          "Message": "- made overseer weak to the impact hammer (this means yellow hits one shot them)\n- overseers now share their attack cooldown similar to virtues\n- the amount of beams an overseer can shoot before triggering them is now universal but increases if theres multiple of them\n- overseer beam durations have been tweaked across the board to be shorter\n- overseer beams now have a much lower duration if triggered by the overseer dying\n- overseer beams will only be trigger by death if there is no more active overseers\n- reduced how much blood the chains produce (this is purely a visual change they should still heal the same)\n- overseers now have a brief delay before they can trigger their push (this should lower the chance of getting unfairly hit by this attack)\nmost of these changes aim to make fighting multiple overseers less overwhelming while keeping their original intent as a powerful area denial threat intact\n\n- swapped 2 mannequins for schisms because for some reason i thought having 4 in an open room with no cover was a good idea \n- reduced the pit damage in the belt room from 50 > 20\n- added new point for the belt room pit to teleport you to make it less disorienting\n- p rank time increased to 11 minutes\n- timer pause at the end of the level removed as it caused a bunch of issues\n\n- added a step stool to the shelf room to allow the player to view the contents of the lowest shelf easier\n- added a floating icon over the custom books to better indicate to the player they're interactable\n- replaced a few placeholder pit style bonuses\n- added someone somewhere you shouldn't be. yet \n- added further clarification on the 20 month development time on my credits page\n- made triggering the end sequence unload the outside section of the level (dev note: change solely made so any% is a bit nicer)\n- halved the length of the spiral staircase\n- plushies will now die when thrown into death pits\n- added bobilka to the spawn arm\n- made all breakable vents use the metal breakable vfx\n- special idols now have unique visuals\n- added a toggle for the realtime reflections to hopefully help the level run better on lower end machines\n- the bobilka plushie has been moved so it can be found before you have the second skull\n- removed colliders from some locks to allow you to more quickly move through the door\n\n- fixed missing collider in the goop river\n- fixed missing ceiling collider in shelf room\n- fixed visible breakable trigger during backtracking\n- fixed an issue where 2 cerberus would still spawn if enemy spawns were disabled\n- fixed an issue where the challenge only needed one dev so be saved\n- fixed an issue where an exit door would open if enemy spawns were disabled\n- fixed an issue where workers would still move after death\n- fixed an issue where the log with the door code didn't have yellow lights as intended\n- fixed an issue where the level name on the results screen wasn't capitalised\n- fixed an issue where sometimes the guttertank drop pod wouldn't break the idol in the pit room\n- fixed a few visual issues with decorative mannequins \n- other minor geometry fixes not worth their own entry"
         }
       ],
       "Levels": [
@@ -4104,12 +4108,12 @@
       ],
       "Name": "ATHENA RESEARCH FACILITY",
       "Author": "Bobot & deezeehuh",
-      "Size": 158403630,
+      "Size": 156141024,
       "Guid": "255ce156d5ae53c449106c1a31ed384a",
-      "Hash": "a866fd1ccc37aec4f882c784fd03a1b0",
+      "Hash": "3fcbe9de04da2bc41846a89740604822",
       "ThumbnailHash": "155b2c8bc80df34f6f84a679f3c21a18",
       "ExternalLink": "",
-      "LastUpdate": 1732320110
+      "LastUpdate": 1732828239
     }
   ]
 }

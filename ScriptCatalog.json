@@ -228,11 +228,12 @@
     },
     {
       "Updates": [
-        "9aad507eac40d430455b8384bf85b738"
+        "9aad507eac40d430455b8384bf85b738",
+        "92b9d56436da253185a223267dec23b4"
       ],
       "FileName": "HeartOfTheMachineScripts.dll",
-      "Hash": "9aad507eac40d430455b8384bf85b738",
-      "Size": 98816
+      "Hash": "92b9d56436da253185a223267dec23b4",
+      "Size": 101376
     }
   ]
 }
