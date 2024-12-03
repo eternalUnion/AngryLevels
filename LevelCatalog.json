@@ -3999,7 +3999,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/PrestoPesto/death-descent/fab7867a18b406cb62488d7122cf2eb48ad8a8e5/DEATH_DESCENT.angry"
+        "https://raw.githubusercontent.com/PrestoPesto/death-descent/de475c946e7aa0efb793d0824026c022be333823/DEATH_DESCENT.angry"
       ],
       "Updates": [
         {
@@ -4009,6 +4009,10 @@
         {
           "Hash": "46afad4ddc2a8584ea144b1caa3750bf",
           "Message": "- Fixed collision errors in final arena\n- Fixed collision box visibility issues\n- Removed stalkers\n- Added more ambient decoration\n- Properly credited FEX"
+        },
+        {
+          "Hash": "703cc704de4d89b49b71d814c6c6b61c",
+          "Message": "- Rebalanced encounters in the stairway and final rooms, removing some pointless enemies and adding other more fitting ones\n- Significant visual overhauls, including screens, lighting, textures, ambient effects, and more\n- Sound, ambience, and music tweaks\n- Fixed a lot of environment collision issues\n- Fixed some spots with incorrect enemy navigation, mainly on staircases\n- Lots of miscellaneous small bugfixes\n- Other dumb secrets"
         }
       ],
       "Levels": [
@@ -4025,12 +4029,12 @@
       ],
       "Name": "DEATH DESCENT",
       "Author": "PrestoPesto",
-      "Size": 12880300,
+      "Size": 23806978,
       "Guid": "e1864872cd4fa324e94571b4eae3a321",
-      "Hash": "46afad4ddc2a8584ea144b1caa3750bf",
+      "Hash": "703cc704de4d89b49b71d814c6c6b61c",
       "ThumbnailHash": "aad4bb4ce44876daa00a8728e7aeb8b2",
-      "ExternalLink": "https://raw.githubusercontent.com/PrestoPesto/death-descent/fab7867a18b406cb62488d7122cf2eb48ad8a8e5/DEATH_DESCENT.angry",
-      "LastUpdate": 1731717236
+      "ExternalLink": "https://raw.githubusercontent.com/PrestoPesto/death-descent/de475c946e7aa0efb793d0824026c022be333823/DEATH_DESCENT.angry",
+      "LastUpdate": 1733265364
     },
     {
       "Parts": [
