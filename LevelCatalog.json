@@ -4114,6 +4114,37 @@
       "ThumbnailHash": "155b2c8bc80df34f6f84a679f3c21a18",
       "ExternalLink": "",
       "LastUpdate": 1732828239
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/AlexPlaysRR/inferno_ultrakill/9035a375c617205a976881e56097dd0b3bf4966a/Inferno.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "1c4e7eaa9346ad87deed115b5efa509f",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "IN-1: Rubble In The Sky",
+          "LevelId": "pixelpower.layer.i1",
+          "isSecretLevel": false,
+          "secretCount": 3,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "no challenge yet"
+        }
+      ],
+      "Name": "<color=red>Inferno</color>",
+      "Author": "<color=orange>Alex Plays</color> & <color=blue>JoshieGuy3000</color>",
+      "Size": 17384926,
+      "Guid": "e8607aa1b4abd4d4796c60e3c7dfbcb6",
+      "Hash": "1c4e7eaa9346ad87deed115b5efa509f",
+      "ThumbnailHash": "a6bbf79bf575a525ecaa54d7467bd5da",
+      "ExternalLink": "https://raw.githubusercontent.com/AlexPlaysRR/inferno_ultrakill/9035a375c617205a976881e56097dd0b3bf4966a/Inferno.angry",
+      "LastUpdate": 1733264979
     }
   ]
 }
