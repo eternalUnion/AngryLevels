@@ -259,37 +259,6 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/cb7241caee3c8f54597ff6ef9d1b2357/level.angry"
-      ],
-      "Updates": [
-        {
-          "Hash": "bbf3c6bfb5fb9ff45884e84397cfae8a",
-          "Message": "Initial upload"
-        }
-      ],
-      "Levels": [
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "ALL GUTS, NO GLORY",
-          "LevelId": "william1321-allgutsnoglory",
-          "isSecretLevel": false,
-          "secretCount": 1,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": "DON'T PICK UP THE FIRST SKULL"
-        }
-      ],
-      "Name": "All Guts, No Glory",
-      "Author": ".willem1321",
-      "Size": 25761040,
-      "Guid": "cb7241caee3c8f54597ff6ef9d1b2357",
-      "Hash": "bbf3c6bfb5fb9ff45884e84397cfae8a",
-      "ThumbnailHash": "2d1646e90f3de8879cbe294960623903",
-      "ExternalLink": "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/cb7241caee3c8f54597ff6ef9d1b2357/level.angry",
-      "LastUpdate": 1690968859
-    },
-    {
-      "Parts": [
         "https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/28a65ed10b316234089e72e1c8b0d08d/level.angry"
       ],
       "Updates": [
