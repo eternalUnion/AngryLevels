@@ -4157,6 +4157,37 @@
       "ThumbnailHash": "a6bbf79bf575a525ecaa54d7467bd5da",
       "ExternalLink": "https://raw.githubusercontent.com/AlexPlaysRR/inferno_ultrakill/9035a375c617205a976881e56097dd0b3bf4966a/Inferno.angry",
       "LastUpdate": 1733264979
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/6b5f98330eff28e69164adb4f1d6d6de3b37bb13/Abandoned_In_Place.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "925849c1ddddb78b821a2f5ef70ca09e",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Abandoned In Place",
+          "LevelId": "willem1321-abandonedinplace",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE HARD DEATH MODE"
+        }
+      ],
+      "Name": "Abandoned In Place",
+      "Author": "Willem1321",
+      "Size": 22032351,
+      "Guid": "c5f273cc16751b64ea9c0a9b47b7ff82",
+      "Hash": "925849c1ddddb78b821a2f5ef70ca09e",
+      "ThumbnailHash": "0bfe3942ac262f5cec79d32463b51cc4",
+      "ExternalLink": "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/6b5f98330eff28e69164adb4f1d6d6de3b37bb13/Abandoned_In_Place.angry",
+      "LastUpdate": 1733520430
     }
   ]
 }
