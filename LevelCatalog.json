@@ -4098,12 +4098,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/AlexPlaysRR/inferno_ultrakill/9035a375c617205a976881e56097dd0b3bf4966a/Inferno.angry"
+        "https://raw.githubusercontent.com/AlexPlaysRR/inferno_ultrakill/5d3feca7bf79834f13f6665ef4323fcd8be8140f/1.1.0/Inferno2.angry1",
+        "https://raw.githubusercontent.com/AlexPlaysRR/inferno_ultrakill/5d3feca7bf79834f13f6665ef4323fcd8be8140f/1.1.0/Inferno2.angry2",
+        "https://raw.githubusercontent.com/AlexPlaysRR/inferno_ultrakill/5d3feca7bf79834f13f6665ef4323fcd8be8140f/1.1.0/Inferno2.angry3"
       ],
       "Updates": [
         {
           "Hash": "1c4e7eaa9346ad87deed115b5efa509f",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "82fa4272af5b4f5407f49e55ac64d3e1",
+          "Message": "- Fixed a gap in the second to last arena allowing you to skip the entire level.\n- Fixed a gap near the door leading into the outside area\n- Straightened some cerberi statues\n- Added some more decor in the second to last area and outside\n- For the people actually reading this, the next update will probably be another IN-1 hotfix, the update after that will MOST LIKELY be IN-2!! (I've also got a cool idea for the next update that I didn't have enough time to do this update, so stay tuned ;))\n- Added a tiny easter egg, try to find the hidden mannequin poser! :3\n- Added more cool particles to the outside area"
         }
       ],
       "Levels": [
@@ -4120,12 +4126,12 @@
       ],
       "Name": "<color=red>Inferno</color>",
       "Author": "<color=orange>Alex Plays</color> & <color=blue>JoshieGuy3000</color>",
-      "Size": 17384926,
+      "Size": 62551204,
       "Guid": "e8607aa1b4abd4d4796c60e3c7dfbcb6",
-      "Hash": "1c4e7eaa9346ad87deed115b5efa509f",
+      "Hash": "82fa4272af5b4f5407f49e55ac64d3e1",
       "ThumbnailHash": "a6bbf79bf575a525ecaa54d7467bd5da",
-      "ExternalLink": "https://raw.githubusercontent.com/AlexPlaysRR/inferno_ultrakill/9035a375c617205a976881e56097dd0b3bf4966a/Inferno.angry",
-      "LastUpdate": 1733264979
+      "ExternalLink": "",
+      "LastUpdate": 1733606662
     },
     {
       "Parts": [
