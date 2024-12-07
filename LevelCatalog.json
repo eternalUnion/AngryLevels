@@ -4135,12 +4135,16 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/6b5f98330eff28e69164adb4f1d6d6de3b37bb13/Abandoned_In_Place.angry"
+        "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/29a3fc803195c02931be8fd2960c83d4582b868c/abandonedinplace1.0.1/Abandoned_In_Place.angry"
       ],
       "Updates": [
         {
           "Hash": "925849c1ddddb78b821a2f5ef70ca09e",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "f3ed950844997bcf4e006be762d5beb5",
+          "Message": "- Removed leftover player activation trigger that allowed timer manipulation"
         }
       ],
       "Levels": [
@@ -4157,12 +4161,12 @@
       ],
       "Name": "Abandoned In Place",
       "Author": "Willem1321",
-      "Size": 22032351,
+      "Size": 22537213,
       "Guid": "c5f273cc16751b64ea9c0a9b47b7ff82",
-      "Hash": "925849c1ddddb78b821a2f5ef70ca09e",
+      "Hash": "f3ed950844997bcf4e006be762d5beb5",
       "ThumbnailHash": "0bfe3942ac262f5cec79d32463b51cc4",
-      "ExternalLink": "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/6b5f98330eff28e69164adb4f1d6d6de3b37bb13/Abandoned_In_Place.angry",
-      "LastUpdate": 1733520430
+      "ExternalLink": "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/29a3fc803195c02931be8fd2960c83d4582b868c/abandonedinplace1.0.1/Abandoned_In_Place.angry",
+      "LastUpdate": 1733606748
     }
   ]
 }
