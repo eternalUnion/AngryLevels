@@ -4170,12 +4170,16 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/a3b88cd491e5405b9b066f9678c91707a8d24ebe/My_Minds_Machinations.angry"
+        "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/5b90007f3523f4b1225f61da95c0d53f449461be/My_Minds_Machinations.angry"
       ],
       "Updates": [
         {
           "Hash": "46093ce4bea23258970b670b6a146077",
           "Message": "Initial upload"
+        },
+        {
+          "Hash": "fa30799678f36d5d55203400f9c1d2b4",
+          "Message": "Disabled debug text"
         }
       ],
       "Levels": [
@@ -4196,12 +4200,12 @@
       ],
       "Name": "My Mind's Machinations",
       "Author": "<color=#F5A9B8>bushsoup</color> and <color=yellow>bird7620</color>",
-      "Size": 20733019,
+      "Size": 20734161,
       "Guid": "c67728f561cbaa246a09d7eaacf9527c",
-      "Hash": "46093ce4bea23258970b670b6a146077",
+      "Hash": "fa30799678f36d5d55203400f9c1d2b4",
       "ThumbnailHash": "17943bd0eaf9a8a220120022f5d6c475",
-      "ExternalLink": "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/a3b88cd491e5405b9b066f9678c91707a8d24ebe/My_Minds_Machinations.angry",
-      "LastUpdate": 1733927556
+      "ExternalLink": "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/5b90007f3523f4b1225f61da95c0d53f449461be/My_Minds_Machinations.angry",
+      "LastUpdate": 1733933686
     }
   ]
 }
