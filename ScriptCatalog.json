@@ -236,6 +236,30 @@
       "FileName": "HeartOfTheMachineScripts.dll",
       "Hash": "20977f64432bd350952c36a0f8e05809",
       "Size": 103936
+    },
+    {
+      "Updates": [
+        "6e17903f3d1f40a4fc83d8d7dbe6edfe"
+      ],
+      "FileName": "Flag.dll",
+      "Hash": "6e17903f3d1f40a4fc83d8d7dbe6edfe",
+      "Size": 6656
+    },
+    {
+      "Updates": [
+        "5fa9208460730632053bdc3ea0a1b613"
+      ],
+      "FileName": "RoomArray.dll",
+      "Hash": "5fa9208460730632053bdc3ea0a1b613",
+      "Size": 5632
+    },
+    {
+      "Updates": [
+        "b25686d895644d3e781dbf9ae34047ea"
+      ],
+      "FileName": "FlagChecker.dll",
+      "Hash": "b25686d895644d3e781dbf9ae34047ea",
+      "Size": 5120
     }
   ]
 }
