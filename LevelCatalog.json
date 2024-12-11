@@ -4170,7 +4170,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/ea5247767a1ad425b6245d7c7f1dd3901cd13d8b/My_Minds_Machinations.angry"
+        "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/d8b73a1860665cf5f32a6e9d69c7d536bd642df4/My_Minds_Machinations.angry"
       ],
       "Updates": [
         {
@@ -4184,6 +4184,10 @@
         {
           "Hash": "230ce0a113d6a1d369cd4f4b031cd2a8",
           "Message": "Added anti-out of bounds precautions"
+        },
+        {
+          "Hash": "dc90737a88989da2ffb52767b8e1fb11",
+          "Message": "Fixed issues with anti-OOB precautions"
         }
       ],
       "Levels": [
@@ -4204,12 +4208,12 @@
       ],
       "Name": "My Mind's Machinations",
       "Author": "<color=#F5A9B8>bushsoup</color> and <color=yellow>bird7620</color>",
-      "Size": 20740809,
+      "Size": 20767894,
       "Guid": "c67728f561cbaa246a09d7eaacf9527c",
-      "Hash": "230ce0a113d6a1d369cd4f4b031cd2a8",
+      "Hash": "dc90737a88989da2ffb52767b8e1fb11",
       "ThumbnailHash": "17943bd0eaf9a8a220120022f5d6c475",
-      "ExternalLink": "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/ea5247767a1ad425b6245d7c7f1dd3901cd13d8b/My_Minds_Machinations.angry",
-      "LastUpdate": 1733948777
+      "ExternalLink": "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/d8b73a1860665cf5f32a6e9d69c7d536bd642df4/My_Minds_Machinations.angry",
+      "LastUpdate": 1733955360
     }
   ]
 }
