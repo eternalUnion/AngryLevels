@@ -4167,6 +4167,41 @@
       "ThumbnailHash": "0bfe3942ac262f5cec79d32463b51cc4",
       "ExternalLink": "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/29a3fc803195c02931be8fd2960c83d4582b868c/abandonedinplace1.0.1/Abandoned_In_Place.angry",
       "LastUpdate": 1733606748
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/a3b88cd491e5405b9b066f9678c91707a8d24ebe/My_Minds_Machinations.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "46093ce4bea23258970b670b6a146077",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "Flag.dll",
+            "FlagChecker.dll",
+            "RoomArray.dll"
+          ],
+          "LevelName": "MyMindsMachinations",
+          "LevelId": "MyMindsMachinations1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Deal no direct damage to enemies"
+        }
+      ],
+      "Name": "My Mind's Machinations",
+      "Author": "<color=#F5A9B8>bushsoup</color> and <color=yellow>bird7620</color>",
+      "Size": 20733019,
+      "Guid": "c67728f561cbaa246a09d7eaacf9527c",
+      "Hash": "46093ce4bea23258970b670b6a146077",
+      "ThumbnailHash": "17943bd0eaf9a8a220120022f5d6c475",
+      "ExternalLink": "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/a3b88cd491e5405b9b066f9678c91707a8d24ebe/My_Minds_Machinations.angry",
+      "LastUpdate": 1733927556
     }
   ]
 }
