@@ -4170,7 +4170,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/d8b73a1860665cf5f32a6e9d69c7d536bd642df4/My_Minds_Machinations.angry"
+        "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/3793ebf1e8cd489752b8ef6deb93130ad536a115/My_Minds_Machinations.angry"
       ],
       "Updates": [
         {
@@ -4188,6 +4188,10 @@
         {
           "Hash": "dc90737a88989da2ffb52767b8e1fb11",
           "Message": "Fixed issues with anti-OOB precautions"
+        },
+        {
+          "Hash": "f6f373a5590a9e6f15afeccba5b2e00f",
+          "Message": "- Improved Air Flow\n- Got a bit more chatty\n- Lessened the anger issues\n- Sleeping better clarifies the mind\n- Be careful not to clip out of reality...\n- Lessened your final punishment\n- Revoked funding for the Ferryman Space Program\n- Fattened a checkpoint\n- Fixed the shop bringing you to the wrong place"
         }
       ],
       "Levels": [
@@ -4208,12 +4212,12 @@
       ],
       "Name": "My Mind's Machinations",
       "Author": "<color=#F5A9B8>bushsoup</color> and <color=yellow>bird7620</color>",
-      "Size": 20767894,
+      "Size": 20589683,
       "Guid": "c67728f561cbaa246a09d7eaacf9527c",
-      "Hash": "dc90737a88989da2ffb52767b8e1fb11",
+      "Hash": "f6f373a5590a9e6f15afeccba5b2e00f",
       "ThumbnailHash": "17943bd0eaf9a8a220120022f5d6c475",
-      "ExternalLink": "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/d8b73a1860665cf5f32a6e9d69c7d536bd642df4/My_Minds_Machinations.angry",
-      "LastUpdate": 1733955360
+      "ExternalLink": "https://raw.githubusercontent.com/BlightedBush/My-Minds-Machinations/3793ebf1e8cd489752b8ef6deb93130ad536a115/My_Minds_Machinations.angry",
+      "LastUpdate": 1734205752
     }
   ]
 }
