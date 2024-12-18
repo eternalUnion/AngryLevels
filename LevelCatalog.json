@@ -3772,7 +3772,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.3/2401bd7d64576ab7f733259defd0e8707f5ba43f/REVOLTKILL.angry"
+        "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.4/d8172080d90f6d18ebd82c919bf0f5645ed3f314/REVOLTKILL.angry"
       ],
       "Updates": [
         {
@@ -3790,40 +3790,34 @@
         {
           "Hash": "74588540ce6c552066099689351e5d7b",
           "Message": "- Fixed a bug with the final room\n- Added challenge for E-1\n- Slightly changed the first room\n- Fixed bug with navmesh in the sixth room"
+        },
+        {
+          "Hash": "830953664a779e4bd8a1a474eee0255a",
+          "Message": "- Fixed a bug with the pillars texture\n- The geometry of many rooms has been changed\n- Fixed a bug with sudden music changes\n- Fixed a bug with opening the door before eliminating all enemies in the first arena\n- Removed unnecessary decorations\n- Removed pillars that enemies entered through textures\n- Removed level of temporary credits\n- Added new decorations\n- Fixed bugs with navmesh\n- Changed logo for the first level\n- Updated list of credits in the terminal"
         }
       ],
       "Levels": [
         {
           "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
+          "requiredDllNames": [
+            "STLPShittyScripts.dll"
+          ],
           "LevelName": "E-1 DAWN OF THE WORLDS",
           "LevelId": "7771",
           "isSecretLevel": false,
           "secretCount": 5,
           "levelChallengeEnabled": true,
           "levelChallengeText": "FIND THE TREE OF LUCK"
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [
-            "7771"
-          ],
-          "requiredDllNames": [],
-          "LevelName": "TEMPORARY CREDITS",
-          "LevelId": "7772",
-          "isSecretLevel": false,
-          "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
         }
       ],
       "Name": "REVOLTKILL",
       "Author": "thematveykaplay",
-      "Size": 14386634,
+      "Size": 13341113,
       "Guid": "5bb4c816325d47341b6c7049f097379a",
-      "Hash": "74588540ce6c552066099689351e5d7b",
+      "Hash": "830953664a779e4bd8a1a474eee0255a",
       "ThumbnailHash": "f8f126e01d62000ec86d1f2faef72503",
-      "ExternalLink": "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.3/2401bd7d64576ab7f733259defd0e8707f5ba43f/REVOLTKILL.angry",
-      "LastUpdate": 1727618594
+      "ExternalLink": "https://raw.githubusercontent.com/thematveykaplay/REVOLTKILL-v1.4/d8172080d90f6d18ebd82c919bf0f5645ed3f314/REVOLTKILL.angry",
+      "LastUpdate": 1734555467
     },
     {
       "Parts": [
