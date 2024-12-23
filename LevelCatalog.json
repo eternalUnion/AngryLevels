@@ -2885,7 +2885,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrabus/da992fa15f3f1c4b844fb9b24637e71385cd0da3/Update01/ULTRABUS.angry"
+        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrabus/0102a588b99f988370d4971b1c94ffe192d40259/Update02/ULTRABUS.angry"
       ],
       "Updates": [
         {
@@ -2899,6 +2899,10 @@
         {
           "Hash": "d535dc1bee56d20770c485ee5fa0a87a",
           "Message": "- Added holiday-specific goodies to all characters... and the bus\n- Removed \"Under Construction\" signs\n- Rewrote drive duration sign to better reflect playtime for non-expert mode\n- Fixed slight error in Bus model\n- Updated custom scripts .DLL\n- Fixed being able to see into skybox in Limbo stained glass windows\n- Fixed high-res texture in bottom of well in Limbo\n- Removed some detail to make Limbo well less enticing (Should no longer be mistaken as a pickup)\n- Moved sandcastle in Greed so less likely to be mistaken as a pickup\n- Removed some cheated times from the leaderboard\n- Slight rewrite for Pickup 10 Text"
+        },
+        {
+          "Hash": "72ce40b80e9a3995509deb976bbc0031",
+          "Message": "- Fixed Streetcleaner Flamethrowers not rendering properly.\n- Fixed Swordsmachine knife not rendering properly.\n- Fixed Cerberus Apple not rendering properly.\n- Fixed tile in Violence not loading caused by me being an idiot.\n- Moved check for next tile to be done in Update() rather than FixedUpdate().\n- Changed Fuel dial in cab so it now functions as a progress indicator. Full at level start and empty when at level end."
         }
       ],
       "Levels": [
@@ -2917,12 +2921,12 @@
       ],
       "Name": "Ultrabus",
       "Author": "Streetlamp",
-      "Size": 55605737,
+      "Size": 55573192,
       "Guid": "0181d227bcd43cf4cbc8fd492040f46a",
-      "Hash": "d535dc1bee56d20770c485ee5fa0a87a",
+      "Hash": "72ce40b80e9a3995509deb976bbc0031",
       "ThumbnailHash": "0d138618f46df9e06ad433752c898643",
-      "ExternalLink": "https://raw.githubusercontent.com/benjaminwcfrank/Ultrabus/da992fa15f3f1c4b844fb9b24637e71385cd0da3/Update01/ULTRABUS.angry",
-      "LastUpdate": 1730228222
+      "ExternalLink": "https://raw.githubusercontent.com/benjaminwcfrank/Ultrabus/0102a588b99f988370d4971b1c94ffe192d40259/Update02/ULTRABUS.angry",
+      "LastUpdate": 1734915203
     },
     {
       "Parts": [
