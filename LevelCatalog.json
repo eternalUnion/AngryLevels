@@ -2,15 +2,19 @@
   "Levels": [
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/10b38600f65420ecc263daefde41854e80e0289d/EasyLevel1.0/EasyLevel.angry1",
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/10b38600f65420ecc263daefde41854e80e0289d/EasyLevel1.0/EasyLevel.angry2",
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/10b38600f65420ecc263daefde41854e80e0289d/EasyLevel1.0/EasyLevel.angry3",
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/10b38600f65420ecc263daefde41854e80e0289d/EasyLevel1.0/EasyLevel.angry4"
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/6e6259749acc8473fbf6b2d0599c35c4ce3320c2/EasyLevel1.1/SPECIAL_CHRISTMAS_GIFT.angry1",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/6e6259749acc8473fbf6b2d0599c35c4ce3320c2/EasyLevel1.1/SPECIAL_CHRISTMAS_GIFT.angry2",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/6e6259749acc8473fbf6b2d0599c35c4ce3320c2/EasyLevel1.1/SPECIAL_CHRISTMAS_GIFT.angry3",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/6e6259749acc8473fbf6b2d0599c35c4ce3320c2/EasyLevel1.1/SPECIAL_CHRISTMAS_GIFT.angry4"
       ],
       "Updates": [
         {
           "Hash": "d76faf677b801a19033185a32f7351df",
           "Message": "The Development story of the level, So Happy To Be Back Home, which is being developed now, as a development cause, I would like to write it here. I started developing the level for a year, Let's copy the development cause I wrote so far."
+        },
+        {
+          "Hash": "77eb2ed7d559951e1369c3e2a9e2a950",
+          "Message": "-Nade the level a little bit easier for peple"
         }
       ],
       "Levels": [
@@ -29,12 +33,12 @@
       ],
       "Name": "SPECIAL CHRISTMAS GIFT",
       "Author": "daviejay2011",
-      "Size": 78985795,
+      "Size": 85462540,
       "Guid": "868d6d05d8121b04981b9941ae32229f",
-      "Hash": "d76faf677b801a19033185a32f7351df",
+      "Hash": "77eb2ed7d559951e1369c3e2a9e2a950",
       "ThumbnailHash": "b3cef07a0fba18bc5dfe6cb14e57aecf",
       "ExternalLink": "",
-      "LastUpdate": 1735062230
+      "LastUpdate": 1736024835
     },
     {
       "Parts": [
