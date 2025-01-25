@@ -3159,7 +3159,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/TrinityHaxe/V3Showdown/3b1e935d0fd614851ce5b1097efa1f1ade45cd5f/V3s_Showdown.angry"
+        "https://raw.githubusercontent.com/TrinityHaxe/V3Showdown/c54e045edb153c775dceb45cb8df28573809be1d/V3s_Showdown.angry1",
+        "https://raw.githubusercontent.com/TrinityHaxe/V3Showdown/c54e045edb153c775dceb45cb8df28573809be1d/V3s_Showdown.angry2"
       ],
       "Updates": [
         {
@@ -3173,28 +3174,42 @@
         {
           "Hash": "44071eac918715b45632bb2ff42ad3be",
           "Message": "- Most areas you can clip through have been patched\n- V3's Arsenal has been expanded, he now has:\n   * Revolver\n   * Shotgun\n   * Railcannon\n   * Nailgun\n   * Saw-Launcher\n   * Rocket Launcher\n- V3's speed has been tweaked\n- V3's health has been slightly altered for fun playability\n- Fixed a bug where V3 wouldnt die once you actually killed him"
+        },
+        {
+          "Hash": "3f3ee3279a6aa70f09562c1fb08e8eb6",
+          "Message": "2nd phase implemented\n|\n|--- New Mech Boss \"Odysseus\"\n|--- Brand New Arena\n|--- Sick Music\n\nbug fixes in phase 1"
         }
       ],
       "Levels": [
         {
           "requiredCompletedLevelIdsForUnlock": [],
           "requiredDllNames": [],
-          "LevelName": "V3's Showdown",
+          "LevelName": "Phase 1",
           "LevelId": "t.trinity.v3",
           "isSecretLevel": false,
           "secretCount": 0,
           "levelChallengeEnabled": false,
           "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Phase 2",
+          "LevelId": "trinity.v3mech",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": "winner!"
         }
       ],
-      "Name": "V3's Showdown",
+      "Name": "<color=#FFFFFF>V3</color>'s Showdown",
       "Author": "t.trinity",
-      "Size": 12583466,
+      "Size": 31581112,
       "Guid": "91a952cfd5574ef47bf624e09c311260",
-      "Hash": "44071eac918715b45632bb2ff42ad3be",
+      "Hash": "3f3ee3279a6aa70f09562c1fb08e8eb6",
       "ThumbnailHash": "9fb556ee9d68511899c6300c781c8c9e",
-      "ExternalLink": "https://raw.githubusercontent.com/TrinityHaxe/V3Showdown/3b1e935d0fd614851ce5b1097efa1f1ade45cd5f/V3s_Showdown.angry",
-      "LastUpdate": 1720510857
+      "ExternalLink": "",
+      "LastUpdate": 1737848886
     },
     {
       "Parts": [
