@@ -4199,6 +4199,37 @@
       "ThumbnailHash": "84f39ee9dcd5bb67dce5d9a011191a29",
       "ExternalLink": "https://raw.githubusercontent.com/PhantomBlader9556/FA-2/788a434c3a47cadf77a3f1622d39ccd408ff0dc3/false_ascendence_2.angry",
       "LastUpdate": 1735062200
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/HELLS-HOTLINE/fd258b6bd729285c5fb14f462a9d47edc9cff7b9/1.0/colorfb6e3fHELLScolor_colorf38ef9HOTLINEcolor.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "ab6faf98885e1033d9d52e467e1e69fb",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MISSED CALL",
+          "LevelId": "hellshotline.grinchlanddevs",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "No challenge available (yet)"
+        }
+      ],
+      "Name": "<color=#fb6e3f>HELL'S</color> <color=#f38ef9>HOTLINE</color>",
+      "Author": "<color=#00ffff>Willem1321</color>, <color=#005eff>PhantomBlader</color>, <color=#ff00ff>antlers</color>",
+      "Size": 20822292,
+      "Guid": "2bfa423acc83b044e877bc40865107c6",
+      "Hash": "ab6faf98885e1033d9d52e467e1e69fb",
+      "ThumbnailHash": "9b4e1b47957d269b58a6c7f1c62586f5",
+      "ExternalLink": "https://raw.githubusercontent.com/William1321/HELLS-HOTLINE/fd258b6bd729285c5fb14f462a9d47edc9cff7b9/1.0/colorfb6e3fHELLScolor_colorf38ef9HOTLINEcolor.angry",
+      "LastUpdate": 1738359637
     }
   ]
 }
