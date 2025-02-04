@@ -4234,6 +4234,39 @@
       "ThumbnailHash": "9b4e1b47957d269b58a6c7f1c62586f5",
       "ExternalLink": "https://raw.githubusercontent.com/William1321/HELLS-HOTLINE/fd258b6bd729285c5fb14f462a9d47edc9cff7b9/1.0/colorfb6e3fHELLScolor_colorf38ef9HOTLINEcolor.angry",
       "LastUpdate": 1738359637
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/GeriGrape9/The-Weight-Of-The-World-Remake/581cd0d34b5d9c25440a2ea40429ca961644a3e1/1.0 (Initial Release)/The_Weight_Of_The_World.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "d246cb01947308474c2e00f23f13f8df",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "CarcassEnemy.dll"
+          ],
+          "LevelName": "A CITY LOST IN BLOOD RED DARKNESS",
+          "LevelId": "gerigrape.twotw.catacombs",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "(COMING SOON) COMPLETE THE FIRST SUPREME TRIAL"
+        }
+      ],
+      "Name": "The Weight Of The World (Remake)",
+      "Author": "GeriGrape9",
+      "Size": 50196882,
+      "Guid": "ab574413ef746b344b7c5b2ddf0a2def",
+      "Hash": "d246cb01947308474c2e00f23f13f8df",
+      "ThumbnailHash": "61457fe6a987505fefe93e43e1766854",
+      "ExternalLink": "https://raw.githubusercontent.com/GeriGrape9/The-Weight-Of-The-World-Remake/581cd0d34b5d9c25440a2ea40429ca961644a3e1/1.0 (Initial Release)/The_Weight_Of_The_World.angry",
+      "LastUpdate": 1738701264
     }
   ]
 }
