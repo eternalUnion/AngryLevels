@@ -4271,6 +4271,37 @@
       "ThumbnailHash": "61457fe6a987505fefe93e43e1766854",
       "ExternalLink": "https://raw.githubusercontent.com/GeriGrape9/The-Weight-Of-The-World-Remake/581cd0d34b5d9c25440a2ea40429ca961644a3e1/1.0 (Initial Release)/The_Weight_Of_The_World.angry",
       "LastUpdate": 1738701264
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/4d20b109c4f569f6bcaca83b908bca49c103e09c/TOWER_OF_STEEL_0.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "3af889155c084af4d9a2cb5ff51ca973",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TOTAL WAR",
+          "LevelId": "tos_1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T KILL THE IDOLED MINDFLAYER"
+        }
+      ],
+      "Name": "TOWER OF STEEL",
+      "Author": "plonk",
+      "Size": 25420769,
+      "Guid": "adb0ef3e5cc07c84889dd27f7898af96",
+      "Hash": "3af889155c084af4d9a2cb5ff51ca973",
+      "ThumbnailHash": "da9094a263fc6d6140f5b182db612bf7",
+      "ExternalLink": "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/4d20b109c4f569f6bcaca83b908bca49c103e09c/TOWER_OF_STEEL_0.angry",
+      "LastUpdate": 1738701566
     }
   ]
 }
