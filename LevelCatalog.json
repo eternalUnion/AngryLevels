@@ -1514,9 +1514,9 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/William1321/skilltests/566714e95b5736a733a771e257a3f55a54fbaed5/Partitioned%20Skilltests%202.1/skilltest2.angry1",
-        "https://raw.githubusercontent.com/William1321/skilltests/566714e95b5736a733a771e257a3f55a54fbaed5/Partitioned%20Skilltests%202.1/skilltest2.angry2",
-        "https://raw.githubusercontent.com/William1321/skilltests/566714e95b5736a733a771e257a3f55a54fbaed5/Partitioned%20Skilltests%202.1/skilltest2.angry3"
+        "https://raw.githubusercontent.com/William1321/skilltests/666f1da6e89b447ed056c37bec6866dc4ae1aa49/partitioned skilltests 2.2/skilltest2.angry1",
+        "https://raw.githubusercontent.com/William1321/skilltests/666f1da6e89b447ed056c37bec6866dc4ae1aa49/partitioned skilltests 2.2/skilltest2.angry2",
+        "https://raw.githubusercontent.com/William1321/skilltests/666f1da6e89b447ed056c37bec6866dc4ae1aa49/partitioned skilltests 2.2/skilltest2.angry3"
       ],
       "Updates": [
         {
@@ -1546,19 +1546,13 @@
         {
           "Hash": "d1fa468fada9c818db283b19ccd30d69",
           "Message": "- Fixed guttertanks being completely broken due to shop terminals which also fixed invis explosions (as consequence i had to remove the shops sadly)\n- Wrath doors should no longer softlock you\n- Increased skilltest 2 p-rank time to 10 mins\n- Fixed untagged roof in cylindrical room with the bridge"
+        },
+        {
+          "Hash": "e245312dae08dad33cb0b09af4c40f83",
+          "Message": "- Small rebrand in preparation for upcoming level :)\n- Made skilltest 1 a secret level due to its lower quality and little relevance\n- Minor visual details and touch ups added"
         }
       ],
       "Levels": [
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "THE SKILL TEST",
-          "LevelId": "willem1321.theskilltest",
-          "isSecretLevel": false,
-          "secretCount": 5,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": "BEAT THE FINAL GAUNTLET"
-        },
         {
           "requiredCompletedLevelIdsForUnlock": [],
           "requiredDllNames": [],
@@ -1580,16 +1574,26 @@
           "secretCount": 1,
           "levelChallengeEnabled": true,
           "levelChallengeText": "DONT TRIGGER ANY ENCOUNTERS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "THE SKILL TEST",
+          "LevelId": "willem1321.theskilltest",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE FINAL GAUNTLET"
         }
       ],
-      "Name": "Skilltest 2",
+      "Name": "AREALIS /// SKILLTESTS",
       "Author": ".willem1321",
-      "Size": 69456900,
+      "Size": 69874022,
       "Guid": "3ed7bda0dfe2f81438a35d1c5c96fcb1",
-      "Hash": "d1fa468fada9c818db283b19ccd30d69",
+      "Hash": "e245312dae08dad33cb0b09af4c40f83",
       "ThumbnailHash": "05869631c38f7c68242db47f04f7b222",
       "ExternalLink": "",
-      "LastUpdate": 1724940373
+      "LastUpdate": 1738701080
     },
     {
       "Parts": [
