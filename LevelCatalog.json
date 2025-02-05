@@ -4241,6 +4241,37 @@
     },
     {
       "Parts": [
+        "https://raw.githubusercontent.com/ballfartchungus43/inanis-power-station/d34b9b830d85500d9fd8ee9d3ed114c441299364/INANIS_POWER_STATION.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "cc00db5e4987c1c4ea88656380603800",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "DEATH AROUND THE CORNER",
+          "LevelId": "lucy.space.deathAroundTheCorner",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "INANIS POWER STATION",
+      "Author": "ballfartchungus43",
+      "Size": 6285325,
+      "Guid": "87474b9c91deb124d86d323ab9db59c6",
+      "Hash": "cc00db5e4987c1c4ea88656380603800",
+      "ThumbnailHash": "07477bdc7d2b631f49b41187d7c69c51",
+      "ExternalLink": "https://raw.githubusercontent.com/ballfartchungus43/inanis-power-station/d34b9b830d85500d9fd8ee9d3ed114c441299364/INANIS_POWER_STATION.angry",
+      "LastUpdate": 1738700000
+    },
+    {
+      "Parts": [
         "https://raw.githubusercontent.com/GeriGrape9/The-Weight-Of-The-World-Remake/581cd0d34b5d9c25440a2ea40429ca961644a3e1/1.0 (Initial Release)/The_Weight_Of_The_World.angry"
       ],
       "Updates": [
