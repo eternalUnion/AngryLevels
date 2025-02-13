@@ -4337,6 +4337,39 @@
       "ThumbnailHash": "da9094a263fc6d6140f5b182db612bf7",
       "ExternalLink": "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/4d20b109c4f569f6bcaca83b908bca49c103e09c/TOWER_OF_STEEL_0.angry",
       "LastUpdate": 1738701566
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FNChannel/VulcanMiningCenter/7b3cda31bb0ccbef599024c4552e9e259daab888/VULCAN.angry"
+      ],
+      "Updates": [
+        {
+          "Hash": "17038e480a4e488ea6a8a1fe69848a4c",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "CarcassEnemy.dll"
+          ],
+          "LevelName": "Crystal Valley",
+          "LevelId": "fnchannel.rudejam3.CrystalValley",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "CHALLENGE COMING SOON"
+        }
+      ],
+      "Name": "Vulcan Mining Center",
+      "Author": "FNChannel",
+      "Size": 20652748,
+      "Guid": "65e4db67470e45945864fabc404a6556",
+      "Hash": "17038e480a4e488ea6a8a1fe69848a4c",
+      "ThumbnailHash": "4b5abd8e01f2892fa74f31d74c368c6f",
+      "ExternalLink": "https://raw.githubusercontent.com/FNChannel/VulcanMiningCenter/7b3cda31bb0ccbef599024c4552e9e259daab888/VULCAN.angry",
+      "LastUpdate": 1739486582
     }
   ]
 }
