@@ -2,10 +2,10 @@
   "Levels": [
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/6e6259749acc8473fbf6b2d0599c35c4ce3320c2/EasyLevel1.1/SPECIAL_CHRISTMAS_GIFT.angry1",
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/6e6259749acc8473fbf6b2d0599c35c4ce3320c2/EasyLevel1.1/SPECIAL_CHRISTMAS_GIFT.angry2",
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/6e6259749acc8473fbf6b2d0599c35c4ce3320c2/EasyLevel1.1/SPECIAL_CHRISTMAS_GIFT.angry3",
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/6e6259749acc8473fbf6b2d0599c35c4ce3320c2/EasyLevel1.1/SPECIAL_CHRISTMAS_GIFT.angry4"
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/f89d2d884c24907620e19dedec20e97a01bf49e3/EasyLevel1.2/SPECIAL_CHRISTMAS_GIFT.angry1",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/f89d2d884c24907620e19dedec20e97a01bf49e3/EasyLevel1.2/SPECIAL_CHRISTMAS_GIFT.angry2",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/f89d2d884c24907620e19dedec20e97a01bf49e3/EasyLevel1.2/SPECIAL_CHRISTMAS_GIFT.angry3",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/f89d2d884c24907620e19dedec20e97a01bf49e3/EasyLevel1.2/SPECIAL_CHRISTMAS_GIFT.angry4"
       ],
       "Updates": [
         {
@@ -15,6 +15,10 @@
         {
           "Hash": "77eb2ed7d559951e1369c3e2a9e2a950",
           "Message": "-Nade the level a little bit easier for peple"
+        },
+        {
+          "Hash": "fd9bd313062db813c852ad1bd306bbb9",
+          "Message": "I couldn't find what was different with this patch but it was an update for it so I released it. Maybe it maked the level easier and faster."
         }
       ],
       "Levels": [
@@ -33,12 +37,12 @@
       ],
       "Name": "SPECIAL CHRISTMAS GIFT",
       "Author": "daviejay2011",
-      "Size": 85462540,
+      "Size": 85237467,
       "Guid": "868d6d05d8121b04981b9941ae32229f",
-      "Hash": "77eb2ed7d559951e1369c3e2a9e2a950",
+      "Hash": "fd9bd313062db813c852ad1bd306bbb9",
       "ThumbnailHash": "b3cef07a0fba18bc5dfe6cb14e57aecf",
       "ExternalLink": "",
-      "LastUpdate": 1736024835
+      "LastUpdate": 1739486485
     },
     {
       "Parts": [
