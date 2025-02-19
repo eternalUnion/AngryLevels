@@ -1087,7 +1087,12 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.4/ULTRAKILL__REPRISE.angry"
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.5.2/ULTRAKILL__REPRISE.angry1",
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.5.2/ULTRAKILL__REPRISE.angry2",
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.5.2/ULTRAKILL__REPRISE.angry3",
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.5.2/ULTRAKILL__REPRISE.angry4",
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.5.2/ULTRAKILL__REPRISE.angry5",
+        "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.5.2/ULTRAKILL__REPRISE.angry6"
       ],
       "Updates": [
         {
@@ -1125,12 +1130,18 @@
         {
           "Hash": "237c23c5db235a94ca776cf8d1633bab",
           "Message": "- Updated to Rude 4\n- Fixed Various Softlocks in 0-R and 1-R\n- Fixed a cheese in 0-R Blood Hallway\n- Fixed Various Clips in 1-R\n- Added an Easter Egg to 1-R\n- Added custom music to 0-R\n- Fixed an occlusion error in 1-R\n- Changed the Difficulty Text for Challenge Mode\n- Fixed water tags in 1-R\nTHERE IS A KNOWN ISSUE WHERE YOU CAN EQUIP THE HAMMER IN 0-R CHALLENGE MODE, DON'T CHEAT PLEASE <3"
+        },
+        {
+          "Hash": "f2cd0b6660aa7c48444ea04a9af6f3fe",
+          "Message": "0-R:\n\nRemoved enemies from Lava Room\nFixed checkpoint introductions\nReverted changes to challenge terminal\nAdded flickering lights\nChanged final wave transition\nAdjusted lighting\nAdded a tutorial for Angry Gates\nRemoved a floating idol\nMoved a ceiling to prevent malicious face clipping\nFixed a bug that would cause an encounter in the Staircase Room to end early\nFixed z-fighting\nAdded geometry to prevent floating checkpoints\nAdjusted how the Lavafall Room nopass behaves in NOMO and NOMOW\nFixed an issue where one light in the Final Room would not activate\nFixed an issue where swordsmachine would be unable to traverse doorways\nChanged P-Rank requirements \nFixed out of bounds (made colliders convex and added clip brush)\nOptimized level\nAdded Challenge Mode exclusive music \nFixed an issue in Final Room where you could checkpoint after the fight and things would break\nAdded back the instakills (except in the maze section)\nChanged final room to always do intro\n\n1-R:\n\nFixed tesla coil animations\nFixed fire sprites\nFixed z-fighting\nFixed deloading glitch\nRemoved floating idol in Donut Arena\nReverted changes to challenge terminal\nFixed false flag OOB bug in final room\nFixed a bug where hideous masses would spawn even when \"Disable Enemy Spawns\" cheat was active\nFixed an occlusion bug in the church encounter\nMade all lightning damage the player\nFixed a softlock that would occur when a malicious face crushed another malicious face\nMade minor adjustments to Tundra and Agony Encounter and Church Encounter\nAdded geometry to prevent floating checkpoints\nAdded an any% route to the level\nRemoved Angry Gate HUD message\nRemoved collision on some geometry\nOptimized level\nFixed out of bounds (made colliders convex)\nFixed an issue in Tundra and Agony Room that would cause NOMO and NOMOW to be impossible\nFixed an issue in donut arena that would cause NOMOW to be impossible\nCompletely reworked First Encounter \nChanged P-Rank requirements\nFixed an issue where malicious face would clip through the ground in staircase room \nFixed an occlusion bug in the secret skull hallway\nFixed an issue in Final Room where you could checkpoint after the fight and things would break\nAdded a static effect to certain parts of the level\nAdded Challenge Mode exlusive music\nChanged how Final Room behaves after killing all the enemies\nMoved hideous masses in Final Room"
         }
       ],
       "Levels": [
         {
           "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
+          "requiredDllNames": [
+            "TeamDoodz.UltraUtility.dll"
+          ],
           "LevelName": "0-R: ASHES TO ASHES",
           "LevelId": "Smallkloon.PreludeReprise",
           "isSecretLevel": false,
@@ -1152,7 +1163,9 @@
         },
         {
           "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
+          "requiredDllNames": [
+            "TeamDoodz.UltraUtility.dll"
+          ],
           "LevelName": "2-R: FAREWELL AT THE END OF EDEN",
           "LevelId": "Smallkloon.LustReprise",
           "isSecretLevel": false,
@@ -1163,12 +1176,12 @@
       ],
       "Name": "ULTRAKILL /// REPRISE",
       "Author": "Smallkloon",
-      "Size": 71016815,
+      "Size": 135874236,
       "Guid": "727cca746f27c4147b4d4bcc406209de",
-      "Hash": "237c23c5db235a94ca776cf8d1633bab",
+      "Hash": "f2cd0b6660aa7c48444ea04a9af6f3fe",
       "ThumbnailHash": "2e6b7421520bd2fbb537eb8f111765d7",
-      "ExternalLink": "https://raw.githubusercontent.com/Smallkloon/Ultrakill-Reprise/main/Ultrakill%20Reprise%202.4/ULTRAKILL__REPRISE.angry",
-      "LastUpdate": 1714073367
+      "ExternalLink": "",
+      "LastUpdate": 1739992523
     },
     {
       "Parts": [
