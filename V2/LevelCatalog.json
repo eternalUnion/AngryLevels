@@ -1,3 +1,117 @@
 {
-  "Levels": []
+  "Levels": [
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DoodleEh/naruto/3432707ce210b74947ea15cfc7e72f517087ecd9/naruto.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1742478348,
+          "Hash": "93f6c880c5352cf9a7bd9549f5ebecad",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": null,
+      "Name": "naruto",
+      "Author": "naruto",
+      "Size": 14826930,
+      "Guid": "f9783fc3d184ccc41a6e2fce58968e33",
+      "Hash": "93f6c880c5352cf9a7bd9549f5ebecad",
+      "ThumbnailHash": "c5fb6f67715d3ff978df8998f2b4a9a9",
+      "Locked": false,
+      "LastUpdate": 1742478348
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/051d8eb4089c281258006cf92dddebc1134696bc/FunSizedHeresyRevamp.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1742651148,
+          "Hash": "6bc51202e25d3fc4c97b4d285e5ba760",
+          "Message": "-Revamped the levels aesthetics to match revamped heresy\n-Reworked third arena and hookpoint hallway from the ground up\n-Changed Tip of the day to something new\n-Added a new original song\n-Hank griffin was shot 3 times in the chest and is in a coma so now challenge has been removed for the time being cuz of that\n-Made P rank requirements(Time and Style) more lenient so its easier, Kills has been updated too"
+        }
+      ],
+      "Levels": null,
+      "Name": "Fun Sized Heresy",
+      "Author": "FNChannel",
+      "Size": 20189638,
+      "Guid": "ae6eeb9c8e3741441986985171f75b56",
+      "Hash": "6bc51202e25d3fc4c97b4d285e5ba760",
+      "ThumbnailHash": "0336269f0f66411e1be6c9cc95f66be8",
+      "Locked": false,
+      "LastUpdate": 1742651148
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry1",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry2",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry3",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry4",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry5"
+      ],
+      "Updates": [
+        {
+          "Date": 1743425147,
+          "Hash": "bd4b00357e5608b4f8d238c28b819c57",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": null,
+      "Name": "<color=#00DDEE>Earth Second - Freedom!</color>",
+      "Author": "<color=#EA33EE>Holawenasx2</color>",
+      "Size": 122832443,
+      "Guid": "f907c5991d40a2a48941d1c1dde860c7",
+      "Hash": "bd4b00357e5608b4f8d238c28b819c57",
+      "ThumbnailHash": "efc73a725eff8c92b3df563cd6606529",
+      "Locked": false,
+      "LastUpdate": 1743425147
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/218c1b425aca14229bdae71587657f57f651795f/CRUSADE.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1743425148,
+          "Hash": "c14464732ac5ea842a00fa313bb71f15",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": null,
+      "Name": "VIOLENCE OUTREACH /// TRENCH RAIDER",
+      "Author": "Blckwtr_Northstar",
+      "Size": 25770718,
+      "Guid": "753954cce2a3c514bad1136a2e88f14f",
+      "Hash": "c14464732ac5ea842a00fa313bb71f15",
+      "ThumbnailHash": "49f118bf48c66c40ed3d9f40b2c4cc52",
+      "Locked": false,
+      "LastUpdate": 1743425148
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry1",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry2",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry3",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry4",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry5"
+      ],
+      "Updates": [
+        {
+          "Date": 1744461948,
+          "Hash": "9ac795e17149a0d4f9fca85a21430d46",
+          "Message": "Updated to the new ULTRAKILL version"
+        }
+      ],
+      "Levels": null,
+      "Name": "FRAUDULENCE",
+      "Author": "Spelunky",
+      "Size": 108749753,
+      "Guid": "033ce9db13ba74d4aa07bdae343d49c2",
+      "Hash": "9ac795e17149a0d4f9fca85a21430d46",
+      "ThumbnailHash": "ee12078001fd7af1b99f2764296e0a13",
+      "Locked": false,
+      "LastUpdate": 1744461948
+    }
+  ]
 }

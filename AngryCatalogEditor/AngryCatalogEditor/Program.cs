@@ -250,7 +250,7 @@ namespace AngryCatalogEditor
 						WriteLineWarning("No bundle name");
 					if (string.IsNullOrEmpty(data.bundleAuthor))
 						WriteLineWarning("No bundle author");
-					if (data.bundleVersion != 5)
+					if (data.bundleVersion != 6)
 						WriteLineWarning($"Old bundle version: {data.bundleVersion}");
 				}
 
