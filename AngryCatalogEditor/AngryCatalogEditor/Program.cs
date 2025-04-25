@@ -17,7 +17,8 @@ namespace AngryCatalogEditor
 	{
 		public class UpdateInfo
 		{
-			public string Hash { get; set; }
+            public long Date { get; set; }
+            public string Hash { get; set; }
 			public string Message { get; set; }
 		}
 
@@ -44,8 +45,8 @@ namespace AngryCatalogEditor
 		public string Hash { get; set; }
 		public string ThumbnailHash { get; set; }
 
-		public string ExternalLink { get; set; }
-		public List<string> Parts;
+        public bool Locked { get; set; }
+        public List<string> Parts;
         public long LastUpdate { get; set; }
 		public List<UpdateInfo> Updates;
 
@@ -338,8 +339,9 @@ namespace AngryCatalogEditor
 			newInfo.ThumbnailHash = GetMD5Hash(File.ReadAllBytes(tempThumbnailPath));
 			newInfo.Size = size;
 			newInfo.LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds();
-			newInfo.Updates = new List<AngryCatalogEditor.BundleInfo.UpdateInfo>() { new AngryCatalogEditor.BundleInfo.UpdateInfo() { Hash = bundleInfo.buildHash, Message = "Initial upload" } };
+			newInfo.Updates = new List<AngryCatalogEditor.BundleInfo.UpdateInfo>() { new AngryCatalogEditor.BundleInfo.UpdateInfo() { Date = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds(), Hash = bundleInfo.buildHash, Message = "Initial upload" } };
 			newInfo.Parts = new List<string>();
+			newInfo.Locked = false;
 
 			Console.Write("External link (leave empty to upload to github): ");
 			string externalLink = Console.ReadLine();
@@ -348,7 +350,6 @@ namespace AngryCatalogEditor
 			{
                 externalLink = $"https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/{bundleInfo.guid}/level.angry";
 				newInfo.Parts.Add(externalLink);
-				newInfo.ExternalLink = externalLink;
 				File.Copy(bundlePath, Path.Combine(bundleDir, "level.angry"));
             }
 			else
@@ -362,12 +363,6 @@ namespace AngryCatalogEditor
 						break;
 
 					newInfo.Parts.Add(part);
-                }
-
-                newInfo.ExternalLink = externalLink;
-                if (newInfo.Parts.Count != 1)
-				{
-                    newInfo.ExternalLink = "";
                 }
             }
 
@@ -455,14 +450,14 @@ namespace AngryCatalogEditor
 						Console.Write("Update message: ");
 						string updateMsg = Console.ReadLine().Replace("\\n", "\n");
 
-						Console.WriteLine($"Old link: {bundle.ExternalLink}");
-                        Console.Write("New external link (leave empty to upload to github): ");
+						if (bundle.Parts.Count != 0)
+							Console.WriteLine($"Old link: {bundle.Parts[0]} ({bundle.Parts.Count} parts)");
+                        Console.Write("New external link: ");
                         string externalLink = Console.ReadLine();
 						if (string.IsNullOrEmpty(externalLink))
 						{
-							bundle.ExternalLink = $"https://raw.githubusercontent.com/eternalUnion/AngryLevels/release/Levels/{bundle.Guid}/level.angry";
-							File.Copy(bundlePath, Path.Combine(projectRoot, "Levels", guid, "level.angry"), true);
-							bundle.Parts = new List<string>() { bundle.ExternalLink };
+							Console.WriteLine("Canceled");
+							return;
 						}
 						else
 						{
@@ -470,7 +465,6 @@ namespace AngryCatalogEditor
                             if (File.Exists(angryFile))
                                 File.Delete(angryFile);
 
-                            bundle.ExternalLink = externalLink;
                             bundle.Parts.Clear();
                             bundle.Parts.Add(externalLink);
 
@@ -482,7 +476,6 @@ namespace AngryCatalogEditor
                                     break;
 
                                 bundle.Parts.Add(part);
-                                bundle.ExternalLink = "";
                             }
                         }
 
@@ -494,7 +487,7 @@ namespace AngryCatalogEditor
 						bundle.Size = size;
 						if (bundle.Updates == null)
 							bundle.Updates = new List<AngryCatalogEditor.BundleInfo.UpdateInfo>();
-						bundle.Updates.Add(new AngryCatalogEditor.BundleInfo.UpdateInfo() { Hash = info.buildHash, Message = updateMsg });
+						bundle.Updates.Add(new AngryCatalogEditor.BundleInfo.UpdateInfo() { Date = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds(), Hash = info.buildHash, Message = updateMsg });
 						
 						changed = true;
 					}
@@ -511,7 +504,6 @@ namespace AngryCatalogEditor
 					if (File.Exists(angryFile))
 						File.Delete(angryFile);
 
-					bundle.ExternalLink = link;
 					bundle.Parts.Clear();
 					bundle.Parts.Add(link);
 
@@ -523,7 +515,6 @@ namespace AngryCatalogEditor
                             break;
 
                         bundle.Parts.Add(part);
-						bundle.ExternalLink = "";
                     }
 
                     changed = true;
@@ -703,7 +694,28 @@ namespace AngryCatalogEditor
 				Console.WriteLine("Not found");
 		}
 
-		static string projectRoot;
+		static void SetBundleLocked()
+		{
+			Console.Write("Bundle GUID: ");
+			string guid = Console.ReadLine();
+
+			if (string.IsNullOrEmpty(guid))
+				return;
+
+            AngryCatalogEditor.BundleInfo info = catalog.Levels.Where(level => level.Guid == guid).FirstOrDefault();
+            if (info != null)
+            {
+				info.Locked = !info.Locked;
+                SaveCatalog();
+                Console.WriteLine((info.Locked ? "Locked" : "Unlocked") + $" \"{info.Name}\"");
+            }
+            else
+            {
+                Console.WriteLine("Could not find guid");
+            }
+        }
+
+        static string projectRoot;
 		static void Main(string[] args)
 		{
 			CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
@@ -757,6 +769,7 @@ namespace AngryCatalogEditor
 				Console.WriteLine("8 - Get repo info");
 				Console.WriteLine();
 				Console.WriteLine("9 - Search bundle");
+				Console.WriteLine("10 - Lock/unlock bundle");
 				Console.Write("> ");
 
 				string str = Console.ReadLine();
@@ -780,6 +793,8 @@ namespace AngryCatalogEditor
 						GetRepo().Wait();
 					else if (choice == 9)
 						SearchBundle();
+					else if (choice == 10)
+						SetBundleLocked();
 				}
 			}
 		}
