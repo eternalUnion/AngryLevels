@@ -113,7 +113,7 @@ namespace AngryCatalogEditor
 		static void SaveCatalog()
 		{
 			string catalogPath = Path.Combine(projectRoot, "V2", "LevelCatalog.json");
-			string catalogHashPath = Path.Combine(projectRoot, "LevelCatalogHash.txt");
+			string catalogHashPath = Path.Combine(projectRoot, "V2", "LevelCatalogHash.txt");
 			string catalogSerialized = JsonConvert.SerializeObject(catalog, Formatting.Indented);
 			catalogSerialized = catalogSerialized.Replace("\r", "");
 
