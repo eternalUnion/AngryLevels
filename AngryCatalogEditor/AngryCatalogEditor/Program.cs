@@ -104,7 +104,7 @@ namespace AngryCatalogEditor
 
 		static void LoadCatalog()
 		{
-			string catalogPath = Path.Combine(projectRoot, "LevelCatalog.json");
+			string catalogPath = Path.Combine(projectRoot, "V2", "LevelCatalog.json");
 			catalog = JsonConvert.DeserializeObject<LevelCatalog>(File.ReadAllText(catalogPath));
 			string scriptCatalogPath = Path.Combine(projectRoot, "ScriptCatalog.json");
 			scriptCatalog = JsonConvert.DeserializeObject<ScriptCatalog>(File.ReadAllText(scriptCatalogPath));
@@ -112,7 +112,7 @@ namespace AngryCatalogEditor
 
 		static void SaveCatalog()
 		{
-			string catalogPath = Path.Combine(projectRoot, "LevelCatalog.json");
+			string catalogPath = Path.Combine(projectRoot, "V2", "LevelCatalog.json");
 			string catalogHashPath = Path.Combine(projectRoot, "LevelCatalogHash.txt");
 			string catalogSerialized = JsonConvert.SerializeObject(catalog, Formatting.Indented);
 			catalogSerialized = catalogSerialized.Replace("\r", "");
