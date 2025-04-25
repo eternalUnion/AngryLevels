@@ -11,7 +11,18 @@
           "Message": "Initial upload"
         }
       ],
-      "Levels": null,
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "naruto",
+          "LevelId": "naruto.naruto.naruto",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
       "Name": "naruto",
       "Author": "naruto",
       "Size": 14826930,
@@ -32,7 +43,18 @@
           "Message": "-Revamped the levels aesthetics to match revamped heresy\n-Reworked third arena and hookpoint hallway from the ground up\n-Changed Tip of the day to something new\n-Added a new original song\n-Hank griffin was shot 3 times in the chest and is in a coma so now challenge has been removed for the time being cuz of that\n-Made P rank requirements(Time and Style) more lenient so its easier, Kills has been updated too"
         }
       ],
-      "Levels": null,
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "6-B: FIRES WITHIN FIRES",
+          "LevelId": "fnchannel.fsheresy.fireswithinfires",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMING SOON"
+        }
+      ],
       "Name": "Fun Sized Heresy",
       "Author": "FNChannel",
       "Size": 20189638,
@@ -57,7 +79,18 @@
           "Message": "Initial upload"
         }
       ],
-      "Levels": null,
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "STARRY NIGHT... FREEDOM DIVE.",
+          "LevelId": "aaaa.aaaaaa.aaaaaeeeeeaaa",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
       "Name": "<color=#00DDEE>Earth Second - Freedom!</color>",
       "Author": "<color=#EA33EE>Holawenasx2</color>",
       "Size": 122832443,
@@ -78,7 +111,20 @@
           "Message": "Initial upload"
         }
       ],
-      "Levels": null,
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "CarcassEnemy.dll"
+          ],
+          "LevelName": "7-5: BACK TO BASICS",
+          "LevelId": "trenches1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
       "Name": "VIOLENCE OUTREACH /// TRENCH RAIDER",
       "Author": "Blckwtr_Northstar",
       "Size": 25770718,
@@ -103,13 +149,40 @@
           "Message": "Updated to the new ULTRAKILL version"
         }
       ],
-      "Levels": null,
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "Waffle.Fraudulence.dll"
+          ],
+          "LevelName": "8-1: FOOLS GOLD",
+          "LevelId": "Spelunky.FRAUDULENCE_FIRST",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO NOT PICK UP ANY SKULLS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "Spelunky.FRAUDULENCE_FIRST"
+          ],
+          "requiredDllNames": [
+            "Waffle.Fraudulence.dll"
+          ],
+          "LevelName": "8-2: HIGH SOCIETY",
+          "LevelId": "Spelunky.FRAUDULENCE_SECOND",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO NOT KILL ANY CULTISTS"
+        }
+      ],
       "Name": "FRAUDULENCE",
       "Author": "Spelunky",
       "Size": 108749753,
       "Guid": "033ce9db13ba74d4aa07bdae343d49c2",
       "Hash": "9ac795e17149a0d4f9fca85a21430d46",
-      "ThumbnailHash": "ee12078001fd7af1b99f2764296e0a13",
+      "ThumbnailHash": "49dec247c77d3055a58bf2e591ecc2b8",
       "Locked": false,
       "LastUpdate": 1744461948
     }

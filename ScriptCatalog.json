@@ -195,11 +195,12 @@
     },
     {
       "Updates": [
-        "41f3309024f9603c70b5c116237f392a"
+        "41f3309024f9603c70b5c116237f392a",
+        "b3cdecd16f408c014c6b6a636df04b93"
       ],
       "FileName": "Waffle.Fraudulence.dll",
-      "Hash": "41f3309024f9603c70b5c116237f392a",
-      "Size": 23040
+      "Hash": "b3cdecd16f408c014c6b6a636df04b93",
+      "Size": 24576
     },
     {
       "Updates": [
