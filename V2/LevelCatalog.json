@@ -231,13 +231,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/cd4cb1d5845224e18b47808310e212a8f9ea3ad3/abandonedinplace1.1.0/Abandoned_In_Place.angry"
+        "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/368db147c35bfc70ba0016f94ff9b67c3fc9b56d/abandonedinplace1.1.1/Abandoned_In_Place.angry"
       ],
       "Updates": [
         {
           "Date": 1745696378,
           "Hash": "86da72f7e166d42409f92e007ff1a0c4",
           "Message": "- Removed 6 enemies for balance reasons\n- Replaced some old earthmover textures with new ones made by _antlers.\n- Updated alarm model\n- Added tip of the day\n- Moved and improved a secret"
+        },
+        {
+          "Date": 1745698300,
+          "Hash": "676fe0c713dff1c4cbfcc2065d5f7810",
+          "Message": "- Fixed a last minute oob\n- Fixed encounter that triggered early"
         }
       ],
       "Levels": [
@@ -254,12 +259,12 @@
       ],
       "Name": "Abandoned In Place",
       "Author": "Willem1321",
-      "Size": 23827255,
+      "Size": 23827611,
       "Guid": "c5f273cc16751b64ea9c0a9b47b7ff82",
-      "Hash": "86da72f7e166d42409f92e007ff1a0c4",
+      "Hash": "676fe0c713dff1c4cbfcc2065d5f7810",
       "ThumbnailHash": "0bfe3942ac262f5cec79d32463b51cc4",
       "Locked": false,
-      "LastUpdate": 1745696378
+      "LastUpdate": 1745698300
     }
   ]
 }
