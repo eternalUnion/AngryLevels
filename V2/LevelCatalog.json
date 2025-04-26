@@ -190,6 +190,39 @@
       "ThumbnailHash": "49dec247c77d3055a58bf2e591ecc2b8",
       "Locked": false,
       "LastUpdate": 1744461948
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RobiFox/WOWD/a92bf6b23310873af3045c5a6b083b8cea463c67/Walls_of_Wicked_Dreams.angry1",
+        "https://raw.githubusercontent.com/RobiFox/WOWD/a92bf6b23310873af3045c5a6b083b8cea463c67/Walls_of_Wicked_Dreams.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1745680323,
+          "Hash": "6ff1f2c547965e34b882d4c77c5e6b1d",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "WALLS OF WICKED DREAMS",
+          "LevelId": "robi.heresy.wowd",
+          "isSecretLevel": false,
+          "secretCount": 3,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE SECRET ENCOUNTER"
+        }
+      ],
+      "Name": "WALLS OF WICKED DREAMS",
+      "Author": "Robi",
+      "Size": 40188886,
+      "Guid": "309b60fc131a95d49921d31c0ec7560f",
+      "Hash": "6ff1f2c547965e34b882d4c77c5e6b1d",
+      "ThumbnailHash": "e69b26b97a11136a2f1ef14f7748aad4",
+      "Locked": false,
+      "LastUpdate": 1745680323
     }
   ]
 }
