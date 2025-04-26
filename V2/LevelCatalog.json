@@ -34,13 +34,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/051d8eb4089c281258006cf92dddebc1134696bc/FunSizedHeresyRevamp.angry"
+        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/03b92dd245bbc8caf6e683638baeaf35c1da7a7a/FunSizedHeresyRevamp.angry"
       ],
       "Updates": [
         {
           "Date": 1742651148,
           "Hash": "6bc51202e25d3fc4c97b4d285e5ba760",
           "Message": "-Revamped the levels aesthetics to match revamped heresy\n-Reworked third arena and hookpoint hallway from the ground up\n-Changed Tip of the day to something new\n-Added a new original song\n-Hank griffin was shot 3 times in the chest and is in a coma so now challenge has been removed for the time being cuz of that\n-Made P rank requirements(Time and Style) more lenient so its easier, Kills has been updated too"
+        },
+        {
+          "Date": 1745662576,
+          "Hash": "af21bae0d44964e4cb1859914be65528",
+          "Message": "- Added 2 new secrets\n- Added the challenge\n- Added a marketable plushie of the developer(Thank you Fuchsium!)\n- Updated Credits terminal\n- Library Arena now has Lighting for extra coolness\n- Fixed the Coffin Fire being broken/static, it now is animated like the base game\n- Some Soldiers and Schisms have been swapped for Strays in the final arena\n- Fixed some easy to clip through surfaces\n- Some small fixes here and there"
         }
       ],
       "Levels": [
@@ -50,19 +55,19 @@
           "LevelName": "6-B: FIRES WITHIN FIRES",
           "LevelId": "fnchannel.fsheresy.fireswithinfires",
           "isSecretLevel": false,
-          "secretCount": 1,
+          "secretCount": 3,
           "levelChallengeEnabled": true,
-          "levelChallengeText": "COMING SOON"
+          "levelChallengeText": "MAKE A TERRIBLE JOKE"
         }
       ],
       "Name": "Fun Sized Heresy",
       "Author": "FNChannel",
-      "Size": 20189638,
+      "Size": 21895290,
       "Guid": "ae6eeb9c8e3741441986985171f75b56",
-      "Hash": "6bc51202e25d3fc4c97b4d285e5ba760",
+      "Hash": "af21bae0d44964e4cb1859914be65528",
       "ThumbnailHash": "0336269f0f66411e1be6c9cc95f66be8",
       "Locked": false,
-      "LastUpdate": 1742651148
+      "LastUpdate": 1745662576
     },
     {
       "Parts": [
