@@ -237,7 +237,7 @@
         {
           "Date": 1745696378,
           "Hash": "86da72f7e166d42409f92e007ff1a0c4",
-          "Message": "Initial upload"
+          "Message": "- Removed 6 enemies for balance reasons\n- Replaced some old earthmover textures with new ones made by _antlers.\n- Updated alarm model\n- Added tip of the day\n- Moved and improved a secret"
         }
       ],
       "Levels": [
@@ -257,7 +257,7 @@
       "Size": 23827255,
       "Guid": "c5f273cc16751b64ea9c0a9b47b7ff82",
       "Hash": "86da72f7e166d42409f92e007ff1a0c4",
-      "ThumbnailHash": "18e22e8f57e87f2d65cf73223a3d4b43",
+      "ThumbnailHash": "0bfe3942ac262f5cec79d32463b51cc4",
       "Locked": false,
       "LastUpdate": 1745696378
     }
