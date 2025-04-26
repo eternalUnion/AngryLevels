@@ -228,6 +228,38 @@
       "ThumbnailHash": "e69b26b97a11136a2f1ef14f7748aad4",
       "Locked": false,
       "LastUpdate": 1745694083
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/cd4cb1d5845224e18b47808310e212a8f9ea3ad3/abandonedinplace1.1.0/Abandoned_In_Place.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1745696378,
+          "Hash": "86da72f7e166d42409f92e007ff1a0c4",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Abandoned In Place",
+          "LevelId": "willem1321-abandonedinplace",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE HARD DEATH MODE"
+        }
+      ],
+      "Name": "Abandoned In Place",
+      "Author": "Willem1321",
+      "Size": 23827255,
+      "Guid": "c5f273cc16751b64ea9c0a9b47b7ff82",
+      "Hash": "86da72f7e166d42409f92e007ff1a0c4",
+      "ThumbnailHash": "18e22e8f57e87f2d65cf73223a3d4b43",
+      "Locked": false,
+      "LastUpdate": 1745696378
     }
   ]
 }
