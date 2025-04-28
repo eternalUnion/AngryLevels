@@ -297,6 +297,38 @@
       "ThumbnailHash": "5928f79d66f4be38771a097ec76256d0",
       "Locked": false,
       "LastUpdate": 1745764707
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/YoullTim/APrimumMobile/e26c19e8dcf68840f62456b3cdc762e0045136d6/A_Primum_Mobile.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1745841929,
+          "Hash": "87d4445dff16ea54c9b094a6bf76e895",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "PM-1: FALL FROM GRACE",
+          "LevelId": "YoullTim.APrimumMobile1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "<color=#ffdf52>A PRIMUM MOBILE</color>",
+      "Author": "YoullTim",
+      "Size": 24613315,
+      "Guid": "fd4229c3005a73744ab5a4597cfaf75f",
+      "Hash": "87d4445dff16ea54c9b094a6bf76e895",
+      "ThumbnailHash": "96a30fa8bdefb3930fdcd61826b72abb",
+      "Locked": false,
+      "LastUpdate": 1745841929
     }
   ]
 }
