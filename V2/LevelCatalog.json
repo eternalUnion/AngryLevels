@@ -332,13 +332,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/ElequacityStudios/RELUDE/8362bab6d914bbf45e4aa59b52b0bcd5f73b9ca6/Re-Prelude.angry"
+        "https://raw.githubusercontent.com/ElequacityStudios/RELUDE/496e35e6df24fa74a018d16ac25070cc2dd35138/Re-Prelude.angry"
       ],
       "Updates": [
         {
           "Date": 1745852777,
           "Hash": "4c86f26f50226d445a186c1863e826d4",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1745866665,
+          "Hash": "ad1e603422258924f8dc7f25c1f15321",
+          "Message": "- Fixed light bug in the last room\n- Fixed the lag spike when the first room doors opened"
         }
       ],
       "Levels": [
@@ -355,12 +360,12 @@
       ],
       "Name": "RELUDE",
       "Author": "Elequacity",
-      "Size": 11069051,
+      "Size": 4579558,
       "Guid": "97220d9c4569778488734e80e0daa734",
-      "Hash": "4c86f26f50226d445a186c1863e826d4",
+      "Hash": "ad1e603422258924f8dc7f25c1f15321",
       "ThumbnailHash": "fdc965a8d3fec25ebf3e93285977ceae",
       "Locked": false,
-      "LastUpdate": 1745852777
+      "LastUpdate": 1745866665
     }
   ]
 }
