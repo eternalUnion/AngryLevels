@@ -329,6 +329,38 @@
       "ThumbnailHash": "96a30fa8bdefb3930fdcd61826b72abb",
       "Locked": false,
       "LastUpdate": 1745841929
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/ElequacityStudios/RELUDE/8362bab6d914bbf45e4aa59b52b0bcd5f73b9ca6/Re-Prelude.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1745852777,
+          "Hash": "4c86f26f50226d445a186c1863e826d4",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "R0-1: HEATSEEKER",
+          "LevelId": "elequacity.reprelude.heatseeker",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "RELUDE",
+      "Author": "Elequacity",
+      "Size": 11069051,
+      "Guid": "97220d9c4569778488734e80e0daa734",
+      "Hash": "4c86f26f50226d445a186c1863e826d4",
+      "ThumbnailHash": "fdc965a8d3fec25ebf3e93285977ceae",
+      "Locked": false,
+      "LastUpdate": 1745852777
     }
   ]
 }
