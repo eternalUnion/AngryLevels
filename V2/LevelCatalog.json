@@ -34,7 +34,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/03b92dd245bbc8caf6e683638baeaf35c1da7a7a/FunSizedHeresyRevamp.angry"
+        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/d9e4b2023edebac6d5a49ec2661ecb77df6f936e/FunSizedHeresyRevamp211.angry"
       ],
       "Updates": [
         {
@@ -46,6 +46,11 @@
           "Date": 1745662576,
           "Hash": "af21bae0d44964e4cb1859914be65528",
           "Message": "- Added 2 new secrets\n- Added the challenge\n- Added a marketable plushie of the developer(Thank you Fuchsium!)\n- Updated Credits terminal\n- Library Arena now has Lighting for extra coolness\n- Fixed the Coffin Fire being broken/static, it now is animated like the base game\n- Some Soldiers and Schisms have been swapped for Strays in the final arena\n- Fixed some easy to clip through surfaces\n- Some small fixes here and there"
+        },
+        {
+          "Date": 1745875787,
+          "Hash": "03c0aca5e6a6fcb4dbf0bcecc0223464",
+          "Message": "- Added an invisible checkpoint to the intro hallway, so when you die in the first arena the level doesnt reset\n- Dev plushie is now Unlit, like all other standard dev plushies\n- Fixed challenge triggering altar not being invisible\n- Door that opens when you pick up the blue key now has blue eyes on both sides instead of just 1\n- Fixed the Crossroads checkpoint looking wrong"
         }
       ],
       "Levels": [
@@ -62,12 +67,12 @@
       ],
       "Name": "Fun Sized Heresy",
       "Author": "FNChannel",
-      "Size": 21895290,
+      "Size": 21896754,
       "Guid": "ae6eeb9c8e3741441986985171f75b56",
-      "Hash": "af21bae0d44964e4cb1859914be65528",
+      "Hash": "03c0aca5e6a6fcb4dbf0bcecc0223464",
       "ThumbnailHash": "0336269f0f66411e1be6c9cc95f66be8",
       "Locked": false,
-      "LastUpdate": 1745662576
+      "LastUpdate": 1745875787
     },
     {
       "Parts": [
