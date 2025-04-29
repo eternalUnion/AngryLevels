@@ -203,8 +203,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/RobiFox/WOWD/e4dff92a2537c96d3417a678d1baba18dc4c6a50/Walls_of_Wicked_Dreams.angry1",
-        "https://raw.githubusercontent.com/RobiFox/WOWD/e4dff92a2537c96d3417a678d1baba18dc4c6a50/Walls_of_Wicked_Dreams.angry2"
+        "https://raw.githubusercontent.com/RobiFox/WOWD/00a42da60172baf5a78f1097dbf7fbbc4161e92a/Walls_of_Wicked_Dreams.angry1",
+        "https://raw.githubusercontent.com/RobiFox/WOWD/00a42da60172baf5a78f1097dbf7fbbc4161e92a/Walls_of_Wicked_Dreams.angry2"
       ],
       "Updates": [
         {
@@ -216,6 +216,11 @@
           "Date": 1745694083,
           "Hash": "abcd11dc3f6502e4da1699c00a460bf9",
           "Message": "- Made challenge slightly more visible/obvious\n- Fixed Swordsmachine not breaking Cerberus pedestal\n- Added a tiny teaser for the boss"
+        },
+        {
+          "Date": 1745962512,
+          "Hash": "ab61095c56a4faa48b7977821598e02b",
+          "Message": "- Made challenge more visible\n- Water damage in second room now pushes you higher"
         }
       ],
       "Levels": [
@@ -232,12 +237,12 @@
       ],
       "Name": "WALLS OF WICKED DREAMS",
       "Author": "Robi",
-      "Size": 40737188,
+      "Size": 40686957,
       "Guid": "309b60fc131a95d49921d31c0ec7560f",
-      "Hash": "abcd11dc3f6502e4da1699c00a460bf9",
+      "Hash": "ab61095c56a4faa48b7977821598e02b",
       "ThumbnailHash": "e69b26b97a11136a2f1ef14f7748aad4",
       "Locked": false,
-      "LastUpdate": 1745694083
+      "LastUpdate": 1745962512
     },
     {
       "Parts": [
