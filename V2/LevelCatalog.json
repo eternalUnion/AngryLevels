@@ -146,17 +146,22 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry1",
-        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry2",
-        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry3",
-        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry4",
-        "https://raw.githubusercontent.com/RobiFox/FRAUD/506ffcf95b587cef6cc436fc540e9fc8282af270/FRAUDULENCE.angry5"
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry1",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry2",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry3",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry4",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry5"
       ],
       "Updates": [
         {
           "Date": 1744461948,
           "Hash": "9ac795e17149a0d4f9fca85a21430d46",
           "Message": "Updated to the new ULTRAKILL version"
+        },
+        {
+          "Date": 1745961939,
+          "Hash": "0d1a863c5b6790f49a4e44de1d726934",
+          "Message": "- Fixed cultist overlay not disappearing\n- Fixed 8-2 title showing up earlier than intended"
         }
       ],
       "Levels": [
@@ -189,12 +194,12 @@
       ],
       "Name": "FRAUDULENCE",
       "Author": "Spelunky",
-      "Size": 108749753,
+      "Size": 108749957,
       "Guid": "033ce9db13ba74d4aa07bdae343d49c2",
-      "Hash": "9ac795e17149a0d4f9fca85a21430d46",
+      "Hash": "0d1a863c5b6790f49a4e44de1d726934",
       "ThumbnailHash": "49dec247c77d3055a58bf2e591ecc2b8",
       "Locked": false,
-      "LastUpdate": 1744461948
+      "LastUpdate": 1745961939
     },
     {
       "Parts": [
