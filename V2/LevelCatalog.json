@@ -356,7 +356,7 @@
           "requiredCompletedLevelIdsForUnlock": [],
           "requiredDllNames": [],
           "LevelName": "R0-1: HEATSEEKER",
-          "LevelId": "elequacity.reprelude.heatseeker",
+          "LevelId": "elequacity.relude.heatseeker",
           "isSecretLevel": false,
           "secretCount": 1,
           "levelChallengeEnabled": false,
