@@ -381,6 +381,38 @@
       "ThumbnailHash": "fdc965a8d3fec25ebf3e93285977ceae",
       "Locked": false,
       "LastUpdate": 1745866665
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/Epitaph/90edeee4058fbc8d8e135bdcbdb6354ddec4e1fe/EPITAPH.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1745962671,
+          "Hash": "8aaf75040795b9b4c8d06c8ccb490894",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Epitaph",
+          "LevelId": "willem1321-epitaph",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "EPITAPH",
+      "Author": ".willem1321",
+      "Size": 15047590,
+      "Guid": "a9137dc898362c44593878839cd899a6",
+      "Hash": "8aaf75040795b9b4c8d06c8ccb490894",
+      "ThumbnailHash": "b402a595b3f883aa5b205564f05bf568",
+      "Locked": false,
+      "LastUpdate": 1745962671
     }
   ]
 }
