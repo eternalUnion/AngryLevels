@@ -390,7 +390,7 @@
         {
           "Date": 1745962671,
           "Hash": "8aaf75040795b9b4c8d06c8ccb490894",
-          "Message": "Initial upload"
+          "Message": "- Ported to ULTRA_REVAMP update\n- Fixed drones having the wrong texture in the final arena\n- Nerfed final arena\n- Minor visual updates"
         }
       ],
       "Levels": [
