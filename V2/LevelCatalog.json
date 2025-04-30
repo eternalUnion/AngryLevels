@@ -413,6 +413,49 @@
       "ThumbnailHash": "b402a595b3f883aa5b205564f05bf568",
       "Locked": false,
       "LastUpdate": 1745962671
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FruitCircuit/v3showdown/d99d1d32b9bafe4e768afb9b402e9921e355358d/build1/V3s_Showdown.angry1",
+        "https://raw.githubusercontent.com/FruitCircuit/v3showdown/d99d1d32b9bafe4e768afb9b402e9921e355358d/build1/V3s_Showdown.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1746047861,
+          "Hash": "0ec1b148eebf1ce4f81ec2c695989ea4",
+          "Message": "- Ported to ultra_revamp\n[PHASE 1]\n- Shotgun bug fixed\n- V3 blows themselves up less (hopefully)\n[PHASE 2]\n- Some attacks nerfed (mainly the lasers)\n- Minor visual tweaks"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Phase 1",
+          "LevelId": "t.trinity.v3",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Phase 2",
+          "LevelId": "trinity.v3mech",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": "winner!"
+        }
+      ],
+      "Name": "<color=#FFFFFF>V3</color>'s Showdown",
+      "Author": "t.trinity",
+      "Size": 34898531,
+      "Guid": "91a952cfd5574ef47bf624e09c311260",
+      "Hash": "0ec1b148eebf1ce4f81ec2c695989ea4",
+      "ThumbnailHash": "9fb556ee9d68511899c6300c781c8c9e",
+      "Locked": false,
+      "LastUpdate": 1746047861
     }
   ]
 }
