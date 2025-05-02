@@ -283,13 +283,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Megg4underscore/THE-HOUSE-OF-WRATH/a789ce649b27ea3e5046d375702338985e6aa316/Revamp_update/THE_HOUSE_OF_WRATH.angry1"
+        "https://raw.githubusercontent.com/Megg4underscore/THE-HOUSE-OF-WRATH/0f5ccb0b6124c9c1af0227d6394b260e6e826859/Smallfix_update/THE_HOUSE_OF_WRATH.angry1"
       ],
       "Updates": [
         {
           "Date": 1745764707,
           "Hash": "e0bd737ad6698b84ba10b2147dc9308e",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1746182614,
+          "Hash": "688fb49b09b8e877e9976dccacba1238",
+          "Message": "- Fixed rain in the red room clipping through the ceiling\n- Outdoors Zone Trigger at the start will now turn off\n- Redone some of the de-activation and activation of rooms"
         }
       ],
       "Levels": [
@@ -306,12 +311,12 @@
       ],
       "Name": "THE HOUSE OF WRATH",
       "Author": "__megga",
-      "Size": 15189031,
+      "Size": 15137700,
       "Guid": "3707483841d6ed84383be5b1285ea87a",
-      "Hash": "e0bd737ad6698b84ba10b2147dc9308e",
+      "Hash": "688fb49b09b8e877e9976dccacba1238",
       "ThumbnailHash": "5928f79d66f4be38771a097ec76256d0",
       "Locked": false,
-      "LastUpdate": 1745764707
+      "LastUpdate": 1746182613
     },
     {
       "Parts": [
