@@ -76,17 +76,23 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry1",
-        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry2",
-        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry3",
-        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry4",
-        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d764d4838c66925b84cdfa2ac0af44caab7b0504/test.angry5"
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry1",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry2",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry3",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry4",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry5",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry6"
       ],
       "Updates": [
         {
           "Date": 1743425147,
           "Hash": "bd4b00357e5608b4f8d238c28b819c57",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1746182869,
+          "Hash": "f1444a9af4e95c94089509df63684d50",
+          "Message": "- Fixed Idols\n- Added Secrets (Not those secrets but like, other secrets)\n- Added a Speedrun Skip\n- Added an Alternate Ending"
         }
       ],
       "Levels": [
@@ -103,12 +109,12 @@
       ],
       "Name": "<color=#00DDEE>Earth Second - Freedom!</color>",
       "Author": "<color=#EA33EE>Holawenasx2</color>",
-      "Size": 122832443,
+      "Size": 127829690,
       "Guid": "f907c5991d40a2a48941d1c1dde860c7",
-      "Hash": "bd4b00357e5608b4f8d238c28b819c57",
+      "Hash": "f1444a9af4e95c94089509df63684d50",
       "ThumbnailHash": "efc73a725eff8c92b3df563cd6606529",
       "Locked": false,
-      "LastUpdate": 1743425147
+      "LastUpdate": 1746182869
     },
     {
       "Parts": [
