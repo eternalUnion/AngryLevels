@@ -472,6 +472,38 @@
       "ThumbnailHash": "9fb556ee9d68511899c6300c781c8c9e",
       "Locked": false,
       "LastUpdate": 1746047861
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/PhantomBlader9556/FA-2/e3cbb99076bfdc37a2f2ef59f19ab73ecbe07aff/false_ascendence_2.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1746461205,
+          "Hash": "e79af3de199fb6b4aa58f2fbcbb83176",
+          "Message": "- Ported for ultra_revamp\n- Added a secret encounter"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "False Ascendence 2",
+          "LevelId": "phantom.falsefdsafgsgsrga.adgsdf",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Thannnkjs YOu. "
+        }
+      ],
+      "Name": "False Ascendance 2",
+      "Author": "PhantomBlader",
+      "Size": 14972564,
+      "Guid": "495300b85838d9246aad4d9f6c6393bc",
+      "Hash": "e79af3de199fb6b4aa58f2fbcbb83176",
+      "ThumbnailHash": "84f39ee9dcd5bb67dce5d9a011191a29",
+      "Locked": false,
+      "LastUpdate": 1746461205
     }
   ]
 }
