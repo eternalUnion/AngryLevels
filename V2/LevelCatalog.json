@@ -395,13 +395,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/William1321/Epitaph/90edeee4058fbc8d8e135bdcbdb6354ddec4e1fe/EPITAPH.angry"
+        "https://raw.githubusercontent.com/William1321/Epitaph/f3c1615671f9e79c5b29b20f74c6b6f9632ae224/Epitaph1.1/EPITAPH.angry"
       ],
       "Updates": [
         {
           "Date": 1745962671,
           "Hash": "8aaf75040795b9b4c8d06c8ccb490894",
           "Message": "- Ported to ULTRA_REVAMP update\n- Fixed drones having the wrong texture in the final arena\n- Nerfed final arena\n- Minor visual updates"
+        },
+        {
+          "Date": 1746460982,
+          "Hash": "b0ccf274ca0a5c149ad2ccbc14029934",
+          "Message": "- Fixed firstroom oob (catastrophic)\n- Fixed some softlocks"
         }
       ],
       "Levels": [
@@ -418,12 +423,12 @@
       ],
       "Name": "EPITAPH",
       "Author": ".willem1321",
-      "Size": 15047590,
+      "Size": 15552758,
       "Guid": "a9137dc898362c44593878839cd899a6",
-      "Hash": "8aaf75040795b9b4c8d06c8ccb490894",
+      "Hash": "b0ccf274ca0a5c149ad2ccbc14029934",
       "ThumbnailHash": "b402a595b3f883aa5b205564f05bf568",
       "Locked": false,
-      "LastUpdate": 1745962671
+      "LastUpdate": 1746460982
     },
     {
       "Parts": [
