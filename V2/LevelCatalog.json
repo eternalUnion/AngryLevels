@@ -549,6 +549,43 @@
       "ThumbnailHash": "da9094a263fc6d6140f5b182db612bf7",
       "Locked": false,
       "LastUpdate": 1746574279
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/f9ad1692b3154ce5d3652704c8af93f37b6039fb/EasyLevel1.4/SPECIAL_CHRISTMAS_GIFT.angry1",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/f9ad1692b3154ce5d3652704c8af93f37b6039fb/EasyLevel1.4/SPECIAL_CHRISTMAS_GIFT.angry2",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/f9ad1692b3154ce5d3652704c8af93f37b6039fb/EasyLevel1.4/SPECIAL_CHRISTMAS_GIFT.angry3",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/f9ad1692b3154ce5d3652704c8af93f37b6039fb/EasyLevel1.4/SPECIAL_CHRISTMAS_GIFT.angry4"
+      ],
+      "Updates": [
+        {
+          "Date": 1746574569,
+          "Hash": "dd776f086f717b14d89bb6c36aeec9b9",
+          "Message": "This patch I could find some different things. I had to fix it for the revamp update. It was very hard and made me very sad. Sorry. It took a long time. It wouldn't port. But i finaly ported it and it should be good now. I added some more tooltips. It's Ravamped now. I fix the quiz so that it could be more accurate to the New Ravamped game. Have fun! Merry Christmas! Special [DATE] Gift 2 Coming soon! Cheers, Player!"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "EASYLEVEL.dll"
+          ],
+          "LevelName": "So Happy to Be Back home",
+          "LevelId": "DavieJay2011.ChristmasGifttotheChristmasUltra-killCommunity.....SohappeytofinallybebackhomeForchristmasGiftswinter ",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Gained 100 Coins"
+        }
+      ],
+      "Name": "SPECIAL CHRISTMAS GIFT",
+      "Author": "daviejay2011",
+      "Size": 92583172,
+      "Guid": "868d6d05d8121b04981b9941ae32229f",
+      "Hash": "dd776f086f717b14d89bb6c36aeec9b9",
+      "ThumbnailHash": "b3cef07a0fba18bc5dfe6cb14e57aecf",
+      "Locked": false,
+      "LastUpdate": 1746574569
     }
   ]
 }
