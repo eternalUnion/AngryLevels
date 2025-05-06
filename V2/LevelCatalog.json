@@ -504,6 +504,51 @@
       "ThumbnailHash": "84f39ee9dcd5bb67dce5d9a011191a29",
       "Locked": false,
       "LastUpdate": 1746461205
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/eac2a74de009d76a6bf0ad6b693889d8c2926d88/TOWER_OF_STEEL.angry1",
+        "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/eac2a74de009d76a6bf0ad6b693889d8c2926d88/TOWER_OF_STEEL.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1746574279,
+          "Hash": "30106c05db6b04d48ba1a8d62fa7b65c",
+          "Message": "- Ported for ULTrA_REVAMP update\n- Updated environmental particles for modern Ultrakill\n- Added some extra minor details\n- Added Teaser for second Level"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TOTAL WAR",
+          "LevelId": "tos_1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T KILL THE IDOLED MINDFLAYER"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "tos_1"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "THE REFUGE",
+          "LevelId": "tos_2",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "TOWER OF STEEL",
+      "Author": "plonk",
+      "Size": 39845792,
+      "Guid": "adb0ef3e5cc07c84889dd27f7898af96",
+      "Hash": "30106c05db6b04d48ba1a8d62fa7b65c",
+      "ThumbnailHash": "da9094a263fc6d6140f5b182db612bf7",
+      "Locked": false,
+      "LastUpdate": 1746574279
     }
   ]
 }
