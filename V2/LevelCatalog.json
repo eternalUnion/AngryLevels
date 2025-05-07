@@ -507,14 +507,19 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/eac2a74de009d76a6bf0ad6b693889d8c2926d88/TOWER_OF_STEEL.angry1",
-        "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/eac2a74de009d76a6bf0ad6b693889d8c2926d88/TOWER_OF_STEEL.angry2"
+        "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/d63712e113957ced6f44baa5b9fe2c3ce680e555/TOWER_OF_STEEL.angry1",
+        "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/d63712e113957ced6f44baa5b9fe2c3ce680e555/TOWER_OF_STEEL.angry2"
       ],
       "Updates": [
         {
           "Date": 1746574279,
           "Hash": "30106c05db6b04d48ba1a8d62fa7b65c",
           "Message": "- Ported for ULTrA_REVAMP update\n- Updated environmental particles for modern Ultrakill\n- Added some extra minor details\n- Added Teaser for second Level"
+        },
+        {
+          "Date": 1746634515,
+          "Hash": "bc6293ee68f7f904b802c1248d1d152c",
+          "Message": "- Quick minor patch for Requirements and Challenge text in credits terminal"
         }
       ],
       "Levels": [
@@ -543,12 +548,12 @@
       ],
       "Name": "TOWER OF STEEL",
       "Author": "plonk",
-      "Size": 39845792,
+      "Size": 39845822,
       "Guid": "adb0ef3e5cc07c84889dd27f7898af96",
-      "Hash": "30106c05db6b04d48ba1a8d62fa7b65c",
+      "Hash": "bc6293ee68f7f904b802c1248d1d152c",
       "ThumbnailHash": "da9094a263fc6d6140f5b182db612bf7",
       "Locked": false,
-      "LastUpdate": 1746574279
+      "LastUpdate": 1746634515
     },
     {
       "Parts": [
