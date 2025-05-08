@@ -239,11 +239,12 @@
         "9aad507eac40d430455b8384bf85b738",
         "92b9d56436da253185a223267dec23b4",
         "8e03e620698aeab54745f5566cae591b",
-        "20977f64432bd350952c36a0f8e05809"
+        "20977f64432bd350952c36a0f8e05809",
+        "ff3ec71353ef144c0522222ec5c332d0"
       ],
       "FileName": "HeartOfTheMachineScripts.dll",
-      "Hash": "20977f64432bd350952c36a0f8e05809",
-      "Size": 103936
+      "Hash": "ff3ec71353ef144c0522222ec5c332d0",
+      "Size": 102400
     },
     {
       "Updates": [
@@ -268,6 +269,14 @@
       "FileName": "FlagChecker.dll",
       "Hash": "b25686d895644d3e781dbf9ae34047ea",
       "Size": 5120
+    },
+    {
+      "Updates": [
+        "05a7a8bbcf05576cf5b2356b91421a4b"
+      ],
+      "FileName": "AthenaResearchFacilityUtils.dll",
+      "Hash": "05a7a8bbcf05576cf5b2356b91421a4b",
+      "Size": 11776
     }
   ]
 }
