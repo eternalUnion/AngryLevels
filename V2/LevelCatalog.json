@@ -642,6 +642,39 @@
       "ThumbnailHash": "155b2c8bc80df34f6f84a679f3c21a18",
       "Locked": false,
       "LastUpdate": 1746951752
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/2bceb0cd8f490185dd9d43bba2e7bad5d7133036/1.0.0/ULTRAKILL_OPERETTA.angry1",
+        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/2bceb0cd8f490185dd9d43bba2e7bad5d7133036/1.0.0/ULTRAKILL_OPERETTA.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1746976024,
+          "Hash": "6be3e84680fe06c4d8b33f8244d75b81",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-O: WHAT COULD HAVE BEEN",
+          "LevelId": "tuli.snowlimbo",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ULTRAKILL OPERETTAS",
+      "Author": "defo_tulipa",
+      "Size": 32687615,
+      "Guid": "7b9762c4a51906e4ca36acfcbcdbde3e",
+      "Hash": "6be3e84680fe06c4d8b33f8244d75b81",
+      "ThumbnailHash": "a1ecf232cb6d313ff381eec370b6cdb2",
+      "Locked": false,
+      "LastUpdate": 1746976024
     }
   ]
 }
