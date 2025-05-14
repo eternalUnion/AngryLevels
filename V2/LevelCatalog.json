@@ -675,6 +675,54 @@
       "ThumbnailHash": "a1ecf232cb6d313ff381eec370b6cdb2",
       "Locked": false,
       "LastUpdate": 1746976024
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrakill-MACHINATION/257af84a742aa2be83676710193fb3268280d857/Patch007-Revamp/MACHINATION.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1747252587,
+          "Hash": "d77620d0ae0099246b48faec94a29f07",
+          "Message": "- Updated to Ultra_Revamp compatibility (Holy shit this took a LOT of time and work)\n- Added new Copyright-Claim-Free music composed by WOOSP (Original music can still be played via toggling the record player in the start room)\n- Added Demo for M-2 (Don't expect it anytime soon - it'll be done when it's done)\n- Slightly reduced encounter difficulty in every major arena (As a standalone map the difficulty was fine, but as level 1 of a set of 4 it was too much)\n- Removed first cooldown encounter (It was really lame and didn't add anything to the level)\n- Improved performance throughout the level (If it's still laggy, just know it used to be much MUCH worse)\n- Removed a tiny bit of eye-candy in places you won't notice (It caused even more lag post Ultra_Revamp update)\n- Added a tiny bit of eye-candy in places you won't notice (Not enough to drop FPS, but enough to fill in some blank spots)\n- Fixed secret cat number 3 not being properly illuminated (Meow!)\n- Made mandatory progression vent cover ajar to better indicate that it can be accessed early (Almost nobody noticed this lmao)\n- Changed location of busted vent cover after blue skull pickup to better indicate to the player where to go (It's not supposed to be that complicated)\n- Simplified lighting in final arena (You won't notice any difference)\n- Oil spill is no longer spilled oil but instead spilled slippery orange kool-aid (It being oil was hacky and no longer works right post Ultra_Revamp update)\n- Rebalanced light level in intro (Less dark in some places to make it feel more dark in other places)\n- Improved chains model shown after blue skull pickup (2spoopy4u)\n- Player can no longer softlock themselves in the 2nd arena secret room (No longer requires whiplash to exit)\n- Secret cheese pickup now acts like soap because I got sufficient hate mail complaining about it (Yummy!)"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "STLPShittyScripts.dll"
+          ],
+          "LevelName": "M-1: THE BLASTPIPE",
+          "LevelId": "MachinationM-1V2",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "TURN ON THE LIGHTS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "MachinationM-1V2"
+          ],
+          "requiredDllNames": [
+            "STLPShittyScripts.dll"
+          ],
+          "LevelName": "M-2: I DREAM OF WIRES [DEMO]",
+          "LevelId": "MachinationM-2DEMO",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "MACHINATION",
+      "Author": "Streetlamp",
+      "Size": 91868651,
+      "Guid": "a1f9bb7c418870d499158f9c2b55731e",
+      "Hash": "d77620d0ae0099246b48faec94a29f07",
+      "ThumbnailHash": "1d8c82f58fb5a5115fc133df342db46b",
+      "Locked": false,
+      "LastUpdate": 1747252587
     }
   ]
 }
