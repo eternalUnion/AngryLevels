@@ -645,14 +645,19 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/2bceb0cd8f490185dd9d43bba2e7bad5d7133036/1.0.0/ULTRAKILL_OPERETTA.angry1",
-        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/2bceb0cd8f490185dd9d43bba2e7bad5d7133036/1.0.0/ULTRAKILL_OPERETTA.angry2"
+        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/4a906ec3d416531c34ba98c5365134bf97740cd5/1.0.1/ULTRAKILL_OPERETTA.angry1",
+        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/4a906ec3d416531c34ba98c5365134bf97740cd5/1.0.1/ULTRAKILL_OPERETTA.angry2"
       ],
       "Updates": [
         {
           "Date": 1746976024,
           "Hash": "6be3e84680fe06c4d8b33f8244d75b81",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1747508922,
+          "Hash": "c70d964fcc91a1e41b83f4e74b81d325",
+          "Message": "- Added new text in Musics tab in Credits Terminal\n- Fixed the tagging of some Doors\n- Fixed the tagging on some stairs so now Guttermen explode in them instead of just existing"
         }
       ],
       "Levels": [
@@ -669,12 +674,12 @@
       ],
       "Name": "ULTRAKILL OPERETTAS",
       "Author": "defo_tulipa",
-      "Size": 32687615,
+      "Size": 32654022,
       "Guid": "7b9762c4a51906e4ca36acfcbcdbde3e",
-      "Hash": "6be3e84680fe06c4d8b33f8244d75b81",
+      "Hash": "c70d964fcc91a1e41b83f4e74b81d325",
       "ThumbnailHash": "a1ecf232cb6d313ff381eec370b6cdb2",
       "Locked": false,
-      "LastUpdate": 1746976024
+      "LastUpdate": 1747508922
     },
     {
       "Parts": [
