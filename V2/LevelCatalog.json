@@ -2,13 +2,18 @@
   "Levels": [
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DoodleEh/naruto/3432707ce210b74947ea15cfc7e72f517087ecd9/naruto.angry"
+        "https://raw.githubusercontent.com/DoodleEh/naruto/d2b8e481e41df93d8986e5c0fcc85e3e0d0a9301/important update/naruto.angry"
       ],
       "Updates": [
         {
           "Date": 1742478348,
           "Hash": "93f6c880c5352cf9a7bd9549f5ebecad",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1747690489,
+          "Hash": "b45966dd59dc7082fc263474a3c65cbc",
+          "Message": "- Added a few things...\n- Fixed some stuff that was broken.. Like my soul...\n- Datebayo! Believe it!"
         }
       ],
       "Levels": [
@@ -18,19 +23,19 @@
           "LevelName": "naruto",
           "LevelId": "naruto.naruto.naruto",
           "isSecretLevel": false,
-          "secretCount": 0,
+          "secretCount": 1,
           "levelChallengeEnabled": false,
           "levelChallengeText": ""
         }
       ],
       "Name": "naruto",
       "Author": "naruto",
-      "Size": 14826930,
+      "Size": 14838551,
       "Guid": "f9783fc3d184ccc41a6e2fce58968e33",
-      "Hash": "93f6c880c5352cf9a7bd9549f5ebecad",
+      "Hash": "b45966dd59dc7082fc263474a3c65cbc",
       "ThumbnailHash": "c5fb6f67715d3ff978df8998f2b4a9a9",
       "Locked": false,
-      "LastUpdate": 1742478348
+      "LastUpdate": 1747690489
     },
     {
       "Parts": [
