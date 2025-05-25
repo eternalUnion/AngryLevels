@@ -738,6 +738,38 @@
       "ThumbnailHash": "1d8c82f58fb5a5115fc133df342db46b",
       "Locked": false,
       "LastUpdate": 1747508764
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/sandeater21/violencecoolswag/f16cc445700e4d28832f726e10e914df38d6f34a/1.1/VIOLENCE__CHORUS_OF_THE_DAMNED.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1748166512,
+          "Hash": "301e718fc7f24fc40a9e36140ae55f15",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "7-?:  CHORUS OF THE DAMNED",
+          "LevelId": "se.cotd",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "GREET THE EARTHMOVER"
+        }
+      ],
+      "Name": "CHORUS OF THE DAMNED",
+      "Author": "sandeater",
+      "Size": 19121414,
+      "Guid": "8d399877dc56cc847b8f02f9c17ce726",
+      "Hash": "301e718fc7f24fc40a9e36140ae55f15",
+      "ThumbnailHash": "a0979d70a3b7893fceced8b736d30359",
+      "Locked": false,
+      "LastUpdate": 1748166512
     }
   ]
 }
