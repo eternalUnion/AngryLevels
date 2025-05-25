@@ -770,6 +770,39 @@
       "ThumbnailHash": "a0979d70a3b7893fceced8b736d30359",
       "Locked": false,
       "LastUpdate": 1748166512
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/Filth-Tycoon/86ef1d6b44c972b8c618cdc85328289bcb4ca412/Tycoon%20v1.0/The_Tycoon.angry1",
+        "https://raw.githubusercontent.com/William1321/Filth-Tycoon/86ef1d6b44c972b8c618cdc85328289bcb4ca412/Tycoon%20v1.0/The_Tycoon.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1748203921,
+          "Hash": "f1a6d53d9e3285c4a93cb9d36a0160ce",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "THE FILTH ISLAND",
+          "LevelId": "grinchland.filthtycoon",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Kill a Friend"
+        }
+      ],
+      "Name": "island",
+      "Author": "antlers, William1321, PhantomBlader",
+      "Size": 45827547,
+      "Guid": "daddc88d189aff74ea13efdb950ca474",
+      "Hash": "f1a6d53d9e3285c4a93cb9d36a0160ce",
+      "ThumbnailHash": "b5b6cedab756ccba8614e69c2bd1817a",
+      "Locked": false,
+      "LastUpdate": 1748203921
     }
   ]
 }
