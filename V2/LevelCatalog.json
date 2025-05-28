@@ -773,14 +773,19 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/William1321/Filth-Tycoon/86ef1d6b44c972b8c618cdc85328289bcb4ca412/Tycoon%20v1.0/The_Tycoon.angry1",
-        "https://raw.githubusercontent.com/William1321/Filth-Tycoon/86ef1d6b44c972b8c618cdc85328289bcb4ca412/Tycoon%20v1.0/The_Tycoon.angry2"
+        "https://raw.githubusercontent.com/William1321/Filth-Tycoon/2e7811566b0587e288fd75dee5d4c8c500b77008/Tycoon%20v1.1/The_Tycoon.angry1",
+        "https://raw.githubusercontent.com/William1321/Filth-Tycoon/2e7811566b0587e288fd75dee5d4c8c500b77008/Tycoon%20v1.1/The_Tycoon.angry2"
       ],
       "Updates": [
         {
           "Date": 1748203921,
           "Hash": "f1a6d53d9e3285c4a93cb9d36a0160ce",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1748465215,
+          "Hash": "eee5d7c9157557a4f9882b23cebbe01f",
+          "Message": "- Fixed tab panel header\n- Added an option to turn off the filter in the credits terminal\n- End pit should work 100% of the time now\n- Misc changes"
         }
       ],
       "Levels": [
@@ -795,14 +800,14 @@
           "levelChallengeText": "Kill a Friend"
         }
       ],
-      "Name": "island",
+      "Name": "Filth <color=#fb2f49>Island</color>",
       "Author": "antlers, William1321, PhantomBlader",
-      "Size": 45827547,
+      "Size": 45908039,
       "Guid": "daddc88d189aff74ea13efdb950ca474",
-      "Hash": "f1a6d53d9e3285c4a93cb9d36a0160ce",
+      "Hash": "eee5d7c9157557a4f9882b23cebbe01f",
       "ThumbnailHash": "b5b6cedab756ccba8614e69c2bd1817a",
       "Locked": false,
-      "LastUpdate": 1748203921
+      "LastUpdate": 1748465215
     },
     {
       "Parts": [
