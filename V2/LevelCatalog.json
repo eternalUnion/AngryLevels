@@ -840,6 +840,39 @@
       "ThumbnailHash": "a6bbf79bf575a525ecaa54d7467bd5da",
       "Locked": false,
       "LastUpdate": 1748464919
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Bence49/CLARITYwawa/544a4180e8671e14f5083b1900299d9b99e1a955/CLARITY.angry1",
+        "https://raw.githubusercontent.com/Bence49/CLARITYwawa/544a4180e8671e14f5083b1900299d9b99e1a955/CLARITY.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1748465584,
+          "Hash": "2715bbb0a4071db4fb5e47bf048fd578",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "CLARITY /// TRILOGY",
+          "LevelId": "BENCE.CLARITY.49",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DONT TRIGGER THE SECURITY SYSTEMS"
+        }
+      ],
+      "Name": "CLARITY",
+      "Author": "bence_customlevel",
+      "Size": 47511356,
+      "Guid": "f94de58205ce45d41ab362c80c703bd2",
+      "Hash": "2715bbb0a4071db4fb5e47bf048fd578",
+      "ThumbnailHash": "141c9cf0bdec67f8f97c538980ef9e37",
+      "Locked": false,
+      "LastUpdate": 1748465584
     }
   ]
 }
