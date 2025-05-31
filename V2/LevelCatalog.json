@@ -437,14 +437,19 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FruitCircuit/v3showdown/d99d1d32b9bafe4e768afb9b402e9921e355358d/build1/V3s_Showdown.angry1",
-        "https://raw.githubusercontent.com/FruitCircuit/v3showdown/d99d1d32b9bafe4e768afb9b402e9921e355358d/build1/V3s_Showdown.angry2"
+        "https://raw.githubusercontent.com/FruitCircuit/v3showdown/d7be74643d5f57bd97f087df7623640d8f218625/build2/V3s_Showdown.angry1",
+        "https://raw.githubusercontent.com/FruitCircuit/v3showdown/d7be74643d5f57bd97f087df7623640d8f218625/build2/V3s_Showdown.angry2"
       ],
       "Updates": [
         {
           "Date": 1746047861,
           "Hash": "0ec1b148eebf1ce4f81ec2c695989ea4",
           "Message": "- Ported to ultra_revamp\n[PHASE 1]\n- Shotgun bug fixed\n- V3 blows themselves up less (hopefully)\n[PHASE 2]\n- Some attacks nerfed (mainly the lasers)\n- Minor visual tweaks"
+        },
+        {
+          "Date": 1748708687,
+          "Hash": "157c69ae1d019d50b2a2ef7ea6183fbf",
+          "Message": "- Minor fixes for phase 1\n- General balance changes for phase 2"
         }
       ],
       "Levels": [
@@ -471,12 +476,12 @@
       ],
       "Name": "<color=#FFFFFF>V3</color>'s Showdown",
       "Author": "t.trinity",
-      "Size": 34898531,
+      "Size": 34899270,
       "Guid": "91a952cfd5574ef47bf624e09c311260",
-      "Hash": "0ec1b148eebf1ce4f81ec2c695989ea4",
+      "Hash": "157c69ae1d019d50b2a2ef7ea6183fbf",
       "ThumbnailHash": "9fb556ee9d68511899c6300c781c8c9e",
       "Locked": false,
-      "LastUpdate": 1746047861
+      "LastUpdate": 1748708687
     },
     {
       "Parts": [
