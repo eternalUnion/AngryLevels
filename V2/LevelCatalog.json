@@ -878,6 +878,38 @@
       "ThumbnailHash": "141c9cf0bdec67f8f97c538980ef9e37",
       "Locked": false,
       "LastUpdate": 1748465584
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/a9808e5a7a2adb67daab26ae657c440aa2bb8f07/BLOOD_PLEASE/BLOOD_PLEASE.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1748912490,
+          "Hash": "2240ff8a99ce68422947b0515676922b",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "GLORY TO MANKIND",
+          "LevelId": "woosp.BloodPlease",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "BLOOD, PLEASE",
+      "Author": "Woosp",
+      "Size": 10546153,
+      "Guid": "502893de07ef2c94daf31d98f1591396",
+      "Hash": "2240ff8a99ce68422947b0515676922b",
+      "ThumbnailHash": "4b883105ee85180e6dea16684a64c989",
+      "Locked": false,
+      "LastUpdate": 1748912490
     }
   ]
 }
