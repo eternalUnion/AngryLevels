@@ -881,13 +881,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/a9808e5a7a2adb67daab26ae657c440aa2bb8f07/BLOOD_PLEASE/BLOOD_PLEASE.angry"
+        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/ecdbe5a4bc3010e6fa6dd18c6e09ebced6a4a793/BLOOD_PLEASE/BLOOD_PLEASE_3.angry"
       ],
       "Updates": [
         {
           "Date": 1748912490,
           "Hash": "2240ff8a99ce68422947b0515676922b",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1749044217,
+          "Hash": "0f3c8abe8ae68cf1d4942db8ad428082",
+          "Message": "- Miscellaneous small fixes\n- Fixed the rare inability to bring out your weapon despite having them (hopefully)\n- Gameplay animations move a little faster\n- Added Dev Plushie"
         }
       ],
       "Levels": [
@@ -904,12 +909,12 @@
       ],
       "Name": "BLOOD, PLEASE",
       "Author": "Woosp",
-      "Size": 10546153,
+      "Size": 10704797,
       "Guid": "502893de07ef2c94daf31d98f1591396",
-      "Hash": "2240ff8a99ce68422947b0515676922b",
+      "Hash": "0f3c8abe8ae68cf1d4942db8ad428082",
       "ThumbnailHash": "4b883105ee85180e6dea16684a64c989",
       "Locked": false,
-      "LastUpdate": 1748912490
+      "LastUpdate": 1749044217
     }
   ]
 }
