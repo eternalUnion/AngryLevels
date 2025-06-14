@@ -942,6 +942,38 @@
       "ThumbnailHash": "4b883105ee85180e6dea16684a64c989",
       "Locked": false,
       "LastUpdate": 1749387199
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RedNova1/BeneathCyberia/45a9825e63985fc8510b5f271f7095eabe7f09d9/Level%201.1/BeneathCyberia.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1749898874,
+          "Hash": "7e871377e295c4c4ab14096e36ebbfdc",
+          "Message": "Port to ULTRA_Revamp"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "2-EXTRA: BENEATH CYBERIA",
+          "LevelId": "RedNova.BeneathCyberia",
+          "isSecretLevel": false,
+          "secretCount": 3,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "BENEATH CYBERIA",
+      "Author": "RedNova",
+      "Size": 12002922,
+      "Guid": "47c17570aefdcf5408cdef8bfa807c2a",
+      "Hash": "7e871377e295c4c4ab14096e36ebbfdc",
+      "ThumbnailHash": "4d8c17d72727c4e6c936305015229725",
+      "Locked": false,
+      "LastUpdate": 1749898874
     }
   ]
 }
