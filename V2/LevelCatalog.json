@@ -39,7 +39,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/d9e4b2023edebac6d5a49ec2661ecb77df6f936e/FunSizedHeresyRevamp211.angry"
+        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/4b0ae5dbbbe55f4360e7fa28a64fb4c4f66c0ad4/FunSizedHeresyRevamp22.angry"
       ],
       "Updates": [
         {
@@ -56,6 +56,11 @@
           "Date": 1745875787,
           "Hash": "03c0aca5e6a6fcb4dbf0bcecc0223464",
           "Message": "- Added an invisible checkpoint to the intro hallway, so when you die in the first arena the level doesnt reset\n- Dev plushie is now Unlit, like all other standard dev plushies\n- Fixed challenge triggering altar not being invisible\n- Door that opens when you pick up the blue key now has blue eyes on both sides instead of just 1\n- Fixed the Crossroads checkpoint looking wrong"
+        },
+        {
+          "Date": 1750356685,
+          "Hash": "e59d5bc5c06cfb64595b6de15bfb92d4",
+          "Message": "- Revamped Second Arena and 5th room visually\n- First Arena and Final Arena are now more dynamic\n- Reduced Length of final arena\n- Plushie now makes sounds when picked up and thrown\n- Added an official any% route\n- Lightning in Third Arena is now red\n- Added several anti-misclip/oob instakill triggers outside of the map"
         }
       ],
       "Levels": [
@@ -72,12 +77,12 @@
       ],
       "Name": "Fun Sized Heresy",
       "Author": "FNChannel",
-      "Size": 21896754,
+      "Size": 20966062,
       "Guid": "ae6eeb9c8e3741441986985171f75b56",
-      "Hash": "03c0aca5e6a6fcb4dbf0bcecc0223464",
+      "Hash": "e59d5bc5c06cfb64595b6de15bfb92d4",
       "ThumbnailHash": "0336269f0f66411e1be6c9cc95f66be8",
       "Locked": false,
-      "LastUpdate": 1745875787
+      "LastUpdate": 1750356685
     },
     {
       "Parts": [
