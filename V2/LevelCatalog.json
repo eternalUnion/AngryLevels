@@ -984,6 +984,38 @@
       "ThumbnailHash": "4d8c17d72727c4e6c936305015229725",
       "Locked": false,
       "LastUpdate": 1749898874
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/aggravateexe/MINESHAFTS/b9899434d69f9ada4ee280d7a9384f9924cfaf8e/1.0/MINESHAFTS.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1750356902,
+          "Hash": "386848cbd7aae3a43ab634ae9d84e8e2",
+          "Message": "Ported and overhauled Into The Abyss to the ULTRAKILL_REVAMP Update"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MS-1: INTO THE ABYSS",
+          "LevelId": "aggravateexe.mineshafts.first",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "MINESHAFTS",
+      "Author": "aggravateexe",
+      "Size": 42993845,
+      "Guid": "b400cc165732e6946a32756742296dae",
+      "Hash": "386848cbd7aae3a43ab634ae9d84e8e2",
+      "ThumbnailHash": "f62ddc5d73237c2aea6b3a2144c69e2b",
+      "Locked": false,
+      "LastUpdate": 1750356902
     }
   ]
 }
