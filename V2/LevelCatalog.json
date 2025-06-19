@@ -763,13 +763,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/sandeater21/violencecoolswag/f16cc445700e4d28832f726e10e914df38d6f34a/1.1/VIOLENCE__CHORUS_OF_THE_DAMNED.angry"
+        "https://raw.githubusercontent.com/sandeater21/violencecoolswag/b25c4c40a495fd80d70a492c426990f7c92daca0/1.2/VIOLENCE__CHORUS_OF_THE_DAMNED.angry"
       ],
       "Updates": [
         {
           "Date": 1748166512,
           "Hash": "301e718fc7f24fc40a9e36140ae55f15",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1750353558,
+          "Hash": "63325a3e861e2374ca83587c0d70505d",
+          "Message": "- 3rd blood tree instafills when the ferryman dies\n- Added some more decoration\n- Changed 3rd secret to a supercharge one\n- Challenge stays completed after dying\n- Other stuff i forgot\n- Added gringle. Okay!"
         }
       ],
       "Levels": [
@@ -786,12 +791,12 @@
       ],
       "Name": "CHORUS OF THE DAMNED",
       "Author": "sandeater",
-      "Size": 19121414,
+      "Size": 19004724,
       "Guid": "8d399877dc56cc847b8f02f9c17ce726",
-      "Hash": "301e718fc7f24fc40a9e36140ae55f15",
+      "Hash": "63325a3e861e2374ca83587c0d70505d",
       "ThumbnailHash": "a0979d70a3b7893fceced8b736d30359",
       "Locked": false,
-      "LastUpdate": 1748166512
+      "LastUpdate": 1750353558
     },
     {
       "Parts": [
