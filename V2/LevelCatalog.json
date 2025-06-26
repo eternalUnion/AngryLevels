@@ -715,7 +715,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrakill-MACHINATION/5b2dd3ff35b2d0c8de1b7d23ca6c6b6d70448391/Patch008/MACHINATION.angry"
+        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrakill-MACHINATION/1bb3fb605a9d8e757da9c67e89c03bdc3ecda858/Patch009/MACHINATION.angry"
       ],
       "Updates": [
         {
@@ -727,6 +727,11 @@
           "Date": 1747508764,
           "Hash": "1c30dc7b2299ecd4f8f4d229b999d7da",
           "Message": "- Added extra redundancy to final floor break logic in final arena (On rare occasions it would not break, will probably break every time now)\n- Fixed bug where Mass death in final arena wouldn't trigger events properly\n- Fixed blood splatters appearing on SpinNeedles\n- Skull in cage in first arena arena now uses white salt altar\n- Added Navblockers to second arena catwalk to encourage two strays to get killed via the environmental fire hazard ( +AIR FRIED)"
+        },
+        {
+          "Date": 1750967194,
+          "Hash": "6df32c1c2c11e6941950813538a3f05c",
+          "Message": "M-1:\n- Fixed credits names\n- Fixed some gears in first arena hurting the player when in their \"off\" state\n- Fixed some steam jet particles clipping through walls in a very obvious place\n- Fixed burning pit in second arena not properly killing enemies (+OOF OUCH OWIE THAT'S 2 HOT 4 ME)\n- Fixed spinning wall fans in second arena not always spinning on level load\n- Added \"Ping!\" sound and effect to hookpoints when they spawn in or change - Thanks Bongwater!\n- Made tiny rewrite to song revamped description\n\nM-2 Demo:\n- Added a demo-specific challenge\n- Made second line of nixie-tube text a tiny bit more interesting by adding extra sparks and audio to its turning on sequence\n- Lowered the frequency of idle sparks in dark computer room just a little bit\n- Fixed computer startup sound replaying every time second room is unloaded and then reloaded"
         }
       ],
       "Levels": [
@@ -753,18 +758,18 @@
           "LevelId": "MachinationM-2DEMO",
           "isSecretLevel": false,
           "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FIND A HIDDEN SOURCE OF INSPIRATION"
         }
       ],
       "Name": "MACHINATION",
       "Author": "Streetlamp",
-      "Size": 91872322,
+      "Size": 92408829,
       "Guid": "a1f9bb7c418870d499158f9c2b55731e",
-      "Hash": "1c30dc7b2299ecd4f8f4d229b999d7da",
+      "Hash": "6df32c1c2c11e6941950813538a3f05c",
       "ThumbnailHash": "1d8c82f58fb5a5115fc133df342db46b",
       "Locked": false,
-      "LastUpdate": 1747508764
+      "LastUpdate": 1750967194
     },
     {
       "Parts": [
