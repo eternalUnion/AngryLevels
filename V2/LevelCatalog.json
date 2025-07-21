@@ -1071,6 +1071,40 @@
       "ThumbnailHash": "fb91df507e5e49e3597c8b19028305f3",
       "Locked": false,
       "LastUpdate": 1752516065
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/bd8fe5a5060da1879baf64ac6a8fd9e10bdc2574/When%20Hell%20Freezes%20Over.angry1",
+        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/bd8fe5a5060da1879baf64ac6a8fd9e10bdc2574/When%20Hell%20Freezes%20Over.angry2",
+        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/bd8fe5a5060da1879baf64ac6a8fd9e10bdc2574/When%20Hell%20Freezes%20Over.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1753129389,
+          "Hash": "7d173679bc9fe9d4faec387b0f2f0d4a",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "When Hell Freezes Over",
+          "LevelId": "punzstayfrosty",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BREAK THE 5-SECOND RULE"
+        }
+      ],
+      "Name": "WHEN HELL FREEZES OVER",
+      "Author": "BadPunZ",
+      "Size": 63604690,
+      "Guid": "37aee3b762328d048be26df496f77fdd",
+      "Hash": "7d173679bc9fe9d4faec387b0f2f0d4a",
+      "ThumbnailHash": "36ef38a64f42ac63157a11d294f17de1",
+      "Locked": false,
+      "LastUpdate": 1753129389
     }
   ]
 }
