@@ -189,11 +189,12 @@
     },
     {
       "Updates": [
-        "0f82dbce2faf39b1906de6b4b773a135"
+        "0f82dbce2faf39b1906de6b4b773a135",
+        "b7ad51b8ccbf6ec4eb1f5a416125e717"
       ],
       "FileName": "Novakaizo.dll",
-      "Hash": "0f82dbce2faf39b1906de6b4b773a135",
-      "Size": 5632
+      "Hash": "b7ad51b8ccbf6ec4eb1f5a416125e717",
+      "Size": 5120
     },
     {
       "Updates": [

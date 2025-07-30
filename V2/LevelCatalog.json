@@ -1105,6 +1105,40 @@
       "ThumbnailHash": "36ef38a64f42ac63157a11d294f17de1",
       "Locked": false,
       "LastUpdate": 1753129389
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RedNova1/Novakaizo/01ba1000b762dfb93f7ebbfd446a25735faf13e7/Level/novakaizo.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1753870395,
+          "Hash": "8f45d3cfff88c684b857178eeb684655",
+          "Message": "Port to ULTRA_REVAMP"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "Novakaizo.dll"
+          ],
+          "LevelName": "N-1:TALLADEGA",
+          "LevelId": "RedNova_NovaKaizo1",
+          "isSecretLevel": false,
+          "secretCount": 3,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Have Fun"
+        }
+      ],
+      "Name": "NovaKaizo",
+      "Author": "RedNova",
+      "Size": 28337259,
+      "Guid": "f38753c95f382ad40b672e07f73ed298",
+      "Hash": "8f45d3cfff88c684b857178eeb684655",
+      "ThumbnailHash": "e417e8915639161a2c19745acbf2f7d7",
+      "Locked": false,
+      "LastUpdate": 1753870395
     }
   ]
 }
