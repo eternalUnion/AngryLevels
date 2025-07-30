@@ -1179,6 +1179,39 @@
       "ThumbnailHash": "9d9b4230d1e36d1f32bea8de1546fc4f",
       "Locked": false,
       "LastUpdate": 1753871198
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/ballfartchungus43/a-better-tomorrow/a2832291d43220b8ecaec2d882f3f1918bf14965/A_BETTER_TOMORROW.angry1",
+        "https://raw.githubusercontent.com/ballfartchungus43/a-better-tomorrow/a2832291d43220b8ecaec2d882f3f1918bf14965/A_BETTER_TOMORROW.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1753871672,
+          "Hash": "9bafe21d561415d81945be5a8d38fb81",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "A BETTER TOMORROW",
+          "LevelId": "ballfartchungus.aBetterTomorrow",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "A BETTER TOMORROW",
+      "Author": "ballfartchungus43",
+      "Size": 32738613,
+      "Guid": "7f81ed204a23f344cae585e2c143e6a3",
+      "Hash": "9bafe21d561415d81945be5a8d38fb81",
+      "ThumbnailHash": "0bb26d5cd5eb70b134b32842cd5586f9",
+      "Locked": false,
+      "LastUpdate": 1753871672
     }
   ]
 }
