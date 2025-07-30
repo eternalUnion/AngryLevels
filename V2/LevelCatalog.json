@@ -1029,14 +1029,19 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/sandeater21/tsta/08563aed809a0890dd7878ea99198f5f5ed52800/tsta1/1.0/TSTA__PRELUDE.angry1",
-        "https://raw.githubusercontent.com/sandeater21/tsta/08563aed809a0890dd7878ea99198f5f5ed52800/tsta1/1.0/TSTA__PRELUDE.angry2"
+        "https://raw.githubusercontent.com/sandeater21/tsta/d17ed5ed03eda75d4c81f7539b17fad2388cb645/tsta1/1.1/TSTA__PRELUDE.angry1",
+        "https://raw.githubusercontent.com/sandeater21/tsta/d17ed5ed03eda75d4c81f7539b17fad2388cb645/tsta1/1.1/TSTA__PRELUDE.angry2"
       ],
       "Updates": [
         {
           "Date": 1752516065,
           "Hash": "02ac97ea09e6d21498fa7173c2a63ed7",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1753872137,
+          "Hash": "c0d236463a7724c41b4e82a00650c408",
+          "Message": "- Leaving the first room in TA-I without starting the timer is no longer possible\n- Small visual tweaks for both levels\n- Small changes to circleOS\n- Taught triangle some new songs"
         }
       ],
       "Levels": [
@@ -1065,12 +1070,12 @@
       ],
       "Name": "TSTA /// PRELUDE",
       "Author": "sandeater",
-      "Size": 38369359,
+      "Size": 39034819,
       "Guid": "6b6d65dd70cc04e4a96d3de53aea23ae",
-      "Hash": "02ac97ea09e6d21498fa7173c2a63ed7",
+      "Hash": "c0d236463a7724c41b4e82a00650c408",
       "ThumbnailHash": "fb91df507e5e49e3597c8b19028305f3",
       "Locked": false,
-      "LastUpdate": 1752516065
+      "LastUpdate": 1753872137
     },
     {
       "Parts": [
