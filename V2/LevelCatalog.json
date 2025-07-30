@@ -1074,15 +1074,20 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/bd8fe5a5060da1879baf64ac6a8fd9e10bdc2574/When%20Hell%20Freezes%20Over.angry1",
-        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/bd8fe5a5060da1879baf64ac6a8fd9e10bdc2574/When%20Hell%20Freezes%20Over.angry2",
-        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/bd8fe5a5060da1879baf64ac6a8fd9e10bdc2574/When%20Hell%20Freezes%20Over.angry3"
+        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/73b2107c87c9e2fc8fcb82f119b9cd7b75cb3689/WHFO%20Update%201/When%20Hell%20Freezes%20Over.angry1",
+        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/73b2107c87c9e2fc8fcb82f119b9cd7b75cb3689/WHFO%20Update%201/When%20Hell%20Freezes%20Over.angry2",
+        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/73b2107c87c9e2fc8fcb82f119b9cd7b75cb3689/WHFO%20Update%201/When%20Hell%20Freezes%20Over.angry3"
       ],
       "Updates": [
         {
           "Date": 1753129389,
           "Hash": "7d173679bc9fe9d4faec387b0f2f0d4a",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1753871430,
+          "Hash": "6acfe92f10bd12e47be2e2f5712a8579",
+          "Message": "- Fixed collision issues\n- (Hopefully) fixed a bug where a checkpoint would sometimes not work\n- Made the Tip of the Day less confusing\n- Other small fixes"
         }
       ],
       "Levels": [
@@ -1099,12 +1104,12 @@
       ],
       "Name": "WHEN HELL FREEZES OVER",
       "Author": "BadPunZ",
-      "Size": 63604690,
+      "Size": 63665053,
       "Guid": "37aee3b762328d048be26df496f77fdd",
-      "Hash": "7d173679bc9fe9d4faec387b0f2f0d4a",
+      "Hash": "6acfe92f10bd12e47be2e2f5712a8579",
       "ThumbnailHash": "36ef38a64f42ac63157a11d294f17de1",
       "Locked": false,
-      "LastUpdate": 1753129389
+      "LastUpdate": 1753871430
     },
     {
       "Parts": [
