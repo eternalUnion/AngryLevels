@@ -280,6 +280,14 @@
       "FileName": "AthenaResearchFacilityUtils.dll",
       "Hash": "05a7a8bbcf05576cf5b2356b91421a4b",
       "Size": 11776
+    },
+    {
+      "Updates": [
+        "a9b564039ee81dc4cecbc698f18df9c6"
+      ],
+      "FileName": "IndulgenceLimboSkybox.dll",
+      "Hash": "a9b564039ee81dc4cecbc698f18df9c6",
+      "Size": 7680
     }
   ]
 }

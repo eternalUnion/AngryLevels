@@ -1254,6 +1254,59 @@
       "ThumbnailHash": "a9d54dc25856f1aa857da724e705b5d9",
       "Locked": false,
       "LastUpdate": 1754393951
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/3937d3aefeea1247a60eb30887403d1ddc1a59d7/Indulgence%20Revamp/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/3937d3aefeea1247a60eb30887403d1ddc1a59d7/Indulgence%20Revamp/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/3937d3aefeea1247a60eb30887403d1ddc1a59d7/Indulgence%20Revamp/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/3937d3aefeea1247a60eb30887403d1ddc1a59d7/Indulgence%20Revamp/INDULGENCE.angry4"
+      ],
+      "Updates": [
+        {
+          "Date": 1754394206,
+          "Hash": "6cf9a851ae4ccb493357e710aa848949",
+          "Message": "- <color=red>Wiped any% and p-rank% leaderboards</color>\n- Ported to Patch 16d\n- Updated to new Purgatorio elevators and terminals\n- Added customisable accessibility options to reduce eyestrain and motion sickness\n- Brought level visuals and design up to par with the ULTRA_Revamp update\n- Reworked Craven enemy\n- Remodelled the boss\n- Added spawner arm support for custom enemies and props (thank you bobot)\n- Added credits level\n- Added a few OOB limitations to make Any% speedrun routes more interesting"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll",
+            "CarcassEnemy.dll",
+            "IndulgenceLimboSkybox.dll"
+          ],
+          "LevelName": "I-1: THE DEATH OF PARADIGM",
+          "LevelId": "mag.indulgence.thedeathofparadigm",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T TOUCH ANY WATER"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "mag.indulgence.thedeathofparadigm"
+          ],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll"
+          ],
+          "LevelName": "CREDITS",
+          "LevelId": "mag.indulgence.thehallofpain",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "<color=#6bfa9b>INDULGENCE</color>",
+      "Author": "<color=#756bfa>bongwater</color>",
+      "Size": 79382257,
+      "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
+      "Hash": "6cf9a851ae4ccb493357e710aa848949",
+      "ThumbnailHash": "f037a74113befad6a7974179e730751c",
+      "Locked": false,
+      "LastUpdate": 1754394206
     }
   ]
 }
