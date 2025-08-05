@@ -1222,6 +1222,38 @@
       "ThumbnailHash": "0bb26d5cd5eb70b134b32842cd5586f9",
       "Locked": false,
       "LastUpdate": 1753871672
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RobiFox/rude-sisyphus/0af0cf3e5baef1e0dc10a458a550c7ed8ab49341/Sisyphus.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1754393951,
+          "Hash": "0315757d534517fee3a06845c86645d2",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "sisyphus",
+          "LevelId": "robi.lvl.sisyphus",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "Sisyphus",
+      "Author": "Robi",
+      "Size": 11837298,
+      "Guid": "74a84340cef6cbc4a8a5a090878b7340",
+      "Hash": "0315757d534517fee3a06845c86645d2",
+      "ThumbnailHash": "a9d54dc25856f1aa857da724e705b5d9",
+      "Locked": false,
+      "LastUpdate": 1754393951
     }
   ]
 }
