@@ -39,7 +39,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/4b0ae5dbbbe55f4360e7fa28a64fb4c4f66c0ad4/FunSizedHeresyRevamp22.angry"
+        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/bd64dc92b23db72fdca0e4b2bd96e7f8c86d90b1/Rename/FunSizedHeresyRevamp.angry"
       ],
       "Updates": [
         {
@@ -61,6 +61,11 @@
           "Date": 1750356685,
           "Hash": "e59d5bc5c06cfb64595b6de15bfb92d4",
           "Message": "- Revamped Second Arena and 5th room visually\n- First Arena and Final Arena are now more dynamic\n- Reduced Length of final arena\n- Plushie now makes sounds when picked up and thrown\n- Added an official any% route\n- Lightning in Third Arena is now red\n- Added several anti-misclip/oob instakill triggers outside of the map"
+        },
+        {
+          "Date": 1754394968,
+          "Hash": "c67f4053200a44e47b1a2835d730e9ff",
+          "Message": "- Changed author name of the bundle to my new username"
         }
       ],
       "Levels": [
@@ -76,13 +81,13 @@
         }
       ],
       "Name": "Fun Sized Heresy",
-      "Author": "FNChannel",
-      "Size": 20966062,
+      "Author": "AstralOcean",
+      "Size": 20966074,
       "Guid": "ae6eeb9c8e3741441986985171f75b56",
-      "Hash": "e59d5bc5c06cfb64595b6de15bfb92d4",
+      "Hash": "c67f4053200a44e47b1a2835d730e9ff",
       "ThumbnailHash": "0336269f0f66411e1be6c9cc95f66be8",
       "Locked": false,
-      "LastUpdate": 1750356685
+      "LastUpdate": 1754394968
     },
     {
       "Parts": [
