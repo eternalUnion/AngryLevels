@@ -1267,16 +1267,21 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/3937d3aefeea1247a60eb30887403d1ddc1a59d7/Indulgence%20Revamp/INDULGENCE.angry1",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/3937d3aefeea1247a60eb30887403d1ddc1a59d7/Indulgence%20Revamp/INDULGENCE.angry2",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/3937d3aefeea1247a60eb30887403d1ddc1a59d7/Indulgence%20Revamp/INDULGENCE.angry3",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/3937d3aefeea1247a60eb30887403d1ddc1a59d7/Indulgence%20Revamp/INDULGENCE.angry4"
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/293eddfe320dbd380f848e8f069a5feb2cf317b8/Indulgence%20Revamp%20Patch%201/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/293eddfe320dbd380f848e8f069a5feb2cf317b8/Indulgence%20Revamp%20Patch%201/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/293eddfe320dbd380f848e8f069a5feb2cf317b8/Indulgence%20Revamp%20Patch%201/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/293eddfe320dbd380f848e8f069a5feb2cf317b8/Indulgence%20Revamp%20Patch%201/INDULGENCE.angry4"
       ],
       "Updates": [
         {
           "Date": 1754394206,
           "Hash": "6cf9a851ae4ccb493357e710aa848949",
           "Message": "- <color=red>Wiped any% and p-rank% leaderboards</color>\n- Ported to Patch 16d\n- Updated to new Purgatorio elevators and terminals\n- Added customisable accessibility options to reduce eyestrain and motion sickness\n- Brought level visuals and design up to par with the ULTRA_Revamp update\n- Reworked Craven enemy\n- Remodelled the boss\n- Added spawner arm support for custom enemies and props (thank you bobot)\n- Added credits level\n- Added a few OOB limitations to make Any% speedrun routes more interesting"
+        },
+        {
+          "Date": 1754666647,
+          "Hash": "b44e05d5802a7275187175fd19c9ad4f",
+          "Message": "Changes:\n- Made intro music quieter\n- Improved Craven camouflage visibility\n- Improved boss visibility\n- Lowered boss speed and added more parryable attacks\n- Gave the boss' uppercut slash attack more range to prevent cheesing attacks via remaining airborne\n- Added a spawner arm object to the credits level that can give you your weapons back\n- Added assists for Clash Mode to make the level beatable\n\nBug Fixes:\n- Fixed an issue involving fog and checkpoints\n- Fixed typos in the Craven terminal entry\n- Fixed erroneous boss behaviour on higher difficulties\n- Fixed a bug where you could be sent out of bounds when backtracking and falling into a pit\n- Fixed OOB on random wall"
         }
       ],
       "Levels": [
@@ -1310,13 +1315,13 @@
         }
       ],
       "Name": "<color=#6bfa9b>INDULGENCE</color>",
-      "Author": "<color=#756bfa>bongwater</color>",
-      "Size": 79382257,
+      "Author": "bongwater",
+      "Size": 79094445,
       "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
-      "Hash": "6cf9a851ae4ccb493357e710aa848949",
+      "Hash": "b44e05d5802a7275187175fd19c9ad4f",
       "ThumbnailHash": "f037a74113befad6a7974179e730751c",
       "Locked": false,
-      "LastUpdate": 1754394206
+      "LastUpdate": 1754666647
     }
   ]
 }
