@@ -1322,6 +1322,78 @@
       "ThumbnailHash": "f037a74113befad6a7974179e730751c",
       "Locked": false,
       "LastUpdate": 1754666647
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry1",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry2",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry3",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry4",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry5"
+      ],
+      "Updates": [
+        {
+          "Date": 1755802297,
+          "Hash": "2300fae8acb5305afdc903457cdbcd6a",
+          "Message": "* e-1 and e-2 were slightly revamped\n* e-3 and e-4 were ported\n* big thanks to @Hinestraza for helping unwrap this mess of a layer"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "E-1: LOST FIELDS OF GOLD",
+          "LevelId": "RaifuLostFieldsenvyb",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T TOUCH THE GRASS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "RaifuLostFieldsenvyb"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "E-2: PALACE OF BLACK SPIRES",
+          "LevelId": "raifuenvypalaceforbundle",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WALK IN THE MIST OF ASHEN REMAINS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "raifuenvypalaceforbundle"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "E-3: CASTLE MANIAC",
+          "LevelId": "RaifuCastleManiacTheReal",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FIND THE DREADFUL SECRET"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "RaifuCastleManiacTheReal"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "E-4: EVERY STAR IN THE SKY",
+          "LevelId": "RaifuEveryStarInTheSkyReal",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMMIT THE CARDINAL SIN AND PAY FOR IT"
+        }
+      ],
+      "Name": "ENVY",
+      "Author": "Raifu",
+      "Size": 124857391,
+      "Guid": "515486d54abac2a4694e34cb1b31d18f",
+      "Hash": "2300fae8acb5305afdc903457cdbcd6a",
+      "ThumbnailHash": "1982f02cc375a2172d9da810344de46a",
+      "Locked": false,
+      "LastUpdate": 1755802297
     }
   ]
 }
