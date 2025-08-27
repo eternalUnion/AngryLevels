@@ -1394,6 +1394,38 @@
       "ThumbnailHash": "1982f02cc375a2172d9da810344de46a",
       "Locked": false,
       "LastUpdate": 1755802297
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Doodleeee/Affliction/dec8119a80450ac481c8da4f18e41a94c9e05f1f/Affliction.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1756295865,
+          "Hash": "d4ca8fe2ca68da64193c6529e276e4dd",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Affliction",
+          "LevelId": "Affliction",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "The disastrous path"
+        }
+      ],
+      "Name": "Affliction",
+      "Author": "Doodle, Akita, Distant land",
+      "Size": 19604370,
+      "Guid": "35c20663906d7b041a246ad55ff850cb",
+      "Hash": "d4ca8fe2ca68da64193c6529e276e4dd",
+      "ThumbnailHash": "b7476fa59c82316cb555bb03d076670b",
+      "Locked": false,
+      "LastUpdate": 1756295865
     }
   ]
 }
