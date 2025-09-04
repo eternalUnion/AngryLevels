@@ -1426,6 +1426,40 @@
       "ThumbnailHash": "b7476fa59c82316cb555bb03d076670b",
       "Locked": false,
       "LastUpdate": 1756295865
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/hinestraza/7empestangry/50e77b39ab0a6d9f736e524179d69692933ab7b7/7EMPEST.angry1",
+        "https://raw.githubusercontent.com/hinestraza/7empestangry/50e77b39ab0a6d9f736e524179d69692933ab7b7/7EMPEST.angry2",
+        "https://raw.githubusercontent.com/hinestraza/7empestangry/50e77b39ab0a6d9f736e524179d69692933ab7b7/7EMPEST.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1757009043,
+          "Hash": "68b59602ee1440217adf260a61cf9c1c",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TS-1: DEAD FLAG BLUES",
+          "LevelId": "hinestraza.tempest.os1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BREAK ALL MONITORS"
+        }
+      ],
+      "Name": "7EMPEST",
+      "Author": "Hinestraza",
+      "Size": 64956233,
+      "Guid": "977aaa88f562a674481260850dd91c01",
+      "Hash": "68b59602ee1440217adf260a61cf9c1c",
+      "ThumbnailHash": "a7c919fe0b5d6ad1717316e752e00cb1",
+      "Locked": false,
+      "LastUpdate": 1757009043
     }
   ]
 }
