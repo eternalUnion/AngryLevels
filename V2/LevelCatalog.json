@@ -1429,15 +1429,20 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/hinestraza/7empestangry/50e77b39ab0a6d9f736e524179d69692933ab7b7/7EMPEST.angry1",
-        "https://raw.githubusercontent.com/hinestraza/7empestangry/50e77b39ab0a6d9f736e524179d69692933ab7b7/7EMPEST.angry2",
-        "https://raw.githubusercontent.com/hinestraza/7empestangry/50e77b39ab0a6d9f736e524179d69692933ab7b7/7EMPEST.angry3"
+        "https://raw.githubusercontent.com/hinestraza/7empestangry/20d56511aa00a6fdc3fb9c256e38b64e3b3ba03d/7empest%201.1/7EMPEST.angry1",
+        "https://raw.githubusercontent.com/hinestraza/7empestangry/20d56511aa00a6fdc3fb9c256e38b64e3b3ba03d/7empest%201.1/7EMPEST.angry2",
+        "https://raw.githubusercontent.com/hinestraza/7empestangry/20d56511aa00a6fdc3fb9c256e38b64e3b3ba03d/7empest%201.1/7EMPEST.angry3"
       ],
       "Updates": [
         {
           "Date": 1757009043,
           "Hash": "68b59602ee1440217adf260a61cf9c1c",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1757368572,
+          "Hash": "1b6272eca6abf6963a4b17abcfe3a464",
+          "Message": "- P rank has been fixed\n- Challenge has been fixed\n- Occlusion Errors Fixed\n- One or two details have been added that werent included in initial release as well as sealing one or two gaps\n- Added rich pressence icon"
         }
       ],
       "Levels": [
@@ -1454,12 +1459,12 @@
       ],
       "Name": "7EMPEST",
       "Author": "Hinestraza",
-      "Size": 64956233,
+      "Size": 64943742,
       "Guid": "977aaa88f562a674481260850dd91c01",
-      "Hash": "68b59602ee1440217adf260a61cf9c1c",
+      "Hash": "1b6272eca6abf6963a4b17abcfe3a464",
       "ThumbnailHash": "a7c919fe0b5d6ad1717316e752e00cb1",
       "Locked": false,
-      "LastUpdate": 1757009043
+      "LastUpdate": 1757368572
     }
   ]
 }
