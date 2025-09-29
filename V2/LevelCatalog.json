@@ -1483,6 +1483,38 @@
       "ThumbnailHash": "a7c919fe0b5d6ad1717316e752e00cb1",
       "Locked": false,
       "LastUpdate": 1757368572
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Draghtnim/Loadout-Hell/60abc334322d09b2e8a64cc404d4e366f124907c/Loadout_Hell.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1759161787,
+          "Hash": "343b820e3a647e448be2b14b4ba429c3",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "UNHOLY ROULETTE",
+          "LevelId": "Draghtnim.buckshot",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Don't use any bonuses."
+        }
+      ],
+      "Name": "Loadout Hell",
+      "Author": "Draghtnim",
+      "Size": 12866983,
+      "Guid": "588d26e6fafdb3645aa2f8cf0b8d724a",
+      "Hash": "343b820e3a647e448be2b14b4ba429c3",
+      "ThumbnailHash": "d9fdc3dc7351cdd51d2e13b24bc41300",
+      "Locked": false,
+      "LastUpdate": 1759161787
     }
   ]
 }
