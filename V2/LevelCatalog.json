@@ -1034,8 +1034,9 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/sandeater21/tsta/d17ed5ed03eda75d4c81f7539b17fad2388cb645/tsta1/1.1/TSTA__PRELUDE.angry1",
-        "https://raw.githubusercontent.com/sandeater21/tsta/d17ed5ed03eda75d4c81f7539b17fad2388cb645/tsta1/1.1/TSTA__PRELUDE.angry2"
+        "https://raw.githubusercontent.com/sandeater21/tsta/e49805a25c3447af8867f3a065190b8aaef342aa/tsta1/2.0/TSTA__ACT_1__PRELUDE.angry1",
+        "https://raw.githubusercontent.com/sandeater21/tsta/e49805a25c3447af8867f3a065190b8aaef342aa/tsta1/2.0/TSTA__ACT_1__PRELUDE.angry2",
+        "https://raw.githubusercontent.com/sandeater21/tsta/e49805a25c3447af8867f3a065190b8aaef342aa/tsta1/2.0/TSTA__ACT_1__PRELUDE.angry3"
       ],
       "Updates": [
         {
@@ -1047,6 +1048,11 @@
           "Date": 1753872137,
           "Hash": "c0d236463a7724c41b4e82a00650c408",
           "Message": "- Leaving the first room in TA-I without starting the timer is no longer possible\n- Small visual tweaks for both levels\n- Small changes to circleOS\n- Taught triangle some new songs"
+        },
+        {
+          "Date": 1759161202,
+          "Hash": "03e0419cbb434554b893e4dfa17bc5b2",
+          "Message": "- Added TA-1\n- Updated start and end elevators\n- Taught triangle some new songs"
         }
       ],
       "Levels": [
@@ -1071,16 +1077,28 @@
           "secretCount": 5,
           "levelChallengeEnabled": true,
           "levelChallengeText": "BEAT THE SECRET ENCOUNTER"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "se.tsta0"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "TA-1: 15 ACRES OF BROKEN GLASS",
+          "LevelId": "se.tsta1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "MAKE A KIND DONATION"
         }
       ],
-      "Name": "TSTA /// PRELUDE",
+      "Name": "TSTA /// ACT 1 + PRELUDE",
       "Author": "sandeater",
-      "Size": 39034819,
+      "Size": 56972288,
       "Guid": "6b6d65dd70cc04e4a96d3de53aea23ae",
-      "Hash": "c0d236463a7724c41b4e82a00650c408",
-      "ThumbnailHash": "fb91df507e5e49e3597c8b19028305f3",
+      "Hash": "03e0419cbb434554b893e4dfa17bc5b2",
+      "ThumbnailHash": "cf152fbd6dde00232204b5d6f373fdb3",
       "Locked": false,
-      "LastUpdate": 1753872137
+      "LastUpdate": 1759161202
     },
     {
       "Parts": [
