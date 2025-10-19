@@ -1582,6 +1582,39 @@
       "ThumbnailHash": "58ab44dbb2f87da84d7548bcd08ab7b6",
       "Locked": false,
       "LastUpdate": 1760902732
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/035becfb2ed6aa178005b7c79933cb0681cda7b0/uk_flatgrass%202.0/uk_flatgrass.angry1",
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/035becfb2ed6aa178005b7c79933cb0681cda7b0/uk_flatgrass%202.0/uk_flatgrass.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1760903422,
+          "Hash": "1cc18f15294ac0d4e9347775f8ed3d7c",
+          "Message": "- Since i lost the old scene file i have remade the level from the ground up\n- Updated environments and bosses with revamp changes\n- Added 0-5 environment\n- Replaced 7-4 with a 7-1 environment\n- Removed the need for the custom script\n- Added settings menu\n- Earthmover bakes navmesh on spawn now; enemies will properly move\n- Added setting to rebake navmesh on environment switch\n- All environments and bosses will play their respective music now, customizable in settings"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "uk_flatgrass ",
+          "LevelId": "willem1321.ukflatgrass",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "uk_flatgrass",
+      "Author": ".willem1321",
+      "Size": 49036593,
+      "Guid": "02ed3b9674fc9f14f9bb005f1dab5c2f",
+      "Hash": "1cc18f15294ac0d4e9347775f8ed3d7c",
+      "ThumbnailHash": "0a4bbff0473268bb043fef70d54582b7",
+      "Locked": false,
+      "LastUpdate": 1760903422
     }
   ]
 }
