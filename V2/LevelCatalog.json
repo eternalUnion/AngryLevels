@@ -1520,6 +1520,38 @@
       "ThumbnailHash": "d9fdc3dc7351cdd51d2e13b24bc41300",
       "Locked": false,
       "LastUpdate": 1760902388
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/CyrusPlayz-bit/Totally-Serious/31eabd1f3f6992c1cbf77d1005bc4b4c90a16c78/Totally_Serious_Definitive_Edition.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1760902732,
+          "Hash": "9a00869fc9485464fafc173a59277974",
+          "Message": "- Complete revamp of the above ground map\n- Reworked all of the arenas\n- Reworked and expanded on the section after the drop to build up to the boss better\n- Reworked the custom boss(new model and modified attacks)\n- Added custom Boss music\n- Added Credits and other terminals\n- Repositioned the old secrets and added two more secrets to get the total up to 5 secrets"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "A Verdant Encounter",
+          "LevelId": "1111",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO THE PACIFIST ROUTE"
+        }
+      ],
+      "Name": "Totally Serious DEFINITIVE EDITION",
+      "Author": "CyrusPlayz",
+      "Size": 13961977,
+      "Guid": "ea218d818a5626b4cad876fa6520ec0b",
+      "Hash": "9a00869fc9485464fafc173a59277974",
+      "ThumbnailHash": "58ab44dbb2f87da84d7548bcd08ab7b6",
+      "Locked": false,
+      "LastUpdate": 1760902732
     }
   ]
 }
