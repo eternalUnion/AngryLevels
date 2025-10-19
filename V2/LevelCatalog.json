@@ -1486,13 +1486,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/Loadout-Hell/60abc334322d09b2e8a64cc404d4e366f124907c/Loadout_Hell.angry"
+        "https://raw.githubusercontent.com/Draghtnim/Loadout-Hell/3c65eb62a5edec580770bfc20b3eb99e946f1c6c/AnnoyingBugFix/Loadout_Hell.angry"
       ],
       "Updates": [
         {
           "Date": 1759161787,
           "Hash": "343b820e3a647e448be2b14b4ba429c3",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1760902388,
+          "Hash": "5f1f0b3efffbf6346b06a32db7f31ee9",
+          "Message": "- Fixed an annoying bug that would make the arena dark\n- Sisyphus prime has an adjusted animation and no longer dies after the terminal pops up\n- Tab panel header no longer displays the incorrect name"
         }
       ],
       "Levels": [
@@ -1509,12 +1514,12 @@
       ],
       "Name": "Loadout Hell",
       "Author": "Draghtnim",
-      "Size": 12866983,
+      "Size": 13391985,
       "Guid": "588d26e6fafdb3645aa2f8cf0b8d724a",
-      "Hash": "343b820e3a647e448be2b14b4ba429c3",
+      "Hash": "5f1f0b3efffbf6346b06a32db7f31ee9",
       "ThumbnailHash": "d9fdc3dc7351cdd51d2e13b24bc41300",
       "Locked": false,
-      "LastUpdate": 1759161787
+      "LastUpdate": 1760902388
     }
   ]
 }
