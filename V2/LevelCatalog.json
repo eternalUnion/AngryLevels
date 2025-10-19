@@ -1365,17 +1365,25 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry1",
-        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry2",
-        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry3",
-        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry4",
-        "https://raw.githubusercontent.com/Raifuuu/Envy/36d4bab1c4d48914e1b8cf3e3ec8508c14552d97/Envy%20Ported/ENVY.angry5"
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry1",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry2",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry3",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry4",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry5",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry6",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry7",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry8"
       ],
       "Updates": [
         {
           "Date": 1755802297,
           "Hash": "2300fae8acb5305afdc903457cdbcd6a",
           "Message": "* e-1 and e-2 were slightly revamped\n* e-3 and e-4 were ported\n* big thanks to @Hinestraza for helping unwrap this mess of a layer"
+        },
+        {
+          "Date": 1760903273,
+          "Hash": "127a19fc07e63514faabadec00d97efa",
+          "Message": "- e-1 ending was touched up\n- e-3 completely revamped by YoullTim with a little touch by bongwater (vertical library room)"
         }
       ],
       "Levels": [
@@ -1428,12 +1436,12 @@
       ],
       "Name": "ENVY",
       "Author": "Raifu",
-      "Size": 124857391,
+      "Size": 190769059,
       "Guid": "515486d54abac2a4694e34cb1b31d18f",
-      "Hash": "2300fae8acb5305afdc903457cdbcd6a",
+      "Hash": "127a19fc07e63514faabadec00d97efa",
       "ThumbnailHash": "1982f02cc375a2172d9da810344de46a",
       "Locked": false,
-      "LastUpdate": 1755802297
+      "LastUpdate": 1760903273
     },
     {
       "Parts": [
