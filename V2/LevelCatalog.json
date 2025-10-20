@@ -1285,12 +1285,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/7fdb5a52fdabb7a62b7e082cf2dca888a319a829/Indulgence%20v2.0/INDULGENCE.angry1",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/7fdb5a52fdabb7a62b7e082cf2dca888a319a829/Indulgence%20v2.0/INDULGENCE.angry2",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/7fdb5a52fdabb7a62b7e082cf2dca888a319a829/Indulgence%20v2.0/INDULGENCE.angry3",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/7fdb5a52fdabb7a62b7e082cf2dca888a319a829/Indulgence%20v2.0/INDULGENCE.angry4",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/7fdb5a52fdabb7a62b7e082cf2dca888a319a829/Indulgence%20v2.0/INDULGENCE.angry5",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/7fdb5a52fdabb7a62b7e082cf2dca888a319a829/Indulgence%20v2.0/INDULGENCE.angry6"
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry4",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry5"
       ],
       "Updates": [
         {
@@ -1307,6 +1306,11 @@
           "Date": 1760903032,
           "Hash": "ae766a01edf24a5690ac787b69c19116",
           "Message": "v2.0\n\n- Added Level I-2: IF THERE WERE NO THUNDER\n- Added 1 new enemy\n- Added 2 new terminal entries (and 1 unknown entry for the eventual final boss)\n- Added a terminal to the credits level where all enemy entries can be read\n\n- Cravens can now enrage on Violent and Brutal difficulty\n- Craven health reduced to 9 (previously 10) to improve some interactions\n- Cravens now emit light from their face in dark areas\n- Updated credits\n\nI-1:\n- Minor visual, gameplay and performance improvements\n- Increased S Rank time requirement to 7:45 (previously 7:30)\n- Reduced S Rank kills requirement to 70 (previously 73)\n- Reduced S Rank style requirement to 20,000 (previously 22,500)\n- The first Hermes teaser is now less obscured by explosions\n\nBug Fixes:\n- Fixed an issue where some unintended bodies of water would remain after the water has been drained\n- Fixed an issue where Hermes would disappear for a split second at the end of its intro animation at lower framerates"
+        },
+        {
+          "Date": 1760944910,
+          "Hash": "38522d97e447ccb7db6ff857f5da1dc4",
+          "Message": "v2.01\n\n- Gave Neutralizers an Impact Hammer weakness (1.5x)\n- Slightly reduced filesize\n- Fixed a rare bug where the player could get stuck in the exit elevator without reaching the results screen\n\nI-1:\n- Fixed an issue where enemies could clip underneath the train\n\nI-2:\n- Fixed a rare bug where Neutralizers could explode multiple times without dying\n- The credits level terminal now correctly shows the player in the selfie camera\n- Fixed some typos\n- Fixed a couple walls lacking colliders\n- Other minor general fixes and improvements\n\nThank you for the generally positive reception to the level!! Challenge coming sometime next year after the next base game update."
         }
       ],
       "Levels": [
@@ -1356,12 +1360,12 @@
       ],
       "Name": "<color=#6bfa9b>INDULGENCE</color>",
       "Author": "bongwater",
-      "Size": 132031783,
+      "Size": 124842346,
       "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
-      "Hash": "ae766a01edf24a5690ac787b69c19116",
+      "Hash": "38522d97e447ccb7db6ff857f5da1dc4",
       "ThumbnailHash": "f037a74113befad6a7974179e730751c",
       "Locked": false,
-      "LastUpdate": 1760903032
+      "LastUpdate": 1760944910
     },
     {
       "Parts": [
