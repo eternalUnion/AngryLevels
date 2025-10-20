@@ -1285,11 +1285,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry1",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry2",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry3",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry4",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e79aa23e9fa7f62b7c19ba03016c17402dddcb05/Indulgence%20v2.01/INDULGENCE.angry5"
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry4",
+        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry5"
       ],
       "Updates": [
         {
@@ -1311,6 +1311,11 @@
           "Date": 1760944910,
           "Hash": "38522d97e447ccb7db6ff857f5da1dc4",
           "Message": "v2.01\n\n- Gave Neutralizers an Impact Hammer weakness (1.5x)\n- Slightly reduced filesize\n- Fixed a rare bug where the player could get stuck in the exit elevator without reaching the results screen\n\nI-1:\n- Fixed an issue where enemies could clip underneath the train\n\nI-2:\n- Fixed a rare bug where Neutralizers could explode multiple times without dying\n- The credits level terminal now correctly shows the player in the selfie camera\n- Fixed some typos\n- Fixed a couple walls lacking colliders\n- Other minor general fixes and improvements\n\nThank you for the generally positive reception to the level!! Challenge coming sometime next year after the next base game update."
+        },
+        {
+          "Date": 1761000407,
+          "Hash": "19dae67d74745fda507a634903062742",
+          "Message": "v2.02\n\n- Neutralizers now deal a flat 16 damage to high-health enemies, instakill still remains for lower health counts. This should make it harder to trivialise most encounters they're present in\n- Neutralizers explosion shockwave no longer visually repeats twice\n- Craven hooks no longer do a slowmo effect when hitting something\n\nI-1:\n- An illegal narcotic no longer levitates 10 units away from its foliage\n- Fixed seasonal hats for Hermes\n\nI-2:\n- Attempted to fix a rare bug that causes rooms to be unloaded while you're inside of them\n- Tweaked lighting across the level to improve visibility\n- Made some changes to improve the any% speedrunning experience\n- Minor changes to level geometry to allow for more movement options\n- Level now supports NoMo cheat\n\nCredits:\n- Corrected credits for synth67"
         }
       ],
       "Levels": [
@@ -1360,12 +1365,12 @@
       ],
       "Name": "<color=#6bfa9b>INDULGENCE</color>",
       "Author": "bongwater",
-      "Size": 124842346,
+      "Size": 118271486,
       "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
-      "Hash": "38522d97e447ccb7db6ff857f5da1dc4",
+      "Hash": "19dae67d74745fda507a634903062742",
       "ThumbnailHash": "f037a74113befad6a7974179e730751c",
       "Locked": false,
-      "LastUpdate": 1760944910
+      "LastUpdate": 1761000407
     },
     {
       "Parts": [
