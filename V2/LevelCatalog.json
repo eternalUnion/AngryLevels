@@ -1034,9 +1034,9 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/sandeater21/tsta/e49805a25c3447af8867f3a065190b8aaef342aa/tsta1/2.0/TSTA__ACT_1__PRELUDE.angry1",
-        "https://raw.githubusercontent.com/sandeater21/tsta/e49805a25c3447af8867f3a065190b8aaef342aa/tsta1/2.0/TSTA__ACT_1__PRELUDE.angry2",
-        "https://raw.githubusercontent.com/sandeater21/tsta/e49805a25c3447af8867f3a065190b8aaef342aa/tsta1/2.0/TSTA__ACT_1__PRELUDE.angry3"
+        "https://raw.githubusercontent.com/sandeater21/tsta/d3eba3da9075f02ad7f2087d4fcd0b4bd3beb97e/tsta1/2.1/TSTA__ACT_1__PRELUDE.angry1",
+        "https://raw.githubusercontent.com/sandeater21/tsta/d3eba3da9075f02ad7f2087d4fcd0b4bd3beb97e/tsta1/2.1/TSTA__ACT_1__PRELUDE.angry2",
+        "https://raw.githubusercontent.com/sandeater21/tsta/d3eba3da9075f02ad7f2087d4fcd0b4bd3beb97e/tsta1/2.1/TSTA__ACT_1__PRELUDE.angry3"
       ],
       "Updates": [
         {
@@ -1053,6 +1053,11 @@
           "Date": 1759161202,
           "Hash": "03e0419cbb434554b893e4dfa17bc5b2",
           "Message": "- Added TA-1\n- Updated start and end elevators\n- Taught triangle some new songs"
+        },
+        {
+          "Date": 1761606602,
+          "Hash": "59bba05325f01bb45a11df7879898460",
+          "Message": "- Added TA-S\n\nTA-I:\n- Added challenge\n- Lowered style requirement\n- Updated visuals slightly\n\nTA-0:\n- Waterfall looks better\n\nTA-1:\n- Bouncy death pits are less weird\n- Level now works with enemies disabled"
         }
       ],
       "Levels": [
@@ -1064,7 +1069,17 @@
           "isSecretLevel": false,
           "secretCount": 0,
           "levelChallengeEnabled": true,
-          "levelChallengeText": "coming soon™"
+          "levelChallengeText": "HOLD YOUR HORSES"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TA-S: DEEP ROCK INFERNO",
+          "LevelId": "se.tstaS",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
         },
         {
           "requiredCompletedLevelIdsForUnlock": [
@@ -1093,12 +1108,12 @@
       ],
       "Name": "TSTA /// ACT 1 + PRELUDE",
       "Author": "sandeater",
-      "Size": 56972288,
+      "Size": 61964708,
       "Guid": "6b6d65dd70cc04e4a96d3de53aea23ae",
-      "Hash": "03e0419cbb434554b893e4dfa17bc5b2",
+      "Hash": "59bba05325f01bb45a11df7879898460",
       "ThumbnailHash": "cf152fbd6dde00232204b5d6f373fdb3",
       "Locked": false,
-      "LastUpdate": 1759161202
+      "LastUpdate": 1761606602
     },
     {
       "Parts": [
