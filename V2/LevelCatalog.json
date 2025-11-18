@@ -1672,6 +1672,41 @@
       "ThumbnailHash": "da9385bccb8211186d306aeb43d02998",
       "Locked": false,
       "LastUpdate": 1763493117
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/PrestoPesto/pesto-ultrakill/d22c07fa0f80d161d2b2d10db5abec4a79de39e0/Galleries_at_the_End_of_the_World.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1763493793,
+          "Hash": "b380eec24833f8545a4a1c21bac6fbf9",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "ForceFinalRank.dll",
+            "GalleryArmFix.dll"
+          ],
+          "LevelName": "GALLERIES AT THE END OF THE WORLD",
+          "LevelId": "presto.break.hall",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "UNDER CONSTRUCTION"
+        }
+      ],
+      "Name": "GALLERIES AT THE END OF THE WORLD",
+      "Author": "PrestoPesto",
+      "Size": 41160130,
+      "Guid": "a9d6e67d9f77dbc4895aaefd9ec2ae19",
+      "Hash": "b380eec24833f8545a4a1c21bac6fbf9",
+      "ThumbnailHash": "bfadec202ee9fb49515d35fffb7cbe2d",
+      "Locked": false,
+      "LastUpdate": 1763493793
     }
   ]
 }

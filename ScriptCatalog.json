@@ -288,6 +288,22 @@
       "FileName": "IndulgenceLimboSkybox.dll",
       "Hash": "a9b564039ee81dc4cecbc698f18df9c6",
       "Size": 7680
+    },
+    {
+      "Updates": [
+        "ca5a5de68ab2efff3da964463072d1e7"
+      ],
+      "FileName": "GalleryArmFix.dll",
+      "Hash": "ca5a5de68ab2efff3da964463072d1e7",
+      "Size": 5120
+    },
+    {
+      "Updates": [
+        "ab7356397353f797e44f93a58fd88ad3"
+      ],
+      "FileName": "ForceFinalRank.dll",
+      "Hash": "ab7356397353f797e44f93a58fd88ad3",
+      "Size": 4096
     }
   ]
 }
