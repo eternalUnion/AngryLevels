@@ -1639,6 +1639,39 @@
       "ThumbnailHash": "120209be99b3f9388620848f79649f05",
       "Locked": false,
       "LastUpdate": 1760903422
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Draghtnim/Struct/7176a2ed5460e3f1882e3ed17bebe85b56261ab6/Parted/STRUCT.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/Struct/7176a2ed5460e3f1882e3ed17bebe85b56261ab6/Parted/STRUCT.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1763493117,
+          "Hash": "35fa7a5c98fe7f64088bfbf55cd3a11d",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "BROKEN BRICKS IN THE WALL",
+          "LevelId": "Drag.rj4",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "STRUCT",
+      "Author": "Draghtnim, Woosp, AstralOcean",
+      "Size": 36649955,
+      "Guid": "bc5d2a95dcfd93349878e54862d1b220",
+      "Hash": "35fa7a5c98fe7f64088bfbf55cd3a11d",
+      "ThumbnailHash": "da9385bccb8211186d306aeb43d02998",
+      "Locked": false,
+      "LastUpdate": 1763493117
     }
   ]
 }
