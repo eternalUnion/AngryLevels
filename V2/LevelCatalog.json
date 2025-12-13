@@ -1647,14 +1647,19 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/Struct/7176a2ed5460e3f1882e3ed17bebe85b56261ab6/Parted/STRUCT.angry1",
-        "https://raw.githubusercontent.com/Draghtnim/Struct/7176a2ed5460e3f1882e3ed17bebe85b56261ab6/Parted/STRUCT.angry2"
+        "https://raw.githubusercontent.com/Draghtnim/Struct/af2d336535accd1971a6964163795fb4d2edde18/Patch1/parted/STRUCT.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/Struct/af2d336535accd1971a6964163795fb4d2edde18/Patch1/parted/STRUCT.angry2"
       ],
       "Updates": [
         {
           "Date": 1763493117,
           "Hash": "35fa7a5c98fe7f64088bfbf55cd3a11d",
           "Message": "Initial upload"
+        },
+        {
+          "Date": 1765635814,
+          "Hash": "fd1f1df5c686a2a46ad8c9c917bf61e3",
+          "Message": "- Made it so you can skip endings when after getting it once\n- Adjusted some triggers\n- Made it so you can walk home on foot\n- You can now skip the elevator by slamming into it 3 times\n- Mörkö"
         }
       ],
       "Levels": [
@@ -1671,12 +1676,12 @@
       ],
       "Name": "STRUCT",
       "Author": "Draghtnim, Woosp, AstralOcean",
-      "Size": 36649955,
+      "Size": 37052224,
       "Guid": "bc5d2a95dcfd93349878e54862d1b220",
-      "Hash": "35fa7a5c98fe7f64088bfbf55cd3a11d",
+      "Hash": "fd1f1df5c686a2a46ad8c9c917bf61e3",
       "ThumbnailHash": "da9385bccb8211186d306aeb43d02998",
       "Locked": false,
-      "LastUpdate": 1763493117
+      "LastUpdate": 1765635814
     },
     {
       "Parts": [
