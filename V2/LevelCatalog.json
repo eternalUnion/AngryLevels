@@ -1741,6 +1741,58 @@
       "ThumbnailHash": "a5a307a0db535f31723d58750faf65d1",
       "Locked": false,
       "LastUpdate": 1765635073
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DoodleEh/rubicon/c89ffde3c2d5482722814b329f90d6a8191b5268/Rubicon%201.3.1/RUBICON.angry1",
+        "https://raw.githubusercontent.com/DoodleEh/rubicon/c89ffde3c2d5482722814b329f90d6a8191b5268/Rubicon%201.3.1/RUBICON.angry2",
+        "https://raw.githubusercontent.com/DoodleEh/rubicon/c89ffde3c2d5482722814b329f90d6a8191b5268/Rubicon%201.3.1/RUBICON.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1765635498,
+          "Hash": "2c6ccc1a9c904ec421b63c2390fb2b9d",
+          "Message": "Ported to ULTRA_REVAMP update."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "CarcassEnemy.dll"
+          ],
+          "LevelName": "R-1: CARCASS",
+          "LevelId": "remphase.hydraxous.rubicon.first",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "MAKE A QUESTIONABLE PURCHASE"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "remphase.hydraxous.rubicon.first"
+          ],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll",
+            "CameraAdjustments.dll",
+            "CarcassEnemy.dll"
+          ],
+          "LevelName": "R-2: BOTTOMLESS PIT",
+          "LevelId": "remphase.hydraxous.rubicon.second",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WIN THE ULTIMATE PRIZE"
+        }
+      ],
+      "Name": "Rubicon",
+      "Author": "Rem_Safe_Space, Hydraxous, Duv",
+      "Size": 74762702,
+      "Guid": "c787a9514436db941be69ef24af53010",
+      "Hash": "2c6ccc1a9c904ec421b63c2390fb2b9d",
+      "ThumbnailHash": "c6c5b6f2166da671f6b228261920cc93",
+      "Locked": false,
+      "LastUpdate": 1765635498
     }
   ]
 }
