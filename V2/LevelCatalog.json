@@ -2,7 +2,7 @@
   "Levels": [
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DoodleEh/naruto/d2b8e481e41df93d8986e5c0fcc85e3e0d0a9301/important update/naruto.angry"
+        "https://raw.githubusercontent.com/bongwaterfumes/naruto/a50599615b619ab111c5f9bd57d30291922a251d/new%20years%20update/naruto.angry"
       ],
       "Updates": [
         {
@@ -14,6 +14,11 @@
           "Date": 1747690489,
           "Hash": "b45966dd59dc7082fc263474a3c65cbc",
           "Message": "- Added a few things...\n- Fixed some stuff that was broken.. Like my soul...\n- Datebayo! Believe it!"
+        },
+        {
+          "Date": 1770894959,
+          "Hash": "a3dfeccfc57bd88ec99aa45e5cc08e42",
+          "Message": "- Added a special new years update\n- Removed brainrot... those chuds won't be able to handle our great meme reset... big big chungus!\n- Made things a lot better! Datebayo! Believe it! Have a sugoi 2016!"
         }
       ],
       "Levels": [
@@ -30,12 +35,12 @@
       ],
       "Name": "naruto",
       "Author": "naruto",
-      "Size": 14838551,
+      "Size": 14838940,
       "Guid": "f9783fc3d184ccc41a6e2fce58968e33",
-      "Hash": "b45966dd59dc7082fc263474a3c65cbc",
+      "Hash": "a3dfeccfc57bd88ec99aa45e5cc08e42",
       "ThumbnailHash": "c5fb6f67715d3ff978df8998f2b4a9a9",
       "Locked": false,
-      "LastUpdate": 1747690489
+      "LastUpdate": 1770894959
     },
     {
       "Parts": [
