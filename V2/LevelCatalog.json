@@ -1039,9 +1039,10 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/sandeater21/tsta/d3eba3da9075f02ad7f2087d4fcd0b4bd3beb97e/tsta1/2.1/TSTA__ACT_1__PRELUDE.angry1",
-        "https://raw.githubusercontent.com/sandeater21/tsta/d3eba3da9075f02ad7f2087d4fcd0b4bd3beb97e/tsta1/2.1/TSTA__ACT_1__PRELUDE.angry2",
-        "https://raw.githubusercontent.com/sandeater21/tsta/d3eba3da9075f02ad7f2087d4fcd0b4bd3beb97e/tsta1/2.1/TSTA__ACT_1__PRELUDE.angry3"
+        "https://raw.githubusercontent.com/sandeater21/tsta/23e06e4a4432cb5d784d9feb721ddc553119e952/tsta1/3.0/TSTA__ACT_1__PRELUDE.angry1",
+        "https://raw.githubusercontent.com/sandeater21/tsta/23e06e4a4432cb5d784d9feb721ddc553119e952/tsta1/3.0/TSTA__ACT_1__PRELUDE.angry2",
+        "https://raw.githubusercontent.com/sandeater21/tsta/23e06e4a4432cb5d784d9feb721ddc553119e952/tsta1/3.0/TSTA__ACT_1__PRELUDE.angry3",
+        "https://raw.githubusercontent.com/sandeater21/tsta/23e06e4a4432cb5d784d9feb721ddc553119e952/tsta1/3.0/TSTA__ACT_1__PRELUDE.angry4"
       ],
       "Updates": [
         {
@@ -1063,6 +1064,11 @@
           "Date": 1761606602,
           "Hash": "59bba05325f01bb45a11df7879898460",
           "Message": "- Added TA-S\n\nTA-I:\n- Added challenge\n- Lowered style requirement\n- Updated visuals slightly\n\nTA-0:\n- Waterfall looks better\n\nTA-1:\n- Bouncy death pits are less weird\n- Level now works with enemies disabled"
+        },
+        {
+          "Date": 1770895179,
+          "Hash": "dc0e9e71dd2e7d84f9de6e0ce8fceb1e",
+          "Message": "UPDATE FOR TSTA /// ACT 1 + PRELUDE\n\nCHANGELOG:\n- Added TA-2\n\nTA-0:\n- Moved 5th secret\n- EXTREMELY minor visual fix in one of the rooms"
         }
       ],
       "Levels": [
@@ -1113,12 +1119,12 @@
       ],
       "Name": "TSTA /// ACT 1 + PRELUDE",
       "Author": "sandeater",
-      "Size": 61964708,
+      "Size": 84915430,
       "Guid": "6b6d65dd70cc04e4a96d3de53aea23ae",
-      "Hash": "59bba05325f01bb45a11df7879898460",
+      "Hash": "dc0e9e71dd2e7d84f9de6e0ce8fceb1e",
       "ThumbnailHash": "cf152fbd6dde00232204b5d6f373fdb3",
       "Locked": false,
-      "LastUpdate": 1761606602
+      "LastUpdate": 1770895179
     },
     {
       "Parts": [
