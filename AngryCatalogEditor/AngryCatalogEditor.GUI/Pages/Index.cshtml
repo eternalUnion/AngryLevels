@@ -1,0 +1,63 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .square-button {
+        width: 220px;
+        height: 220px;
+        border-radius: 20px;
+        background-color: white;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .square-button:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+
+    .square-button img {
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+        margin: auto 0;
+    }
+
+    .square-button span {
+        font-size: 18px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="text-center">
+
+    <h1 class="display-4">Welcome</h1>
+
+    <div class="button-container">
+        <button class="square-button" onclick="window.location.href='AddLevel'">
+            <img src="images/add_level_icon.png">
+            <span>Add new level</span>
+        </button>
+
+        <button class="square-button" onclick="window.location.href='ModifyLevel'">
+            <img src="images/modify_level_icon.png">
+            <span>Modify existing level</span>
+        </button>
+    </div>
+</div>
