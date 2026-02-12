@@ -1862,6 +1862,39 @@
       "ThumbnailHash": "c6c5b6f2166da671f6b228261920cc93",
       "Locked": false,
       "LastUpdate": 1765635498
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/Six-Thousand-Feet-Under-AKA-STFU-/32042dfb0f81a344536f7e67c27420451c049531/STFU%20partitioned/Six_Thousand_Feet_Under.angry1",
+        "https://raw.githubusercontent.com/William1321/Six-Thousand-Feet-Under-AKA-STFU-/32042dfb0f81a344536f7e67c27420451c049531/STFU%20partitioned/Six_Thousand_Feet_Under.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1770895649,
+          "Hash": "4c77c4de6542bfd4eb78968036be8d2a",
+          "Message": "- Ported to ULTRA_REVAMP. Assets were not updated. Its cool though its like a little time capsule of pre-revamp\n- Added jump pads to the blue arena\n- Removed unnecessary invisible walls\n- Added back Undersea Craze, Song played in level is picked at random"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Six Thousand Feet Under",
+          "LevelId": "willem1321-sixthousandfeetunder",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "SKIP THE RED/BLUE ENCOUNTERS"
+        }
+      ],
+      "Name": "Six Thousand Feet Under",
+      "Author": ".willem1321",
+      "Size": 40018799,
+      "Guid": "364b293c6f0f7194eb45a6da127f7958",
+      "Hash": "4c77c4de6542bfd4eb78968036be8d2a",
+      "ThumbnailHash": "86d081743ca0094f10c2c3c737c0a65e",
+      "Locked": false,
+      "LastUpdate": 1770895649
     }
   ]
 }
