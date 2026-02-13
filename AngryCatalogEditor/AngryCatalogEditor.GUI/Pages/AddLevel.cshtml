@@ -18,6 +18,22 @@
         width: 100%;
     }
 
+    .accept {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .accept:hover {
+        background-color: #218838;
+        transition: background-color 0.2s ease;
+    }
+
+    .accept:disabled {
+        background-color: #94d3a2;
+    }
+
     .level_thumbnail {
         width: 25%;
         aspect-ratio: 4/3;
@@ -82,26 +98,140 @@
 </style>
 
 <script>
-async function openThumbnail() {
-    const response = await fetch('/AddLevel?handler=OpenThumbnail', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'image/png',
+    var external_urls = [];
+
+    async function openThumbnail() {
+        const response = await fetch('/AddLevel?handler=OpenThumbnail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'image/png',
+            }
+        });
+
+        if (!response.ok) {
+            if (response.status == 400)
+                alert('Error! See console.');
+
+            return;
         }
-    });
 
-    if (!response.ok) {
-        if (response.status == 400)
-            alert('Error! See console.');
-
-        return;
+        const blob = await response.blob();
+        const imgUrl = URL.createObjectURL(blob);
+        const obj = document.getElementById('level_thumbnail_img');
+        obj.style.backgroundImage = `url(${imgUrl})`;
     }
 
-    const blob = await response.blob();
-    const imgUrl = URL.createObjectURL(blob);
-    const obj = document.getElementById('level_thumbnail_img');
-    obj.style.backgroundImage = `url(${imgUrl})`;
-}
+    async function getExternalLinks() {
+        const fetchButton = document.getElementById("fetch_external_links");
+        const urlInput = document.getElementById("external_link_first");
+
+        try {
+            fetchButton.disabled = true;
+            urlInput.disabled = true;
+
+            // Parse given github url; extract repository name, owner, branch, file path
+            const githubRegex = /(https?:\/\/)?(www.)?github.com\/([^\/]+)\/([^\/]+)\/blob\/([^\/]+)\/(.*\.angry\d*)/;
+            const result = urlInput.value.match(githubRegex)
+
+            if (result == null) {
+                alert("Given URL is not valid! Enter url to the first file.");
+                return;
+            }
+
+            const repoOwner = result[3];
+            const repoName = result[4];
+            const repoBranch = result[5];
+            const firstFilePath = result[6];
+            const folderPath = firstFilePath.substring(0, firstFilePath.lastIndexOf('/'));
+            const fileNameWithExt = firstFilePath.substring(firstFilePath.lastIndexOf('/') + 1);
+            const fileName = fileNameWithExt.substring(0, fileNameWithExt.lastIndexOf('.'));
+
+            const repoInfoUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/branches/${repoBranch}`;
+            const folderRequestUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folderPath}?ref=${repoBranch}`;
+
+            // Get given branch's latest commit SHA
+            console.log(`Making request to ${repoInfoUrl}`);
+            const repoReq = await fetch(repoInfoUrl, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            if (!repoReq.ok) {
+                alert(`Failed to make request to GitHub API! Status code ${repoReq.status}: ${repoReq.statusText}`);
+                return;
+            }
+
+            const sha = JSON.parse(await repoReq.text()).commit.sha
+            if (sha == null || sha == undefined) {
+                alert('Failed to fetch repo SHA!');
+                return;
+            }
+
+            if (fileNameWithExt.endsWith('.angry')) {
+                // This is a single file
+                external_urls = [ `https://raw.githubusercontent.com/${repoOwner}/${repoName}/${sha}/${firstFilePath}` ];
+            }
+            else {
+                // Get all the files inside the folder of the first angry file
+                console.log(`Making request to ${folderRequestUrl}`);
+                const req = await fetch(folderRequestUrl, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (!req.ok) {
+                    alert(`Failed to make request to GitHub API! Status code ${req.status}: ${req.statusText}`);
+                    return;
+                }
+
+                const resp = JSON.parse(await req.text());
+
+                // Filter out other files/folders, map each parted file to its raw url
+                const partedFiles = resp
+                    .filter(e => e.type == 'file')
+                    .filter(e => e.name.startsWith(fileName + '.'))
+                    .map(e => e.download_url.replace(`/${repoOwner}/${repoName}/${repoBranch}/`, `/${repoOwner}/${repoName}/${sha}/`));
+
+                // Use numeric sort instead of lexicographic sort
+                partedFiles.sort((e1, e2) => Number(e1.substring(e1.lastIndexOf('.') + 6)) > Number(e2.substring(e2.lastIndexOf('.') + 6)))
+                console.log(partedFiles);
+
+                external_urls = partedFiles;
+            }
+
+
+            // Print out the result
+            const ownerUrl = `https://github.com/${repoOwner}`;
+            const repoUrl = `https://github.com/${repoOwner}/${repoName}`;
+
+            if (fileNameWithExt.endsWith('.angry')) {
+                document.getElementById('external_link_out').innerHTML
+                    = '<br>Success!<br>'
+                    + `Repository owner : <a href="${ownerUrl}">${repoOwner}</a><br>`
+                    + `Repository URL : <a href="${repoUrl}">${repoName}</a><br>`
+                    + 'Type : Single file<br>'
+                    + `Link : <a href="${(external_urls[0])}">${(external_urls[0])}</a>`
+            }
+            else {
+                document.getElementById('external_link_out').innerHTML
+                    = '<br>Success!<br>'
+                    + `Repository owner : <a href="${ownerUrl}">${repoOwner}</a><br>`
+                    + `Repository URL : <a href="${repoUrl}">${repoName}</a><br>`
+                    + 'Type : Parted file<br>'
+                    + `# of parted files : ${(external_urls.length)}<br>`
+                    + 'Links : <br><br>'
+                    + external_urls.map(e => `(Part ${e.substring(e.lastIndexOf('angry') + 5)}) <a href="${e}">${e}</a>`).join('<br>');
+            }
+        }
+        finally {
+            fetchButton.disabled = false;
+            urlInput.disabled = false;
+        }
+    }
 </script>
 
 <div class="text-center">
@@ -151,7 +281,15 @@ async function openThumbnail() {
         <div class="card">
             <h1 style="width: 100%; text-align: left; font-weight: bold;">External Links</h1>
 
+            <div style="display:flex; width: 100%; height: min-content; gap: 5px;">
+                <div>GitHub link to first file: </div>
+                <input name="external_link_first" id="external_link_first" style="display: flex; flex: 1;" />
+                <button class="accept" type="button" id="fetch_external_links" onclick="getExternalLinks()">Fetch files</button>
+            </div>
 
+            <div id="external_link_out" style="text-align: left">
+                <!-- Generated from code -->
+            </div>
         </div>
 
         <!-- ANGRY FILE -->
