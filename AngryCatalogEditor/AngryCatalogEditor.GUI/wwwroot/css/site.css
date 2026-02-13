@@ -20,3 +20,32 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*custom*/
+
+.card {
+    background-color: #f0f0f0;
+    border: 2px solid #555555;
+    border-radius: 10px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.accept {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.accept:hover {
+    background-color: #218838;
+    transition: background-color 0.2s ease;
+}
+
+.accept:disabled {
+    background-color: #94d3a2;
+}

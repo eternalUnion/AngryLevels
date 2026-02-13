@@ -3,3 +3,136 @@
 @{
     ViewData["Title"] = "Modify level";
 }
+
+<style>
+    .form_row {
+        justify-content: left;
+        width: 100%;
+        display: flex;
+        gap: 5px;
+    }
+
+    .form_column {
+        justify-content: left;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: repeat(3, min-content);
+        width: 100%;
+        height: auto;
+        gap: 5px;
+    }
+</style>
+
+<div class="text-center">
+
+    <div class="form_row">
+        <input id="search_bar" on="onSearch()" alt="Search" style="height: 28px; flex: 1"  />
+        <button class="accept" onclick="onSearch()">Search</button>
+    </div>
+
+    <div id="search_summary" style="text-align: left">Found X bundles</div>
+
+    <div id="bundle_container" style="gap: 5px;">
+
+    </div>
+
+</div>
+
+<template id="bundle_item">
+    <div id="bundle_item_inst" class="card" style="margin-bottom: 5px;">
+        <div style="display: flex; gap: 5px;">
+            <div id="thumbnail" style="width: 15%; aspect-ratio: 4/3; align-self: flex-start; background-size: cover;">
+            </div>
+
+            <div id="bundle_info" style="flex: 1; text-align: left;">
+
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+
+    var bundles = []
+    var items = {}
+    var guidToLevel = {}
+
+    async function getCatalog() {
+        const req = await fetch('/CatalogApi?handler=Catalog');
+        if (!req.ok)
+            return null;
+        return JSON.parse(await req.text());
+    }
+
+    async function onLoad() {
+        bundles = await getCatalog();
+        const bundleItemTemplate = document.getElementById('bundle_item');
+        const container = document.getElementById('bundle_container');
+        const searchSummary = document.getElementById('search_summary');
+
+        bundles.Levels.forEach(bundle => {
+            const item = document.importNode(bundleItemTemplate.content, true);
+            const root = item.querySelector('#bundle_item_inst');
+            const thumbnail = item.querySelector('#thumbnail');
+            item.querySelector('#bundle_info').innerHTML
+            = `${bundle.Name}<br>`
+            + `Author: ${bundle.Author}<br>`
+            + `Last update: ${new Date(bundle.LastUpdate * 1000).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}`;
+
+            const thumbnailReq = fetch(`/CatalogApi?handler=Thumbnail&guid=${bundle.Guid}`);
+            thumbnailReq.then(async (resp) => {
+                if (!resp.ok)
+                    return;
+
+                const blob = await resp.blob();
+                const imgUrl = URL.createObjectURL(blob);
+                thumbnail.style.backgroundImage = `url(${imgUrl})`;
+            });
+
+            container.appendChild(item);
+            items[bundle.Guid] = root;
+            guidToLevel[bundle.Guid] = bundle;
+        });
+
+        searchSummary.textContent = `Found ${(bundles.Levels.length)} bundles`
+    }
+
+    function onSearch() {
+        const searchBar = document.getElementById('search_bar');
+        const searchSummary = document.getElementById('search_summary');
+
+        const searchArr = searchBar.value.toLowerCase().split(' ').filter(s => s != "");
+        if (searchArr.length == 0) {
+            Object.values(items).forEach(i => i.style.display = '');
+            searchSummary.textContent = `Found ${(bundles.Levels.length)} bundles`
+            return;
+        }
+
+        console.log(searchArr);
+
+        var cnt = 0;
+        Object.entries(items).forEach(entry => {
+            const guid = entry[0];
+            const item = entry[1];
+            const bundle = guidToLevel[guid];
+
+            if (searchArr.filter(k => bundle.Name.toLowerCase().indexOf(k) == -1).length != 0)
+                item.style.display = 'none';
+            else {
+                item.style.display = '';
+                cnt += 1;
+            }
+        });
+
+        searchSummary.textContent = `Found ${cnt} bundles`
+    }
+
+    document.getElementById('search_bar').addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            onSearch();
+        }
+    })
+
+    onLoad();
+
+</script>
