@@ -4,4 +4,128 @@
     ViewData["Title"] = "Add level";
 }
 
+<style>
 
+    .form_container {
+        justify-content: center;
+        display: flex;
+    }
+
+    .level_thumbnail {
+        width: 25%;
+        gap: 5px;
+        aspect-ratio: 4/3;
+        background-image: url("images/no_thumbnail.png");
+        background-size: cover;
+    }
+
+    .level_thumbnail_img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .level_thumbnail_upload {
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background-color: rgba(100,100,100,0.5);
+    }
+
+    .level_thumbnail_upload:hover {
+        transition: opacity 0.2s ease;
+        opacity: 1;
+    }
+
+    .level_thumbnail_upload_img {
+        height: 80%;
+        width: auto;
+        aspect-ratio: 1/1;
+    }
+
+    .form_row {
+        justify-content: left;
+        width: 100%;
+        display: flex;
+        gap: 5px;
+    }
+
+    .form_column {
+        justify-content: left;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: repeat(2, min-content);
+        width: 100%;
+        height: auto;
+        gap: 5px;
+    }
+
+    .form_input {
+        display: flex;
+        width: 100%;
+        height: min-content;
+    }
+
+    .form_grid_item {
+        justify-content: left;
+        display: flex;
+        height: min-content;
+    }
+
+</style>
+
+<script>
+async function openThumbnail() {
+    const response = await fetch('/AddLevel?handler=OpenThumbnail', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'image/png',
+        }
+    });
+
+    if (!response.ok) {
+        if (response.status == 400)
+            alert('Error! See console.');
+
+        return;
+    }
+
+    const blob = await response.blob();
+    const imgUrl = URL.createObjectURL(blob);
+    const obj = document.getElementById('level_thumbnail_img');
+    obj.style.backgroundImage = `url(${imgUrl})`;
+}
+</script>
+
+<div class="text-center">
+
+    <form class="form_container" method="post">
+        <div class="form_row">
+
+            <div class="level_thumbnail" id="level_thumbnail">
+                <div class="level_thumbnail_img" id="level_thumbnail_img">
+                    <button id="level_thumbnail_upload" class="level_thumbnail_upload" type="button" onclick="openThumbnail()">
+                        <img class="level_thumbnail_upload_img" src="images/folder.png" />
+                    </button>
+                </div>
+            </div>
+
+            <div class="form_column">
+                <div class="form_grid_item">
+                    Level name: 
+                </div>
+                <div class="form_grid_item">
+                    <input class="form_input" name="level_name" />
+                </div>
+                <div class="form_grid_item">
+                    Author: 
+                </div>
+                <div class="form_grid_item">
+                    <input class="form_input" name="author" />
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+</div>
