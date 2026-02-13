@@ -8,13 +8,7 @@ namespace AngryCatalogEditor.GUI.Pages
 	[IgnoreAntiforgeryToken]
 	public class AddLevelModel : PageModel
     {
-		private MemoryStream? thumbnailStream = null;
-
-		~AddLevelModel()
-		{
-			if (thumbnailStream != null)
-				thumbnailStream.Dispose();
-		}
+		private static MemoryStream? thumbnailStream = null;
 
 		public void OnGet()
         {
@@ -44,7 +38,12 @@ namespace AngryCatalogEditor.GUI.Pages
 					thumbnailStream.Dispose();
 				thumbnailStream = newThumbnailStream;
 
-				return File(thumbnailStream, "image/png");
+				thumbnailStream.Position = 0;
+				MemoryStream cloneThumbnailStream = new MemoryStream();
+				thumbnailStream.CopyTo(cloneThumbnailStream);
+				cloneThumbnailStream.Position = 0;
+
+				return File(cloneThumbnailStream, "image/png");
 			}
 			catch (Exception ex)
 			{
