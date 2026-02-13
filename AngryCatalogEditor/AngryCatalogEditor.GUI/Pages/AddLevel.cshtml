@@ -6,15 +6,22 @@
 
 <style>
 
-    .form_container {
-        justify-content: center;
+    .card {
+        background-color: #f0f0f0;
+        border: 2px solid #555555;
+        border-radius: 10px;
+        padding: 16px;
+        box-sizing: border-box;
+        
         display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
     .level_thumbnail {
         width: 25%;
-        gap: 5px;
         aspect-ratio: 4/3;
+        align-self: flex-start;
         background-image: url("images/no_thumbnail.png");
         background-size: cover;
     }
@@ -54,7 +61,7 @@
         justify-content: left;
         display: grid;
         grid-template-columns: auto 1fr;
-        grid-template-rows: repeat(2, min-content);
+        grid-template-rows: repeat(3, min-content);
         width: 100%;
         height: auto;
         gap: 5px;
@@ -99,31 +106,58 @@ async function openThumbnail() {
 
 <div class="text-center">
 
-    <form class="form_container" method="post">
-        <div class="form_row">
+    <form method="post" style="display:flex; flex-direction:column; gap:5px;">
+        <!-- LEVEL INFO -->
+        <div class="card">
+            <h1 style="width: 100%; text-align: left; font-weight: bold;">Level Information</h1>
 
-            <div class="level_thumbnail" id="level_thumbnail">
-                <div class="level_thumbnail_img" id="level_thumbnail_img">
-                    <button id="level_thumbnail_upload" class="level_thumbnail_upload" type="button" onclick="openThumbnail()">
-                        <img class="level_thumbnail_upload_img" src="images/folder.png" />
-                    </button>
+            <div style="justify-content: center; display: flex;">
+                <div class="form_row">
+
+                    <div class="level_thumbnail" id="level_thumbnail">
+                        <div class="level_thumbnail_img" id="level_thumbnail_img">
+                            <button id="level_thumbnail_upload" class="level_thumbnail_upload" type="button" onclick="openThumbnail()">
+                                <img class="level_thumbnail_upload_img" src="images/folder.png" />
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="form_column">
+                        <div class="form_grid_item">
+                            Level name: 
+                        </div>
+                        <div class="form_grid_item">
+                            <input class="form_input" name="level_name" />
+                        </div>
+                        <div class="form_grid_item">
+                            Author: 
+                        </div>
+                        <div class="form_grid_item">
+                            <input class="form_input" name="author" />
+                        </div>
+                        <div class="form_grid_item">
+                            Changelog:
+                        </div>
+                        <div class="form_grid_item">
+                            <textarea class="form_input" name="changelog">Initial upload.</textarea>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+        </div>
+        
+        <!-- EXTERNAL LINKS -->
+        <div class="card">
+            <h1 style="width: 100%; text-align: left; font-weight: bold;">External Links</h1>
 
-            <div class="form_column">
-                <div class="form_grid_item">
-                    Level name: 
-                </div>
-                <div class="form_grid_item">
-                    <input class="form_input" name="level_name" />
-                </div>
-                <div class="form_grid_item">
-                    Author: 
-                </div>
-                <div class="form_grid_item">
-                    <input class="form_input" name="author" />
-                </div>
-            </div>
+
+        </div>
+
+        <!-- ANGRY FILE -->
+        <div class="card">
+            <h1 style="width: 100%; text-align: left; font-weight: bold;">Angry File</h1>
+
 
         </div>
     </form>
