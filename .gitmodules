@@ -1,0 +1,5 @@
+[submodule "AngryCatalogEditor/AssetRipper"]
+	path = AngryCatalogEditor/AssetRipper
+	url = https://github.com/AssetRipper/AssetRipper.git
+[submodule "AssetRipper"]
+	shallow = true
