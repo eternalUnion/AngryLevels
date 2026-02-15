@@ -39,6 +39,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetRipper.IO.Files", "Ass
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetRipper.SerializationLogic", "AssetRipper\Source\AssetRipper.SerializationLogic\AssetRipper.SerializationLogic.csproj", "{A8B1A3B7-0293-4369-C3BA-354513699742}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetRipper.Export.Modules.Shaders", "AssetRipper\Source\AssetRipper.Export.Modules.Shader\AssetRipper.Export.Modules.Shaders.csproj", "{9C35BE1C-A76A-8975-2DE9-8CDB1253A66B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpirV", "AssetRipper\Source\SpirV\SpirV.csproj", "{CF45FF7A-020D-437B-B5A3-287091833CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smolv", "AssetRipper\Source\Smolv\Smolv.csproj", "{EE6A6989-8DB1-690E-6EEC-E90CEED85936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetRipper.Addressables", "AssetRipper\Source\AssetRipper.Addressables\AssetRipper.Addressables.csproj", "{EC04FD09-BC10-B36F-FEB2-8733657881EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +125,22 @@ Global
 		{A8B1A3B7-0293-4369-C3BA-354513699742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8B1A3B7-0293-4369-C3BA-354513699742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8B1A3B7-0293-4369-C3BA-354513699742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C35BE1C-A76A-8975-2DE9-8CDB1253A66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C35BE1C-A76A-8975-2DE9-8CDB1253A66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C35BE1C-A76A-8975-2DE9-8CDB1253A66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C35BE1C-A76A-8975-2DE9-8CDB1253A66B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF45FF7A-020D-437B-B5A3-287091833CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF45FF7A-020D-437B-B5A3-287091833CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF45FF7A-020D-437B-B5A3-287091833CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF45FF7A-020D-437B-B5A3-287091833CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6A6989-8DB1-690E-6EEC-E90CEED85936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6A6989-8DB1-690E-6EEC-E90CEED85936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6A6989-8DB1-690E-6EEC-E90CEED85936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6A6989-8DB1-690E-6EEC-E90CEED85936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC04FD09-BC10-B36F-FEB2-8733657881EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC04FD09-BC10-B36F-FEB2-8733657881EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC04FD09-BC10-B36F-FEB2-8733657881EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC04FD09-BC10-B36F-FEB2-8733657881EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
