@@ -19,9 +19,11 @@ namespace AngryCatalogEditor.GUI.IO
 {
 	public class AngryFile
 	{
-		public AngryBundleData angryBundleData;
-		public RudeBundleData rudeBundleData;
-		public List<RudeLevelData> rudeLevelData = new();
+		public readonly AngryBundleData angryBundleData;
+		public readonly RudeBundleData rudeBundleData;
+		public readonly List<RudeLevelData> rudeLevelData = new();
+		public readonly string path;
+		public readonly long size;
 
 		public class AngryFileStructureException : Exception
 		{
@@ -30,11 +32,15 @@ namespace AngryCatalogEditor.GUI.IO
 			public AngryFileStructureException(string? cause, Exception? innerException) : base(cause, innerException) { }
 		}
 
-		private AngryFile(AngryBundleData angryBundleData, RudeBundleData rudeBundleData, IReadOnlyCollection<RudeLevelData> rudeLevelData)
+		private AngryFile(string path, AngryBundleData angryBundleData, RudeBundleData rudeBundleData, IReadOnlyCollection<RudeLevelData> rudeLevelData)
 		{
 			this.angryBundleData = angryBundleData;
 			this.rudeBundleData = rudeBundleData;
 			this.rudeLevelData.AddRange(rudeLevelData);
+			this.path = path;
+
+			using (FileStream fs = File.OpenRead(path))
+				size = fs.Length;
 		}
 
 		private static readonly Regex assetBundleRegex = new Regex(@"\{AngryLevelLoader\.Plugin\.tempFolderPath\}\\+[a-f\d]{32}\\+(.+_assets_all\.bundle)");
@@ -151,8 +157,10 @@ namespace AngryCatalogEditor.GUI.IO
 					rudeLevelData.Add(levelData);
 				}
 
+				archive.Dispose();
+
 				ex = null;
-				angryFile = new AngryFile(bundleData, rudeBundleData, rudeLevelData);
+				angryFile = new AngryFile(filePath, bundleData, rudeBundleData, rudeLevelData);
 				return true;
 			}
 		}
@@ -183,6 +191,7 @@ namespace AngryCatalogEditor.GUI.IO
 				Author = rudeBundleData.author,
 				Guid = angryBundleData.bundleGuid,
 				Hash = angryBundleData.buildHash,
+				Size = (int) size,
 				Levels = levelInfos,
 			};
 

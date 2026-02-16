@@ -108,8 +108,112 @@ namespace AngryCatalogEditor.GUI.Pages
 				return BadRequest("Internal exception, see console");
 			}
 
+			BundleInfo? existingLevel;
+			if (AngryCatalogHandler.TryGetCatalog(out LevelCatalog catalog) && (existingLevel = catalog.Levels.Where(l => l.Guid == angryFile.angryBundleData.bundleGuid).FirstOrDefault()) != null)
+			{
+				return BadRequest($"Another bundle with name {existingLevel.Name} exists in the catalog with the same global ID!");
+			}
+
 			AddLevelModel.angryFile = angryFile;
 			return Content(JsonConvert.SerializeObject(angryFile.GetBundleInfo()), "application/json");
+		}
+	
+		public class AddLevelBody
+		{
+			public string? Name { get; set; }
+			public string? Author { get; set; }
+			public string? UpdateMessage { get; set; }
+			public string[]? ExternalURLs { get; set; }
+		}
+
+		public IActionResult OnPostAddLevel([FromBody] AddLevelBody info)
+		{
+			if (info == null)
+				return BadRequest("Bad body");
+
+			if (info.Name == null)
+				return BadRequest("No bundle name provided");
+
+			if (info.Author == null)
+				return BadRequest("No author provided");
+
+			if (info.ExternalURLs == null || info.ExternalURLs.Length == 0)
+				return BadRequest("No external URL provided");
+
+			if (thumbnailStream == null)
+				return BadRequest("No thumbnail provided");
+
+			if (angryFile == null)
+				return BadRequest("No angry file provided");
+
+			if (!AngryCatalogHandler.TryGetCatalog(out LevelCatalog catalog))
+				return BadRequest("Failed to get the level catalog");
+
+			if (catalog.Levels.Where(l => l.Guid == angryFile.angryBundleData.bundleGuid).Any())
+				return BadRequest("Another level with the same GUID already exists");
+
+			BundleInfo bundleInfo = new BundleInfo()
+			{
+				Name = info.Name,
+				Author = info.Author,
+				Size = (int)angryFile.size,
+				Guid = angryFile.angryBundleData.bundleGuid,
+				Hash = angryFile.angryBundleData.buildHash,
+				ThumbnailHash = CryptologyUtils.GetMD5Hash(thumbnailStream),
+				Locked = false,
+				Parts = new List<string>(info.ExternalURLs),
+				LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds(),
+				Updates = new List<BundleInfo.UpdateInfo>() { new BundleInfo.UpdateInfo() {
+					Date = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds(),
+					Hash = angryFile.angryBundleData.buildHash,
+					Message = info.UpdateMessage ?? "Initial upload."
+				} },
+				Levels = new List<BundleInfo.LevelInfo>()
+			};
+
+			foreach (var level in angryFile.rudeLevelData)
+			{
+				bundleInfo.Levels.Add(new BundleInfo.LevelInfo()
+				{
+					LevelName = level.levelName,
+					LevelId = level.uniqueIdentifier,
+					isSecretLevel = level.isSecretLevel,
+					requiredCompletedLevelIdsForUnlock = new List<string>(level.requiredCompletedLevelIdsForUnlock),
+					secretCount = level.secretCount,
+					levelChallengeEnabled = level.levelChallengeEnabled,
+					levelChallengeText = level.levelChallengeText,
+					requiredDllNames = new List<string>(level.requiredDllNames)
+				});
+			}
+
+			catalog.Levels.Add(bundleInfo);
+			AngryCatalogHandler.SaveLevelCatalog();
+
+			string bundlePath = Path.Combine(AngryCatalogHandler.rootPath, "Levels", angryFile.angryBundleData.bundleGuid);
+			if (!Directory.Exists(bundlePath))
+				Directory.CreateDirectory(bundlePath);
+
+			thumbnailStream.Position = 0;
+			using (FileStream fs = System.IO.File.Open(Path.Combine(bundlePath, "thumbnail.png"), FileMode.OpenOrCreate, FileAccess.Write))
+			{
+				thumbnailStream.CopyTo(fs);
+			}
+
+			if (!Directory.Exists(Path.Combine(bundlePath, "LevelThumbnails")))
+				Directory.CreateDirectory(Path.Combine(bundlePath, "LevelThumbnails"));
+
+			foreach (var level in angryFile.rudeLevelData)
+			{
+				if (level.levelPreviewImage == null)
+					continue;
+
+				using (FileStream fs = System.IO.File.Open(Path.Combine(bundlePath, "LevelThumbnails", $"{CryptologyUtils.GetMD5Hash(level.uniqueIdentifier)}.png"), FileMode.OpenOrCreate, FileAccess.Write))
+				{
+					fs.Write(level.levelPreviewImage, 0, level.levelPreviewImage.Length);
+				}
+			}
+
+			return StatusCode(200);
 		}
 	}
 }

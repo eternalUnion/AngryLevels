@@ -71,6 +71,8 @@
 
 <script>
     var external_urls = [];
+    var thumbnailChosen = false;
+    var angryFileChosen = false;
 
     async function openThumbnail() {
         const response = await fetch('/AddLevel?handler=OpenThumbnail', {
@@ -80,7 +82,7 @@
             }
         });
 
-        if (!response.ok) {
+        if (response.status != 200) {
             if (response.status == 400)
                 alert('Error! See console.');
 
@@ -91,6 +93,8 @@
         const imgUrl = URL.createObjectURL(blob);
         const obj = document.getElementById('level_thumbnail_img');
         obj.style.backgroundImage = `url(${imgUrl})`;
+
+        thumbnailChosen = true;
     }
 
     async function getExternalLinks() {
@@ -210,9 +214,9 @@
             method: 'POST'
         });
 
-        if (!response.ok) {
+        if (response.status != 200) {
             if (response.status == 400)
-                alert(response.statusText);
+                alert(await response.text());
 
             return;
         }
@@ -221,12 +225,17 @@
         console.log(bundleInfo);
 
         document.getElementById("bundle_name").innerHTML = bundleInfo.Name;
-        document.getElementById("bundle_author").innerHTML = `Author: ${bundleInfo.Author}`;
+        document.getElementById("bundle_summary").innerHTML
+         = `Author: ${bundleInfo.Author}<br>`
+         + `Global ID: ${bundleInfo.Guid}<br>`
+         + `Build hash: ${bundleInfo.Hash}`;
         document.getElementById("bundle_thumbnail").style.backgroundImage = `url('/AddLevel?handler=BundleThumbnail')`;
         document.getElementById("level_info").style.display = '';
 
         const levelContainer = document.getElementById('level_container');
         const levelTemplate = document.getElementById('level_info_template');
+
+        levelContainer.innerHTML = '';
 
         bundleInfo.Levels.forEach(level => {
             const item = document.importNode(levelTemplate.content, true);
@@ -244,6 +253,60 @@
 
             levelContainer.appendChild(item);
         });
+
+        angryFileChosen = true;
+    }
+
+    async function addAngryFile() {
+
+        if (!thumbnailChosen) {
+            alert('You must choose a thumbnail');
+            return;
+        }
+
+        if (!angryFileChosen) {
+            alert('You must choose an angry file');
+            return;
+        }
+
+        if (external_urls.length == 0) {
+            alert('You must provide an external URL');
+            return;
+        }
+
+        const levelName = document.getElementById('level_name');
+        const author = document.getElementById('author');
+        const changelog = document.getElementById('changelog');
+
+        if (levelName.value.trim() == '') {
+            alert('You must fill the bundle name field');
+            return;
+        }
+
+        if (author.value.trim() == '') {
+            alert('You must fill the bundle author field');
+            return;
+        }
+
+        const resp = await fetch(`/AddLevel?handler=AddLevel`, {
+            method: 'post',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                Name: levelName.value,
+                Author: author.value,
+                UpdateMessage: changelog.value,
+                ExternalURLs: external_urls
+            })
+        });
+
+        if (!resp.ok) {
+            alert(await resp.text());
+            return;
+        }
+
+        alert('Submit success');
     }
 </script>
 
@@ -270,19 +333,19 @@
                             Level name: 
                         </div>
                         <div class="form_grid_item">
-                            <input class="form_input" name="level_name" />
+                            <input class="form_input" name="level_name" id="level_name" />
                         </div>
                         <div class="form_grid_item">
                             Author: 
                         </div>
                         <div class="form_grid_item">
-                            <input class="form_input" name="author" />
+                            <input class="form_input" name="author" id="author" />
                         </div>
                         <div class="form_grid_item">
                             Changelog:
                         </div>
                         <div class="form_grid_item">
-                            <textarea class="form_input" name="changelog">Initial upload.</textarea>
+                            <textarea class="form_input" name="changelog" id="changelog">Initial upload.</textarea>
                         </div>
                     </div>
 
@@ -317,7 +380,7 @@
                 <div class="form_row" style="gap: 10px;">
                     <div id="bundle_thumbnail" style="width: 20%; aspect-ratio: 1; align-self: flex-start; background-size: cover;"></div>
                     <div style="text-align: left; font-size: 18px;">
-                        <h1 id="bundle_name">Bundle Name</h1><br><p id="bundle_author">Author: ???</p>
+                        <h1 id="bundle_name">Bundle Name</h1><br><p id="bundle_summary">Author: ???</p>
                     </div>
                 </div>
                 
@@ -329,6 +392,9 @@
                 </div>
             </div>
         </div>
+
+        <!-- SUBMIT -->
+        <button type="button" onclick="addAngryFile()" class="accept" style="width: 100%; padding-top: 10px; padding-bottom: 10px;">Add Bundle</button>
     </form>
 
     <template id="level_info_template">

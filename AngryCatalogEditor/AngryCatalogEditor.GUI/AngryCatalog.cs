@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using AssetRipper.Addressables;
+using Newtonsoft.Json;
 using System.Text.Json.Nodes;
 
 namespace AngryCatalogEditor.GUI
@@ -109,6 +110,21 @@ namespace AngryCatalogEditor.GUI
 			}
 		}
 
+		private static string? _catalogHashPath = null;
+		public static string? catalogHashPath
+		{
+			get
+			{
+				if (_catalogHashPath != null)
+					return _catalogHashPath;
+
+				if (rootPath != null)
+					_catalogHashPath = Path.Combine(rootPath, "V2", "LevelCatalogHash.txt");
+
+				return _catalogHashPath;
+			}
+		}
+
 		public static bool TryGetCatalog(out LevelCatalog catalog)
 		{
 			if (_catalog != null)
@@ -125,6 +141,20 @@ namespace AngryCatalogEditor.GUI
 
 			_catalog = catalog = JsonConvert.DeserializeObject<LevelCatalog>(File.ReadAllText(catalogPath));
 			return true;
+		}
+
+		public static void SaveLevelCatalog()
+		{
+			if (_catalog == null)
+				return;
+
+			string catalogSerialized = JsonConvert.SerializeObject(_catalog, Formatting.Indented);
+			catalogSerialized = catalogSerialized.Replace("\r", "");
+
+			string hash = CryptologyUtils.GetMD5Hash(catalogSerialized);
+
+			File.WriteAllText(catalogPath, catalogSerialized);
+			File.WriteAllText(catalogHashPath, hash);
 		}
 	}
 }
