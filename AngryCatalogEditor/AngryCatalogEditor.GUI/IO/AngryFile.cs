@@ -9,6 +9,7 @@ using AssetRipper.Processing.Textures;
 using AssetRipper.SourceGenerated.Classes.ClassID_114;
 using AssetRipper.SourceGenerated.Extensions;
 using Newtonsoft.Json;
+using SharpCompress.Compressors.Xz;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.IO.Compression;
@@ -94,7 +95,9 @@ namespace AngryCatalogEditor.GUI.IO
 				Catalog catalog;
 				using (Stream catalogStream = catalogEntry.Open())
 				{
-					catalog = Catalog.FromStream(catalogStream);
+					using TempFile tempCatalogFile = new TempFile(catalogStream, "catalog.json");
+					catalog = Catalog.FromJsonFile(tempCatalogFile.tempFilePath);
+
 					if (catalog == null)
 					{
 						ex = new AngryFileStructureException("Angry file has no content catalog");
