@@ -120,10 +120,13 @@ namespace AngryCatalogEditor.GUI.IO
 				Stream assetBundleStream = assetBundleEntry.Open();
 				using TempFile assetBundleFile = new TempFile(assetBundleStream, assetBundleName);
 				assetBundleStream.Close();
-
-				using GameStructure gameStructure = GameStructure.Load(new List<string>() { assetBundleFile.tempFilePath }, new AssetRipper.Import.Configuration.CoreConfiguration());
+				using GameStructure gameStructure = GameStructure.Load([assetBundleFile.tempFilePath], new AssetRipper.Import.Configuration.CoreConfiguration());
 				GameData gameData = GameData.FromGameStructure(gameStructure);
-				
+
+				// Force dispose files
+				GC.Collect();
+				GC.WaitForPendingFinalizers();
+
 				new MainAssetProcessor().Process(gameData);
 				new EditorFormatProcessor(AssetRipper.Processing.Configuration.BundledAssetsExportMode.DirectExport).Process(gameData);
 				new SpriteProcessor().Process(gameData);
@@ -150,7 +153,6 @@ namespace AngryCatalogEditor.GUI.IO
 
 				ex = null;
 				angryFile = new AngryFile(bundleData, rudeBundleData, rudeLevelData);
-
 				return true;
 			}
 		}
