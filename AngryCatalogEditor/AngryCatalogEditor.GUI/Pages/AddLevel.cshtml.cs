@@ -189,7 +189,7 @@ namespace AngryCatalogEditor.GUI.Pages
 			catalog.Levels.Add(bundleInfo);
 			AngryCatalogHandler.SaveLevelCatalog();
 
-			string bundlePath = Path.Combine(AngryCatalogHandler.rootPath, "Levels", angryFile.angryBundleData.bundleGuid);
+			string bundlePath = Path.Combine(ProjectPaths.rootPath, "Levels", angryFile.angryBundleData.bundleGuid);
 			if (!Directory.Exists(bundlePath))
 				Directory.CreateDirectory(bundlePath);
 

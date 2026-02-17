@@ -1,3 +1,4 @@
+using AngryCatalogEditor.GUI.IO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
@@ -50,7 +51,7 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (!IsGUID(guid))
 				return BadRequest("Invalid GUID.");
 
-			string? rootDir = AngryCatalogHandler.rootPath;
+			string? rootDir = ProjectPaths.rootPath;
 			if (rootDir == null)
 				return BadRequest("Could not locate project root.");
 
