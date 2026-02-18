@@ -1,0 +1,93 @@
+﻿@page
+@model AngryCatalogEditor.GUI.Pages.AuthorizeModel
+@{
+}
+
+<div class="text-center" style="align-content: center; display: flex; justify-content: center;">
+    <div id="req_card" class="card", style="width: 50%; gap: 10px;">
+        <h1 style="font-weight: bold;">Authorize Github</h1>
+        Enter the following code after opening the link:
+        <div id="code" style="width: 100%; text-align: center; font-size: 48px;">???-???</div>
+        <div id="expiration" style="color: darkgray; visibility: hidden;">(Expires in ? seconds)</div>
+        <a id="redirect_url" target="_blank" style="width: 100%;"><button disabled="disabled" id="redirect" class="accept" style="width: 100%; height: 100%; padding-top: 10px; padding-bottom: 10px;">Authorize</button></a>
+    </div>
+
+    <div id="err_card" class="card" style="border-color: red; background-color: lightgray; width: 50%; gap: 10px; display: none;">
+        <h1 style="font-weight: bold;">Error</h1>
+        <div id="err_text"></div>
+    </div>
+</div>
+
+
+<script>
+    async function makeRequest() {
+        const req = await fetch(`/Authorize?handler=Code`, {
+            method: 'post'
+        });
+
+        if (!req.ok) {
+            document.getElementById('req_card').style.display = 'none';
+            document.getElementById('err_card').style.display = '';
+            document.getElementById('err_text').innerText = await req.text();
+            return;
+        }
+
+        const reqObj = await req.json();
+        console.log(reqObj);
+
+        const user_code = reqObj['user_code'];
+        document.getElementById('code').innerHTML = user_code;
+
+        var expires_in = reqObj['expires_in'];
+        const expiration = document.getElementById('expiration');
+
+        expiration.style.visibility = '';
+        expiration.innerText = `(Expires in ${expires_in} seconds)`;
+        function updateExpiration()
+        {
+            expires_in -= 1;
+            expiration.innerText = `(Expires in ${expires_in} seconds)`;
+
+            if (expires_in > 0) {
+                setTimeout(updateExpiration, 1000);
+            }
+            else {
+                setTimeout(() => location.reload(), 1000);
+            }
+        }
+
+        setTimeout(updateExpiration, 1000);
+
+        document.getElementById('redirect').disabled = false;
+        document.getElementById('redirect_url').href = reqObj['verification_uri'];
+
+        while (true) {
+            const tokenReq = await fetch('/Authorize?handler=Token');
+
+            if (tokenReq.ok)
+            {
+                const tokenReqObj = JSON.parse(await tokenReq.text())
+                
+                if (tokenReqObj.error !== undefined && tokenReqObj.error !== null)
+                {
+                    if (tokenReqObj.error !== 'authorization_pending' && tokenReqObj.error !== 'slow_down')
+                    {
+                        console.log(`error: ${tokenReqObj.error}`);
+                        break;
+                    }
+
+                    continue;
+                }
+
+                console.log(tokenReqObj.token);
+            }
+            else
+            {
+                console.log(await tokenReq.text());
+                break;
+            }
+        }
+    }
+
+    makeRequest();
+</script>
