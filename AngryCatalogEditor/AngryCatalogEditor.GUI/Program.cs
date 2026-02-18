@@ -1,3 +1,26 @@
+using AngryCatalogEditor.GUI.IO;
+
+if (ProjectPaths.rootPath == null)
+{
+	Console.ForegroundColor = ConsoleColor.Red;
+	Console.WriteLine("Project path not found. Make sure that the application is run inside the AngryLevels repository clone.");
+	Console.ForegroundColor = ConsoleColor.White;
+	return -1;
+}
+
+if (!GitHandler.Checkout())
+{
+	Console.ForegroundColor = ConsoleColor.Red;
+	Console.WriteLine($"Failed to checkout the '{GitHandler.MainBranchName}' branch.");
+	Console.ForegroundColor = ConsoleColor.White;
+	return -1;
+}
+
+if (GitHandler.Synced())
+	GitHandler.Pull();
+
+GitHandler.Fetch();
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -23,3 +46,4 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+return 0;

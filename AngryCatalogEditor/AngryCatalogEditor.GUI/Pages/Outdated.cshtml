@@ -1,0 +1,31 @@
+﻿@page
+@model AngryCatalogEditor.GUI.Pages.OutdatedModel
+@{
+}
+
+<div class="text-center" style="align-content: center; display: flex; justify-content: center; flex-direction: column; gap: 10px;">
+    <h1 style="color: red; font-weight: bold;">Error!</h1>
+    The repository has changes, but it is out-of-date compared to the online catalog.
+    The repository must be reset by force to the latest version.
+    This action will PERMANENTLY delete all pending changes!
+
+    <button id="dange_butt" class="danger" style="padding-top: 10px; padding-bottom: 10px;" onclick="forceSync()">Force reset</button>
+</div>
+
+<script>
+    async function forceSync() {
+        document.getElementById("dange_butt").disabled = true;
+        
+        const req = await fetch('/Outdated', {
+            method: 'post'
+        })
+
+        if (req.ok) {
+            alert('Successfully reset the repository')
+            location.replace('/')
+        }
+        else {
+            alert('Failed to reset the repository')
+        }
+    }
+</script>

@@ -1,5 +1,8 @@
+using AngryCatalogEditor.GUI.IO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.WebUtilities;
+using System.Text.Encodings.Web;
 
 namespace AngryCatalogEditor.GUI.Pages
 {
@@ -12,9 +15,26 @@ namespace AngryCatalogEditor.GUI.Pages
 			_logger = logger;
 		}
 
-		public void OnGet()
+		public IActionResult OnGet()
 		{
+			if (GitHandler.username == null || GitHandler.email == null)
+			{
+				string? username = Request.Cookies["username"];
+				string? email = Request.Cookies["email"];
 
+				if (username == null || email == null)
+					return Redirect(QueryHelpers.AddQueryString("/Authorize", "redirect", "/"));
+
+				GitHandler.username = username;
+				GitHandler.email = email;
+			}
+
+			if (!GitHandler.Synced())
+			{
+				return Redirect("/Outdated");
+			}
+
+			return Page();
 		}
 	}
 }

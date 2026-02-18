@@ -1,11 +1,14 @@
+using AngryCatalogEditor.GUI.IO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using System.Drawing;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using static System.Net.WebRequestMethods;
 
@@ -194,10 +197,30 @@ namespace AngryCatalogEditor.GUI.Pages
 
 			Token = tokenResponseObj.access_token;
 
-			return Content(JsonConvert.SerializeObject(new GetTokenResp()
+			HttpClient userRequest = new HttpClient();
+			userRequest.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", Token);
+			userRequest.DefaultRequestHeaders.UserAgent.ParseAdd("AngryCatalogEditor");
+			userRequest.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/vnd.github+json"));
+			var userRequestResponse = await userRequest.GetAsync("https://api.github.com/user");
+
+			if (userRequestResponse.IsSuccessStatusCode)
 			{
-				token = tokenResponseObj.access_token
-			}), "application/json");
+				var userJson = System.Text.Json.JsonSerializer.Deserialize<JsonElement>(await userRequestResponse.Content.ReadAsStringAsync());
+				GitHandler.username = userJson.GetProperty("login").GetString();
+				GitHandler.email = $"{GitHandler.username}@users.noreply.github.com";
+
+				Response.Cookies.Append("username", GitHandler.username);
+				Response.Cookies.Append("email", GitHandler.email);
+			}
+			else
+			{
+				Console.WriteLine($"Could not obtain user information, status code {userRequestResponse.StatusCode}:\n{await userRequestResponse.Content.ReadAsStringAsync()}");
+			}
+
+			return Content(JsonConvert.SerializeObject(new GetTokenResp()
+				{
+					token = tokenResponseObj.access_token
+				}), "application/json");
 		}
 	}
 }

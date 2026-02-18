@@ -41,6 +41,13 @@ body {
     border-radius: 5px;
 }
 
+.danger {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
 .accept:hover {
     background-color: #218838;
     transition: background-color 0.2s ease;

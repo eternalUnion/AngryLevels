@@ -80,6 +80,18 @@
                 }
 
                 console.log(tokenReqObj.token);
+                
+                const urlParams = new URLSearchParams(window.location.search);
+                const redirect = urlParams.get('redirect');
+
+                if (redirect !== undefined && redirect !== null) {
+                    location.replace(redirect)
+                }
+                else {
+                    location.replace('/');
+                }
+
+                return;
             }
             else
             {

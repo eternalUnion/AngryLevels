@@ -213,7 +213,9 @@ namespace AngryCatalogEditor.GUI.Pages
 				}
 			}
 
-			return StatusCode(200);
+			GitHandler.Commit($"Added {angryFile.angryBundleData.bundleName}\nAuthor: {angryFile.angryBundleData.bundleAuthor}");
+
+			return Redirect("/");
 		}
 	}
 }
