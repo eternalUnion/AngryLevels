@@ -1,0 +1,61 @@
+﻿@page
+@using AngryCatalogEditor.GUI.IO
+@using System.Text.Json
+@model AngryCatalogEditor.GUI.Pages.ChangesModel
+@{
+    var changesJson = JsonSerializer.Serialize(GitHandler.Changes().ToArray());
+}
+
+<div class="text-center" style="align-content: center; display: flex; justify-content: center; flex-direction: column; gap: 10px;">
+    <h1 style="font-weight: bold;"> Pending Changes</h1>
+
+    <div id="change_container" style="gap: 10px; display: flex; flex-direction: column;">
+    </div>
+
+    <button id="push_changes" class="accept" onclick="submitChanges()" style="padding: 10px 0px 10px 0px;">Push Changes</button>
+</div>
+
+<template id="change_temp">
+    <div id="change_inst" class="card" style="text-align: left;">
+    </div>
+</template>
+
+<script>
+    const changes = @Html.Raw(changesJson);
+    const container = document.getElementById('change_container');
+    const submitButton = document.getElementById('push_changes');
+    const changeTemp = document.getElementById('change_temp')
+    const loggedIn = @Html.Raw((AuthorizeModel.Token != null).ToString().ToLower());
+
+    if (changes.length == 0) {
+        container.innerText = "No pending changes";
+        submitButton.disabled = true;
+    }
+    else {
+        changes.forEach(change => {
+            const item = document.importNode(changeTemp.content, true);
+            const root = item.querySelector('#change_inst');
+            root.innerText = change;
+
+            container.appendChild(item);
+        })
+    }
+
+    async function submitChanges() {
+        submitButton.disabled = true;
+
+        if (!loggedIn) {
+            location.replace('/Authorize?redirect=' + encodeURIComponent('/Changes'));
+        }
+        else {
+            const req = await fetch('/Changes?handler=Push', { method: 'post' });
+
+            if (!req.ok) {
+                alert('Failed to push!');
+            }
+            else {
+                alert('Pushed successfully!');
+            }
+        }
+    }
+</script>

@@ -76,7 +76,7 @@ namespace AngryCatalogEditor.GUI.Pages
 		private static DateTime lastRequestTime = DateTime.Now;
 		private static DateTime lastPollTime = DateTime.Now;
 
-		public string? Token { get; private set; }
+		public static string? Token { get; private set; }
 
 		// Methods
 
@@ -95,7 +95,7 @@ namespace AngryCatalogEditor.GUI.Pages
 			var authUrl =
 				"https://github.com/login/device/code" +
 				$"?client_id={AppConfig.ClientID}" +
-				$"&scope=read:user";
+				$"&scope=read:user%20public_repo";
 
 			var client = new HttpClient();
 			client.DefaultRequestHeaders.Add("Accept", "application/json");

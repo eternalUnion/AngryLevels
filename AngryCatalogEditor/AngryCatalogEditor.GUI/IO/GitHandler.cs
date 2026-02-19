@@ -1,4 +1,5 @@
-﻿using LibGit2Sharp;
+﻿using AngryCatalogEditor.GUI.Pages;
+using LibGit2Sharp;
 
 namespace AngryCatalogEditor.GUI.IO
 {
@@ -92,6 +93,15 @@ namespace AngryCatalogEditor.GUI.IO
 
 			Fetch();
 			Repository.Reset(ResetMode.Hard);
+
+			var status = Repository.RetrieveStatus();
+			foreach (var untrackedFile in status.Untracked)
+			{
+				string path = Path.Combine(Repository.Info.WorkingDirectory, untrackedFile.FilePath);
+				if (File.Exists(path))
+					File.Delete(path);
+			}
+
 			Checkout();
 			Repository.Reset(ResetMode.Hard, Repository.Branches[$"origin/{MainBranchName}"].Tip);
 		}
@@ -117,6 +127,64 @@ namespace AngryCatalogEditor.GUI.IO
 
 			Repository.Commit(message, new Signature(username, email, DateTimeOffset.Now), new Signature(username, email, DateTimeOffset.Now));
 			return true;
+		}
+
+		public static List<string> Changes()
+		{
+			if (Repository == null)
+				return new List<string>();
+
+			Branch mainBranch = Repository.Branches[MainBranchName];
+			if (mainBranch == null)
+				return new List<string>();
+
+			var trackingDetails = mainBranch.TrackingDetails;
+			List<string> result = new List<string>();
+
+			var currentCommit = mainBranch.Tip;
+			for (int i = 0; i < trackingDetails.AheadBy && currentCommit != null; i++)
+			{
+				result.Add(currentCommit.Message);
+				currentCommit = currentCommit.Parents.Where(p => mainBranch.Commits.Contains(p)).FirstOrDefault();
+			}
+
+			return result;
+		}
+
+		public static int NumberOfChanges
+		{
+			get
+			{
+				if (Repository == null)
+					return -1;
+
+				Branch mainBranch = Repository.Branches[MainBranchName];
+				if (mainBranch == null)
+					return -1;
+
+				var trackingDetails = mainBranch.TrackingDetails;
+				return (int) trackingDetails.AheadBy;
+			}
+		}
+
+		public static bool Push()
+		{
+			if (Repository == null)
+				return false;
+
+			Branch mainBranch = Repository.Branches[MainBranchName];
+			if (mainBranch == null)
+				return false;
+
+			Repository.Network.Push(mainBranch, new PushOptions()
+			{
+				CredentialsProvider = (url, user, type) => new UsernamePasswordCredentials() { Username = username, Password = AuthorizeModel.Token }
+			});
+
+			Fetch();
+			var trackingDetails = mainBranch.TrackingDetails;
+
+			return trackingDetails.AheadBy == 0;
 		}
 	}
 }
