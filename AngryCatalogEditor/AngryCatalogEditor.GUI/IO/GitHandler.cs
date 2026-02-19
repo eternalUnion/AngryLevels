@@ -176,10 +176,19 @@ namespace AngryCatalogEditor.GUI.IO
 			if (mainBranch == null)
 				return false;
 
-			Repository.Network.Push(mainBranch, new PushOptions()
+			try
 			{
-				CredentialsProvider = (url, user, type) => new UsernamePasswordCredentials() { Username = username, Password = AuthorizeModel.Token }
-			});
+				Repository.Network.Push(mainBranch, new PushOptions()
+				{
+					CredentialsProvider = (url, user, type) => new UsernamePasswordCredentials() { Username = username, Password = AuthorizeModel.Token }
+				});
+			}
+			catch (Exception e)
+			{
+				Console.WriteLine($"{e.GetType().Name}: {e.Message}");
+				Console.WriteLine(e.StackTrace);
+				return false;
+			}
 
 			Fetch();
 			var trackingDetails = mainBranch.TrackingDetails;

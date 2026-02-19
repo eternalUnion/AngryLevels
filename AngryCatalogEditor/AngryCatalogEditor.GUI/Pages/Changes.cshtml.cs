@@ -26,7 +26,7 @@ namespace AngryCatalogEditor.GUI.Pages
             if (GitHandler.NumberOfChanges <= 0)
                 return BadRequest("No pending changes");
 
-            if (GitHandler.Push())
+            if (!GitHandler.Push())
                 return BadRequest("Failed to push");
             else
                 return StatusCode(200);
