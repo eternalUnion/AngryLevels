@@ -1,6 +1,7 @@
 using AngryCatalogEditor.GUI;
 using AngryCatalogEditor.GUI.IO;
 using Newtonsoft.Json;
+using System.Diagnostics;
 
 if (ProjectPaths.rootPath == null)
 {
@@ -64,5 +65,10 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+Process.Start(new ProcessStartInfo()
+{
+	FileName = AppConfig.RootURL,
+	UseShellExecute = true,
+});
 app.Run();
 return 0;

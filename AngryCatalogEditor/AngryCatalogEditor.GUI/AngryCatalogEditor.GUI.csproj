@@ -6,6 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="LibGit2Sharp" Version="0.31.0" />
     <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="14.10.2" />
