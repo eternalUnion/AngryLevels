@@ -8,7 +8,7 @@ namespace AngryCatalogEditor.GUI.IO
 		public static string? username;
 		public static string? email;
 
-		public static readonly string MainBranchName = "web";
+		public static readonly string MainBranchName = "release";
 
 		private static Repository? _repository;
 		public static Repository? Repository
