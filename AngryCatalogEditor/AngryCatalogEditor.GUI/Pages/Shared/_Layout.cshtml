@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using AngryCatalogEditor.GUI.IO
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -26,6 +27,14 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li> *@
                     </ul>
+
+                    <!-- PROFILE -->
+                    <div style="display: @Html.Raw(GitHandler.username == null ? "none" : "unset")">
+                        Committing as @Html.Raw(GitHandler.username) <button onclick="changeUser()">Change</button>
+                    </div>
+                    <div style="display: @Html.Raw(GitHandler.username == null ? "unset" : "none")">
+                        User unknown
+                    </div>
                 </div>
             </div>
         </nav>
@@ -42,6 +51,12 @@
             Angry Catalog Editor -- Revamp Update
         </div>
     </footer>
+
+    <script>
+        function changeUser() {
+            location.replace('/ChangeUser');
+        }
+    </script>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

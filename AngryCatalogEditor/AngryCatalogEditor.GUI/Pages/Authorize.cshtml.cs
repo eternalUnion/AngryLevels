@@ -66,7 +66,7 @@ namespace AngryCatalogEditor.GUI.Pages
 
 		class GetTokenResp
 		{
-			public string? token { get; set; }
+			public bool tokenReceived { get; set; }
 			public string? error { get; set; }
 		}
 
@@ -138,7 +138,7 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (Token != null)
 				return Content(JsonConvert.SerializeObject(new GetTokenResp()
 				{
-					token = Token
+					tokenReceived = true
 				}), "application/json");
 
 			if (lastRequest == null)
@@ -219,7 +219,7 @@ namespace AngryCatalogEditor.GUI.Pages
 
 			return Content(JsonConvert.SerializeObject(new GetTokenResp()
 				{
-					token = tokenResponseObj.access_token
+					tokenReceived = true
 				}), "application/json");
 		}
 	}

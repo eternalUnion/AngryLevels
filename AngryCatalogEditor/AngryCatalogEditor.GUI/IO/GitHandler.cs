@@ -32,8 +32,7 @@ namespace AngryCatalogEditor.GUI.IO
 			if (remote == null)
 				return;
 
-			// FIXME
-			// Commands.Fetch(Repository, "origin", remote.RefSpecs.Select(r => r.Specification), new FetchOptions(), "fetch");
+			Commands.Fetch(Repository, "origin", remote.RefSpecs.Select(r => r.Specification), new FetchOptions(), "fetch");
 		}
 
 		public static void Pull()
@@ -41,8 +40,7 @@ namespace AngryCatalogEditor.GUI.IO
 			if (Repository == null)
 				return;
 
-			// FIXME
-			//Commands.Pull(Repository, new Signature("none", "none", DateTimeOffset.Now), new PullOptions() { MergeOptions = new MergeOptions() { FastForwardStrategy = FastForwardStrategy.FastForwardOnly } });
+			Commands.Pull(Repository, new Signature("none", "none", DateTimeOffset.Now), new PullOptions() { MergeOptions = new MergeOptions() { FastForwardStrategy = FastForwardStrategy.FastForwardOnly } });
 		}
 
 		public static bool Checkout()
