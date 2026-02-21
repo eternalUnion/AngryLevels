@@ -70,6 +70,8 @@
 </style>
 
 <script>
+    var randomId = Math.floor(Math.random() * 1000000);
+
     var external_urls = [];
     var thumbnailChosen = false;
     var angryFileChosen = false;
@@ -229,7 +231,7 @@
          = `Author: ${bundleInfo.Author}<br>`
          + `Global ID: ${bundleInfo.Guid}<br>`
          + `Build hash: ${bundleInfo.Hash}`;
-        document.getElementById("bundle_thumbnail").style.backgroundImage = `url('/AddLevel?handler=BundleThumbnail')`;
+        document.getElementById("bundle_thumbnail").style.backgroundImage = `url('/AddLevel?handler=BundleThumbnail&random=${randomId++}')`;
         document.getElementById("level_info").style.display = '';
 
         const levelContainer = document.getElementById('level_container');
@@ -306,7 +308,8 @@
             return;
         }
 
-        alert('Submit success');
+        alert('Added bundle successfully');
+        location.replace('/Changes')
     }
 </script>
 

@@ -41,13 +41,6 @@ body {
     border-radius: 5px;
 }
 
-.danger {
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
 .accept:hover {
     background-color: #218838;
     transition: background-color 0.2s ease;
@@ -55,4 +48,20 @@ body {
 
 .accept:disabled {
     background-color: #94d3a2;
+}
+
+.danger {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.danger:hover {
+    background-color: #c62828;
+    transition: background-color 0.2s ease;
+}
+
+.danger:disabled {
+    background-color: #ef9a9a;
 }

@@ -15,7 +15,7 @@ using System.Text.Json.Serialization;
 
 namespace AngryCatalogEditor.GUI.Pages
 {
-    public class ModifyLevelModel : PageModel
+    public class ModifyBrowseModel : PageModel
     {
         public void OnGet()
         {

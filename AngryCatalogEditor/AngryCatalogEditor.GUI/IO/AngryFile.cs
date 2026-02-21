@@ -20,6 +20,16 @@ namespace AngryCatalogEditor.GUI.IO
 {
 	public class AngryFile
 	{
+		// Placeholder textures
+
+		public static byte[] noThumbnailImage;
+		public static byte[] noThumbnailImageSquare;
+
+		static AngryFile() {
+			noThumbnailImage = File.ReadAllBytes("wwwroot/images/no_thumbnail.png");
+			noThumbnailImageSquare = File.ReadAllBytes("wwwroot/images/no_thumbnail_square.png");
+		}
+
 		public readonly AngryBundleData angryBundleData;
 		public readonly RudeBundleData rudeBundleData;
 		public readonly List<RudeLevelData> rudeLevelData = new();
@@ -152,11 +162,21 @@ namespace AngryCatalogEditor.GUI.IO
 				}
 
 				RudeBundleData rudeBundleData = new RudeBundleData(bundleDataObj, gameData);
+				if (rudeBundleData.levelIcon == null)
+				{
+					Console.WriteLine("null bundle icon");
+					rudeBundleData.levelIcon = noThumbnailImageSquare;
+				}
 
 				List<RudeLevelData> rudeLevelData = new();
 				foreach (IMonoBehaviour levelDataObj in levelDataObjects)
 				{
 					RudeLevelData levelData = new RudeLevelData(levelDataObj, gameData);
+					if (levelData.levelPreviewImage == null)
+					{
+						levelData.levelPreviewImage = noThumbnailImage;
+					}
+
 					rudeLevelData.Add(levelData);
 				}
 

@@ -32,14 +32,17 @@ namespace AngryCatalogEditor.GUI.IO
 			if (remote == null)
 				return;
 
-			Commands.Fetch(Repository, "origin", remote.RefSpecs.Select(r => r.Specification), new FetchOptions(), "fetch");
+			// FIXME
+			// Commands.Fetch(Repository, "origin", remote.RefSpecs.Select(r => r.Specification), new FetchOptions(), "fetch");
 		}
 
 		public static void Pull()
 		{
 			if (Repository == null)
 				return;
-			Commands.Pull(Repository, new Signature("none", "none", DateTimeOffset.Now), new PullOptions() { MergeOptions = new MergeOptions() { FastForwardStrategy = FastForwardStrategy.FastForwardOnly } });
+
+			// FIXME
+			//Commands.Pull(Repository, new Signature("none", "none", DateTimeOffset.Now), new PullOptions() { MergeOptions = new MergeOptions() { FastForwardStrategy = FastForwardStrategy.FastForwardOnly } });
 		}
 
 		public static bool Checkout()
@@ -122,7 +125,7 @@ namespace AngryCatalogEditor.GUI.IO
 				"V2/"
 			});
 
-			if (Repository.Index.Count == 0)
+			if (!Repository.Index.Where(i => i.StageLevel == StageLevel.Staged).Any())
 				return true;
 
 			Repository.Commit(message, new Signature(username, email, DateTimeOffset.Now), new Signature(username, email, DateTimeOffset.Now));

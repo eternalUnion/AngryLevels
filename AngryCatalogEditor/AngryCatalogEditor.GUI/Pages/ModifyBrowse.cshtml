@@ -1,5 +1,5 @@
 ﻿@page
-@model AngryCatalogEditor.GUI.Pages.ModifyLevelModel
+@model AngryCatalogEditor.GUI.Pages.ModifyBrowseModel
 @{
     ViewData["Title"] = "Modify level";
 }
@@ -21,6 +21,14 @@
         height: auto;
         gap: 5px;
     }
+
+    #modify_button {
+        display: none;
+    }
+
+    #modify_container:hover #modify_button {
+        display: unset;
+    }
 </style>
 
 <div class="text-center">
@@ -40,12 +48,16 @@
 
 <template id="bundle_item">
     <div id="bundle_item_inst" class="card" style="margin-bottom: 5px;">
-        <div style="display: flex; gap: 5px;">
+        <div id="modify_container" style="display: flex; gap: 5px;">
             <div id="thumbnail" style="width: 15%; aspect-ratio: 4/3; align-self: flex-start; background-size: cover;">
             </div>
 
             <div id="bundle_info" style="flex: 1; text-align: left;">
 
+            </div>
+
+            <div id="modify_button" style="aspect-ratio: 1;">
+                <button style="width: 100%; height: 100%;">Modify</button>
             </div>
         </div>
     </div>
@@ -74,10 +86,15 @@
             const item = document.importNode(bundleItemTemplate.content, true);
             const root = item.querySelector('#bundle_item_inst');
             const thumbnail = item.querySelector('#thumbnail');
+            const button = item.querySelector("#modify_button");
             item.querySelector('#bundle_info').innerHTML
             = `${bundle.Name}<br>`
             + `Author: ${bundle.Author}<br>`
             + `Last update: ${new Date(bundle.LastUpdate * 1000).toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric' })}`;
+
+            button.onclick = () => {
+                location.replace(`/ModifyBundle?guid=${bundle.Guid}`);
+            };
 
             const thumbnailReq = fetch(`/CatalogApi?handler=Thumbnail&guid=${bundle.Guid}`);
             thumbnailReq.then(async (resp) => {
