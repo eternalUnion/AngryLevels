@@ -16,7 +16,9 @@
 </div>
 
 <template id="change_temp">
-    <div id="change_inst" class="card" style="text-align: left;">
+    <div class="card" style="position: relative; text-align: left;">
+        <div id="change_inst"></div>
+        <button id="revoke" class="danger" style="position: absolute; right: 10px; top: 10px; display: none;" onclick="revokeLastChange()">Revoke</button>
     </div>
 </template>
 
@@ -26,16 +28,23 @@
     const submitButton = document.getElementById('push_changes');
     const changeTemp = document.getElementById('change_temp')
     const loggedIn = @Html.Raw((AuthorizeModel.Token != null).ToString().ToLower());
+    var revokeButton = null;
 
     if (changes.length == 0) {
         container.innerText = "No pending changes";
         submitButton.disabled = true;
     }
     else {
-        changes.forEach(change => {
+        changes.forEach((change, i) => {
             const item = document.importNode(changeTemp.content, true);
             const root = item.querySelector('#change_inst');
+            const revoke = item.querySelector('#revoke');
             root.innerText = change;
+
+            if (i == 0) {
+                revoke.style.display = 'unset';
+                revokeButton = revoke;
+            }
 
             container.appendChild(item);
         })
@@ -57,6 +66,27 @@
                 alert('Pushed successfully!');
                 location.reload();
             }
+        }
+    }
+
+    async function revokeLastChange() {
+        revokeButton.disabled = true;
+        try {
+            if (!confirm('Revoke the last commit?'))
+                return;
+
+            const req = await fetch('/Changes?handler=Revoke', { method: 'post' });
+
+            if (!req.ok) {
+                alert('Failed to revoke last commit!');
+            }
+            else {
+                alert('Revoked last commit successfully!');
+                location.reload();
+            }
+        }
+        finally {
+            revokeButton.disabled = false;
         }
     }
 </script>

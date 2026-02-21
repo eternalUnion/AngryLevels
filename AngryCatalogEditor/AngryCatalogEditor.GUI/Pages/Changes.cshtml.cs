@@ -31,5 +31,16 @@ namespace AngryCatalogEditor.GUI.Pages
             else
                 return StatusCode(200);
         }
-    }
+
+		public IActionResult OnPostRevoke()
+		{
+			if (GitHandler.NumberOfChanges <= 0)
+				return BadRequest("No pending changes");
+
+			if (!GitHandler.RevokeLastCommit())
+				return BadRequest("Failed to revoke");
+			else
+				return StatusCode(200);
+		}
+	}
 }

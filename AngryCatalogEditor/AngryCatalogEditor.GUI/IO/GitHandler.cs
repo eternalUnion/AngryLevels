@@ -196,5 +196,21 @@ namespace AngryCatalogEditor.GUI.IO
 
 			return trackingDetails.AheadBy == 0;
 		}
+
+		public static bool RevokeLastCommit()
+		{
+			if (Repository == null)
+				return false;
+
+			Branch mainBranch = Repository.Branches[MainBranchName];
+			if (mainBranch == null)
+				return false;
+
+			if (!Checkout())
+				return false;
+
+			Repository.Reset(ResetMode.Hard, mainBranch.Tip.Parents.Where(p => mainBranch.Commits.Contains(p)).First());
+			return true;
+		}
 	}
 }
