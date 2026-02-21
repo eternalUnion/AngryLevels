@@ -1,4 +1,5 @@
 ﻿@page
+@using AngryCatalogEditor.GUI.IO
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -50,7 +51,7 @@
 
         <button class="square-button" onclick="window.location.href='ModifyBrowse'">
             <img src="images/modify_level_icon.png">
-            <span>Modify existing level</span>
+            <span>Modify existing bundle</span>
         </button>
 
         <button class="square-button" onclick="window.location.href='AngryCombiner'">
@@ -58,4 +59,6 @@
             <span>Merge parted angry files</span>
         </button>
     </div>
+
+    <h1 class="display-4" style="margin-top: 10px;"><a href="/Changes">@Html.Raw(GitHandler.NumberOfChanges == 0 ? "No pending changes" : $"You have {GitHandler.NumberOfChanges} pending change(s)")</a></h1>
 </div>

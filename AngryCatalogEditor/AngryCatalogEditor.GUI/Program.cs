@@ -1,9 +1,28 @@
+using AngryCatalogEditor.GUI;
 using AngryCatalogEditor.GUI.IO;
+using Newtonsoft.Json;
 
 if (ProjectPaths.rootPath == null)
 {
 	Console.ForegroundColor = ConsoleColor.Red;
 	Console.WriteLine("Project path not found. Make sure that the application is run inside the AngryLevels repository clone.");
+	Console.ForegroundColor = ConsoleColor.White;
+	return -1;
+}
+
+AngryLevelsVersion versionObj = JsonConvert.DeserializeObject<AngryLevelsVersion>(File.ReadAllText(Path.Combine(ProjectPaths.rootPath, "AngryLevelsVersion.json")));
+if (versionObj.Version < AppConfig.AngryLevelsVersion)
+{
+	Console.ForegroundColor = ConsoleColor.Red;
+	Console.WriteLine($"This project is made for an older version of Angry Levels. App is {AppConfig.AngryLevelsName} ({AppConfig.AngryLevelsVersion}), repository is {versionObj.Name} ({versionObj.Version})");
+	Console.ForegroundColor = ConsoleColor.White;
+	return -1;
+}
+
+if (versionObj.Version < AppConfig.AngryLevelsVersion)
+{
+	Console.ForegroundColor = ConsoleColor.Red;
+	Console.WriteLine($"This project is made for an earlier version of Angry Levels. App is {AppConfig.AngryLevelsName} ({AppConfig.AngryLevelsVersion}), repository is {versionObj.Name} ({versionObj.Version})");
 	Console.ForegroundColor = ConsoleColor.White;
 	return -1;
 }
