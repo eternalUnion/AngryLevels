@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 namespace AngryCatalogEditor.GUI.Pages
 {
 	[IgnoreAntiforgeryToken]
-	public class AddLevelModel : PageModel
+	public class AddBundleModel : PageModel
     {
 		private static MemoryStream? thumbnailStream = null;
 		private static AngryFile? angryFile = null;
@@ -114,7 +114,7 @@ namespace AngryCatalogEditor.GUI.Pages
 				return BadRequest($"Another bundle with name {existingLevel.Name} exists in the catalog with the same global ID!");
 			}
 
-			AddLevelModel.angryFile = angryFile;
+			AddBundleModel.angryFile = angryFile;
 			return Content(JsonConvert.SerializeObject(angryFile.GetBundleInfo()), "application/json");
 		}
 	
@@ -126,7 +126,7 @@ namespace AngryCatalogEditor.GUI.Pages
 			public string[]? ExternalURLs { get; set; }
 		}
 
-		public IActionResult OnPostAddLevel([FromBody] AddLevelBody info)
+		public IActionResult OnPostAddBundle([FromBody] AddLevelBody info)
 		{
 			if (info == null)
 				return BadRequest("Bad body");
