@@ -58,7 +58,30 @@
             <img src="images/angry_combiner.png">
             <span>Merge parted angry files</span>
         </button>
+
+        <button class="square-button" onclick="updateScript()">
+            <img src="images/script.png">
+            <span>Add/Update script</span>
+        </button>
     </div>
 
     <h1 class="display-4" style="margin-top: 10px;"><a href="/Changes">@Html.Raw(GitHandler.NumberOfChanges == 0 ? "No pending changes" : $"You have {GitHandler.NumberOfChanges} pending change(s)")</a></h1>
 </div>
+
+<script>
+    async function updateScript() {
+        const res = await fetch('/?handler=UpdateScript', {
+            method: 'post'
+        });
+
+        if (!res.ok) {
+            alert(await res.text());
+            return;
+        }
+
+        if (res.status == 200) {
+            alert(await res.text());
+            location.reload();
+        }
+    }
+</script>

@@ -120,7 +120,10 @@ namespace AngryCatalogEditor.GUI.IO
 			Commands.Stage(Repository, new string[]
 			{
 				"Levels/",
-				"V2/"
+				"V2/",
+				"Scripts/",
+				"ScriptCatalog.json",
+				"ScriptCatalogHash.txt",
 			});
 
 			if (!Repository.Index.Where(i => i.StageLevel == StageLevel.Staged).Any())

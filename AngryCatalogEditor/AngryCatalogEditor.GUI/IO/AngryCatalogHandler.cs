@@ -66,5 +66,70 @@ namespace AngryCatalogEditor.GUI.IO
 			File.WriteAllText(catalogPath, catalogSerialized);
 			File.WriteAllText(catalogHashPath, hash);
 		}
+
+
+
+		private static ScriptCatalog? _scriptCatalog = null;
+		private static string? _scriptCatalogPath = null;
+		public static string? scriptCatalogPath
+		{
+			get
+			{
+				if (_scriptCatalogPath != null)
+					return _scriptCatalogPath;
+
+				if (ProjectPaths.rootPath != null)
+					_scriptCatalogPath = Path.Combine(ProjectPaths.rootPath, "ScriptCatalog.json");
+
+				return _scriptCatalogPath;
+			}
+		}
+
+		private static string? _scriptCatalogHashPath = null;
+		public static string? scriptCatalogHashPath
+		{
+			get
+			{
+				if (_scriptCatalogHashPath != null)
+					return _scriptCatalogHashPath;
+
+				if (ProjectPaths.rootPath != null)
+					_scriptCatalogHashPath = Path.Combine(ProjectPaths.rootPath, "ScriptCatalogHash.txt");
+
+				return _scriptCatalogHashPath;
+			}
+		}
+
+		public static bool TryGetScriptCatalog(out ScriptCatalog catalog)
+		{
+			if (_scriptCatalog != null)
+			{
+				catalog = _scriptCatalog;
+				return true;
+			}
+
+			if (scriptCatalogPath == null)
+			{
+				catalog = null;
+				return false;
+			}
+
+			_scriptCatalog = catalog = JsonConvert.DeserializeObject<ScriptCatalog>(File.ReadAllText(scriptCatalogPath));
+			return true;
+		}
+
+		public static void SaveScriptCatalog()
+		{
+			if (_scriptCatalog == null)
+				return;
+
+			string catalogSerialized = JsonConvert.SerializeObject(_scriptCatalog, Formatting.Indented);
+			catalogSerialized = catalogSerialized.Replace("\r", "");
+
+			string hash = CryptologyUtils.GetMD5Hash(catalogSerialized);
+
+			File.WriteAllText(scriptCatalogPath, catalogSerialized);
+			File.WriteAllText(scriptCatalogHashPath, hash);
+		}
 	}
 }
