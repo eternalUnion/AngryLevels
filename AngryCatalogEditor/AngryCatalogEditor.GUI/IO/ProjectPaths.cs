@@ -17,6 +17,11 @@
 					var parent = Directory.GetParent(path);
 					if (parent == null)
 					{
+						// Fallback
+						_rootPath = Path.Combine(Directory.GetCurrentDirectory(), "AngryLevels");
+						if (Directory.Exists(_rootPath) && Directory.Exists(Path.Combine(_rootPath, ".git")))
+							return _rootPath;
+
 						_rootPath = null;
 						return null;
 					}
