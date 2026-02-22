@@ -1345,11 +1345,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry1",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry2",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry3",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry4",
-        "https://raw.githubusercontent.com/DoodleEh/indulgence/e8e904fbb0a8122e7362ffb2389b202f3e541360/Indulgence%20v2.02/INDULGENCE.angry5"
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry4",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry5"
       ],
       "Updates": [
         {
@@ -1376,9 +1376,29 @@
           "Date": 1761000407,
           "Hash": "19dae67d74745fda507a634903062742",
           "Message": "v2.02\n\n- Neutralizers now deal a flat 16 damage to high-health enemies, instakill still remains for lower health counts. This should make it harder to trivialise most encounters they're present in\n- Neutralizers explosion shockwave no longer visually repeats twice\n- Craven hooks no longer do a slowmo effect when hitting something\n\nI-1:\n- An illegal narcotic no longer levitates 10 units away from its foliage\n- Fixed seasonal hats for Hermes\n\nI-2:\n- Attempted to fix a rare bug that causes rooms to be unloaded while you're inside of them\n- Tweaked lighting across the level to improve visibility\n- Made some changes to improve the any% speedrunning experience\n- Minor changes to level geometry to allow for more movement options\n- Level now supports NoMo cheat\n\nCredits:\n- Corrected credits for synth67"
+        },
+        {
+          "Date": 1771718432,
+          "Hash": "34608456373803d22dc053bcc238fe8b",
+          "Message": null
         }
       ],
       "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "mag.indulgence.thedeathofparadigm",
+            "mag.indulgence.level2"
+          ],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll"
+          ],
+          "LevelName": "CREDITS",
+          "LevelId": "mag.indulgence.thehallofpain",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
         {
           "requiredCompletedLevelIdsForUnlock": [],
           "requiredDllNames": [
@@ -1405,32 +1425,17 @@
           "isSecretLevel": false,
           "secretCount": 5,
           "levelChallengeEnabled": true,
-          "levelChallengeText": "[COMING SOON]"
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [
-            "mag.indulgence.thedeathofparadigm",
-            "mag.indulgence.level2"
-          ],
-          "requiredDllNames": [
-            "AthenaResearchFacilityUtils.dll"
-          ],
-          "LevelName": "CREDITS",
-          "LevelId": "mag.indulgence.thehallofpain",
-          "isSecretLevel": true,
-          "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
+          "levelChallengeText": "INTERCEPT A DISTANT SIGNAL"
         }
       ],
       "Name": "<color=#6bfa9b>INDULGENCE</color>",
       "Author": "bongwater",
-      "Size": 118271486,
+      "Size": 120700463,
       "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
-      "Hash": "19dae67d74745fda507a634903062742",
+      "Hash": "34608456373803d22dc053bcc238fe8b",
       "ThumbnailHash": "f037a74113befad6a7974179e730751c",
       "Locked": false,
-      "LastUpdate": 1761000407
+      "LastUpdate": 1771718432
     },
     {
       "Parts": [
