@@ -65,10 +65,13 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 
+#if !DEBUG
 Process.Start(new ProcessStartInfo()
 {
 	FileName = AppConfig.RootURL,
 	UseShellExecute = true,
 });
+#endif
+
 app.Run();
 return 0;
