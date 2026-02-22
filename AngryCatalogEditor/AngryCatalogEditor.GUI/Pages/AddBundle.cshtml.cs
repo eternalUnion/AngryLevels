@@ -152,6 +152,9 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (catalog.Levels.Where(l => l.Guid == angryFile.angryBundleData.bundleGuid).Any())
 				return BadRequest("Another level with the same GUID already exists");
 
+			// Revert catalog to make sure that only proper changes are done
+			GitHandler.HardResetCatalogs();
+
 			BundleInfo bundleInfo = new BundleInfo()
 			{
 				Name = info.Name,

@@ -1,4 +1,5 @@
 ﻿using AngryCatalogEditor.GUI.Pages;
+using ImageMagick.Drawing;
 using LibGit2Sharp;
 
 namespace AngryCatalogEditor.GUI.IO
@@ -9,6 +10,15 @@ namespace AngryCatalogEditor.GUI.IO
 		public static string? email;
 
 		public static readonly string MainBranchName = "release";
+
+		public static readonly string[] CatalogFiles = new string[]
+		{
+			"Levels/",
+			"V2/",
+			"Scripts/",
+			"ScriptCatalog.json",
+			"ScriptCatalogHash.txt",
+		};
 
 		private static Repository? _repository;
 		public static Repository? Repository
@@ -107,6 +117,39 @@ namespace AngryCatalogEditor.GUI.IO
 			Repository.Reset(ResetMode.Hard, Repository.Branches[$"origin/{MainBranchName}"].Tip);
 		}
 
+		public static void HardResetCatalogs()
+		{
+			if (Repository == null)
+				return;
+
+			var status = Repository.RetrieveStatus(new StatusOptions()
+			{
+				IncludeUntracked = true,
+				RecurseUntrackedDirs = true,
+			});
+
+			// Clean new files
+
+			foreach (var entry in status.Where(e => e.State.HasFlag(FileStatus.NewInWorkdir)))
+			{
+				if (!CatalogFiles.Any(path => entry.FilePath.StartsWith(path)))
+					continue;
+
+				string fullPath = Path.Combine(Repository.Info.WorkingDirectory, entry.FilePath);
+				if (File.Exists(fullPath))
+					File.Delete(fullPath);
+				else if (Directory.Exists(fullPath))
+					Directory.Delete(fullPath, true);
+			}
+
+			// Reset to last commit
+
+			Repository.CheckoutPaths(Repository.Head.FriendlyName, CatalogFiles, new CheckoutOptions()
+			{
+				CheckoutModifiers = CheckoutModifiers.Force
+			});
+		}
+
 		public static bool Commit(string message)
 		{
 			if (Repository == null)
@@ -117,19 +160,18 @@ namespace AngryCatalogEditor.GUI.IO
 				Repository.Reset(ResetMode.Mixed, Repository.Head.Tip);
 			}
 
-			Commands.Stage(Repository, new string[]
+			Commands.Stage(Repository, CatalogFiles);
+
+			try
 			{
-				"Levels/",
-				"V2/",
-				"Scripts/",
-				"ScriptCatalog.json",
-				"ScriptCatalogHash.txt",
-			});
+				Repository.Commit(message, new Signature(username, email, DateTimeOffset.Now), new Signature(username, email, DateTimeOffset.Now));
+			}
+			catch (EmptyCommitException)
+			{
+				Console.WriteLine("Could not commit, no files were in the stage area");
+				return false;
+			}
 
-			if (!Repository.Index.Where(i => i.StageLevel == StageLevel.Staged).Any())
-				return true;
-
-			Repository.Commit(message, new Signature(username, email, DateTimeOffset.Now), new Signature(username, email, DateTimeOffset.Now));
 			return true;
 		}
 

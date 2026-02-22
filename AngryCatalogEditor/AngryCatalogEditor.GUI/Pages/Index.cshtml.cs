@@ -58,7 +58,8 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (!AngryCatalogHandler.TryGetScriptCatalog(out ScriptCatalog scriptCatalog))
 				return BadRequest("Could not get script catalog");
 
-
+			// Revert catalog to make sure that only proper changes are done
+			GitHandler.HardResetCatalogs();
 
 			MD5 md5 = MD5.Create();
 			byte[] hashArr = md5.ComputeHash(System.IO.File.ReadAllBytes(path));

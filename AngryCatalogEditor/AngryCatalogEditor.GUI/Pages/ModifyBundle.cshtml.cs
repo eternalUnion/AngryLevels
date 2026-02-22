@@ -189,6 +189,9 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (info.updateThumbnail && thumbnailStream == null)
 				return BadRequest("No thumbnail provided");
 
+			// Revert catalog to make sure that only proper changes are done
+			GitHandler.HardResetCatalogs();
+
 			// Apply changes
 
 			List<string> commitMessage = new();
@@ -312,6 +315,9 @@ namespace AngryCatalogEditor.GUI.Pages
 			int index = catalog.Levels.IndexOf(bundle);
 			if (index == -1)
 				return BadRequest("Bundle with the given guid not found");
+
+			// Revert catalog to make sure that only proper changes are done
+			GitHandler.HardResetCatalogs();
 
 			catalog.Levels.RemoveAt(index);
 			AngryCatalogHandler.SaveLevelCatalog();
