@@ -1345,11 +1345,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry1",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry2",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry3",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry4",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/41588ef9d6d64f233cc8eae824407e60237b934b/Indulgence%20v2.5/INDULGENCE.angry5"
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry4",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry5"
       ],
       "Updates": [
         {
@@ -1381,6 +1381,11 @@
           "Date": 1771718432,
           "Hash": "34608456373803d22dc053bcc238fe8b",
           "Message": "Changelog:\n\n- Blind enemies cheat now functions with custom enemies\n- Modified Hermes' terminal entry\n- Removed thrown swords tip from Hermes' terminal entry due to thrown swords no longer being part of the fight\n- Fixed an issue where Cravens could launch you away from them with their hook rather than pull you towards them\n- Also generally improved the consistency of the attack and made it launch you at a slightly lower velocity\n- Improved Craven hook attack visuals to make it more visible\n\nI-1:\n- Split Hermes' swing combo into two different attacks\n- Slowed down uppercut attack speed\n- Fixed an issue where Hermes could perform the same attacks at different speeds depending on the players position relative to it\n- Improved performance after picking up the red skull (this might have varying results depending on your machine)\n- Polished the book a little\n\nI-2:\n- Added Level Challenge \"INTERCEPT A DISTANT SIGNAL\"\n- Added a hidden location near the fourth secret\n- Tweaked encounters and reduced P rank kills requirement to 85 to compensate\n- Reworded the I-2 book to make it clearer that \"The Hand of the King\" is a character and not Tantalus' literal hand\n- Updated level end sequence\n- Added fire hydrant hazards\n- Minor layout and lighting tweaks\n- Added an enemy spawn to the blood orb secret\n- Modified the title drop sequence to make what's happening more clear (it takes longer, though you can skip it by just jumping over the gate)\n- Fixed a softlock in the Neutralizer introduction room that could occur on Brutal difficulty\n- Fixed an OOB near the blue skull\n- Fixed an issue where the colour correction overlay and white flashes didn't cover the entire screen above 1920x1080 screen resolutions\n\nCredits:\n- Added Raifu to the music credits\n- Added credits for tracks: Anemoia\n- Removed credits for somebody at their request\n"
+        },
+        {
+          "Date": 1771726166,
+          "Hash": "6de59c434fc0324dd4cb9670eb347172",
+          "Message": "Indulgence v2.5.01\n\n- Fixed a rare crash\n- Fixed a typo in a subtitle\n- Fixed floating skeleton skulls in a secret room\n- Fixed an issue where the new secret area could not load if the player took the blue skull through the door with them\n- Removed Herobrine"
         }
       ],
       "Levels": [
@@ -1430,12 +1435,12 @@
       ],
       "Name": "<color=#6bfa9b>INDULGENCE</color>",
       "Author": "bongwater",
-      "Size": 120700463,
+      "Size": 120697537,
       "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
-      "Hash": "34608456373803d22dc053bcc238fe8b",
+      "Hash": "6de59c434fc0324dd4cb9670eb347172",
       "ThumbnailHash": "f037a74113befad6a7974179e730751c",
       "Locked": false,
-      "LastUpdate": 1771718432
+      "LastUpdate": 1771726166
     },
     {
       "Parts": [
