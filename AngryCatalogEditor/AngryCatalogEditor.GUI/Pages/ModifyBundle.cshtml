@@ -604,7 +604,7 @@
                 newExternalURLs: externalUrlsModified ? newExternalUrls : null,
 
                 updateAngryFile: angryFileModified,
-                changelog: angryFileModified ? changelogText.value : null,
+                changelog: angryFileModified ? changelogText : null,
 
                 updateChangelog: changelogModified,
                 newChangelogText: changelogTextFields.map((c, i) => changelogModified[i] ? c.value : null)
