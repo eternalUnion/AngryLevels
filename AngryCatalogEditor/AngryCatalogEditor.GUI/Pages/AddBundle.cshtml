@@ -69,12 +69,113 @@
 
 </style>
 
+<div class="text-center" style="display:flex; flex-direction:column; gap:5px;">
+
+    <!-- LEVEL INFO -->
+    <div class="card">
+        <h1 style="width: 100%; text-align: left; font-weight: bold;">Level Information</h1>
+
+        <div style="justify-content: center; display: flex;">
+            <div class="form_row">
+
+                <div class="level_thumbnail" id="level_thumbnail">
+                    <div class="level_thumbnail_img" id="level_thumbnail_img">
+                        <button id="level_thumbnail_upload" class="level_thumbnail_upload" type="button" onclick="openThumbnail()">
+                            <img class="level_thumbnail_upload_img" src="images/folder.png" />
+                        </button>
+                    </div>
+                </div>
+
+                <div class="form_column">
+                    <div class="form_grid_item">
+                        Level name: 
+                    </div>
+                    <div class="form_grid_item">
+                        <input class="form_input" name="level_name" id="level_name" />
+                    </div>
+                    <div class="form_grid_item">
+                        Author: 
+                    </div>
+                    <div class="form_grid_item">
+                        <input class="form_input" name="author" id="author" />
+                    </div>
+                    <div class="form_grid_item">
+                        Changelog:
+                    </div>
+                    <div class="form_grid_item">
+                        <textarea class="form_input" name="changelog" id="changelog">Initial upload.</textarea>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        
+    <!-- EXTERNAL LINKS -->
+    <div class="card">
+        <h1 style="width: 100%; text-align: left; font-weight: bold;">External Links</h1>
+
+        <div style="display:flex; width: 100%; height: min-content; gap: 5px;">
+            <div>GitHub link to first file: </div>
+            <input name="external_link_first" id="external_link_first" style="display: flex; flex: 1;" />
+            <button class="accept" type="button" id="fetch_external_links" onclick="getExternalLinks()">Fetch files</button>
+        </div>
+
+        <div id="external_link_out" style="text-align: left">
+            <!-- Generated from code -->
+        </div>
+    </div>
+
+    <!-- ANGRY FILE -->
+    <div class="card" style="gap: 10px;">
+        <h1 style="width: 100%; text-align: left; font-weight: bold;">Angry File</h1>
+
+        <div class="form_row">
+            <button id="open_angry_file_button" class="accept" style="width: 100%; padding-top: 10px; padding-bottom: 10px;" type="button" onclick="openAngryFile()">Select</button>
+        </div>
+
+        <div id="level_info" style="text-align: left; display: none;">
+            <div class="form_row" style="gap: 10px;">
+                <div id="bundle_thumbnail" style="width: 20%; aspect-ratio: 1; align-self: flex-start; background-size: cover;"></div>
+                <div style="text-align: left; font-size: 18px;">
+                    <h1 id="bundle_name">Bundle Name</h1><br><p id="bundle_summary">Author: ???</p>
+                </div>
+            </div>
+                
+            <hr />
+            <h1 style="text-decoration-line: underline;">Levels</h1>
+
+            <div id="level_container" style="gap: 10px;">
+                <!-- Generated from code -->
+            </div>
+        </div>
+    </div>
+
+    <!-- SUBMIT -->
+    <button id="submit_button" type="button" onclick="addAngryFile()" class="accept" style="width: 100%; padding-top: 10px; padding-bottom: 10px;">Add Bundle</button>
+
+    <template id="level_info_template">
+        <div id="level_info_inst" class="form_row" style="margin-bottom: 10px">
+            <div id="level_info_thumbnail" style="width: 20%; aspect-ratio: 4/3; align-self: flex-start; background-size: cover;"></div>
+            <div style="text-align: left; flex: 1;">
+                <h2 id="level_info_name">Level Name</h2><hr />
+                <p id="level_info_summary"></p>
+            </div>
+        </div>
+    </template>
+</div>
+
 <script>
     var randomId = Math.floor(Math.random() * 1000000);
 
     var external_urls = [];
     var thumbnailChosen = false;
     var angryFileChosen = false;
+
+    const openAngryFileButton = document.getElementById('open_angry_file_button');
+    const submitButton = document.getElementById('submit_button');
+    
+
 
     async function openThumbnail() {
         const response = await fetch('/AddBundle?handler=OpenThumbnail', {
@@ -212,51 +313,58 @@
     }
 
     async function openAngryFile() {
-        const response = await fetch('/AddBundle?handler=OpenAngryFile', {
-            method: 'POST'
-        });
+        openAngryFileButton.disabled = true;
 
-        if (response.status != 200) {
-            if (response.status == 400)
-                alert(await response.text());
+        try {
+            const response = await fetch('/AddBundle?handler=OpenAngryFile', {
+                method: 'POST'
+            });
 
-            return;
+            if (response.status != 200) {
+                if (response.status == 400)
+                    alert(await response.text());
+
+                return;
+            }
+
+            const bundleInfo = JSON.parse(await response.text());
+            console.log(bundleInfo);
+
+            document.getElementById("bundle_name").innerHTML = bundleInfo.Name;
+            document.getElementById("bundle_summary").innerHTML
+             = `Author: ${bundleInfo.Author}<br>`
+             + `Global ID: ${bundleInfo.Guid}<br>`
+             + `Build hash: ${bundleInfo.Hash}`;
+            document.getElementById("bundle_thumbnail").style.backgroundImage = `url('/AddBundle?handler=BundleThumbnail&random=${randomId++}')`;
+            document.getElementById("level_info").style.display = '';
+
+            const levelContainer = document.getElementById('level_container');
+            const levelTemplate = document.getElementById('level_info_template');
+
+            levelContainer.innerHTML = '';
+
+            bundleInfo.Levels.forEach(level => {
+                const item = document.importNode(levelTemplate.content, true);
+                const root = item.querySelector('#level_info_inst');
+                const thumbnail = item.querySelector('#level_info_thumbnail');
+                const name = item.querySelector('#level_info_name');
+                const summary = item.querySelector('#level_info_summary');
+
+                name.innerHTML = level.LevelName;
+                summary.innerHTML
+                 = `Is secret level: ` + (level.isSecretLevel ? 'Yes' : 'No') + '<br>'
+                 + `Challenge: ` + (level.levelChallengeEnabled ? level.levelChallengeText : 'Disabled') + '<br>'
+                 + `Number of secrets: ${level.secretCount}`;
+                thumbnail.style.backgroundImage = `url('/AddBundle?handler=LevelThumbnail&id=${level.LevelId}')`;
+
+                levelContainer.appendChild(item);
+            });
+
+            angryFileChosen = true;
         }
-
-        const bundleInfo = JSON.parse(await response.text());
-        console.log(bundleInfo);
-
-        document.getElementById("bundle_name").innerHTML = bundleInfo.Name;
-        document.getElementById("bundle_summary").innerHTML
-         = `Author: ${bundleInfo.Author}<br>`
-         + `Global ID: ${bundleInfo.Guid}<br>`
-         + `Build hash: ${bundleInfo.Hash}`;
-        document.getElementById("bundle_thumbnail").style.backgroundImage = `url('/AddBundle?handler=BundleThumbnail&random=${randomId++}')`;
-        document.getElementById("level_info").style.display = '';
-
-        const levelContainer = document.getElementById('level_container');
-        const levelTemplate = document.getElementById('level_info_template');
-
-        levelContainer.innerHTML = '';
-
-        bundleInfo.Levels.forEach(level => {
-            const item = document.importNode(levelTemplate.content, true);
-            const root = item.querySelector('#level_info_inst');
-            const thumbnail = item.querySelector('#level_info_thumbnail');
-            const name = item.querySelector('#level_info_name');
-            const summary = item.querySelector('#level_info_summary');
-
-            name.innerHTML = level.LevelName;
-            summary.innerHTML
-             = `Is secret level: ` + (level.isSecretLevel ? 'Yes' : 'No') + '<br>'
-             + `Challenge: ` + (level.levelChallengeEnabled ? level.levelChallengeText : 'Disabled') + '<br>'
-             + `Number of secrets: ${level.secretCount}`;
-            thumbnail.style.backgroundImage = `url('/AddBundle?handler=LevelThumbnail&id=${level.LevelId}')`;
-
-            levelContainer.appendChild(item);
-        });
-
-        angryFileChosen = true;
+        finally {
+            openAngryFileButton.disabled = false;
+        }
     }
 
     async function addAngryFile() {
@@ -276,137 +384,46 @@
             return;
         }
 
-        const levelName = document.getElementById('level_name');
-        const author = document.getElementById('author');
-        const changelog = document.getElementById('changelog');
+        submitButton.disabled = true;
 
-        if (levelName.value.trim() == '') {
-            alert('You must fill the bundle name field');
-            return;
+        try {
+            const levelName = document.getElementById('level_name');
+            const author = document.getElementById('author');
+            const changelog = document.getElementById('changelog');
+
+            if (levelName.value.trim() == '') {
+                alert('You must fill the bundle name field');
+                return;
+            }
+
+            if (author.value.trim() == '') {
+                alert('You must fill the bundle author field');
+                return;
+            }
+
+            const resp = await fetch(`/AddBundle?handler=AddBundle`, {
+                method: 'post',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    Name: levelName.value,
+                    Author: author.value,
+                    UpdateMessage: changelog.value,
+                    ExternalURLs: external_urls
+                })
+            });
+
+            if (!resp.ok) {
+                alert(await resp.text());
+                return;
+            }
+
+            alert('Added bundle successfully');
+            location.replace('/Changes');
         }
-
-        if (author.value.trim() == '') {
-            alert('You must fill the bundle author field');
-            return;
+        finally {
+            submitButton.disabled = false;
         }
-
-        const resp = await fetch(`/AddBundle?handler=AddBundle`, {
-            method: 'post',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                Name: levelName.value,
-                Author: author.value,
-                UpdateMessage: changelog.value,
-                ExternalURLs: external_urls
-            })
-        });
-
-        if (!resp.ok) {
-            alert(await resp.text());
-            return;
-        }
-
-        alert('Added bundle successfully');
-        location.replace('/Changes')
     }
 </script>
-
-<div class="text-center">
-
-    <form method="post" style="display:flex; flex-direction:column; gap:5px;">
-        <!-- LEVEL INFO -->
-        <div class="card">
-            <h1 style="width: 100%; text-align: left; font-weight: bold;">Level Information</h1>
-
-            <div style="justify-content: center; display: flex;">
-                <div class="form_row">
-
-                    <div class="level_thumbnail" id="level_thumbnail">
-                        <div class="level_thumbnail_img" id="level_thumbnail_img">
-                            <button id="level_thumbnail_upload" class="level_thumbnail_upload" type="button" onclick="openThumbnail()">
-                                <img class="level_thumbnail_upload_img" src="images/folder.png" />
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="form_column">
-                        <div class="form_grid_item">
-                            Level name: 
-                        </div>
-                        <div class="form_grid_item">
-                            <input class="form_input" name="level_name" id="level_name" />
-                        </div>
-                        <div class="form_grid_item">
-                            Author: 
-                        </div>
-                        <div class="form_grid_item">
-                            <input class="form_input" name="author" id="author" />
-                        </div>
-                        <div class="form_grid_item">
-                            Changelog:
-                        </div>
-                        <div class="form_grid_item">
-                            <textarea class="form_input" name="changelog" id="changelog">Initial upload.</textarea>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        
-        <!-- EXTERNAL LINKS -->
-        <div class="card">
-            <h1 style="width: 100%; text-align: left; font-weight: bold;">External Links</h1>
-
-            <div style="display:flex; width: 100%; height: min-content; gap: 5px;">
-                <div>GitHub link to first file: </div>
-                <input name="external_link_first" id="external_link_first" style="display: flex; flex: 1;" />
-                <button class="accept" type="button" id="fetch_external_links" onclick="getExternalLinks()">Fetch files</button>
-            </div>
-
-            <div id="external_link_out" style="text-align: left">
-                <!-- Generated from code -->
-            </div>
-        </div>
-
-        <!-- ANGRY FILE -->
-        <div class="card" style="gap: 10px;">
-            <h1 style="width: 100%; text-align: left; font-weight: bold;">Angry File</h1>
-
-            <div class="form_row">
-                <button class="accept" style="width: 100%; padding-top: 10px; padding-bottom: 10px;" type="button" onclick="openAngryFile()">Select</button>
-            </div>
-
-            <div id="level_info" style="text-align: left; display: none;">
-                <div class="form_row" style="gap: 10px;">
-                    <div id="bundle_thumbnail" style="width: 20%; aspect-ratio: 1; align-self: flex-start; background-size: cover;"></div>
-                    <div style="text-align: left; font-size: 18px;">
-                        <h1 id="bundle_name">Bundle Name</h1><br><p id="bundle_summary">Author: ???</p>
-                    </div>
-                </div>
-                
-                <hr />
-                <h1 style="text-decoration-line: underline;">Levels</h1>
-
-                <div id="level_container" style="gap: 10px;">
-                    <!-- Generated from code -->
-                </div>
-            </div>
-        </div>
-
-        <!-- SUBMIT -->
-        <button type="button" onclick="addAngryFile()" class="accept" style="width: 100%; padding-top: 10px; padding-bottom: 10px;">Add Bundle</button>
-    </form>
-
-    <template id="level_info_template">
-        <div id="level_info_inst" class="form_row" style="margin-bottom: 10px">
-            <div id="level_info_thumbnail" style="width: 20%; aspect-ratio: 4/3; align-self: flex-start; background-size: cover;"></div>
-            <div style="text-align: left; flex: 1;">
-                <h2 id="level_info_name">Level Name</h2><hr />
-                <p id="level_info_summary"></p>
-            </div>
-        </div>
-    </template>
-</div>
