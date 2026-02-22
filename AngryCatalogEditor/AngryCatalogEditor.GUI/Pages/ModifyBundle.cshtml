@@ -60,6 +60,7 @@
 </style>
 
 <div class="text-center" style="display:flex; flex-direction:column; gap:5px;">
+    @Html.AntiForgeryToken()
 
     <!-- LEVEL INFO -->
     <div class="card">
@@ -196,6 +197,7 @@
 </div>
 
 <script>
+    const antiForgeryToken = document.querySelector('input[name="__RequestVerificationToken"]').value;
     var randomId = Math.floor(Math.random() * 1000000);
 
     // Fields
@@ -227,9 +229,10 @@
 
     async function openThumbnail() {
         const response = await fetch('/ModifyBundle?handler=OpenThumbnail', {
-            method: 'POST',
+            method: 'post',
             headers: {
                 'Content-Type': 'image/png',
+                'RequestVerificationToken': antiForgeryToken,
             }
         });
 
@@ -434,7 +437,10 @@
 
     async function openAngryFile() {
         const response = await fetch('/ModifyBundle?handler=OpenAngryFile&guid=@Html.Raw(guid)', {
-            method: 'POST'
+            method: 'post',
+            headers: {
+                'RequestVerificationToken': antiForgeryToken,
+            }
         });
 
         if (response.status != 200) {
@@ -590,7 +596,8 @@
         const resp = await fetch(`/ModifyBundle?handler=ModifyBundle`, {
             method: 'post',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': antiForgeryToken,
             },
             body: JSON.stringify({
                 guid: @Html.Raw(JsonConvert.SerializeObject(bundle.Guid)),
@@ -625,7 +632,10 @@
             return;
 
         const req = await fetch('/ModifyBundle?handler=DeleteBundle&guid=@Html.Raw(guid)', {
-            method: 'post'
+            method: 'post',
+            headers: {
+                'RequestVerificationToken': antiForgeryToken,
+            }
         });
 
         if (!req.ok) {

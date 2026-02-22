@@ -20,30 +20,5 @@ namespace AngryCatalogEditor.GUI.Pages
         public void OnGet()
         {
         }
-
-        public IActionResult OnPostOpenAngryFile()
-        {
-			NfdStatus status = Dialog.OpenFile(out string? path);
-			if (status == NfdStatus.Cancelled || string.IsNullOrEmpty(path))
-				return StatusCode(StatusCodes.Status204NoContent);
-
-			AngryFile angryFile;
-			try
-			{
-				if (!AngryFile.TryLoadFile(path, out angryFile, out Exception ex))
-				{
-					return BadRequest(ex.Message);
-				}
-			}
-			catch (Exception ex)
-			{
-				Console.ForegroundColor = ConsoleColor.Red;
-				Console.WriteLine(ex.StackTrace);
-				Console.ForegroundColor = ConsoleColor.White;
-				return BadRequest("Internal exception, see console");
-			}
-
-			return StatusCode(200);
-		}
     }
 }

@@ -4,6 +4,8 @@
 }
 
 <div class="text-center" style="align-content: center; display: flex; justify-content: center;">
+    @Html.AntiForgeryToken()
+
     <div id="req_card" class="card", style="width: 50%; gap: 10px;">
         <h1 style="font-weight: bold;">Authorize Github</h1>
         Enter the following code after opening the link:
@@ -20,9 +22,14 @@
 
 
 <script>
+    const antiForgeryToken = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
     async function makeRequest() {
         const req = await fetch(`/Authorize?handler=Code`, {
-            method: 'post'
+            method: 'post',
+            headers: {
+                'RequestVerificationToken': antiForgeryToken,
+            }
         });
 
         if (!req.ok) {
@@ -37,6 +44,7 @@
 
         const user_code = reqObj['user_code'];
         document.getElementById('code').innerHTML = user_code;
+        navigator.clipboard.writeText(user_code);
 
         var expires_in = reqObj['expires_in'];
         const expiration = document.getElementById('expiration');

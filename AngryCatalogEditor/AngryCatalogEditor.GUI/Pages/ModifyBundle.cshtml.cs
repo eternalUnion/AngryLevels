@@ -8,7 +8,6 @@ using System.Text;
 
 namespace AngryCatalogEditor.GUI.Pages
 {
-	[IgnoreAntiforgeryToken]
     public class ModifyBundleModel : PageModel
     {
 		private static MemoryStream? thumbnailStream = null;

@@ -71,6 +71,8 @@
 
 <div class="text-center" style="display:flex; flex-direction:column; gap:5px;">
 
+    @Html.AntiForgeryToken()
+
     <!-- LEVEL INFO -->
     <div class="card">
         <h1 style="width: 100%; text-align: left; font-weight: bold;">Level Information</h1>
@@ -167,6 +169,7 @@
 
 <script>
     var randomId = Math.floor(Math.random() * 1000000);
+    const antiForgeryToken = document.querySelector('input[name="__RequestVerificationToken"]').value;
 
     var external_urls = [];
     var thumbnailChosen = false;
@@ -182,6 +185,7 @@
             method: 'POST',
             headers: {
                 'Content-Type': 'image/png',
+                'RequestVerificationToken': antiForgeryToken,
             }
         });
 
@@ -317,7 +321,10 @@
 
         try {
             const response = await fetch('/AddBundle?handler=OpenAngryFile', {
-                method: 'POST'
+                method: 'post',
+                headers: {
+                    'RequestVerificationToken': antiForgeryToken,
+                }
             });
 
             if (response.status != 200) {
@@ -404,7 +411,8 @@
             const resp = await fetch(`/AddBundle?handler=AddBundle`, {
                 method: 'post',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': antiForgeryToken,
                 },
                 body: JSON.stringify({
                     Name: levelName.value,

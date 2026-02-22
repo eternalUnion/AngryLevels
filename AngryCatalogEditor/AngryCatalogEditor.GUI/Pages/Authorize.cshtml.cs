@@ -14,7 +14,6 @@ using static System.Net.WebRequestMethods;
 
 namespace AngryCatalogEditor.GUI.Pages
 {
-	[IgnoreAntiforgeryToken]
 	public class AuthorizeModel : PageModel
     {
 		// Internal classes
@@ -191,6 +190,7 @@ namespace AngryCatalogEditor.GUI.Pages
 
 				return Content(JsonConvert.SerializeObject(new GetTokenResp()
 				{
+					tokenReceived = false,
 					error = tokenResponseObj.error
 				}), "application/json");
 			}

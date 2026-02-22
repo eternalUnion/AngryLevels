@@ -7,7 +7,6 @@ using Newtonsoft.Json;
 
 namespace AngryCatalogEditor.GUI.Pages
 {
-	[IgnoreAntiforgeryToken]
 	public class AddBundleModel : PageModel
     {
 		private static MemoryStream? thumbnailStream = null;

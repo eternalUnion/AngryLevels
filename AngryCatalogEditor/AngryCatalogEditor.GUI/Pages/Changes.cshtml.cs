@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AngryCatalogEditor.GUI.Pages
 {
-    [IgnoreAntiforgeryToken]
     public class ChangesModel : PageModel
     {
         public IActionResult OnGet()

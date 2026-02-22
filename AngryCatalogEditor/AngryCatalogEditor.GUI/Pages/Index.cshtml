@@ -40,6 +40,7 @@
 </style>
 
 <div class="text-center">
+    @Html.AntiForgeryToken()
 
     <h1 class="display-4">Welcome</h1>
 
@@ -69,9 +70,14 @@
 </div>
 
 <script>
+    const antiForgeryToken = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
     async function updateScript() {
         const res = await fetch('/?handler=UpdateScript', {
-            method: 'post'
+            method: 'post',
+            headers: {
+                'RequestVerificationToken': antiForgeryToken,
+            }
         });
 
         if (!res.ok) {

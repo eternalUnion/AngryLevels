@@ -4,6 +4,8 @@
 }
 
 <div class="text-center" style="align-content: center; display: flex; justify-content: center; flex-direction: column; gap: 10px;">
+    @Html.AntiForgeryToken()
+    
     <h1 style="color: red; font-weight: bold;">Error!</h1>
     The repository has changes, but it is out-of-date compared to the online catalog.
     The repository must be reset by force to the latest version.
@@ -13,11 +15,16 @@
 </div>
 
 <script>
+    const antiForgeryToken = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
     async function forceSync() {
         document.getElementById("dange_butt").disabled = true;
         
         const req = await fetch('/Outdated', {
-            method: 'post'
+            method: 'post',
+            headers: {
+                'RequestVerificationToken': antiForgeryToken,
+            }
         })
 
         if (req.ok) {

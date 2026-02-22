@@ -7,7 +7,6 @@ using System.Text.Encodings.Web;
 
 namespace AngryCatalogEditor.GUI.Pages
 {
-	[IgnoreAntiforgeryToken]
 	public class IndexModel : PageModel
 	{
 		private readonly ILogger<IndexModel> _logger;

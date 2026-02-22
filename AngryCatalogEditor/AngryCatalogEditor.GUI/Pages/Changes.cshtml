@@ -7,6 +7,8 @@
 }
 
 <div class="text-center" style="align-content: center; display: flex; justify-content: center; flex-direction: column; gap: 10px;">
+    @Html.AntiForgeryToken()
+
     <h1 style="font-weight: bold;"> Pending Changes</h1>
 
     <div id="change_container" style="gap: 10px; display: flex; flex-direction: column;">
@@ -23,6 +25,8 @@
 </template>
 
 <script>
+    const antiForgeryToken = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
     const changes = @Html.Raw(changesJson);
     const container = document.getElementById('change_container');
     const submitButton = document.getElementById('push_changes');
@@ -57,7 +61,12 @@
             location.replace('/Authorize?redirect=' + encodeURIComponent('/Changes'));
         }
         else {
-            const req = await fetch('/Changes?handler=Push', { method: 'post' });
+            const req = await fetch('/Changes?handler=Push', {
+                method: 'post',
+                headers: {
+                    'RequestVerificationToken': antiForgeryToken,
+                }
+            });
 
             if (!req.ok) {
                 alert('Failed to push!');
@@ -75,7 +84,12 @@
             if (!confirm('Revoke the last commit?'))
                 return;
 
-            const req = await fetch('/Changes?handler=Revoke', { method: 'post' });
+            const req = await fetch('/Changes?handler=Revoke', {
+                method: 'post',
+                headers: {
+                    'RequestVerificationToken': antiForgeryToken,
+                }
+            });
 
             if (!req.ok) {
                 alert('Failed to revoke last commit!');
