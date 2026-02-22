@@ -3,12 +3,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace AngryCatalogEditor.GUI.Pages
 {
     [IgnoreAntiforgeryToken]
     public class AngryCombinerModel : PageModel
     {
+        private static Regex urlRegex = new Regex(@"(https?:\/\/)?raw\.githubusercontent\.com\/.*\.angry\d*");
+
         public void OnGet()
         {
         }
@@ -19,9 +22,20 @@ namespace AngryCatalogEditor.GUI.Pages
             if (urlsString == null)
                 return BadRequest("No urls string");
 
-            string[]? urls = JsonConvert.DeserializeObject<string[]>(urlsString);
-            if (urls == null || urls.Length == 0)
+            string[]? urls;
+			try
+            {
+                urls = JsonConvert.DeserializeObject<string[]>(urlsString);
+                if (urls == null || urls.Length == 0)
+                    return BadRequest("Missing or empty urls query");
+            }
+            catch (Exception)
+            {
                 return BadRequest("Invalid urls query");
+            }
+
+            if (urls.Where(u => u == null || !urlRegex.IsMatch(u)).Any())
+                    return BadRequest("At least one url does not point to an angry file");
 
             string fileName = urls[0];
             int lastPart = fileName.LastIndexOf('/');
@@ -34,9 +48,10 @@ namespace AngryCatalogEditor.GUI.Pages
 
             await Response.StartAsync();
 
-            Console.WriteLine("Starting...");
+            Console.WriteLine("Starting download...");
+            Request.HttpContext.RequestAborted.ThrowIfCancellationRequested();
 
-            try
+			try
             {
                 foreach (string url in urls)
                 {
@@ -45,18 +60,18 @@ namespace AngryCatalogEditor.GUI.Pages
 					    using (var stream = await httpClient.GetStreamAsync(url))
                         {
                             Console.WriteLine($"Downloading from '{url}'");
-                            await stream.CopyToAsync(Response.Body);
-                            await Response.Body.FlushAsync();
+                            await stream.CopyToAsync(Response.Body, Request.HttpContext.RequestAborted);
+                            await Response.Body.FlushAsync(Request.HttpContext.RequestAborted);
                             Console.WriteLine("Complete");
                         }
 				    }
                 }
             }
-            catch (Exception _)
+            catch (OperationCanceledException)
             {
-                Response.HttpContext.Abort();
-                return new EmptyResult();
-            }
+                Console.WriteLine("Download cancelled by the client");
+				return new EmptyResult();
+			}
 
             await Response.CompleteAsync();
 			return new EmptyResult();
