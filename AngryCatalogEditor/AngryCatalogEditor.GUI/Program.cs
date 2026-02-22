@@ -5,13 +5,59 @@ using System.Diagnostics;
 
 if (ProjectPaths.rootPath == null)
 {
+	string repoPath = Path.Combine(Directory.GetCurrentDirectory(), "AngryLevels");
+
 	Console.ForegroundColor = ConsoleColor.Red;
-	Console.WriteLine($"Project path not found. Make sure that the application is either run inside the AngryLevels repository or the repository is located at {Path.Combine(Directory.GetCurrentDirectory(), "AngryLevels")}");
+	Console.Write($"Repository folder is not located! Attempt to clone the repository into ");
+	Console.ForegroundColor = ConsoleColor.White;
+	Console.Write($"'{repoPath}'");
+	Console.ForegroundColor = ConsoleColor.Red;
+	Console.WriteLine("? The folder contents will be deleted if it does exist!");
 	Console.ForegroundColor = ConsoleColor.White;
 
-	Console.WriteLine("Press any key to close the application");
-	Console.ReadKey();
-	return -1;
+	Console.WriteLine();
+	Console.Write("Clone repository? (Y/N): ");
+	string? input = Console.ReadLine();
+
+	if (input == null || input != "Y")
+	{
+		Console.WriteLine("Cancelled.");
+
+		Console.WriteLine("Press any key to close the application");
+		Console.ReadKey();
+		return -1;
+	}
+
+	if (Directory.Exists(repoPath))
+	{
+		Console.WriteLine("Deleting existing folder...");
+		Directory.Delete(repoPath, true);
+	}
+	Directory.CreateDirectory(repoPath);
+
+	Task<bool> cloneTask = GitHandler.Clone(repoPath, (progress, bytes) =>
+	{
+		Console.WriteLine($"Progress: {progress:0.00}% (downloaded {IOUtils.SizeToText(bytes)})");
+	});
+
+	cloneTask.Wait();
+	if (!cloneTask.IsCompletedSuccessfully || !cloneTask.Result)
+	{
+		Console.WriteLine("Clone task failed.");
+
+		Console.WriteLine("Press any key to close the application");
+		Console.ReadKey();
+		return -1;
+	}
+
+	if (ProjectPaths.rootPath == null)
+	{
+		Console.WriteLine("Could not find project path.");
+
+		Console.WriteLine("Press any key to close the application");
+		Console.ReadKey();
+		return -1;
+	}
 }
 
 if (!GitHandler.Checkout())

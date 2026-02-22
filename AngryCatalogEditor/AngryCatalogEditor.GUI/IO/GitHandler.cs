@@ -33,6 +33,62 @@ namespace AngryCatalogEditor.GUI.IO
 			}
 		}
 
+		public static async Task<bool> Clone(string destination, Action<double, int> onProgress)
+		{
+			CloneOptions options = new CloneOptions()
+			{
+				RecurseSubmodules = false,
+				BranchName = MainBranchName,
+				Checkout = true,
+				IsBare = false,
+			};
+
+			double progress = 0;
+			int bytes = 0;
+
+			if (onProgress != null)
+			{
+				options.FetchOptions.OnTransferProgress = (prog) =>
+				{
+					bytes = (int) prog.ReceivedBytes;
+
+					if (prog.TotalObjects == 0)
+						progress = 0;
+					progress = (double)prog.ReceivedObjects / (double)prog.TotalObjects * 100.0;
+					return true;
+				};
+			}
+
+			Task handler = Task.Run(() => Repository.Clone(@"https://github.com/eternalUnion/AngryLevels.git", destination, options));
+			
+			if (onProgress == null)
+			{
+				await handler;
+			}
+			else
+			{
+				while (!handler.IsCompleted)
+				{
+					await Task.WhenAny(Task.Delay(1000), handler);
+					onProgress.Invoke(progress, bytes);
+				}
+			}
+
+			if (!handler.IsCompletedSuccessfully)
+			{
+				Console.WriteLine("Failed to clone repository");
+				if (handler.Exception != null)
+				{
+					Console.WriteLine($"{handler.Exception.GetType().Name}: {handler.Exception.Message}");
+					Console.WriteLine(handler.Exception.StackTrace);
+				}
+
+				return false;
+			}
+
+			return true;
+		}
+
 		public static void Fetch()
 		{
 			if (Repository == null)
