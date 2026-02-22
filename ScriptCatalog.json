@@ -275,11 +275,12 @@
     },
     {
       "Updates": [
-        "05a7a8bbcf05576cf5b2356b91421a4b"
+        "05a7a8bbcf05576cf5b2356b91421a4b",
+        "93cc6a0ac5b2a897bdb8148a7a46a3b8"
       ],
       "FileName": "AthenaResearchFacilityUtils.dll",
-      "Hash": "05a7a8bbcf05576cf5b2356b91421a4b",
-      "Size": 11776
+      "Hash": "93cc6a0ac5b2a897bdb8148a7a46a3b8",
+      "Size": 13312
     },
     {
       "Updates": [
