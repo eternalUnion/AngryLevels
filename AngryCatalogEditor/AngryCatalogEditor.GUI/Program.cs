@@ -25,10 +25,24 @@ if (!GitHandler.Checkout())
 	return -1;
 }
 
-GitHandler.Fetch();
+try
+{
+	GitHandler.Fetch();
 
-if (GitHandler.Synced())
-	GitHandler.Pull();
+	if (GitHandler.Synced())
+		GitHandler.Pull();
+}
+catch (Exception e)
+{
+	Console.ForegroundColor = ConsoleColor.Red;
+	Console.WriteLine($"{e.GetType().Name}: {e.Message}");
+	Console.WriteLine(e.StackTrace);
+	Console.ForegroundColor = ConsoleColor.White;
+
+	Console.WriteLine("Press any key to close the application");
+	Console.ReadKey();
+	return -1;
+}
 
 AngryLevelsVersion versionObj = JsonConvert.DeserializeObject<AngryLevelsVersion>(File.ReadAllText(Path.Combine(ProjectPaths.rootPath, "AngryLevelsVersion.json")));
 if (versionObj.VersionObj < AppConfig.AngryLevelsVersion)
