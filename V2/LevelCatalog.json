@@ -1740,8 +1740,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/Struct/af2d336535accd1971a6964163795fb4d2edde18/Patch1/parted/STRUCT.angry1",
-        "https://raw.githubusercontent.com/Draghtnim/Struct/af2d336535accd1971a6964163795fb4d2edde18/Patch1/parted/STRUCT.angry2"
+        "https://raw.githubusercontent.com/Draghtnim/Struct/a7b1b8b063e66da34f59f6192ce9ec359162106d/Ported/Parted/STRUCT.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/Struct/a7b1b8b063e66da34f59f6192ce9ec359162106d/Ported/Parted/STRUCT.angry2"
       ],
       "Updates": [
         {
@@ -1753,6 +1753,11 @@
           "Date": 1765635814,
           "Hash": "fd1f1df5c686a2a46ad8c9c917bf61e3",
           "Message": "- Made it so you can skip endings when after getting it once\n- Adjusted some triggers\n- Made it so you can walk home on foot\n- You can now skip the elevator by slamming into it 3 times\n- Mörkö"
+        },
+        {
+          "Date": 1772388957,
+          "Hash": "3162d15abc3d08348b6a60b8e791a68d",
+          "Message": "-ported to fraud\n-remodeled some places with the new fraud assets\n-added information about the camera indicator\n-renamed style bonus to match the name of the ending\n-fixed elevator oob"
         }
       ],
       "Levels": [
@@ -1769,13 +1774,13 @@
       ],
       "Name": "STRUCT",
       "Author": "Draghtnim, Woosp, AstralOcean",
-      "Size": 37052224,
+      "Size": 38527858,
       "Guid": "bc5d2a95dcfd93349878e54862d1b220",
-      "Hash": "fd1f1df5c686a2a46ad8c9c917bf61e3",
+      "Hash": "3162d15abc3d08348b6a60b8e791a68d",
       "ThumbnailHash": "facefa2dea3e37921d315c643f94eb73",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1765635814
+      "LastUpdate": 1772388957
     },
     {
       "Parts": [
