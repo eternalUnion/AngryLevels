@@ -40,6 +40,7 @@
       "Hash": "a3dfeccfc57bd88ec99aa45e5cc08e42",
       "ThumbnailHash": "c5fb6f67715d3ff978df8998f2b4a9a9",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1770894959
     },
     {
@@ -92,6 +93,7 @@
       "Hash": "c67f4053200a44e47b1a2835d730e9ff",
       "ThumbnailHash": "1130cf47b921e83b0edd56b5f3d120f1",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1754394968
     },
     {
@@ -134,6 +136,7 @@
       "Hash": "f1444a9af4e95c94089509df63684d50",
       "ThumbnailHash": "efc73a725eff8c92b3df563cd6606529",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1746182869
     },
     {
@@ -185,6 +188,7 @@
       "Hash": "03bbd62b347b1f24a8d2bc69fe2e3153",
       "ThumbnailHash": "49f118bf48c66c40ed3d9f40b2c4cc52",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1749387038
     },
     {
@@ -242,6 +246,7 @@
       "Hash": "0d1a863c5b6790f49a4e44de1d726934",
       "ThumbnailHash": "49dec247c77d3055a58bf2e591ecc2b8",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1745961939
     },
     {
@@ -285,6 +290,7 @@
       "Hash": "ab61095c56a4faa48b7977821598e02b",
       "ThumbnailHash": "e69b26b97a11136a2f1ef14f7748aad4",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1745962512
     },
     {
@@ -322,6 +328,7 @@
       "Hash": "676fe0c713dff1c4cbfcc2065d5f7810",
       "ThumbnailHash": "0bfe3942ac262f5cec79d32463b51cc4",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1745698300
     },
     {
@@ -359,6 +366,7 @@
       "Hash": "688fb49b09b8e877e9976dccacba1238",
       "ThumbnailHash": "5928f79d66f4be38771a097ec76256d0",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1746182613
     },
     {
@@ -391,6 +399,7 @@
       "Hash": "87d4445dff16ea54c9b094a6bf76e895",
       "ThumbnailHash": "96a30fa8bdefb3930fdcd61826b72abb",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1745841929
     },
     {
@@ -428,6 +437,7 @@
       "Hash": "ad1e603422258924f8dc7f25c1f15321",
       "ThumbnailHash": "fdc965a8d3fec25ebf3e93285977ceae",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1745866665
     },
     {
@@ -465,6 +475,7 @@
       "Hash": "b0ccf274ca0a5c149ad2ccbc14029934",
       "ThumbnailHash": "b402a595b3f883aa5b205564f05bf568",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1746460982
     },
     {
@@ -513,6 +524,7 @@
       "Hash": "157c69ae1d019d50b2a2ef7ea6183fbf",
       "ThumbnailHash": "9fb556ee9d68511899c6300c781c8c9e",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1748708687
     },
     {
@@ -545,6 +557,7 @@
       "Hash": "e79af3de199fb6b4aa58f2fbcbb83176",
       "ThumbnailHash": "84f39ee9dcd5bb67dce5d9a011191a29",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1746461205
     },
     {
@@ -595,6 +608,7 @@
       "Hash": "bc6293ee68f7f904b802c1248d1d152c",
       "ThumbnailHash": "da9094a263fc6d6140f5b182db612bf7",
       "Locked": true,
+      "EpilepsyWarning": false,
       "LastUpdate": 1746634515
     },
     {
@@ -637,6 +651,7 @@
       "Hash": "299afa373e107914da2d9eac2760c87f",
       "ThumbnailHash": "b3cef07a0fba18bc5dfe6cb14e57aecf",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1746634732
     },
     {
@@ -688,6 +703,7 @@
       "Hash": "6eaa372f94764a943ad611018b8e99a8",
       "ThumbnailHash": "155b2c8bc80df34f6f84a679f3c21a18",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1752141079
     },
     {
@@ -726,6 +742,7 @@
       "Hash": "c70d964fcc91a1e41b83f4e74b81d325",
       "ThumbnailHash": "a1ecf232cb6d313ff381eec370b6cdb2",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1747508922
     },
     {
@@ -784,6 +801,7 @@
       "Hash": "6df32c1c2c11e6941950813538a3f05c",
       "ThumbnailHash": "1d8c82f58fb5a5115fc133df342db46b",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1750967194
     },
     {
@@ -821,6 +839,7 @@
       "Hash": "63325a3e861e2374ca83587c0d70505d",
       "ThumbnailHash": "a0979d70a3b7893fceced8b736d30359",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1750353558
     },
     {
@@ -859,6 +878,7 @@
       "Hash": "eee5d7c9157557a4f9882b23cebbe01f",
       "ThumbnailHash": "b5b6cedab756ccba8614e69c2bd1817a",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1748465215
     },
     {
@@ -891,6 +911,7 @@
       "Hash": "f8ca919f5c0b662552ee1c6274a05b56",
       "ThumbnailHash": "a6bbf79bf575a525ecaa54d7467bd5da",
       "Locked": true,
+      "EpilepsyWarning": false,
       "LastUpdate": 1748464919
     },
     {
@@ -929,6 +950,7 @@
       "Hash": "4652d0efb79749f40abbe341b7ca28af",
       "ThumbnailHash": "141c9cf0bdec67f8f97c538980ef9e37",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1749898203
     },
     {
@@ -971,6 +993,7 @@
       "Hash": "79085b5c69d357c4faf6f6c86c28c6a0",
       "ThumbnailHash": "4b883105ee85180e6dea16684a64c989",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1749387199
     },
     {
@@ -1003,6 +1026,7 @@
       "Hash": "7e871377e295c4c4ab14096e36ebbfdc",
       "ThumbnailHash": "4d8c17d72727c4e6c936305015229725",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1749898874
     },
     {
@@ -1035,6 +1059,7 @@
       "Hash": "386848cbd7aae3a43ab634ae9d84e8e2",
       "ThumbnailHash": "f62ddc5d73237c2aea6b3a2144c69e2b",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1750356902
     },
     {
@@ -1136,6 +1161,7 @@
       "Hash": "dc0e9e71dd2e7d84f9de6e0ce8fceb1e",
       "ThumbnailHash": "cf152fbd6dde00232204b5d6f373fdb3",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1770895179
     },
     {
@@ -1175,6 +1201,7 @@
       "Hash": "6acfe92f10bd12e47be2e2f5712a8579",
       "ThumbnailHash": "36ef38a64f42ac63157a11d294f17de1",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1753871430
     },
     {
@@ -1209,6 +1236,7 @@
       "Hash": "8f45d3cfff88c684b857178eeb684655",
       "ThumbnailHash": "e417e8915639161a2c19745acbf2f7d7",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1753870395
     },
     {
@@ -1271,6 +1299,7 @@
       "Hash": "425af535ed5be084bbc664aeae0cc6c0",
       "ThumbnailHash": "9d9b4230d1e36d1f32bea8de1546fc4f",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1770895410
     },
     {
@@ -1309,6 +1338,7 @@
       "Hash": "4db60c443bc4f1f74fdea389759e1f35",
       "ThumbnailHash": "0bb26d5cd5eb70b134b32842cd5586f9",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1754395185
     },
     {
@@ -1341,6 +1371,7 @@
       "Hash": "0315757d534517fee3a06845c86645d2",
       "ThumbnailHash": "a9d54dc25856f1aa857da724e705b5d9",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1754393951
     },
     {
@@ -1440,6 +1471,7 @@
       "Hash": "6de59c434fc0324dd4cb9670eb347172",
       "ThumbnailHash": "f037a74113befad6a7974179e730751c",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1771726166
     },
     {
@@ -1520,6 +1552,7 @@
       "Hash": "127a19fc07e63514faabadec00d97efa",
       "ThumbnailHash": "1982f02cc375a2172d9da810344de46a",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1760903273
     },
     {
@@ -1552,6 +1585,7 @@
       "Hash": "d4ca8fe2ca68da64193c6529e276e4dd",
       "ThumbnailHash": "b7476fa59c82316cb555bb03d076670b",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1756295865
     },
     {
@@ -1591,6 +1625,7 @@
       "Hash": "1b6272eca6abf6963a4b17abcfe3a464",
       "ThumbnailHash": "a7c919fe0b5d6ad1717316e752e00cb1",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1757368572
     },
     {
@@ -1633,6 +1668,7 @@
       "Hash": "3234b6becb9f9e5409db6aa8496a90e6",
       "ThumbnailHash": "d9fdc3dc7351cdd51d2e13b24bc41300",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1765635655
     },
     {
@@ -1665,6 +1701,7 @@
       "Hash": "9a00869fc9485464fafc173a59277974",
       "ThumbnailHash": "58ab44dbb2f87da84d7548bcd08ab7b6",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1760902732
     },
     {
@@ -1698,6 +1735,7 @@
       "Hash": "1cc18f15294ac0d4e9347775f8ed3d7c",
       "ThumbnailHash": "120209be99b3f9388620848f79649f05",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1760903422
     },
     {
@@ -1736,6 +1774,7 @@
       "Hash": "fd1f1df5c686a2a46ad8c9c917bf61e3",
       "ThumbnailHash": "facefa2dea3e37921d315c643f94eb73",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1765635814
     },
     {
@@ -1786,6 +1825,7 @@
       "Hash": "0c3f5a912b71b0b4792282d036354230",
       "ThumbnailHash": "bfadec202ee9fb49515d35fffb7cbe2d",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1765635930
     },
     {
@@ -1819,6 +1859,7 @@
       "Hash": "a3c669f142067f6739175aac7ac38e05",
       "ThumbnailHash": "a5a307a0db535f31723d58750faf65d1",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1765635073
     },
     {
@@ -1871,6 +1912,7 @@
       "Hash": "2c6ccc1a9c904ec421b63c2390fb2b9d",
       "ThumbnailHash": "c6c5b6f2166da671f6b228261920cc93",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1765635498
     },
     {
@@ -1904,6 +1946,7 @@
       "Hash": "4c77c4de6542bfd4eb78968036be8d2a",
       "ThumbnailHash": "86d081743ca0094f10c2c3c737c0a65e",
       "Locked": false,
+      "EpilepsyWarning": false,
       "LastUpdate": 1770895649
     }
   ]

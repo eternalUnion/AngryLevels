@@ -39,7 +39,7 @@
         justify-content: left;
         display: grid;
         grid-template-columns: auto 1fr;
-        grid-template-rows: repeat(3, min-content);
+        grid-template-rows: repeat(4, min-content);
         width: 100%;
         height: auto;
         gap: 5px;
@@ -106,6 +106,12 @@
                     </div>
                     <div class="form_grid_item" style="height: 100%;">
                         <input id="locked" type="checkbox" @Html.Raw(bundle.Locked ? "Checked" : "") />
+                    </div>
+                    <div class="form_grid_item">
+                        Epilepsy warning:
+                    </div>
+                    <div class="form_grid_item" style="height: 100%;">
+                        <input type="checkbox" id="epilepsy_warning" style="justify-self: center;" @Html.Raw(bundle.EpilepsyWarning ? "Checked" : "") />
                     </div>
                 </div>
 
@@ -205,11 +211,13 @@
     const levelNameField = document.getElementById('level_name');
     const authorField = document.getElementById('author');
     const lockedField = document.getElementById('locked');
+    const epilepsyWarningField = document.getElementById('epilepsy_warning');
     var changelogTextFields = []
 
     var levelNameModified = false;
     var authorModified = false;
     var lockedModified = false;
+    var epilepsyWarningModified = false;
     var thumbnailModified = false;
     var angryFileModified = false;
     var externalUrlsModified = false;
@@ -219,6 +227,7 @@
     const originalBundleName = @Html.Raw(JsonConvert.SerializeObject(bundle.Name));
     const originalAuthor = @Html.Raw(JsonConvert.SerializeObject(bundle.Author));
     const originalLocked = @Html.Raw(JsonConvert.SerializeObject(bundle.Locked));
+    const originalEpilepsyWarning = @Html.Raw(JsonConvert.SerializeObject(bundle.EpilepsyWarning));
     const originalChangelog = @Html.Raw(JsonConvert.SerializeObject(bundle.Updates.Select(u => u.Message).ToArray()));
     const originalChangelogDates = @Html.Raw(JsonConvert.SerializeObject(bundle.Updates.Select(u => u.Date).ToArray()));
 
@@ -548,6 +557,9 @@
         if (lockedModified)
             result += `<li>Locked: <span style="color: red; text-decoration: line-through;">@Html.Raw(bundle.Locked ? "Yes" : "No")</span> <span style="color: green;">${lockedField.checked ? "Yes" : "No"}</span></li>`;
 
+        if (epilepsyWarningModified)
+            result += `<li>Epilepsy warning: <span style="color: red; text-decoration: line-through;">@Html.Raw(bundle.EpilepsyWarning ? "Yes" : "No")</span> <span style="color: green;">${epilepsyWarningField.checked ? "Yes" : "No"}</span></li>`;
+
         if (thumbnailModified)
            result += `<li>Updated online thumbnail</li>`
 
@@ -572,7 +584,7 @@
 
     async function modifyAngryFile() {
 
-        const madeChanges = thumbnailModified || levelNameModified || authorModified || lockedModified || externalUrlsModified || angryFileModified || changelogModified.reduce((e, a) => e || a);
+        const madeChanges = thumbnailModified || levelNameModified || authorModified || lockedModified || epilepsyWarningModified || externalUrlsModified || angryFileModified || changelogModified.reduce((e, a) => e || a);
 
         if (!madeChanges) {
             alert('There are no changes to apply');
@@ -606,6 +618,7 @@
                 newBundleName: levelNameModified ? levelNameField.value : null,
                 newBundleAuthor: authorModified ? authorField.value : null,
                 newLocked: lockedModified ? lockedField.checked : null,
+                newEpilepsyWarning: epilepsyWarningModified ? epilepsyWarningField.checked : null,
 
                 updateExternalURLs: externalUrlsModified,
                 newExternalURLs: externalUrlsModified ? newExternalUrls : null,
@@ -651,6 +664,11 @@
 
     lockedField.onclick = () => {
         lockedModified = lockedField.checked != originalLocked;
+        updateChanges();
+    };
+
+    epilepsyWarningField.onclick = () => {
+        epilepsyWarningModified = epilepsyWarningField.checked != originalEpilepsyWarning;
         updateChanges();
     };
 </script>

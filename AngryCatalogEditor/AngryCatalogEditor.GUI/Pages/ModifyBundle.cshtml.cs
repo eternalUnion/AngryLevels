@@ -153,6 +153,7 @@ namespace AngryCatalogEditor.GUI.Pages
 			public string? newBundleName { get; set; }
 			public string? newBundleAuthor { get; set; }
 			public bool? newLocked { get; set; }
+			public bool? newEpilepsyWarning { get; set; }
 
 			public bool updateExternalURLs { get; set; }
 			public string[]? newExternalURLs { get; set; }
@@ -228,6 +229,12 @@ namespace AngryCatalogEditor.GUI.Pages
 			{
 				bundle.Locked = (bool) info.newLocked;
 				commitMessage.Add((bool) info.newLocked ? "- Locked the bundle" : "- Unlocked the bundle");
+			}
+
+			if (info.newEpilepsyWarning != null)
+			{
+				bundle.EpilepsyWarning = (bool) info.newEpilepsyWarning;
+				commitMessage.Add((bool)info.newEpilepsyWarning ? "- Turned on epilepsy warning" : "- Turned off epilepsy warning");
 			}
 
 			if (info.updateExternalURLs && info.newExternalURLs != null)

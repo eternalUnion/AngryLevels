@@ -49,7 +49,7 @@
         justify-content: left;
         display: grid;
         grid-template-columns: auto 1fr;
-        grid-template-rows: repeat(3, min-content);
+        grid-template-rows: repeat(4, min-content);
         width: 100%;
         height: auto;
         gap: 5px;
@@ -100,6 +100,12 @@
                     </div>
                     <div class="form_grid_item">
                         <input class="form_input" name="author" id="author" />
+                    </div>
+                    <div class="form_grid_item">
+                        Epilepsy warning:
+                    </div>
+                    <div class="form_grid_item" style="height: 100%;">
+                        <input type="checkbox" id="epilepsy_warning" style="justify-self: center;" />
                     </div>
                     <div class="form_grid_item">
                         Changelog:
@@ -396,6 +402,7 @@
         try {
             const levelName = document.getElementById('level_name');
             const author = document.getElementById('author');
+            const epilepsyWarning = document.getElementById('epilepsy_warning');
             const changelog = document.getElementById('changelog');
 
             if (levelName.value.trim() == '') {
@@ -417,6 +424,7 @@
                 body: JSON.stringify({
                     Name: levelName.value,
                     Author: author.value,
+                    EpilepsyWarning: epilepsyWarning.checked,
                     UpdateMessage: changelog.value,
                     ExternalURLs: external_urls
                 })

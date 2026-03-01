@@ -46,7 +46,8 @@ namespace AngryCatalogEditor
 		public string ThumbnailHash { get; set; }
 
         public bool Locked { get; set; }
-        public List<string> Parts;
+		public bool EpilepsyWarning { get; set; }
+		public List<string> Parts;
         public long LastUpdate { get; set; }
 		public List<UpdateInfo> Updates;
 

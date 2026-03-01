@@ -121,6 +121,7 @@ namespace AngryCatalogEditor.GUI.Pages
 		{
 			public string? Name { get; set; }
 			public string? Author { get; set; }
+			public bool? EpilepsyWarning { get; set; }
 			public string? UpdateMessage { get; set; }
 			public string[]? ExternalURLs { get; set; }
 		}
@@ -135,6 +136,9 @@ namespace AngryCatalogEditor.GUI.Pages
 
 			if (info.Author == null)
 				return BadRequest("No author provided");
+
+			if (info.EpilepsyWarning == null)
+				return BadRequest("No epilepsy warning toggle provided");
 
 			if (info.ExternalURLs == null || info.ExternalURLs.Length == 0)
 				return BadRequest("No external URL provided");
@@ -163,6 +167,7 @@ namespace AngryCatalogEditor.GUI.Pages
 				Hash = angryFile.angryBundleData.buildHash,
 				ThumbnailHash = CryptologyUtils.GetMD5Hash(thumbnailStream),
 				Locked = false,
+				EpilepsyWarning = (bool)info.EpilepsyWarning,
 				Parts = new List<string>(info.ExternalURLs),
 				LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds(),
 				Updates = new List<BundleInfo.UpdateInfo>() { new BundleInfo.UpdateInfo() {
