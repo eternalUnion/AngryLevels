@@ -1,5 +1,4 @@
-﻿using AssetRipper.Addressables;
-using System.Text.Json.Nodes;
+﻿using System.Text.Json.Nodes;
 
 namespace AngryCatalogEditor.GUI
 {

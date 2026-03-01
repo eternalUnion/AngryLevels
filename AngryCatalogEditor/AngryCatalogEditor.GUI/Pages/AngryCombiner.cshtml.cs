@@ -1,4 +1,3 @@
-using AssetRipper.IO.Files;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Newtonsoft.Json;

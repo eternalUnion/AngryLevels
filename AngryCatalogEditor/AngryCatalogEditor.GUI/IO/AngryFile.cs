@@ -1,15 +1,4 @@
-﻿using AngryCatalogEditor.GUI.RudeLevelScripts.Essentials;
-using AssetRipper.Addressables;
-using AssetRipper.Assets.Bundles;
-using AssetRipper.Assets.Collections;
-using AssetRipper.Import.Structure;
-using AssetRipper.Processing;
-using AssetRipper.Processing.Editor;
-using AssetRipper.Processing.Textures;
-using AssetRipper.SourceGenerated.Classes.ClassID_114;
-using AssetRipper.SourceGenerated.Extensions;
-using Newtonsoft.Json;
-using SharpCompress.Compressors.Xz;
+﻿using Newtonsoft.Json;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.IO.Compression;
@@ -31,10 +20,11 @@ namespace AngryCatalogEditor.GUI.IO
 		}
 
 		public readonly AngryBundleData angryBundleData;
-		public readonly RudeBundleData rudeBundleData;
-		public readonly List<RudeLevelData> rudeLevelData = new();
 		public readonly string path;
 		public readonly long size;
+
+		public byte[] bundleIcon;
+		public Dictionary<string, byte[]> levelThumbnailMap = new();
 
 		public class AngryFileStructureException : Exception
 		{
@@ -43,15 +33,11 @@ namespace AngryCatalogEditor.GUI.IO
 			public AngryFileStructureException(string? cause, Exception? innerException) : base(cause, innerException) { }
 		}
 
-		private AngryFile(string path, AngryBundleData angryBundleData, RudeBundleData rudeBundleData, IReadOnlyCollection<RudeLevelData> rudeLevelData)
+		private AngryFile(string path, AngryBundleData angryBundleData, long size)
 		{
 			this.angryBundleData = angryBundleData;
-			this.rudeBundleData = rudeBundleData;
-			this.rudeLevelData.AddRange(rudeLevelData);
 			this.path = path;
-
-			using (FileStream fs = File.OpenRead(path))
-				size = fs.Length;
+			this.size = size;
 		}
 
 		private static readonly Regex assetBundleRegex = new Regex(@"\{AngryLevelLoader\.Plugin\.tempFolderPath\}\\+[a-f\d]{32}\\+(.+_assets_all\.bundle)");
@@ -59,6 +45,12 @@ namespace AngryCatalogEditor.GUI.IO
 		public static bool TryLoadFile(string filePath, [NotNullWhen(returnValue: true)] out AngryFile? angryFile, [NotNullWhen(returnValue: false)] out Exception? ex)
 		{
 			angryFile = null;
+
+			long size = 0;
+			using (FileStream fs = File.OpenRead(filePath))
+			{
+				size = fs.Length;
+			}
 
 			using (ZipArchive archive = new ZipArchive(System.IO.File.Open(filePath, FileMode.Open, FileAccess.Read), ZipArchiveMode.Read, false))
 			{
@@ -83,107 +75,54 @@ namespace AngryCatalogEditor.GUI.IO
 					}
 				}
 
-				if (bundleData.bundleVersion < 6)
-				{
-					ex = new AngryFileStructureException("Outdated angry file version");
-					return false;
-				}
-
-				if (bundleData.bundleVersion > 6)
+				if (bundleData.bundleVersion < 2 || bundleData.bundleVersion > 7)
 				{
 					ex = new AngryFileStructureException("Invalid angry file version");
 					return false;
 				}
 
-				ZipArchiveEntry catalogEntry = archive.GetEntry("catalog.json");
-				if (catalogEntry == null)
+				if (bundleData.bundleVersion < 7)
 				{
-					ex = new AngryFileStructureException("Angry file has no content catalog");
+					ex = new AngryFileStructureException("Outdated angry file version");
 					return false;
 				}
-
-				Catalog catalog;
-				using (Stream catalogStream = catalogEntry.Open())
-				{
-					using TempFile tempCatalogFile = new TempFile(catalogStream, "catalog.json");
-					catalog = Catalog.FromJsonFile(tempCatalogFile.tempFilePath);
-
-					if (catalog == null)
-					{
-						ex = new AngryFileStructureException("Angry file has no content catalog");
-						return false;
-					}
-				}
-
-				string? bundleId = catalog.InternalIds
-					.Where(id => id.EndsWith(".bundle"))
-					.Where(id => assetBundleRegex.IsMatch(id))
-					.FirstOrDefault();
-
-				if (bundleId == null)
-				{
-					ex = new AngryFileStructureException("Could not locate the asset bundle file");
-					return false;
-				}
-
-				Match match = assetBundleRegex.Match(bundleId);
-				string assetBundleName = match.Groups[1].Value;
-
-				ZipArchiveEntry assetBundleEntry = archive.GetEntry(assetBundleName);
-				if (assetBundleEntry == null)
-				{
-					ex = new AngryFileStructureException("Could not locate the asset bundle file in the zip archive");
-					return false;
-				}
-
-				Stream assetBundleStream = assetBundleEntry.Open();
-				using TempFile assetBundleFile = new TempFile(assetBundleStream, assetBundleName);
-				assetBundleStream.Close();
-				using GameStructure gameStructure = GameStructure.Load([assetBundleFile.tempFilePath], new AssetRipper.Import.Configuration.CoreConfiguration());
-				GameData gameData = GameData.FromGameStructure(gameStructure);
-
-				// Force dispose files
-				GC.Collect();
-				GC.WaitForPendingFinalizers();
-
-				new MainAssetProcessor().Process(gameData);
-				new EditorFormatProcessor(AssetRipper.Processing.Configuration.BundledAssetsExportMode.DirectExport).Process(gameData);
-				new SpriteProcessor().Process(gameData);
-
-				Bundle assetBundle = gameData.GameBundle.Bundles.Where(b => b.Name == assetBundleName.ToLower()).First();
-				AssetCollection assetCollection = assetBundle.Collections[0];
-
-				IMonoBehaviour bundleDataObj = (IMonoBehaviour) assetCollection.Assets.Where(a => a.Value.OriginalName == bundleData.bundleDataPath).First().Value;
-					
-				List<IMonoBehaviour> levelDataObjects = new();
-				foreach (string levelPath in bundleData.levelDataPaths)
-				{
-					levelDataObjects.Add((IMonoBehaviour)assetCollection.Assets.Where(a => a.Value.OriginalName == levelPath).First().Value);
-				}
-
-				RudeBundleData rudeBundleData = new RudeBundleData(bundleDataObj, gameData);
-				if (rudeBundleData.levelIcon == null)
-				{
-					Console.WriteLine("null bundle icon");
-					rudeBundleData.levelIcon = noThumbnailImageSquare;
-				}
-
-				List<RudeLevelData> rudeLevelData = new();
-				foreach (IMonoBehaviour levelDataObj in levelDataObjects)
-				{
-					RudeLevelData levelData = new RudeLevelData(levelDataObj, gameData);
-					if (levelData.levelPreviewImage == null)
-					{
-						levelData.levelPreviewImage = noThumbnailImage;
-					}
-
-					rudeLevelData.Add(levelData);
-				}
-
-				archive.Dispose();
 
 				ex = null;
-				angryFile = new AngryFile(filePath, bundleData, rudeBundleData, rudeLevelData);
+				angryFile = new AngryFile(filePath, bundleData, size);
+
+				ZipArchiveEntry? bundleIconEntry = archive.GetEntry("icon.png");
+				if (bundleIconEntry != null)
+				{
+					using Stream iconStream = bundleIconEntry.Open();
+					using MemoryStream memoryStream = new MemoryStream();
+					iconStream.CopyTo(memoryStream);
+
+					angryFile.bundleIcon = memoryStream.ToArray();
+				}
+				else
+				{
+					angryFile.bundleIcon = noThumbnailImageSquare;
+				}
+
+				foreach (AngryLevelData levelData in bundleData.levels)
+				{
+					string levelHash = CryptologyUtils.GetMD5Hash(levelData.uniqueIdentifier);
+					ZipArchiveEntry? thumbnailEntry = archive.GetEntry($"LevelThumbnails/{levelHash}.png");
+
+					if (thumbnailEntry != null)
+					{
+						using Stream thumbnailStream = thumbnailEntry.Open();
+						using MemoryStream memoryStream = new MemoryStream();
+						thumbnailStream.CopyTo(memoryStream);
+
+						angryFile.levelThumbnailMap[levelData.uniqueIdentifier] = memoryStream.ToArray();
+					}
+					else
+					{
+						angryFile.levelThumbnailMap[levelData.uniqueIdentifier] = noThumbnailImage;
+					}
+				}
+
 				return true;
 			}
 		}
@@ -191,7 +130,7 @@ namespace AngryCatalogEditor.GUI.IO
 		public BundleInfo GetBundleInfo()
 		{
 			List<BundleInfo.LevelInfo> levelInfos = new List<BundleInfo.LevelInfo>();
-			foreach (RudeLevelData levelData in rudeLevelData)
+			foreach (AngryLevelData levelData in angryBundleData.levels)
 			{
 				BundleInfo.LevelInfo levelInfo = new BundleInfo.LevelInfo()
 				{
@@ -210,8 +149,8 @@ namespace AngryCatalogEditor.GUI.IO
 
 			BundleInfo bundleInfo = new BundleInfo()
 			{
-				Name = rudeBundleData.bundleName,
-				Author = rudeBundleData.author,
+				Name = angryBundleData.bundleName,
+				Author = angryBundleData.bundleAuthor,
 				Guid = angryBundleData.bundleGuid,
 				Hash = angryBundleData.buildHash,
 				Size = (int) size,

@@ -17,10 +17,7 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (angryFile == null)
 				return BadRequest("Angry file not loaded");
 
-			if (angryFile.rudeBundleData.levelIcon == null)
-				return new NoContentResult();
-
-			return File(angryFile.rudeBundleData.levelIcon, "image/png");
+			return File(angryFile.bundleIcon, "image/png");
 		}
 
 		public IActionResult OnGetLevelThumbnail()
@@ -32,14 +29,10 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (angryFile == null)
 				return BadRequest("Angry file not loaded");
 
-			var level = angryFile.rudeLevelData.Where(l => l.uniqueIdentifier == levelId).FirstOrDefault();
-			if (level == null)
+			if (!angryFile.levelThumbnailMap.TryGetValue(levelId, out byte[]? levelThumbnail))
 				return BadRequest("Level not found");
 
-			if (level.levelPreviewImage == null)
-				return new NoContentResult();
-
-			return File(level.levelPreviewImage, "image/png");
+			return File(levelThumbnail, "image/png");
 		}
 
 		public IActionResult OnPostOpenThumbnail()
@@ -178,7 +171,7 @@ namespace AngryCatalogEditor.GUI.Pages
 				Levels = new List<BundleInfo.LevelInfo>()
 			};
 
-			foreach (var level in angryFile.rudeLevelData)
+			foreach (var level in angryFile.angryBundleData.levels)
 			{
 				bundleInfo.Levels.Add(new BundleInfo.LevelInfo()
 				{
@@ -209,14 +202,14 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (!Directory.Exists(Path.Combine(bundlePath, "LevelThumbnails")))
 				Directory.CreateDirectory(Path.Combine(bundlePath, "LevelThumbnails"));
 
-			foreach (var level in angryFile.rudeLevelData)
+			foreach (var level in angryFile.angryBundleData.levels)
 			{
-				if (level.levelPreviewImage == null)
+				if (!angryFile.levelThumbnailMap.TryGetValue(level.uniqueIdentifier, out byte[]? levelThumbnail))
 					continue;
 
 				using (FileStream fs = System.IO.File.Open(Path.Combine(bundlePath, "LevelThumbnails", $"{CryptologyUtils.GetMD5Hash(level.uniqueIdentifier)}.png"), FileMode.OpenOrCreate, FileAccess.Write))
 				{
-					fs.Write(level.levelPreviewImage, 0, level.levelPreviewImage.Length);
+					fs.Write(levelThumbnail, 0, levelThumbnail.Length);
 				}
 			}
 
