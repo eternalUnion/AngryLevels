@@ -232,7 +232,7 @@
             const repoBranch = result[5];
             const firstFilePath = result[6];
             const folderPath = firstFilePath.substring(0, firstFilePath.lastIndexOf('/'));
-            const fileNameWithExt = firstFilePath.substring(firstFilePath.lastIndexOf('/') + 1);
+            const fileNameWithExt = decodeURIComponent(firstFilePath.substring(firstFilePath.lastIndexOf('/') + 1));
             const fileName = fileNameWithExt.substring(0, fileNameWithExt.lastIndexOf('.'));
 
             const repoInfoUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/branches/${repoBranch}`;
