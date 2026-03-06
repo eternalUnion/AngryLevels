@@ -1968,6 +1968,39 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1770895649
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FNChannel/MoonlightGuideUs/12bf82d142e16a9493be7c87f553c3aad0064c7e/Moonlight_Guide_Us.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1772833706,
+          "Hash": "871568238fcf7ee4cb33d5167fa5552a",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MOONLIGHT GUIDE US",
+          "LevelId": "astralocean.moonlightguideus",
+          "isSecretLevel": false,
+          "secretCount": 4,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "GIVE THE MOURNER A FACE"
+        }
+      ],
+      "Name": "MOONLIGHT GUIDE US",
+      "Author": "AstralOcean",
+      "Size": 23288269,
+      "Guid": "22ac1cebcb99a7a4197e9b42848b85a9",
+      "Hash": "871568238fcf7ee4cb33d5167fa5552a",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1772833706
     }
   ]
 }
