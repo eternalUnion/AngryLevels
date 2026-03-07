@@ -1971,13 +1971,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FNChannel/MoonlightGuideUs/12bf82d142e16a9493be7c87f553c3aad0064c7e/Moonlight_Guide_Us.angry"
+        "https://raw.githubusercontent.com/FNChannel/MoonlightGuideUs/be79da138e4c7fffe8ea92f33c27a8fec25ed0fe/1.0.1/Moonlight_Guide_Us.angry"
       ],
       "Updates": [
         {
           "Date": 1772833706,
           "Hash": "871568238fcf7ee4cb33d5167fa5552a",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1772906729,
+          "Hash": "d30edadad1ea2884796d8ccb00cb794c",
+          "Message": "- Final Arena now uses normal guttermen and guttertanks instead of their drop pod variants to fix a bug where upon checkpointing, the arena would break, sorry about that!\n- Room 18's vista has been updated to be slightly cooler\n- Added Occlusion Culling(how did i forget this)\n- Added a hint to secret 3\n- Updated Credits\n- Fixed first secret room not having complete collision in the ceiling \n- Minor fixes here and there"
         }
       ],
       "Levels": [
@@ -1994,13 +1999,13 @@
       ],
       "Name": "MOONLIGHT GUIDE US",
       "Author": "AstralOcean",
-      "Size": 23288269,
+      "Size": 23694677,
       "Guid": "22ac1cebcb99a7a4197e9b42848b85a9",
-      "Hash": "871568238fcf7ee4cb33d5167fa5552a",
+      "Hash": "d30edadad1ea2884796d8ccb00cb794c",
       "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1772833706
+      "LastUpdate": 1772906729
     }
   ]
 }
