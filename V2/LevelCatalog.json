@@ -1386,11 +1386,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry1",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry2",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry3",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry4",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/8271bf4b194415c2a5a011d20f4d92cc25f63030/Indulgence%20v2.5.01/INDULGENCE.angry5"
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry4",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry5"
       ],
       "Updates": [
         {
@@ -1427,6 +1427,11 @@
           "Date": 1771726166,
           "Hash": "6de59c434fc0324dd4cb9670eb347172",
           "Message": "Indulgence v2.5.01\n\n- Fixed a rare crash\n- Fixed a typo in a subtitle\n- Fixed floating skeleton skulls in a secret room\n- Fixed an issue where the new secret area could not load if the player took the blue skull through the door with them\n- Removed Herobrine"
+        },
+        {
+          "Date": 1772913561,
+          "Hash": "5214a0dad0a3cb44aabaf6f45b43ab51",
+          "Message": "Indulgence v2.5.02\n\n- Ported to Patch 17b2\n- Updated Brimstone Skull model\n- Updated Brimstone Altar model\n- Updated Ash Skull model\n\nI-1:\n- Temporarily replaced Carcass with a Power until it's reworked\n- Removed encounter end slow-mo from the Soldier water tank encounter\n- Added impact particles to train tunnel signs\n- Removed two schisms from the train encounter because of a bug I can't fix\n- Fixed an issue where the Streetcleaner before the red skull room couldn't navigate correctly\n- Fixed an issue where the third train Schisms could clip inside the cargo crates\n- Fixed Hermes counting as two kills\n\nI-2:\n- Added Fraud layer enemies in places they're applicable and fun\n- Added some small areas for worldbuilding\n- Added some props from Fraud layer to make things more consistent with base game"
         }
       ],
       "Levels": [
@@ -1435,9 +1440,7 @@
             "mag.indulgence.thedeathofparadigm",
             "mag.indulgence.level2"
           ],
-          "requiredDllNames": [
-            "AthenaResearchFacilityUtils.dll"
-          ],
+          "requiredDllNames": [],
           "LevelName": "CREDITS",
           "LevelId": "mag.indulgence.thehallofpain",
           "isSecretLevel": true,
@@ -1448,8 +1451,7 @@
         {
           "requiredCompletedLevelIdsForUnlock": [],
           "requiredDllNames": [
-            "AthenaResearchFacilityUtils.dll",
-            "CarcassEnemy.dll",
+            "CameraAdjustments.dll",
             "IndulgenceLimboSkybox.dll"
           ],
           "LevelName": "I-1: THE DEATH OF PARADIGM",
@@ -1460,12 +1462,8 @@
           "levelChallengeText": "DON'T TOUCH ANY WATER"
         },
         {
-          "requiredCompletedLevelIdsForUnlock": [
-            "mag.indulgence.thedeathofparadigm"
-          ],
-          "requiredDllNames": [
-            "AthenaResearchFacilityUtils.dll"
-          ],
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
           "LevelName": "I-2: IF THERE WERE NO THUNDER",
           "LevelId": "mag.indulgence.level2",
           "isSecretLevel": false,
@@ -1476,13 +1474,13 @@
       ],
       "Name": "<color=#6bfa9b>INDULGENCE</color>",
       "Author": "bongwater",
-      "Size": 120697537,
+      "Size": 119132249,
       "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
-      "Hash": "6de59c434fc0324dd4cb9670eb347172",
+      "Hash": "5214a0dad0a3cb44aabaf6f45b43ab51",
       "ThumbnailHash": "f037a74113befad6a7974179e730751c",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1771726166
+      "LastUpdate": 1772913561
     },
     {
       "Parts": [
