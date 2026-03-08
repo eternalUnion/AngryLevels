@@ -305,6 +305,14 @@
       "FileName": "ForceFinalRank.dll",
       "Hash": "ab7356397353f797e44f93a58fd88ad3",
       "Size": 4096
+    },
+    {
+      "Updates": [
+        "6239a28b24ce2cdd6d544033b0db0753"
+      ],
+      "FileName": "SpawnArmFix.dll",
+      "Hash": "6239a28b24ce2cdd6d544033b0db0753",
+      "Size": 5120
     }
   ]
 }
