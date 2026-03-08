@@ -2004,6 +2004,41 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1772906729
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Draghtnim/thebloodisalie/6174fb92d9729a6c8e0b3a7fbe4e86c901437327/initial/The_Blood_Is_A_Lie.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1772968008,
+          "Hash": "e40dfec69a5eea144ba30596aa4f66d6",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "SpawnArmFix.dll"
+          ],
+          "LevelName": "Triple Laser",
+          "LevelId": "Draghtnim.aperture",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "THE BLOOD IS A LIE",
+      "Author": "Draghtnim",
+      "Size": 6280613,
+      "Guid": "3289eb61a492d9d49aaf186ce05ef5f9",
+      "Hash": "e40dfec69a5eea144ba30596aa4f66d6",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1772968008
     }
   ]
 }
