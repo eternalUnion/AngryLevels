@@ -1714,14 +1714,21 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/William1321/uk_flatgrass/035becfb2ed6aa178005b7c79933cb0681cda7b0/uk_flatgrass%202.0/uk_flatgrass.angry1",
-        "https://raw.githubusercontent.com/William1321/uk_flatgrass/035becfb2ed6aa178005b7c79933cb0681cda7b0/uk_flatgrass%202.0/uk_flatgrass.angry2"
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/1540e2140655c7dbb01269d3e4d1e43954c80a27/uk_flatgrass%202.1/uk_flatgrass.angry1",
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/1540e2140655c7dbb01269d3e4d1e43954c80a27/uk_flatgrass%202.1/uk_flatgrass.angry2",
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/1540e2140655c7dbb01269d3e4d1e43954c80a27/uk_flatgrass%202.1/uk_flatgrass.angry3",
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/1540e2140655c7dbb01269d3e4d1e43954c80a27/uk_flatgrass%202.1/uk_flatgrass.angry4"
       ],
       "Updates": [
         {
           "Date": 1760903422,
           "Hash": "1cc18f15294ac0d4e9347775f8ed3d7c",
           "Message": "- Since i lost the old scene file i have remade the level from the ground up\n- Updated environments and bosses with revamp changes\n- Added 0-5 environment\n- Replaced 7-4 with a 7-1 environment\n- Removed the need for the custom script\n- Added settings menu\n- Earthmover bakes navmesh on spawn now; enemies will properly move\n- Added setting to rebake navmesh on environment switch\n- All environments and bosses will play their respective music now, customizable in settings"
+        },
+        {
+          "Date": 1773175173,
+          "Hash": "a50f1dc0d86672a458171bb8154c783c",
+          "Message": "-Added Geryon, Watcher of the Skies as a spawnable boss\n-Added 2 new environments (8-1 and 8-3)\n-Added back 7-4 environment\n-Removed firstroom \n-Minor improvements to previous environments\n\nKNOWN ISSUES:\nShop bug (magenta sprites will show up occasionally)\nEnemy rockets do not explode\nEarthmover security system is broken as hell"
         }
       ],
       "Levels": [
@@ -1738,13 +1745,13 @@
       ],
       "Name": "uk_flatgrass",
       "Author": ".willem1321",
-      "Size": 49036593,
+      "Size": 87274481,
       "Guid": "02ed3b9674fc9f14f9bb005f1dab5c2f",
-      "Hash": "1cc18f15294ac0d4e9347775f8ed3d7c",
+      "Hash": "a50f1dc0d86672a458171bb8154c783c",
       "ThumbnailHash": "120209be99b3f9388620848f79649f05",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1760903422
+      "LastUpdate": 1773175173
     },
     {
       "Parts": [
