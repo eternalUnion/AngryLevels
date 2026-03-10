@@ -141,9 +141,9 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/4967e416a0627664eb7ccd41b8088ccb305eee79/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry1",
-        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/4967e416a0627664eb7ccd41b8088ccb305eee79/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry2",
-        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/4967e416a0627664eb7ccd41b8088ccb305eee79/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry3"
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/4633b8e077b3607da4f26a768bb4726acee973ed/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry1",
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/4633b8e077b3607da4f26a768bb4726acee973ed/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry2",
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/4633b8e077b3607da4f26a768bb4726acee973ed/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry3"
       ],
       "Updates": [
         {
@@ -155,41 +155,34 @@
           "Date": 1749387038,
           "Hash": "03bbd62b347b1f24a8d2bc69fe2e3153",
           "Message": "- ADDED FULL SONG\n- RE-DID PARTICLE AMBIANCE\n- FIXED ZFIGHTING\n- POLISH(ED) GEOMETRY\n- HEAVILY RE-OPTIMIZED LEVEL\n- ADDED NEW SECTION TO AQUIRE RED SKULL FROM\n- MADE BOMBS LESS LAGGY\n- ADDED CHALLENGE\n- ADDED AIRSHIP SCENE\n- patched OOB no-clips (also added a new one)\n- changed P% requirements\n- added credits improved terminal\n- added small bunker around first room and elevator door\n- edited gas visuals\n- changed gas damage and function\n- re-did gas introduction\n- added small details to tunnel section\n- added secret door to path, hid the breakable better, and added visual warnings to discourage going that way instead of back up\n- fixed count down checkpoint nuke bug\n- changed depot arena idol to be radiant\n- added trench filth\n- changed trench charge start by adding whistle\n- made 3rd wave of the trench charge spawn in machines and crush an insurr pair via drop pod bombs\n- moved secret #4\n- added gas mask enemies and introduction\n- added light in front of red skull altar to make path more obvious\n- added ceilings above secret areas\n- added secret red/blue bossfight\n- made secret hank helmet key more obvious via skull effects\n- added door frame to radio room\n- delayed title and music drop\n- added more obvious way to get out of the Gutterman nook when taking the secret path via a lever that breaks the wall\n- tweaked final arena\n- made the room 2 idol radiant and cover a Gutterman\n- added secret credits\n- added shop at start of trench charge\n- replaced some secrets, moved one secret"
+        },
+        {
+          "Date": 1773176012,
+          "Hash": "d7ad0ac7477f14f49975ee2a40925556",
+          "Message": "Violence Outreach update:\n- Ported to Fraud\n- Made level beatable with no enemies enabled\n- Changed the way the challenge is done\n- Made bundle P-Rankable (removed inaccessible scene)\n- Re-did blue skull arena\n- Added tank scene\n- Added more decor around map\n- Replaced Carcass with Power in final arena\n- Repurposed the secret tunnel path\n- Added more blockers to secret tunnel path\n- Added improved direction in tunnel escape sequence via HUD messages\n- Removed optimization terminal\n- Removed radio tower\n- Added new method to activate the secret radio\n- Added air drop sequence for obtaining blue skull\n- Added blocker to prevent book from falling out of the world\n- Changed level icon\n- Changed 7-5 icon\n- Updated credits"
         }
       ],
       "Levels": [
         {
           "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [
-            "CarcassEnemy.dll"
-          ],
+          "requiredDllNames": [],
           "LevelName": "7-5: BACK TO BASICS",
           "LevelId": "CRUSADE",
           "isSecretLevel": false,
           "secretCount": 5,
           "levelChallengeEnabled": true,
           "levelChallengeText": "DESTROY THE AIRSHIP"
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "7-6: 600 FEET ABOVE HELL",
-          "LevelId": "CRUSADE2ND",
-          "isSecretLevel": false,
-          "secretCount": 1,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
         }
       ],
       "Name": "VIOLENCE OUTREACH /// TRENCH RAIDER",
       "Author": "Blckwtr_Northstar",
-      "Size": 53147711,
+      "Size": 56181715,
       "Guid": "753954cce2a3c514bad1136a2e88f14f",
-      "Hash": "03bbd62b347b1f24a8d2bc69fe2e3153",
-      "ThumbnailHash": "49f118bf48c66c40ed3d9f40b2c4cc52",
+      "Hash": "d7ad0ac7477f14f49975ee2a40925556",
+      "ThumbnailHash": "4c78ff1b97b3f392755e87eddc991ca8",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1749387038
+      "LastUpdate": 1773176012
     },
     {
       "Parts": [
