@@ -1384,11 +1384,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry1",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry2",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry3",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry4",
-        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/46dd8cb0d9a11361053d09d37a8e93947a07b04d/Indulgence%20v2.5.02/INDULGENCE.angry5"
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/bdf2723893160d44892505077ce478c5a5b87d61/INDULGENCE%20v2.5.03/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/bdf2723893160d44892505077ce478c5a5b87d61/INDULGENCE%20v2.5.03/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/bdf2723893160d44892505077ce478c5a5b87d61/INDULGENCE%20v2.5.03/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/bdf2723893160d44892505077ce478c5a5b87d61/INDULGENCE%20v2.5.03/INDULGENCE.angry4",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/bdf2723893160d44892505077ce478c5a5b87d61/INDULGENCE%20v2.5.03/INDULGENCE.angry5"
       ],
       "Updates": [
         {
@@ -1430,6 +1430,11 @@
           "Date": 1772913561,
           "Hash": "5214a0dad0a3cb44aabaf6f45b43ab51",
           "Message": "Indulgence v2.5.02\n\n- Ported to Patch 17b2\n- Updated Brimstone Skull model\n- Updated Brimstone Altar model\n- Updated Ash Skull model\n\nI-1:\n- Temporarily replaced Carcass with a Power until it's reworked\n- Removed encounter end slow-mo from the Soldier water tank encounter\n- Added impact particles to train tunnel signs\n- Removed two schisms from the train encounter because of a bug I can't fix\n- Fixed an issue where the Streetcleaner before the red skull room couldn't navigate correctly\n- Fixed an issue where the third train Schisms could clip inside the cargo crates\n- Fixed Hermes counting as two kills\n\nI-2:\n- Added Fraud layer enemies in places they're applicable and fun\n- Added some small areas for worldbuilding\n- Added some props from Fraud layer to make things more consistent with base game"
+        },
+        {
+          "Date": 1773194556,
+          "Hash": "04286df9328e9ca4d874db8338b20429",
+          "Message": "Indulgence v2.5.03\n\n- Fixed an issue where Neutralizers would not deal damage\n- Increased Neutralizer explosion radius\n- Corrected Neutralizer strategy tips\n- Fixed Craven death causing heavy lag on lower end computers"
         }
       ],
       "Levels": [
@@ -1472,13 +1477,13 @@
       ],
       "Name": "<color=#6bfa9b>INDULGENCE</color>",
       "Author": "bongwater",
-      "Size": 119132249,
+      "Size": 119123740,
       "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
-      "Hash": "5214a0dad0a3cb44aabaf6f45b43ab51",
+      "Hash": "04286df9328e9ca4d874db8338b20429",
       "ThumbnailHash": "f037a74113befad6a7974179e730751c",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1772913561
+      "LastUpdate": 1773194556
     },
     {
       "Parts": [
