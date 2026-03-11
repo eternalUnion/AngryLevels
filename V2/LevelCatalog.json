@@ -1067,10 +1067,10 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/sandeater21/tsta/23e06e4a4432cb5d784d9feb721ddc553119e952/tsta1/3.0/TSTA__ACT_1__PRELUDE.angry1",
-        "https://raw.githubusercontent.com/sandeater21/tsta/23e06e4a4432cb5d784d9feb721ddc553119e952/tsta1/3.0/TSTA__ACT_1__PRELUDE.angry2",
-        "https://raw.githubusercontent.com/sandeater21/tsta/23e06e4a4432cb5d784d9feb721ddc553119e952/tsta1/3.0/TSTA__ACT_1__PRELUDE.angry3",
-        "https://raw.githubusercontent.com/sandeater21/tsta/23e06e4a4432cb5d784d9feb721ddc553119e952/tsta1/3.0/TSTA__ACT_1__PRELUDE.angry4"
+        "https://raw.githubusercontent.com/sandeater21/tsta/e50a314aabeeead2ad3db503392886186160d821/tsta1/3.1/TSTA__ACT_1__PRELUDE.angry1",
+        "https://raw.githubusercontent.com/sandeater21/tsta/e50a314aabeeead2ad3db503392886186160d821/tsta1/3.1/TSTA__ACT_1__PRELUDE.angry2",
+        "https://raw.githubusercontent.com/sandeater21/tsta/e50a314aabeeead2ad3db503392886186160d821/tsta1/3.1/TSTA__ACT_1__PRELUDE.angry3",
+        "https://raw.githubusercontent.com/sandeater21/tsta/e50a314aabeeead2ad3db503392886186160d821/tsta1/3.1/TSTA__ACT_1__PRELUDE.angry4"
       ],
       "Updates": [
         {
@@ -1097,29 +1097,14 @@
           "Date": 1770895179,
           "Hash": "dc0e9e71dd2e7d84f9de6e0ce8fceb1e",
           "Message": "UPDATE FOR TSTA /// ACT 1 + PRELUDE\n\nCHANGELOG:\n- Added TA-2\n\nTA-0:\n- Moved 5th secret\n- EXTREMELY minor visual fix in one of the rooms"
+        },
+        {
+          "Date": 1773259454,
+          "Hash": "3053049be7f9782418a671fd27c95d64",
+          "Message": "-ported to fraud\n\nTA-I:\n-added a few shelves and boxes in the dark area\n-added color to fraud in the terminal\n\nTA-0:\n-fixed swordsmachine in the red path looking enraged when its not\n\nTA-1:\n-the first idol in the bts area no longer pushes you\n\nTA-2:\n-removed lights from a locked door\n-fixed the control room sometimes being disabled when it shouldnit be"
         }
       ],
       "Levels": [
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "TA-I: SUNFALL",
-          "LevelId": "se.tstaI",
-          "isSecretLevel": false,
-          "secretCount": 0,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": "HOLD YOUR HORSES"
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "TA-S: DEEP ROCK INFERNO",
-          "LevelId": "se.tstaS",
-          "isSecretLevel": true,
-          "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
-        },
         {
           "requiredCompletedLevelIdsForUnlock": [
             "se.tstaI"
@@ -1155,17 +1140,37 @@
           "secretCount": 5,
           "levelChallengeEnabled": true,
           "levelChallengeText": "SOLVE THEIR RIDDLES"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TA-I: SUNFALL",
+          "LevelId": "se.tstaI",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "HOLD YOUR HORSES"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TA-S: DEEP ROCK INFERNO",
+          "LevelId": "se.tstaS",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
         }
       ],
       "Name": "TSTA /// ACT 1 + PRELUDE",
       "Author": "sandeater",
-      "Size": 84915430,
+      "Size": 86602623,
       "Guid": "6b6d65dd70cc04e4a96d3de53aea23ae",
-      "Hash": "dc0e9e71dd2e7d84f9de6e0ce8fceb1e",
+      "Hash": "3053049be7f9782418a671fd27c95d64",
       "ThumbnailHash": "cf152fbd6dde00232204b5d6f373fdb3",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1770895179
+      "LastUpdate": 1773259454
     },
     {
       "Parts": [
