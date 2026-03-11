@@ -141,9 +141,9 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/4633b8e077b3607da4f26a768bb4726acee973ed/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry1",
-        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/4633b8e077b3607da4f26a768bb4726acee973ed/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry2",
-        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/4633b8e077b3607da4f26a768bb4726acee973ed/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry3"
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/3092e587d0251195909f4a77046304c7073c9fb5/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry1",
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/3092e587d0251195909f4a77046304c7073c9fb5/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry2",
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/3092e587d0251195909f4a77046304c7073c9fb5/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry3"
       ],
       "Updates": [
         {
@@ -160,6 +160,11 @@
           "Date": 1773176012,
           "Hash": "d7ad0ac7477f14f49975ee2a40925556",
           "Message": "Violence Outreach update:\n- Ported to Fraud\n- Made level beatable with no enemies enabled\n- Changed the way the challenge is done\n- Made bundle P-Rankable (removed inaccessible scene)\n- Re-did blue skull arena\n- Added tank scene\n- Added more decor around map\n- Replaced Carcass with Power in final arena\n- Repurposed the secret tunnel path\n- Added more blockers to secret tunnel path\n- Added improved direction in tunnel escape sequence via HUD messages\n- Removed optimization terminal\n- Removed radio tower\n- Added new method to activate the secret radio\n- Added air drop sequence for obtaining blue skull\n- Added blocker to prevent book from falling out of the world\n- Changed level icon\n- Changed 7-5 icon\n- Updated credits"
+        },
+        {
+          "Date": 1773193642,
+          "Hash": "0b4353a0bcfd087459369eb05388ec7c",
+          "Message": "- Added clearer direction for challenge and how to do it\n- Fixed issue with the radio not being breakable with no enemies or when coming from the secret tunnel path\n- Added Grey to credits\n- Fixed bug where gas stalkers had no animations\n- Changed online level icon\n- Fixed bug where gas introduction HUD message persisted when having no enemies enabled\n- Fixed meshes of water in craters"
         }
       ],
       "Levels": [
@@ -176,13 +181,13 @@
       ],
       "Name": "VIOLENCE OUTREACH /// TRENCH RAIDER",
       "Author": "Blckwtr_Northstar",
-      "Size": 56181715,
+      "Size": 56276275,
       "Guid": "753954cce2a3c514bad1136a2e88f14f",
-      "Hash": "d7ad0ac7477f14f49975ee2a40925556",
-      "ThumbnailHash": "4c78ff1b97b3f392755e87eddc991ca8",
+      "Hash": "0b4353a0bcfd087459369eb05388ec7c",
+      "ThumbnailHash": "cb3ec3e0c7b498d767ddb3371f34c900",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1773176012
+      "LastUpdate": 1773193642
     },
     {
       "Parts": [
