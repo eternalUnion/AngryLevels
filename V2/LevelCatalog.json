@@ -2017,7 +2017,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/thebloodisalie/55ea4719f542662421e76d52044e0b6552e7fae1/quickpatch/The_Blood_Is_A_Lie.angry"
+        "https://raw.githubusercontent.com/Draghtnim/thebloodisalie/811118dbefbba0bd0747098ba3f8155325723e67/slowpatch/THE_BLOOD_IS_A_LIE.angry"
       ],
       "Updates": [
         {
@@ -2029,6 +2029,11 @@
           "Date": 1772985788,
           "Hash": "6f84260a24ae92343aab686b9e301c92",
           "Message": "- Added an indication for the last shot portal \n- Fixed minor visual glitch in first room\n- Added wires to strengthen connection between receivers and door\n- Improved portal placement logic "
+        },
+        {
+          "Date": 1773259243,
+          "Hash": "5c0a323b7dd87ac4a85dee3e9c950473",
+          "Message": "- ACTUALLY fixed the visual glitch in the first room\n- killed a bug that would cause the reciever to be permanently enabled (sorry speedrunners)\n- added the ability to go through portals\n- made it clearer which side of the cube shoots out the laser"
         }
       ],
       "Levels": [
@@ -2043,17 +2048,27 @@
           "secretCount": 0,
           "levelChallengeEnabled": false,
           "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Level 1",
+          "LevelId": "Draghtnim.aperture2",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
         }
       ],
       "Name": "THE BLOOD IS A LIE",
       "Author": "Draghtnim",
-      "Size": 6331346,
+      "Size": 7686203,
       "Guid": "3289eb61a492d9d49aaf186ce05ef5f9",
-      "Hash": "6f84260a24ae92343aab686b9e301c92",
+      "Hash": "5c0a323b7dd87ac4a85dee3e9c950473",
       "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1772985788
+      "LastUpdate": 1773259243
     }
   ]
 }
