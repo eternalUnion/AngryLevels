@@ -440,7 +440,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/William1321/Epitaph/f3c1615671f9e79c5b29b20f74c6b6f9632ae224/Epitaph1.1/EPITAPH.angry"
+        "https://raw.githubusercontent.com/William1321/Epitaph/553ed80f6504cf58d539c6fcadb660f1afbabe90/Epitaph1.2/EPITAPH.angry"
       ],
       "Updates": [
         {
@@ -452,6 +452,11 @@
           "Date": 1746460982,
           "Hash": "b0ccf274ca0a5c149ad2ccbc14029934",
           "Message": "- Fixed firstroom oob (catastrophic)\n- Fixed some softlocks"
+        },
+        {
+          "Date": 1773437179,
+          "Hash": "80fe6d7f411d8bd42b54e24b2bd84a64",
+          "Message": "- Ported to FRAUD\n- Made the level look cool. You should play to find out why\n- Fixed navmesh issues"
         }
       ],
       "Levels": [
@@ -468,13 +473,13 @@
       ],
       "Name": "EPITAPH",
       "Author": ".willem1321",
-      "Size": 15552758,
+      "Size": 15622315,
       "Guid": "a9137dc898362c44593878839cd899a6",
-      "Hash": "b0ccf274ca0a5c149ad2ccbc14029934",
-      "ThumbnailHash": "b402a595b3f883aa5b205564f05bf568",
+      "Hash": "80fe6d7f411d8bd42b54e24b2bd84a64",
+      "ThumbnailHash": "0e4893ce2b9938345ee1824560d4e187",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1746460982
+      "LastUpdate": 1773437179
     },
     {
       "Parts": [
