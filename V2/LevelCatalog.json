@@ -750,7 +750,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrakill-MACHINATION/1bb3fb605a9d8e757da9c67e89c03bdc3ecda858/Patch009/MACHINATION.angry"
+        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrakill-MACHINATION/84dfccd87527bc73ae0d03fb1e8c2fc370b684e9/Patch010-Fraud/MACHINATION.angry"
       ],
       "Updates": [
         {
@@ -767,21 +767,14 @@
           "Date": 1750967194,
           "Hash": "6df32c1c2c11e6941950813538a3f05c",
           "Message": "M-1:\n- Fixed credits names\n- Fixed some gears in first arena hurting the player when in their \"off\" state\n- Fixed some steam jet particles clipping through walls in a very obvious place\n- Fixed burning pit in second arena not properly killing enemies (+OOF OUCH OWIE THAT'S 2 HOT 4 ME)\n- Fixed spinning wall fans in second arena not always spinning on level load\n- Added \"Ping!\" sound and effect to hookpoints when they spawn in or change - Thanks Bongwater!\n- Made tiny rewrite to song revamped description\n\nM-2 Demo:\n- Added a demo-specific challenge\n- Made second line of nixie-tube text a tiny bit more interesting by adding extra sparks and audio to its turning on sequence\n- Lowered the frequency of idle sparks in dark computer room just a little bit\n- Fixed computer startup sound replaying every time second room is unloaded and then reloaded"
+        },
+        {
+          "Date": 1773454325,
+          "Hash": "0b9c02330c82911ed28661e4fdd4abe2",
+          "Message": "- Ported to Fraud standards\n- Tweaked enemy placement an itsy bitsy teeny weeny bit\n- Replaced pre-REVAMP Light Pillars with my own kinda shitty version since the old ones don't work anymore.\n- Started working on M2 again after like a year of working on other stuff. Back to the UltraGrind."
         }
       ],
       "Levels": [
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [
-            "STLPShittyScripts.dll"
-          ],
-          "LevelName": "M-1: THE BLASTPIPE",
-          "LevelId": "MachinationM-1V2",
-          "isSecretLevel": false,
-          "secretCount": 5,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": "TURN ON THE LIGHTS"
-        },
         {
           "requiredCompletedLevelIdsForUnlock": [
             "MachinationM-1V2"
@@ -795,17 +788,29 @@
           "secretCount": 0,
           "levelChallengeEnabled": true,
           "levelChallengeText": "FIND A HIDDEN SOURCE OF INSPIRATION"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "STLPShittyScripts.dll"
+          ],
+          "LevelName": "M-1: THE BLASTPIPE",
+          "LevelId": "MachinationM-1V2",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "TURN ON THE LIGHTS"
         }
       ],
       "Name": "MACHINATION",
       "Author": "Streetlamp",
-      "Size": 92408829,
+      "Size": 93164594,
       "Guid": "a1f9bb7c418870d499158f9c2b55731e",
-      "Hash": "6df32c1c2c11e6941950813538a3f05c",
+      "Hash": "0b9c02330c82911ed28661e4fdd4abe2",
       "ThumbnailHash": "1d8c82f58fb5a5115fc133df342db46b",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1750967194
+      "LastUpdate": 1773454325
     },
     {
       "Parts": [
