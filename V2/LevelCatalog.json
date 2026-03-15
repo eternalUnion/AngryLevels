@@ -1994,7 +1994,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/FNChannel/MoonlightGuideUs/be79da138e4c7fffe8ea92f33c27a8fec25ed0fe/1.0.1/Moonlight_Guide_Us.angry"
+        "https://raw.githubusercontent.com/FNChannel/MoonlightGuideUs/2f5afde80841af96623ad1c92e5c1c75279ae60f/1.0.2%20for%20real%20this%20time/Moonlight_Guide_Us.angry"
       ],
       "Updates": [
         {
@@ -2006,6 +2006,11 @@
           "Date": 1772906729,
           "Hash": "d30edadad1ea2884796d8ccb00cb794c",
           "Message": "- Final Arena now uses normal guttermen and guttertanks instead of their drop pod variants to fix a bug where upon checkpointing, the arena would break, sorry about that!\n- Room 18's vista has been updated to be slightly cooler\n- Added Occlusion Culling(how did i forget this)\n- Added a hint to secret 3\n- Updated Credits\n- Fixed first secret room not having complete collision in the ceiling \n- Minor fixes here and there"
+        },
+        {
+          "Date": 1773573866,
+          "Hash": "88e290598d35547459769a9ef2887239",
+          "Message": "- Added caustics to Room 2 cuz it looks cool\n- Moon Atrium(Room 5) now has a casing for the altar which opens up after the player gets close enough\n- You can now pick up the red skull at longer distances once the altar casing opens up, arena trigger has been vastly expanded to compensate, just don't go too far though...\n- Fixed an issue where a Soldier on Room 2 would not spawn in the correct location due to a NavMesh mishap(i cant remember if this was fixed in 1.0.1 sob)\n- Fixed Secret 4 cubby letting the player see outside of the map due to occlusion culling\n- I think i fixed other stuff idk its 12 am let me sleep.\n- otag is real. hide."
         }
       ],
       "Levels": [
@@ -2022,13 +2027,13 @@
       ],
       "Name": "MOONLIGHT GUIDE US",
       "Author": "AstralOcean",
-      "Size": 23694677,
+      "Size": 23698060,
       "Guid": "22ac1cebcb99a7a4197e9b42848b85a9",
-      "Hash": "d30edadad1ea2884796d8ccb00cb794c",
+      "Hash": "88e290598d35547459769a9ef2887239",
       "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1772906729
+      "LastUpdate": 1773573866
     },
     {
       "Parts": [
