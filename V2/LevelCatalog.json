@@ -2089,6 +2089,41 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1773259243
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/skilltests/66635913e07f1991de4a7f6f2e071131407748dd/partitioned%20skilltests%203.0/arealis.angry1",
+        "https://raw.githubusercontent.com/William1321/skilltests/66635913e07f1991de4a7f6f2e071131407748dd/partitioned%20skilltests%203.0/arealis.angry2",
+        "https://raw.githubusercontent.com/William1321/skilltests/66635913e07f1991de4a7f6f2e071131407748dd/partitioned%20skilltests%203.0/arealis.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1773691915,
+          "Hash": "c3e18b3bc41b04947be8fb97c6b42dee",
+          "Message": "Ported to FRAUD\n- Major visual overhaul\n- Reworked most encounters, added FRAUD enemies\n- Completely remade Jump Pillars, they're now Dash Pillars and can be grappled onto\n- AR-1 now uses uncompressed high quality versions of its songs\n- New secret encounter for AR-1\n- Added tip of the day\n- Enemies should no longer clip into objects\n- New firstroom and finalroom\n- Fixed secrets"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "AR-1: WELCOME TO THE MACHINE",
+          "LevelId": "willem1321-skilltest2",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE SECRET ENCOUNTER"
+        }
+      ],
+      "Name": "AREALIS /// SKILLTESTS",
+      "Author": ".willem1321",
+      "Size": 60772829,
+      "Guid": "3ed7bda0dfe2f81438a35d1c5c96fcb1",
+      "Hash": "c3e18b3bc41b04947be8fb97c6b42dee",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1773691915
     }
   ]
 }
