@@ -322,6 +322,14 @@
       "FileName": "UKReprise_Utils.dll",
       "Hash": "6a69ad0dee2795a61606e7a4c1361526",
       "Size": 14848
+    },
+    {
+      "Updates": [
+        "7fe30876c77c2d94db9b5c660b7c4868"
+      ],
+      "FileName": "CustomEndscreen.dll",
+      "Hash": "7fe30876c77c2d94db9b5c660b7c4868",
+      "Size": 6144
     }
   ]
 }
