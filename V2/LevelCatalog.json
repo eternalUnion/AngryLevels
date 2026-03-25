@@ -2124,6 +2124,67 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1773691915
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/20c0bbfceca816384cf0c20d4fd7b3028e6359b0/Angry/ULTRAKILL_REPRISE.angry1",
+        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/20c0bbfceca816384cf0c20d4fd7b3028e6359b0/Angry/ULTRAKILL_REPRISE.angry2",
+        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/20c0bbfceca816384cf0c20d4fd7b3028e6359b0/Angry/ULTRAKILL_REPRISE.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1774481029,
+          "Hash": "9cc046847c9e58322ef55ac3c1e7de18",
+          "Message": "- Updated for Fraud (17b2)\n- Revamped Visuals\n- Various Bugfixes and Optimizations\n- Persistent Challenge Mode and Challenge Modifiers QoL (Forceradiance, Forcesand)"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "CustomEndscreen.dll",
+            "UKReprise_Utils.dll"
+          ],
+          "LevelName": "1-R: A DREAM OF HOME",
+          "LevelId": "Smallkloon.LimboReprise",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMPLETE THE LEVEL IN CHALLENGE MODE"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "2-R: FAREWELL AT THE END OF EDEN",
+          "LevelId": "Smallkloon.LustReprise",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMPLETE THE LEVEL IN CHALLENGE MODE"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "CustomEndscreen.dll",
+            "UKReprise_Utils.dll"
+          ],
+          "LevelName": "0-R: ASHES TO ASHES",
+          "LevelId": "Smallkloon.PreludeReprise",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMPLETE THE LEVEL IN CHALLENGE MODE"
+        }
+      ],
+      "Name": "ULTRAKILL /// REPRISE",
+      "Author": "Small and Woosp",
+      "Size": 51501450,
+      "Guid": "727cca746f27c4147b4d4bcc406209de",
+      "Hash": "9cc046847c9e58322ef55ac3c1e7de18",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1774481029
     }
   ]
 }
