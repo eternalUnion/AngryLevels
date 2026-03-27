@@ -2185,6 +2185,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1774481029
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRABLOX/89e2d1c5168f35c0b8ffc668f4f7891942425cf2/ULTRABLOX.angry1",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRABLOX/89e2d1c5168f35c0b8ffc668f4f7891942425cf2/ULTRABLOX.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1774635024,
+          "Hash": "958111d7d5b51c7ebe8e1c1ce52b5535",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "HELL OBBY",
+          "LevelId": "clashmode.shitpost.robloxobby",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ULTRABLOX",
+      "Author": "DILLEGOR",
+      "Size": 37004231,
+      "Guid": "db6b6fcc1dd0bb94fb61e14def3dec90",
+      "Hash": "958111d7d5b51c7ebe8e1c1ce52b5535",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1774635024
     }
   ]
 }
