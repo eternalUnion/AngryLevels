@@ -2224,6 +2224,39 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1774635024
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/wiendosjogos/GUTTERMANS-PUBLIC-EXECUTION/f1bf8a50cee0e194a362872adbfda0989c9fbbfa/violencestuffold.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1774757887,
+          "Hash": "793f7e524c9e9744aafc9141a197c65c",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "GUTTERMAN'S PUBLIC EXECUTION",
+          "LevelId": "tulipa.violence.oldlevel",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "GUTTERMAN'S PUBLIC EXECUTION",
+      "Author": "eclipsed_tulipa",
+      "Size": 5348857,
+      "Guid": "b8aeaca24867e4141a204385a7a04e7a",
+      "Hash": "793f7e524c9e9744aafc9141a197c65c",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1774757887
     }
   ]
 }
