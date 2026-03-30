@@ -1006,7 +1006,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/RedNova1/BeneathCyberia/1ddbfcb5aef532db1d810d46db549268b961ebde/Level%201.3/BeneathCyberia.angry"
+        "https://raw.githubusercontent.com/RedNova1/BeneathCyberia/f2dfe113874bb66073208b83b25b562a5a923c26/Level%201.4/BeneathCyberia.angry"
       ],
       "Updates": [
         {
@@ -1018,6 +1018,11 @@
           "Date": 1772399019,
           "Hash": "1e4957a1550e29b4c81d4eafd06af788",
           "Message": "- Port to 17A\n- Lower P rank style req (27500 -> 22500)\n- Fix bug where you can get locked out of blue skull arena 2\n- Fix sound effect volume"
+        },
+        {
+          "Date": 1774868177,
+          "Hash": "210d3e53741e45140af0264465108db2",
+          "Message": "Fixed softlock in red skull room<size=12> I love you speedrunners</size>"
         }
       ],
       "Levels": [
@@ -1034,13 +1039,13 @@
       ],
       "Name": "BENEATH CYBERIA",
       "Author": "RedNova",
-      "Size": 12173022,
+      "Size": 12174287,
       "Guid": "47c17570aefdcf5408cdef8bfa807c2a",
-      "Hash": "1e4957a1550e29b4c81d4eafd06af788",
+      "Hash": "210d3e53741e45140af0264465108db2",
       "ThumbnailHash": "4d8c17d72727c4e6c936305015229725",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1772399019
+      "LastUpdate": 1774868177
     },
     {
       "Parts": [
