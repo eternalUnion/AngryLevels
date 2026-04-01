@@ -2265,13 +2265,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/engelbertwagner7/1-2theburningworld/a77ca521e214c36233670b8491db8a74ffd5fccc/1-2_The_Burning_World.angry"
+        "https://raw.githubusercontent.com/engelbertwagner7/1-2theburningworld/b1ec153d1fb645e7133de987a8f96b3e33223a5e/Behebung%20der%20Probleme/1-2_The_Burning_World.angry"
       ],
       "Updates": [
         {
           "Date": 1775026936,
           "Hash": "f6c63082c5c5d7a469b712584ca384ab",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1775070047,
+          "Hash": "d50013b3314274443829a81e6a528778",
+          "Message": "Hoppla! Ich glaube, ich habe bei der Veröffentlichung meines Levels ganz schön Mist gebaut. Haha! Jetzt sollte es aber wieder klappen – anscheinend haben die Checkpoints nicht richtig funktioniert. Auch die Hierarchie war etwas seltsam. Na ja, das war’s erstmal. Tschüss!"
         }
       ],
       "Levels": [
@@ -2288,13 +2293,13 @@
       ],
       "Name": "Level: 1-2: The Burning World",
       "Author": "engelbertwagner7@gmail.com",
-      "Size": 22547863,
+      "Size": 22515054,
       "Guid": "da877611bf18e63478de3a03613f6225",
-      "Hash": "f6c63082c5c5d7a469b712584ca384ab",
+      "Hash": "d50013b3314274443829a81e6a528778",
       "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1775026936
+      "LastUpdate": 1775070047
     }
   ]
 }
