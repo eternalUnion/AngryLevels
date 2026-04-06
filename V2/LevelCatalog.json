@@ -616,10 +616,9 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/1a484ba49bf9d67e9779273fb4d865e8ab22ae71/EasyLevel1.5/SPECIAL_CHRISTMAS_GIFT.angry1",
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/1a484ba49bf9d67e9779273fb4d865e8ab22ae71/EasyLevel1.5/SPECIAL_CHRISTMAS_GIFT.angry2",
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/1a484ba49bf9d67e9779273fb4d865e8ab22ae71/EasyLevel1.5/SPECIAL_CHRISTMAS_GIFT.angry3",
-        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/1a484ba49bf9d67e9779273fb4d865e8ab22ae71/EasyLevel1.5/SPECIAL_CHRISTMAS_GIFT.angry4"
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/356d38dd6ac9026ea2cc8ab65553340e6f0403c1/EasyLevel1.6/SPECIAL_CHRISTMAS_GIFT.angry1",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/356d38dd6ac9026ea2cc8ab65553340e6f0403c1/EasyLevel1.6/SPECIAL_CHRISTMAS_GIFT.angry2",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/356d38dd6ac9026ea2cc8ab65553340e6f0403c1/EasyLevel1.6/SPECIAL_CHRISTMAS_GIFT.angry3"
       ],
       "Updates": [
         {
@@ -631,6 +630,11 @@
           "Date": 1746634732,
           "Hash": "299afa373e107914da2d9eac2760c87f",
           "Message": "The im-stupid Patch"
+        },
+        {
+          "Date": 1775465795,
+          "Hash": "b9f5af2de9e24104280ace8745cc3581",
+          "Message": "Well, I finished up the freud update to the level! It could have some fun and bombastic ideas, or some challenging and cruelty. Did you find the new parts of the level! I hope you enjoy until the next one! I will copy down the development port here."
         }
       ],
       "Levels": [
@@ -648,14 +652,14 @@
         }
       ],
       "Name": "SPECIAL CHRISTMAS GIFT",
-      "Author": "daviejay2011",
-      "Size": 92583225,
+      "Author": "debatable, rednova",
+      "Size": 66864815,
       "Guid": "868d6d05d8121b04981b9941ae32229f",
-      "Hash": "299afa373e107914da2d9eac2760c87f",
-      "ThumbnailHash": "b3cef07a0fba18bc5dfe6cb14e57aecf",
+      "Hash": "b9f5af2de9e24104280ace8745cc3581",
+      "ThumbnailHash": "17d4541b9e04b8b1c9ef1290b834b4c5",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1746634732
+      "LastUpdate": 1775465795
     },
     {
       "Parts": [
