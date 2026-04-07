@@ -331,6 +331,14 @@
       "FileName": "CustomEndscreen.dll",
       "Hash": "7fe30876c77c2d94db9b5c660b7c4868",
       "Size": 6144
+    },
+    {
+      "Updates": [
+        "b9d3f828c4660508ba38d7fd8f5695f4"
+      ],
+      "FileName": "BloodPleaseScripts.dll",
+      "Hash": "b9d3f828c4660508ba38d7fd8f5695f4",
+      "Size": 14848
     }
   ]
 }
