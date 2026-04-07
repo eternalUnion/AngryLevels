@@ -967,7 +967,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/3d5862af7fccfcd396b5ef3f97d2f9678fcedbf4/BLOOD_PLEASE/BLOOD_PLEASE_4.angry"
+        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/958ed89f6e97a76243ffb0a59f8dfe46843a171a/BLOOD_PLEASE/Fraud/BLOOD_PLEASE.angry"
       ],
       "Updates": [
         {
@@ -984,29 +984,36 @@
           "Date": 1749387199,
           "Hash": "79085b5c69d357c4faf6f6c86c28c6a0",
           "Message": "More miscellaneous small fixes"
+        },
+        {
+          "Date": 1775597537,
+          "Hash": "b2f66665a1e07b6ef0b32b8a313c0e1d",
+          "Message": "- Ported to Fraud (17b2)\n- Added challenge\n- Added most Fraud enemies and rebalanced progression\n- Increased P-Rank requirements and reset P-Rank leaderboards\n- Moved the entrant logic and processing system to custom scripts for future plans. Not having the script will lock the level due to how critical it is\n- Disabling blood & gore now correctly disables all custom instances of it (does not affect gameplay)\n- Fixed some enemies being rotated\n- Visual updates"
         }
       ],
       "Levels": [
         {
           "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
+          "requiredDllNames": [
+            "BloodPleaseScripts.dll"
+          ],
           "LevelName": "GLORY TO MANKIND",
           "LevelId": "woosp.BloodPlease",
           "isSecretLevel": false,
           "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "SABOTAGE YOUR EMPLOYER"
         }
       ],
       "Name": "BLOOD, PLEASE",
       "Author": "Woosp",
-      "Size": 10687972,
+      "Size": 12357209,
       "Guid": "502893de07ef2c94daf31d98f1591396",
-      "Hash": "79085b5c69d357c4faf6f6c86c28c6a0",
+      "Hash": "b2f66665a1e07b6ef0b32b8a313c0e1d",
       "ThumbnailHash": "4b883105ee85180e6dea16684a64c989",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1749387199
+      "LastUpdate": 1775597537
     },
     {
       "Parts": [
