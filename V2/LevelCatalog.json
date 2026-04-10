@@ -2143,9 +2143,9 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/c115de50078e965a01e8f4e557c427146cc37566/Angry/ULTRAKILL__REPRISE.angry1",
-        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/c115de50078e965a01e8f4e557c427146cc37566/Angry/ULTRAKILL__REPRISE.angry2",
-        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/c115de50078e965a01e8f4e557c427146cc37566/Angry/ULTRAKILL__REPRISE.angry3"
+        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/0d50613e7054c0b4f078a0bd66217ae5e581fb28/Angry/ULTRAKILL__REPRISE.angry1",
+        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/0d50613e7054c0b4f078a0bd66217ae5e581fb28/Angry/ULTRAKILL__REPRISE.angry2",
+        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/0d50613e7054c0b4f078a0bd66217ae5e581fb28/Angry/ULTRAKILL__REPRISE.angry3"
       ],
       "Updates": [
         {
@@ -2157,6 +2157,11 @@
           "Date": 1774723209,
           "Hash": "636b12903bd22fda838de03352434716",
           "Message": "- Attempted to fix some accidental OOB clips from untagged geometry and missing/weird colliders\n- Fixed and smoothed NoMo/NoMoW inbounds routes\n- Readded terminals to end of level\n\n0-R:\n- Lava in the lava room now bounces the player\n- Extended Angry Gate tutorial pop-up duration\n- Some instances of heatwaves now use fullscreen heatwaves\n\n1-R:\n- Fixed third arena chance of ending with an enemy remaining\n- Fixed some electricity being unable to hurt the player in a specific hallway\n- Made aforementioned electricity into one trigger to avoid different overlapping ticks of damage\n- Attempted to fix enemies warping to lower platform in 2-story arena\n- Made secret sequence a little more clear"
+        },
+        {
+          "Date": 1775799001,
+          "Hash": "a3ff8732d6d567f0cc718b32c8b88648",
+          "Message": "- Most Malicious Faces that are blessed are now stationary\n\n0-R:\n- All fans now instakill :)\n\n1-R:\n- Fixed a rare case of damage ticks from a hurtzone lingering after exiting\n- Window at the top of the vertical arena can be broken manually after completion \n- Small visual and enemy placement tweaks in final arena to prevent schisms from hiding\n- Fixed a rare issue where tundra would get stuck in the left generator room\n- Updated meteor shower visuals in final room"
         }
       ],
       "Levels": [
@@ -2199,13 +2204,13 @@
       ],
       "Name": "ULTRAKILL /// REPRISE",
       "Author": "Small and Woosp",
-      "Size": 51609205,
+      "Size": 51617685,
       "Guid": "727cca746f27c4147b4d4bcc406209de",
-      "Hash": "636b12903bd22fda838de03352434716",
+      "Hash": "a3ff8732d6d567f0cc718b32c8b88648",
       "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1774723209
+      "LastUpdate": 1775799001
     },
     {
       "Parts": [
