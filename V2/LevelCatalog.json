@@ -1742,7 +1742,7 @@
       "Guid": "ea218d818a5626b4cad876fa6520ec0b",
       "Hash": "9a00869fc9485464fafc173a59277974",
       "ThumbnailHash": "58ab44dbb2f87da84d7548bcd08ab7b6",
-      "Locked": false,
+      "Locked": true,
       "EpilepsyWarning": false,
       "LastUpdate": 1760902732
     },
