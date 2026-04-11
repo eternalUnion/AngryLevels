@@ -2321,6 +2321,39 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1775296757
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/skeleton-banging-shield/Fraud-Encore-fan-made-/3fe2e5e7439b877af10e04ca498e8922eebeed7d/Fraud_asa.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1775915800,
+          "Hash": "1c6edd11f95db4d429a964333b243785",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "8-E: ALL IN ONE",
+          "LevelId": "151",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ALL IN ONE",
+      "Author": "thematveykaplay",
+      "Size": 18634680,
+      "Guid": "79ca7807eab285c4d857d6d3720b5e65",
+      "Hash": "1c6edd11f95db4d429a964333b243785",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1775915800
     }
   ]
 }
