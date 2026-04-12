@@ -715,8 +715,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/4a906ec3d416531c34ba98c5365134bf97740cd5/1.0.1/ULTRAKILL_OPERETTA.angry1",
-        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/4a906ec3d416531c34ba98c5365134bf97740cd5/1.0.1/ULTRAKILL_OPERETTA.angry2"
+        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/bee6cc27c8d86ca0cad65a97835cb0fa9db678f2/ULTRAKILL_OPERETTAS.angry1",
+        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/bee6cc27c8d86ca0cad65a97835cb0fa9db678f2/ULTRAKILL_OPERETTAS.angry2"
       ],
       "Updates": [
         {
@@ -728,6 +728,11 @@
           "Date": 1747508922,
           "Hash": "c70d964fcc91a1e41b83f4e74b81d325",
           "Message": "- Added new text in Musics tab in Credits Terminal\n- Fixed the tagging of some Doors\n- Fixed the tagging on some stairs so now Guttermen explode in them instead of just existing"
+        },
+        {
+          "Date": 1775984711,
+          "Hash": "a8d8f49def776fa4aa3dd4ee06c43f4b",
+          "Message": "- Added some fraud enemies\n- Reduced the enemy count a bit, making the level go a bit smoother now\n- Reduced the P-Rank style requirement from 40000 to 30000 to accommodate for that\n- The Swordsmachines \"Tundra\" and \"Agony\" have been buffed from 75 health to 90\n- Unfortunately, due to an unexplainable glitch that happened randomly, the Swordsmachines \"Tundra\" and \"Agony\" display a green healthbar for a small second. Pay no mind to that, they're still very much killable and do not heal."
         }
       ],
       "Levels": [
@@ -744,13 +749,13 @@
       ],
       "Name": "ULTRAKILL OPERETTAS",
       "Author": "defo_tulipa",
-      "Size": 32654022,
+      "Size": 35771672,
       "Guid": "7b9762c4a51906e4ca36acfcbcdbde3e",
-      "Hash": "c70d964fcc91a1e41b83f4e74b81d325",
+      "Hash": "a8d8f49def776fa4aa3dd4ee06c43f4b",
       "ThumbnailHash": "a1ecf232cb6d313ff381eec370b6cdb2",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1747508922
+      "LastUpdate": 1775984711
     },
     {
       "Parts": [
