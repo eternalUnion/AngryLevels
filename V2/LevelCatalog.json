@@ -2359,6 +2359,39 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1775915800
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/layzyidiot/ULTRAKILLCustomLevels/7ec4b3ef39051d218dc2970dd0e0b9a6b08022c5/FNAF/ONE_LONG_AFTERNOON_AT_FILTHYS.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1776296261,
+          "Hash": "e5b6778867172d04dac9aca521555b21",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Filthy's Diner",
+          "LevelId": "lazy.fnaf.stupidlevel",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WIN IN EVIL MODE"
+        }
+      ],
+      "Name": "One Long Afternoon At Filthy's",
+      "Author": "lazy",
+      "Size": 14402750,
+      "Guid": "f73851455fc0d964fad425713d1784d6",
+      "Hash": "e5b6778867172d04dac9aca521555b21",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1776296261
     }
   ]
 }
