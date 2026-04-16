@@ -1250,38 +1250,41 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/RedNova1/Novakaizo/01ba1000b762dfb93f7ebbfd446a25735faf13e7/Level/novakaizo.angry"
+        "https://raw.githubusercontent.com/RedNova1/Novakaizo/3958c4dd778cf5cce08ee5f4dc39f7c3761c3257/Level/novakaizo.angry"
       ],
       "Updates": [
         {
           "Date": 1753870395,
           "Hash": "8f45d3cfff88c684b857178eeb684655",
           "Message": "Port to ULTRA_REVAMP"
+        },
+        {
+          "Date": 1776300900,
+          "Hash": "5f61652c4cfdbc9419b6ad37412ac130",
+          "Message": "- Migrate to fraud with a fresh new obstacles!"
         }
       ],
       "Levels": [
         {
           "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [
-            "Novakaizo.dll"
-          ],
-          "LevelName": "N-1:TALLADEGA",
+          "requiredDllNames": [],
+          "LevelName": "N-1: SINSANE",
           "LevelId": "RedNova_NovaKaizo1",
           "isSecretLevel": false,
-          "secretCount": 3,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": "Have Fun"
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
         }
       ],
-      "Name": "NovaKaizo",
+      "Name": "NOVAKAIZO [REMAKE]",
       "Author": "RedNova",
-      "Size": 28337259,
+      "Size": 6996186,
       "Guid": "f38753c95f382ad40b672e07f73ed298",
-      "Hash": "8f45d3cfff88c684b857178eeb684655",
-      "ThumbnailHash": "e417e8915639161a2c19745acbf2f7d7",
+      "Hash": "5f61652c4cfdbc9419b6ad37412ac130",
+      "ThumbnailHash": "50f949736fe8426989fdd93ae3b6b646",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1753870395
+      "LastUpdate": 1776300900
     },
     {
       "Parts": [
