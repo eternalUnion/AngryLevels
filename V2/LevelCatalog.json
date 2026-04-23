@@ -1846,7 +1846,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/PrestoPesto/pesto-ultrakill/b4ff84a95ec84d6ac8d354961fe4620bb5bfbb1f/Galleries%201.2.0/Galleries_at_the_End_of_the_World.angry"
+        "https://raw.githubusercontent.com/PrestoPesto/pesto-ultrakill/904b5afd459abd7779673907819493318fc62128/Galleries%201.3.0/GALLERIES_AT_THE_END_OF_THE_WORLD.angry"
       ],
       "Updates": [
         {
@@ -1863,6 +1863,11 @@
           "Date": 1772582209,
           "Hash": "d7c987c47b3e30d489648959e5451fd4",
           "Message": "Version:\n   - Updated to Fraud.\n\nAdditions:\n   - Created a Discord server for reporting bugs.\n\nChanges:\n   - Made it more obvious when normals have been inverted.\n\nFixes:\n   - Fixed skybox rendering issues.\n   - Fixed several particle color issues.\n   - Removed some visual inconsistencies."
+        },
+        {
+          "Date": 1776907136,
+          "Hash": "2f3683e51f03ecf4098cdf9054f26217",
+          "Message": "Version:\n   - Updated to Fraud, version 17b3\n\nFixes:\n   - Fixed speedrun skips not properly activating."
         }
       ],
       "Levels": [
@@ -1892,13 +1897,13 @@
       ],
       "Name": "GALLERIES AT THE END OF THE WORLD",
       "Author": "PrestoPesto",
-      "Size": 48832618,
+      "Size": 47855047,
       "Guid": "a9d6e67d9f77dbc4895aaefd9ec2ae19",
-      "Hash": "d7c987c47b3e30d489648959e5451fd4",
+      "Hash": "2f3683e51f03ecf4098cdf9054f26217",
       "ThumbnailHash": "bfadec202ee9fb49515d35fffb7cbe2d",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1772582209
+      "LastUpdate": 1776907136
     },
     {
       "Parts": [
