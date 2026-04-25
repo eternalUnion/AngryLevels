@@ -2342,13 +2342,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/skeleton-banging-shield/Fraud-Encore-fan-made-/3fe2e5e7439b877af10e04ca498e8922eebeed7d/Fraud_asa.angry"
+        "https://raw.githubusercontent.com/skeleton-banging-shield/8-E-patch-1.1/79d6c0f7d4ccceb13b85ae0ed6782de1875b798c/Fraud_asa.angry"
       ],
       "Updates": [
         {
           "Date": 1775915800,
           "Hash": "1c6edd11f95db4d429a964333b243785",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1777156450,
+          "Hash": "5c4a39b5b12e1b246b521e4b75a2f14a",
+          "Message": "- Added custom music\n- Updated thumbnail\n- Revamped second DeathCatcher arena\n- The position of some enemies has been changed\n- Fixed incorrect column collision in the Ferryman arena\n- Fixed previous rooms disappearing in some places\n- Fixed the issue where portals in the last room would not work correctly after loading a checkpoint\n- Fixed missing collision near the wall in the first backrooms arena\n- Fixed \"veshalka\" softlock\n- Fixed a bug where combat music would play when there were no enemies in some arenas\n- Fixed a broken portal in the arena with Radiant Power\n- Slightly increased Radiant Power health\n- Now to get P-rank need to kill 128 enemies instead of 123 as before"
         }
       ],
       "Levels": [
@@ -2365,13 +2370,13 @@
       ],
       "Name": "ALL IN ONE",
       "Author": "thematveykaplay",
-      "Size": 18634680,
+      "Size": 27636620,
       "Guid": "79ca7807eab285c4d857d6d3720b5e65",
-      "Hash": "1c6edd11f95db4d429a964333b243785",
+      "Hash": "5c4a39b5b12e1b246b521e4b75a2f14a",
       "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1775915800
+      "LastUpdate": 1777156450
     },
     {
       "Parts": [
