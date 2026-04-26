@@ -2299,7 +2299,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/engelbertwagner7/1-2theburningworld/31cd4a28f11211bc34bb1fc835d1aa3ad09d3358/Das%20letzte%20Update/1-2_The_Burning_World.angry"
+        "https://raw.githubusercontent.com/engelbertwagner7/1-2theburningworld/ea79f5f3b7f6ed3873fd16463da26dbe1c1ddf9a/Vogelbeobachtung/1-2_The_Burning_World.angry"
       ],
       "Updates": [
         {
@@ -2316,6 +2316,11 @@
           "Date": 1775296757,
           "Hash": "3843e662b55302a4b83ec8379c22dd0d",
           "Message": "Ich glaube, das wird das letzte Update für dieses Level sein! Ich bin ziemlich zufrieden damit, wie es jetzt aussieht, und bin sehr dankbar für all die Unterstützung, die ich bekommen habe! Ich habe hauptsächlich Fehler behoben und neue Elemente hinzugefügt – viel Spaß damit!"
+        },
+        {
+          "Date": 1777202371,
+          "Hash": "17f68152157c01f47a6fadfa45b42abf",
+          "Message": "Endlich habe ich dem Level eine echte Herausforderung hinzugefügt!\nUnsere Level-Bewertung ist jetzt positiv! Vielen Dank!"
         }
       ],
       "Levels": [
@@ -2327,18 +2332,28 @@
           "isSecretLevel": false,
           "secretCount": 0,
           "levelChallengeEnabled": true,
-          "levelChallengeText": "DON'T PICK UP ANY SKULLS"
+          "levelChallengeText": "Hunt The Birds In One Life For a Prize!"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "",
+          "LevelId": "puzzle",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
         }
       ],
       "Name": "Level: 1-2: The Burning World",
       "Author": "engelbertwagner7@gmail.com",
-      "Size": 22741364,
+      "Size": 25454209,
       "Guid": "da877611bf18e63478de3a03613f6225",
-      "Hash": "3843e662b55302a4b83ec8379c22dd0d",
+      "Hash": "17f68152157c01f47a6fadfa45b42abf",
       "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1775296757
+      "LastUpdate": 1777202371
     },
     {
       "Parts": [
