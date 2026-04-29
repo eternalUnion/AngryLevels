@@ -339,6 +339,14 @@
       "FileName": "BloodPleaseScripts.dll",
       "Hash": "b9d3f828c4660508ba38d7fd8f5695f4",
       "Size": 14848
+    },
+    {
+      "Updates": [
+        "a2dfda39aacf9c723071efa5b6e3d29a"
+      ],
+      "FileName": "UltraMahjong.dll",
+      "Hash": "a2dfda39aacf9c723071efa5b6e3d29a",
+      "Size": 53760
     }
   ]
 }
