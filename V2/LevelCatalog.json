@@ -759,7 +759,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrakill-MACHINATION/84dfccd87527bc73ae0d03fb1e8c2fc370b684e9/Patch010-Fraud/MACHINATION.angry"
+        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrakill-MACHINATION/7dd7aa8e4671a01d43eec8619920ca67cced3692/Patch011-V3/MACHINATION.angry"
       ],
       "Updates": [
         {
@@ -781,6 +781,11 @@
           "Date": 1773454325,
           "Hash": "0b9c02330c82911ed28661e4fdd4abe2",
           "Message": "- Ported to Fraud standards\n- Tweaked enemy placement an itsy bitsy teeny weeny bit\n- Replaced pre-REVAMP Light Pillars with my own kinda shitty version since the old ones don't work anymore.\n- Started working on M2 again after like a year of working on other stuff. Back to the UltraGrind."
+        },
+        {
+          "Date": 1777499064,
+          "Hash": "1516d705602eefa366637f49dc89e089",
+          "Message": "M1:\nUpgraded M1 to OSHA safety standards (Disable Enemy Spawns or No-Monsters required to see changes)\nChanged enemy encounters drastically so enemy placement and roster now harmonize much better with eachother and the environment. (Original enemy placement was very dated and I've learned a lot since then - new arrangement better reflects how I originally wanted the level to play)\nReset leaderboards to account for new enemy placement (Sorry speedrunners, but I did leave the OOB clips and cheese <3)\nRemoved Clash Mode Cheat compatibility because it was fucked beyond repair (Why is almost everything invisible????)\nAdded checkpoint teleport cheat compatibility (Teleporting more than once can break the dynamic music system though...)\nInsurrectionists can no longer stand/land on finale arena's spin-needles or upper walls (This took a LOT of time and effort to patch out holy shit you have no idea)\nAdded warning to start of level if player chooses original M1 music. (Don't want anyone playing the level with copyrighted music unless they are 100% aware it's copyrighted)\nFixed numerous lighting issues with some props and environment gibs (Ultrakill's vertex lighting system continues to give me grief)\nOnce blue skull acquired and player backtracks to spoopy chain room, door locks behind player forcing them to discover open pipe (It's really obvious c'mon)\nRemoved cooldown encounter between 2nd and 3rd arena (It was pretty lame tbh)\nFixed rare softlock that occurs with final checkpoint\nFixed weird collision softlock on opening boiler \nM2 Demo:\nFixed light glows on opening catwalk not facing player properly\nFixed missing audio droning sounds in opening catwalk\nAdded bunch of pictures of M2's current development\n\nScripts:\nFixed null error within shitty chuff script\nFixed null error within shitty spark sequencer script"
         }
       ],
       "Levels": [
@@ -813,13 +818,13 @@
       ],
       "Name": "MACHINATION",
       "Author": "Streetlamp",
-      "Size": 93164594,
+      "Size": 98894860,
       "Guid": "a1f9bb7c418870d499158f9c2b55731e",
-      "Hash": "0b9c02330c82911ed28661e4fdd4abe2",
+      "Hash": "1516d705602eefa366637f49dc89e089",
       "ThumbnailHash": "1d8c82f58fb5a5115fc133df342db46b",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1773454325
+      "LastUpdate": 1777499064
     },
     {
       "Parts": [
