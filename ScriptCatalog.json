@@ -231,11 +231,12 @@
         "51df37a8d809cdf603fb68a1031c74e9",
         "9b9e2563b0e51db1ce821be52004c9ff",
         "31216ac4beb5ddfc5cf5f79e44976874",
-        "81e38a9dbbef77077afdf109ca8e6788"
+        "81e38a9dbbef77077afdf109ca8e6788",
+        "52ca345a442be04f48a8944df3ea4718"
       ],
       "FileName": "STLPShittyScripts.dll",
-      "Hash": "81e38a9dbbef77077afdf109ca8e6788",
-      "Size": 49664
+      "Hash": "52ca345a442be04f48a8944df3ea4718",
+      "Size": 50176
     },
     {
       "Updates": [
