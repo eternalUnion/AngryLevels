@@ -1807,8 +1807,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/Struct/a7b1b8b063e66da34f59f6192ce9ec359162106d/Ported/Parted/STRUCT.angry1",
-        "https://raw.githubusercontent.com/Draghtnim/Struct/a7b1b8b063e66da34f59f6192ce9ec359162106d/Ported/Parted/STRUCT.angry2"
+        "https://raw.githubusercontent.com/Draghtnim/Struct/7182e84ce5865173c35cc436e8751b8d6166719f/visualsfix/parted/STRUCT_Test.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/Struct/7182e84ce5865173c35cc436e8751b8d6166719f/visualsfix/parted/STRUCT_Test.angry2"
       ],
       "Updates": [
         {
@@ -1825,6 +1825,11 @@
           "Date": 1772388957,
           "Hash": "3162d15abc3d08348b6a60b8e791a68d",
           "Message": "-ported to fraud\n-remodeled some places with the new fraud assets\n-added information about the camera indicator\n-renamed style bonus to match the name of the ending\n-fixed elevator oob"
+        },
+        {
+          "Date": 1777638121,
+          "Hash": "0fb34f958ee0cc843b83093ff91e2b14",
+          "Message": "- Fixed minor visual bugs"
         }
       ],
       "Levels": [
@@ -1841,13 +1846,13 @@
       ],
       "Name": "STRUCT",
       "Author": "Draghtnim, Woosp, AstralOcean",
-      "Size": 38527858,
+      "Size": 38271903,
       "Guid": "bc5d2a95dcfd93349878e54862d1b220",
-      "Hash": "3162d15abc3d08348b6a60b8e791a68d",
+      "Hash": "0fb34f958ee0cc843b83093ff91e2b14",
       "ThumbnailHash": "facefa2dea3e37921d315c643f94eb73",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1772388957
+      "LastUpdate": 1777638121
     },
     {
       "Parts": [
