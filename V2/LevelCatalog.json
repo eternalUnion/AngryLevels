@@ -1690,7 +1690,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/Loadout-Hell/c0f18110c6b5d18849cb47ab702c426ab4739a69/BugFix2/Loadout_Hell.angry"
+        "https://raw.githubusercontent.com/Draghtnim/Loadout-Hell/cab2fed66a1012974aec22bde5c137f4ae5cbd8f/Port/Loadout_Hell.angry"
       ],
       "Updates": [
         {
@@ -1707,6 +1707,11 @@
           "Date": 1765635655,
           "Hash": "3234b6becb9f9e5409db6aa8496a90e6",
           "Message": "- Fixed an issue where the player would get softlocked if all weapons weren't unlocked yet"
+        },
+        {
+          "Date": 1777918561,
+          "Hash": "0e4eb388ca7f51343b936af73a7dbd61",
+          "Message": "- Ported to fraud\n- Replaced gabriel with a power (gabriel sucks to use in rude)"
         }
       ],
       "Levels": [
@@ -1723,13 +1728,13 @@
       ],
       "Name": "Loadout Hell",
       "Author": "Draghtnim",
-      "Size": 13392403,
+      "Size": 13957460,
       "Guid": "588d26e6fafdb3645aa2f8cf0b8d724a",
-      "Hash": "3234b6becb9f9e5409db6aa8496a90e6",
+      "Hash": "0e4eb388ca7f51343b936af73a7dbd61",
       "ThumbnailHash": "d9fdc3dc7351cdd51d2e13b24bc41300",
       "Locked": false,
-      "EpilepsyWarning": false,
-      "LastUpdate": 1765635655
+      "EpilepsyWarning": true,
+      "LastUpdate": 1777918561
     },
     {
       "Parts": [
