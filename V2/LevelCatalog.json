@@ -2542,6 +2542,39 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1777498723
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/PrestoPesto/pesto-ultrakill/b5e7fc55e16a978823699d2932e81210fb7b1b7d/DEATH_DESCENT_REVAMPED.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1777992702,
+          "Hash": "0a107ca3a74fc184e8f6130773544576",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-D: FREE MIND LOOP",
+          "LevelId": "presto.descent.level1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T FIGHT THE FINAL ENCOUNTER"
+        }
+      ],
+      "Name": "DEATH DESCENT: REVAMPED",
+      "Author": "PrestoPesto",
+      "Size": 33668424,
+      "Guid": "b4033c9ef5daa8549afd2975bb4ffde3",
+      "Hash": "0a107ca3a74fc184e8f6130773544576",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1777992702
     }
   ]
 }
