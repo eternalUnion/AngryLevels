@@ -196,12 +196,11 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (info.updateThumbnail)
 			{
 				thumbnailStream.Position = 0;
-				bundle.ThumbnailHash = CryptologyUtils.GetMD5Hash(thumbnailStream);
-				thumbnailStream.Position = 0;
 				using (FileStream fs = System.IO.File.Open(Path.Combine(bundlePath, "thumbnail.png"), FileMode.OpenOrCreate, FileAccess.Write))
 				{
 					thumbnailStream.CopyTo(fs);
 				}
+				bundle.ThumbnailHash = CryptologyUtils.GetMD5Hash(System.IO.File.ReadAllBytes(Path.Combine(bundlePath, "thumbnail.png")));
 
 				commitMessage.Add("- Updated bundle thumbnail");
 			}

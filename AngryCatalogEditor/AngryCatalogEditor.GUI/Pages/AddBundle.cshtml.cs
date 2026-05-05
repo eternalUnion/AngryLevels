@@ -186,9 +186,6 @@ namespace AngryCatalogEditor.GUI.Pages
 				});
 			}
 
-			catalog.Levels.Add(bundleInfo);
-			AngryCatalogHandler.SaveLevelCatalog();
-
 			string bundlePath = Path.Combine(ProjectPaths.rootPath, "Levels", angryFile.angryBundleData.bundleGuid);
 			if (!Directory.Exists(bundlePath))
 				Directory.CreateDirectory(bundlePath);
@@ -198,6 +195,10 @@ namespace AngryCatalogEditor.GUI.Pages
 			{
 				thumbnailStream.CopyTo(fs);
 			}
+			bundleInfo.ThumbnailHash = CryptologyUtils.GetMD5Hash(System.IO.File.ReadAllBytes(Path.Combine(bundlePath, "thumbnail.png")));
+
+			catalog.Levels.Add(bundleInfo);
+			AngryCatalogHandler.SaveLevelCatalog();
 
 			if (!Directory.Exists(Path.Combine(bundlePath, "LevelThumbnails")))
 				Directory.CreateDirectory(Path.Combine(bundlePath, "LevelThumbnails"));
