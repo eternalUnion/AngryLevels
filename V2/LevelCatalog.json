@@ -2510,13 +2510,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Smallkloon/UltraMahjong/6b0b8127e9cfd1cfbdb4a5ad6cf5c9e21cdeef73/MAHJONG_8-S.angry"
+        "https://raw.githubusercontent.com/Smallkloon/UltraMahjong/1421256ba7d2519eb24c1413c6ccc6f98c4d0d72/MAHJONG_8-S.angry"
       ],
       "Updates": [
         {
           "Date": 1777498723,
           "Hash": "5b132c1648c6c7e4b8710b317d6411c7",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1777992872,
+          "Hash": "5ebc5335d917adf49b1bda2391902048",
+          "Message": "- fixed a bug where the timer would start immediately\n- fixed a bug where the player could have no weapons in hand\n- adjusted testament terminal slightly :)"
         }
       ],
       "Levels": [
@@ -2535,13 +2540,13 @@
       ],
       "Name": "MAHJONG 8-S",
       "Author": "Small and Zoey Mahjong",
-      "Size": 17609384,
+      "Size": 17603209,
       "Guid": "68d3098eea5565140a2678419cc0f18b",
-      "Hash": "5b132c1648c6c7e4b8710b317d6411c7",
+      "Hash": "5ebc5335d917adf49b1bda2391902048",
       "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1777498723
+      "LastUpdate": 1777992872
     },
     {
       "Parts": [
