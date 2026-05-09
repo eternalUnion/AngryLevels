@@ -2247,14 +2247,19 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRABLOX/89e2d1c5168f35c0b8ffc668f4f7891942425cf2/ULTRABLOX.angry1",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRABLOX/89e2d1c5168f35c0b8ffc668f4f7891942425cf2/ULTRABLOX.angry2"
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRABLOX/2bbc6cfd4d93b0e0979f1092feb56741f438cd7a/ULTRABLOXcart.angry1",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRABLOX/2bbc6cfd4d93b0e0979f1092feb56741f438cd7a/ULTRABLOXcart.angry2"
       ],
       "Updates": [
         {
           "Date": 1774635024,
           "Hash": "958111d7d5b51c7ebe8e1c1ce52b5535",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1778322606,
+          "Hash": "0322d461fc8670744a76e80a259f6784",
+          "Message": "- Cart ride into Gabriel added\n- Music now rotates\n- Fixed Gamepasses not showing in Hell obby"
         }
       ],
       "Levels": [
@@ -2267,17 +2272,27 @@
           "secretCount": 0,
           "levelChallengeEnabled": false,
           "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "CART RIDE INTO GABRIEL",
+          "LevelId": "cart.ride.sisyphus",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
         }
       ],
       "Name": "ULTRABLOX",
       "Author": "DILLEGOR",
-      "Size": 37004231,
+      "Size": 46059765,
       "Guid": "db6b6fcc1dd0bb94fb61e14def3dec90",
-      "Hash": "958111d7d5b51c7ebe8e1c1ce52b5535",
+      "Hash": "0322d461fc8670744a76e80a259f6784",
       "ThumbnailHash": "ad986d8c6170b09747b49ca3b0396c6f",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1774635024
+      "LastUpdate": 1778322606
     },
     {
       "Parts": [
