@@ -2595,58 +2595,6 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1777992702
-    },
-    {
-      "Parts": [
-        "https://raw.githubusercontent.com/Bence49/PRIDE/2c12c32e387f924b97c5cdf169ced264b0dd4011/Pride%20First%20Release/PRIDE.angry1",
-        "https://raw.githubusercontent.com/Bence49/PRIDE/2c12c32e387f924b97c5cdf169ced264b0dd4011/Pride%20First%20Release/PRIDE.angry2",
-        "https://raw.githubusercontent.com/Bence49/PRIDE/2c12c32e387f924b97c5cdf169ced264b0dd4011/Pride%20First%20Release/PRIDE.angry3",
-        "https://raw.githubusercontent.com/Bence49/PRIDE/2c12c32e387f924b97c5cdf169ced264b0dd4011/Pride%20First%20Release/PRIDE.angry4",
-        "https://raw.githubusercontent.com/Bence49/PRIDE/2c12c32e387f924b97c5cdf169ced264b0dd4011/Pride%20First%20Release/PRIDE.angry5",
-        "https://raw.githubusercontent.com/Bence49/PRIDE/2c12c32e387f924b97c5cdf169ced264b0dd4011/Pride%20First%20Release/PRIDE.angry6"
-      ],
-      "Updates": [
-        {
-          "Date": 1778345501,
-          "Hash": "60f584894619fb043ad89807a4f65917",
-          "Message": "PR-1:\nInitial Upload"
-        }
-      ],
-      "Levels": [
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [
-            "AthenaResearchFacilityUtils.dll"
-          ],
-          "LevelName": "PR-1: AS REGULAR AS CLOCKWORK",
-          "LevelId": "pride.first.yay",
-          "isSecretLevel": false,
-          "secretCount": 5,
-          "levelChallengeEnabled": true,
-          "levelChallengeText": "DISCOVER AN ANCIENT STRUGGLE"
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [
-            "pride.first.yay"
-          ],
-          "requiredDllNames": [],
-          "LevelName": "CREDITS",
-          "LevelId": "pride.credits.yay",
-          "isSecretLevel": true,
-          "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
-        }
-      ],
-      "Name": "PRIDE",
-      "Author": "Bence49 and HaphazardlyLad",
-      "Size": 126659238,
-      "Guid": "a0ead8e67a4367c42a54f787a7da8663",
-      "Hash": "60f584894619fb043ad89807a4f65917",
-      "ThumbnailHash": "3b6ba1a0f1b5eeab9fb83a8dfea6bfa2",
-      "Locked": false,
-      "EpilepsyWarning": false,
-      "LastUpdate": 1778345501
     }
   ]
 }
