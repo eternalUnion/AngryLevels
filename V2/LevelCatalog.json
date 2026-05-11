@@ -2595,6 +2595,39 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1777992702
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DalordX/InfiniteRegression/3b133fbcacdc7765a1b9c5da8f609c8e5ec452f5/FRAUD_INFINITE_REGRESSION.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1778466201,
+          "Hash": "e06daa665c7a1bd4fa34d0b0dbbc1758",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Infinite Regression",
+          "LevelId": "dalord.fraudcustom",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Don't Fight The Mirror Reaper"
+        }
+      ],
+      "Name": "FRAUD: INFINITE REGRESSION",
+      "Author": "Dalord350",
+      "Size": 39319485,
+      "Guid": "403c426826a295f4f93f63658ca3eb66",
+      "Hash": "e06daa665c7a1bd4fa34d0b0dbbc1758",
+      "ThumbnailHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1778466201
     }
   ]
 }
