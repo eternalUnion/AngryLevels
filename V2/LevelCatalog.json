@@ -2628,6 +2628,52 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1778466201
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/79d012aaa85b14be66311b0df2340db9cf0dd6a7/Fraud_Bolgia_9.angry1",
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/79d012aaa85b14be66311b0df2340db9cf0dd6a7/Fraud_Bolgia_9.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1778878955,
+          "Hash": "0f1be55fb43b560478202b35132ccef9",
+          "Message": "8.9-1:\nInitial Upload\n8.9-2:\nInitial Upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "8.9-1: ADIEU ANIMUS",
+          "LevelId": "stickmin.Bolgia9.Adieu",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE SECRET ARENA"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "stickmin.Bolgia9.Adieu"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "8.9-2: AD ASTRA PER SANGUE [WIP]",
+          "LevelId": "stickmin.Bolgia9.Stars",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "FRAUD: BOLGIA 9",
+      "Author": "Stickmin",
+      "Size": 44579506,
+      "Guid": "663b74c00b65e70498dca404573b03bf",
+      "Hash": "0f1be55fb43b560478202b35132ccef9",
+      "ThumbnailHash": "a601bd165bb45e4e5605190d53cffb98",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1778878955
     }
   ]
 }
