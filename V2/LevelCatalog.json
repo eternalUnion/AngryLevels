@@ -2631,14 +2631,20 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/79d012aaa85b14be66311b0df2340db9cf0dd6a7/Fraud_Bolgia_9.angry1",
-        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/79d012aaa85b14be66311b0df2340db9cf0dd6a7/Fraud_Bolgia_9.angry2"
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/d0dda672e19edb9d4b51e26a18aa0d44f304bcce/Fraud_Bolgia_9.angry1",
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/d0dda672e19edb9d4b51e26a18aa0d44f304bcce/Fraud_Bolgia_9.angry2",
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/d0dda672e19edb9d4b51e26a18aa0d44f304bcce/Fraud_Bolgia_9.angry3"
       ],
       "Updates": [
         {
           "Date": 1778878955,
           "Hash": "0f1be55fb43b560478202b35132ccef9",
           "Message": "8.9-1:\nInitial Upload\n8.9-2:\nInitial Upload"
+        },
+        {
+          "Date": 1779114385,
+          "Hash": "5af5c6e52b036654991e34b5cbb99a71",
+          "Message": "8.9-1:\nAdded more checkpoints\nChanged some arenas\nAdded more breaks\nAdded custom music"
         }
       ],
       "Levels": [
@@ -2667,13 +2673,13 @@
       ],
       "Name": "FRAUD: BOLGIA 9",
       "Author": "Stickmin",
-      "Size": 44579506,
+      "Size": 61560208,
       "Guid": "663b74c00b65e70498dca404573b03bf",
-      "Hash": "0f1be55fb43b560478202b35132ccef9",
+      "Hash": "5af5c6e52b036654991e34b5cbb99a71",
       "ThumbnailHash": "a601bd165bb45e4e5605190d53cffb98",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1778878955
+      "LastUpdate": 1779114385
     }
   ]
 }
