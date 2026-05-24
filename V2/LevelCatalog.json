@@ -2680,6 +2680,41 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1779114385
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/316d71be3695a43f7a9f5124ff5caf957cfe1dd9/ELEGANCE/ELEGANCE.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1779589330,
+          "Hash": "15b142efd34495442b99610eac5ad0aa",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "EleganceScripts.dll"
+          ],
+          "LevelName": "BEAUTIFUL, BLOOMING CRIMSON",
+          "LevelId": "woosp.Elegance",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FACE THE CONSEQUENCES OF YOUR ACTIONS"
+        }
+      ],
+      "Name": "THE ELEGANCE OF HELL ITSELF",
+      "Author": "Woosp",
+      "Size": 32809962,
+      "Guid": "df5521857e75474468c4e1fd2f67a59b",
+      "Hash": "15b142efd34495442b99610eac5ad0aa",
+      "ThumbnailHash": "3c2050684a010c1983ea4e5a73a0995e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1779589330
     }
   ]
 }
