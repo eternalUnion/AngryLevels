@@ -312,11 +312,12 @@
     {
       "Updates": [
         "6239a28b24ce2cdd6d544033b0db0753",
-        "bc8dcca6b7a03ae56500db5aff378143"
+        "bc8dcca6b7a03ae56500db5aff378143",
+        "04e5b4fafd8c58dfc9a8a8221e846c82"
       ],
       "FileName": "SpawnArmFix.dll",
-      "Hash": "bc8dcca6b7a03ae56500db5aff378143",
-      "Size": 5632
+      "Hash": "04e5b4fafd8c58dfc9a8a8221e846c82",
+      "Size": 6656
     },
     {
       "Updates": [
