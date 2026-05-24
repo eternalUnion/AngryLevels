@@ -2746,6 +2746,39 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1779589330
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Smallkloon/Whitebox/877e07802d74eb9ccf072e4ae67f87c2c8823311/WHITEBOX.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1779651860,
+          "Hash": "577ff66774c41304bb5bd0bcd22dfacc",
+          "Message": "- Updated to Fraud\n- Removed an enemy from the final arena\n- Changed some visuals and fixed z fighting issues\n- Added a QoL checkpoint to the first room"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "W-1: BLANK SLATE",
+          "LevelId": "Smallkloon.whitebox",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "WHITEBOX FRAUD PORT",
+      "Author": "Small",
+      "Size": 8502385,
+      "Guid": "d90ddfc949d091240a9ca886bc7785c2",
+      "Hash": "577ff66774c41304bb5bd0bcd22dfacc",
+      "ThumbnailHash": "50bc63bb48d69aa1f2f569dc99e21de9",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1779651860
     }
   ]
 }
