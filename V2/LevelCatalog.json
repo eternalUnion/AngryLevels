@@ -2086,7 +2086,7 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/thebloodisalie/811118dbefbba0bd0747098ba3f8155325723e67/slowpatch/THE_BLOOD_IS_A_LIE.angry"
+        "https://raw.githubusercontent.com/Draghtnim/thebloodisalie/f9edf1704ea9d2a75f438250dcc870d86d8ca25b/Community/V1/The_Blood_Is_A_Lie.angry"
       ],
       "Updates": [
         {
@@ -2103,6 +2103,11 @@
           "Date": 1773259243,
           "Hash": "5c0a323b7dd87ac4a85dee3e9c950473",
           "Message": "- ACTUALLY fixed the visual glitch in the first room\n- killed a bug that would cause the reciever to be permanently enabled (sorry speedrunners)\n- added the ability to go through portals\n- made it clearer which side of the cube shoots out the laser"
+        },
+        {
+          "Date": 1779589443,
+          "Hash": "491749969fe61d443aa0621b00ea4fed",
+          "Message": "-Remade the backend of the level\n-Added 2 more chambers: \"Crossbeams\" by draghtnim, and \"Lasers And Lasers\" by Sandeater21\n-Added Credits"
         }
       ],
       "Levels": [
@@ -2120,24 +2125,50 @@
         },
         {
           "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "Level 1",
-          "LevelId": "Draghtnim.aperture2",
+          "requiredDllNames": [
+            "SpawnArmFix.dll"
+          ],
+          "LevelName": "Crossbeams",
+          "LevelId": "Portal.DraghtnimPuzzle",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "SpawnArmFix.dll"
+          ],
+          "LevelName": "Lasers And Lasers",
+          "LevelId": "Portal.LaserAndLasers",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "SpawnArmFix.dll"
+          ],
+          "LevelName": "Credits",
+          "LevelId": "Portal.Credits",
           "isSecretLevel": true,
           "secretCount": 0,
           "levelChallengeEnabled": false,
           "levelChallengeText": ""
         }
       ],
-      "Name": "THE BLOOD IS A LIE",
+      "Name": "The Blood Is A Lie: Community Test Chambers",
       "Author": "Draghtnim",
-      "Size": 7686203,
+      "Size": 21774158,
       "Guid": "3289eb61a492d9d49aaf186ce05ef5f9",
-      "Hash": "5c0a323b7dd87ac4a85dee3e9c950473",
-      "ThumbnailHash": "1b0097416459d8e7ab1e437dda873948",
-      "Locked": true,
+      "Hash": "491749969fe61d443aa0621b00ea4fed",
+      "ThumbnailHash": "1ecd513a3d73ebdf3f05d277be0ec4f8",
+      "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1773259243
+      "LastUpdate": 1779589443
     },
     {
       "Parts": [
