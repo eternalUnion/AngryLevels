@@ -2779,6 +2779,39 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1779651860
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Smallkloon/cania/0da4d155c8c372fb814bbd22b26f4ccea3c3b78b/CANIA.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1779655067,
+          "Hash": "369116d4d1ac864469545be27f3179e7",
+          "Message": "- Updated to Fraud \n- Changed snow textures"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "THE LONE AND LEVEL SANDS",
+          "LevelId": "SmallSpelunky.CANIA_DIAPHONY ",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO NOT DESTROY ANY RED BARRELS"
+        }
+      ],
+      "Name": "CANIA",
+      "Author": "Spelunky, AkitA, & Small",
+      "Size": 43321311,
+      "Guid": "4837f9ca4a704014cb078b0a427dc546",
+      "Hash": "369116d4d1ac864469545be27f3179e7",
+      "ThumbnailHash": "378f9fffaea118abd2c536d5e1316a78",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1779655067
     }
   ]
 }
