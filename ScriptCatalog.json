@@ -349,6 +349,14 @@
       "FileName": "UltraMahjong.dll",
       "Hash": "a2dfda39aacf9c723071efa5b6e3d29a",
       "Size": 53760
+    },
+    {
+      "Updates": [
+        "086f029f53b7ef7c2ea9f6796793131b"
+      ],
+      "FileName": "EleganceScripts.dll",
+      "Hash": "086f029f53b7ef7c2ea9f6796793131b",
+      "Size": 19968
     }
   ]
 }
