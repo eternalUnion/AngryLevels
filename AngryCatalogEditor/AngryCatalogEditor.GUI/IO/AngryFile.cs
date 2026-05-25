@@ -22,6 +22,7 @@ namespace AngryCatalogEditor.GUI.IO
 		public readonly AngryBundleData angryBundleData;
 		public readonly string path;
 		public readonly long size;
+		public readonly string md5;
 
 		public byte[] bundleIcon;
 		public Dictionary<string, byte[]> levelThumbnailMap = new();
@@ -33,11 +34,12 @@ namespace AngryCatalogEditor.GUI.IO
 			public AngryFileStructureException(string? cause, Exception? innerException) : base(cause, innerException) { }
 		}
 
-		private AngryFile(string path, AngryBundleData angryBundleData, long size)
+		private AngryFile(string path, AngryBundleData angryBundleData, long size, string md5)
 		{
 			this.angryBundleData = angryBundleData;
 			this.path = path;
 			this.size = size;
+			this.md5 = md5;
 		}
 
 		private static readonly Regex assetBundleRegex = new Regex(@"\{AngryLevelLoader\.Plugin\.tempFolderPath\}\\+[a-f\d]{32}\\+(.+_assets_all\.bundle)");
@@ -47,10 +49,13 @@ namespace AngryCatalogEditor.GUI.IO
 			angryFile = null;
 
 			long size = 0;
+			string md5 = "";
+
 			using (FileStream fs = File.OpenRead(filePath))
-			{
 				size = fs.Length;
-			}
+
+			using (FileStream fs = File.OpenRead(filePath))
+				md5 = CryptologyUtils.GetMD5Hash(fs);
 
 			using (ZipArchive archive = new ZipArchive(System.IO.File.Open(filePath, FileMode.Open, FileAccess.Read), ZipArchiveMode.Read, false))
 			{
@@ -88,7 +93,7 @@ namespace AngryCatalogEditor.GUI.IO
 				}
 
 				ex = null;
-				angryFile = new AngryFile(filePath, bundleData, size);
+				angryFile = new AngryFile(filePath, bundleData, size, md5);
 
 				ZipArchiveEntry? bundleIconEntry = archive.GetEntry("icon.png");
 				if (bundleIconEntry != null)
@@ -153,6 +158,7 @@ namespace AngryCatalogEditor.GUI.IO
 				Author = angryBundleData.bundleAuthor,
 				Guid = angryBundleData.bundleGuid,
 				Hash = angryBundleData.buildHash,
+				FileMD5 = md5,
 				Size = (int) size,
 				Levels = levelInfos,
 			};

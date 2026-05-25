@@ -158,6 +158,7 @@ namespace AngryCatalogEditor.GUI.Pages
 				Size = (int)angryFile.size,
 				Guid = angryFile.angryBundleData.bundleGuid,
 				Hash = angryFile.angryBundleData.buildHash,
+				FileMD5 = angryFile.md5,
 				ThumbnailHash = CryptologyUtils.GetMD5Hash(thumbnailStream),
 				Locked = false,
 				EpilepsyWarning = (bool)info.EpilepsyWarning,

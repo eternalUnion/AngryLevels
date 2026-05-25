@@ -43,6 +43,7 @@ namespace AngryCatalogEditor
 		public int Size { get; set; }
 		public string Guid { get; set; }
 		public string Hash { get; set; }
+		public string FileMD5 { get; set; }
 		public string ThumbnailHash { get; set; }
 
         public bool Locked { get; set; }
@@ -232,11 +233,15 @@ namespace AngryCatalogEditor
 		{
 			public string guid;
 			public string buildHash;
+			public string md5;
 		}
 
-		static bool ProcessBundle(string bundlePath, string tempPath, out BundleInfo info)
+		static bool ProcessBundle(string bundlePath, out BundleInfo info)
 		{
 			info = new BundleInfo();
+
+			using (FileStream fileStream = File.OpenRead(bundlePath))
+				info.md5 = Convert.ToHexString(MD5.Create().ComputeHash(fileStream)).ToLower();
 			
 			using (ZipArchive angry = new ZipArchive(File.Open(bundlePath, FileMode.Open, FileAccess.ReadWrite), ZipArchiveMode.Update))
 			{
@@ -295,7 +300,7 @@ namespace AngryCatalogEditor
 			Directory.CreateDirectory(tempPath);
 
 			BundleInfo bundleInfo;
-			if (!ProcessBundle(bundlePath, tempPath, out bundleInfo))
+			if (!ProcessBundle(bundlePath, out bundleInfo))
 			{
 				Console.WriteLine("Could not process bundle");
 				return;
@@ -337,6 +342,7 @@ namespace AngryCatalogEditor
 			newInfo.Author = author;
 			newInfo.Guid = bundleInfo.guid;
 			newInfo.Hash = bundleInfo.buildHash;
+			newInfo.FileMD5 = bundleInfo.md5;
 			newInfo.ThumbnailHash = GetMD5Hash(File.ReadAllBytes(tempThumbnailPath));
 			newInfo.Size = size;
 			newInfo.LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds();
@@ -429,7 +435,7 @@ namespace AngryCatalogEditor
 			if (!string.IsNullOrEmpty(bundlePath))
 			{
 				BundleInfo info;
-				if (!ProcessBundle(bundlePath, tempPath, out info))
+				if (!ProcessBundle(bundlePath, out info))
 				{
 					Console.WriteLine("Could not process bundle");
 					return;
@@ -481,6 +487,7 @@ namespace AngryCatalogEditor
                         }
 
 						bundle.Hash = info.buildHash;
+						bundle.FileMD5 = info.md5;
 						bundle.LastUpdate = ((DateTimeOffset)DateTime.UtcNow).ToUnixTimeSeconds();
 						int size;
 						using (FileStream fs = File.Open(bundlePath, FileMode.Open, FileAccess.Read))

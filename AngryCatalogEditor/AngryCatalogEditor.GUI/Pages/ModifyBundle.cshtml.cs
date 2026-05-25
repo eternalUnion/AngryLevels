@@ -238,6 +238,7 @@ namespace AngryCatalogEditor.GUI.Pages
 			if (info.updateAngryFile)
 			{
 				bundle.Hash = angryFile.angryBundleData.buildHash;
+				bundle.FileMD5 = angryFile.md5;
 				bundle.LastUpdate = ((DateTimeOffset)(DateTime.UtcNow)).ToUnixTimeSeconds();
 				bundle.Size = (int) angryFile.size;
 				bundle.Updates.Add(new BundleInfo.UpdateInfo()
