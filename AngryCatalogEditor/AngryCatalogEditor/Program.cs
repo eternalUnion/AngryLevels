@@ -1,15 +1,16 @@
-﻿using Newtonsoft.Json;
+﻿using ImageMagick;
+using Newtonsoft.Json;
+using Octokit;
+using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Globalization;
 using System.IO.Compression;
+using System.Net;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
-using System.Drawing;
-using ImageMagick;
-using System.Runtime.InteropServices;
-using System;
-using System.Globalization;
-using Octokit;
 using FileMode = System.IO.FileMode;
-using System.ComponentModel;
 
 namespace AngryCatalogEditor
 {
@@ -242,8 +243,8 @@ namespace AngryCatalogEditor
 
 			using (FileStream fileStream = File.OpenRead(bundlePath))
 				info.md5 = Convert.ToHexString(MD5.Create().ComputeHash(fileStream)).ToLower();
-			
-			using (ZipArchive angry = new ZipArchive(File.Open(bundlePath, FileMode.Open, FileAccess.ReadWrite), ZipArchiveMode.Update))
+
+			using (ZipArchive angry = new ZipArchive(File.Open(bundlePath, FileMode.Open, FileAccess.Read), ZipArchiveMode.Read))
 			{
 				var dataEntry = angry.GetEntry("data.json");
 				using (TextReader dataReader = new StreamReader(dataEntry.Open()))
