@@ -2771,13 +2771,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/316d71be3695a43f7a9f5124ff5caf957cfe1dd9/ELEGANCE/ELEGANCE.angry"
+        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/cb9d8ebca91f6bd0bb21b8d1ec8aa72f29000839/ELEGANCE/Patch01/ELEGANCE.angry"
       ],
       "Updates": [
         {
           "Date": 1779589330,
           "Hash": "15b142efd34495442b99610eac5ad0aa",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1779896334,
+          "Hash": "7f01bd43e8b7cfb44a3f11a0bc2010a9",
+          "Message": "- Slightly loosened P-Rank requirements\n- Adjusted lighting in some darker places to aid visibility\n- Added a clearer indication to the terminal's chime\n- Fixed some geometry that were on the incorrect tags, layers, or missing colliders\n- Fixed a rare case of an arena activating and being stuck outside of it\n- Various fixes and tweaks"
         }
       ],
       "Levels": [
@@ -2796,14 +2801,14 @@
       ],
       "Name": "THE ELEGANCE OF HELL ITSELF",
       "Author": "Woosp",
-      "Size": 32809962,
+      "Size": 33233948,
       "Guid": "df5521857e75474468c4e1fd2f67a59b",
-      "Hash": "15b142efd34495442b99610eac5ad0aa",
-      "FileMD5": "72017e3d1695d8415b879e13988d9ae3",
+      "Hash": "7f01bd43e8b7cfb44a3f11a0bc2010a9",
+      "FileMD5": "8ef8d720c78b1d61ccbbbd9bba4a72e3",
       "ThumbnailHash": "3c2050684a010c1983ea4e5a73a0995e",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1779589330
+      "LastUpdate": 1779896334
     },
     {
       "Parts": [
