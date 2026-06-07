@@ -1128,10 +1128,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/sandeater21/tsta/e50a314aabeeead2ad3db503392886186160d821/tsta1/3.1/TSTA__ACT_1__PRELUDE.angry1",
-        "https://raw.githubusercontent.com/sandeater21/tsta/e50a314aabeeead2ad3db503392886186160d821/tsta1/3.1/TSTA__ACT_1__PRELUDE.angry2",
-        "https://raw.githubusercontent.com/sandeater21/tsta/e50a314aabeeead2ad3db503392886186160d821/tsta1/3.1/TSTA__ACT_1__PRELUDE.angry3",
-        "https://raw.githubusercontent.com/sandeater21/tsta/e50a314aabeeead2ad3db503392886186160d821/tsta1/3.1/TSTA__ACT_1__PRELUDE.angry4"
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry1",
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry2",
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry3",
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry4",
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry5"
       ],
       "Updates": [
         {
@@ -1163,6 +1164,11 @@
           "Date": 1773259454,
           "Hash": "3053049be7f9782418a671fd27c95d64",
           "Message": "-ported to fraud\n\nTA-I:\n-added a few shelves and boxes in the dark area\n-added color to fraud in the terminal\n\nTA-0:\n-fixed swordsmachine in the red path looking enraged when its not\n\nTA-1:\n-the first idol in the bts area no longer pushes you\n\nTA-2:\n-removed lights from a locked door\n-fixed the control room sometimes being disabled when it shouldnit be"
+        },
+        {
+          "Date": 1780841614,
+          "Hash": "c6201ec03ff78414786b2d678a1eea24",
+          "Message": "- Added TA-3\n- Removed damage buffs from radiant enemies to be consistent with the encores\n- You can now unleash The Bees.\n\nTA-1:\n- Added two green hookpoints in the final arena\n- Final arena intro can now be skipped"
         }
       ],
       "Levels": [
@@ -1170,7 +1176,9 @@
           "requiredCompletedLevelIdsForUnlock": [
             "se.tstaI"
           ],
-          "requiredDllNames": [],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
           "LevelName": "TA-0: VITRIFICATION ORDER",
           "LevelId": "se.tsta0",
           "isSecretLevel": false,
@@ -1182,7 +1190,9 @@
           "requiredCompletedLevelIdsForUnlock": [
             "se.tsta0"
           ],
-          "requiredDllNames": [],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
           "LevelName": "TA-1: 15 ACRES OF BROKEN GLASS",
           "LevelId": "se.tsta1",
           "isSecretLevel": false,
@@ -1194,7 +1204,9 @@
           "requiredCompletedLevelIdsForUnlock": [
             "se.tsta1"
           ],
-          "requiredDllNames": [],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
           "LevelName": "TA-2: OBVERSE OF THE OLD WIND",
           "LevelId": "se.tsta2",
           "isSecretLevel": false,
@@ -1203,8 +1215,24 @@
           "levelChallengeText": "SOLVE THEIR RIDDLES"
         },
         {
+          "requiredCompletedLevelIdsForUnlock": [
+            "se.tsta2"
+          ],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
+          "LevelName": "TA-3: THE WET MOIST",
+          "LevelId": "se.tsta3",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T STAND ON FLESH"
+        },
+        {
           "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
           "LevelName": "TA-I: SUNFALL",
           "LevelId": "se.tstaI",
           "isSecretLevel": false,
@@ -1214,7 +1242,9 @@
         },
         {
           "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
           "LevelName": "TA-S: DEEP ROCK INFERNO",
           "LevelId": "se.tstaS",
           "isSecretLevel": true,
@@ -1225,14 +1255,14 @@
       ],
       "Name": "TSTA /// ACT 1 + PRELUDE",
       "Author": "sandeater",
-      "Size": 86602623,
+      "Size": 125763646,
       "Guid": "6b6d65dd70cc04e4a96d3de53aea23ae",
-      "Hash": "3053049be7f9782418a671fd27c95d64",
-      "FileMD5": "7154d6f31c3b678900ccb694649372f7",
+      "Hash": "c6201ec03ff78414786b2d678a1eea24",
+      "FileMD5": "6ae1718a5dfbff5cdfc483e406f62841",
       "ThumbnailHash": "cf152fbd6dde00232204b5d6f373fdb3",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1773259454
+      "LastUpdate": 1780841614
     },
     {
       "Parts": [
