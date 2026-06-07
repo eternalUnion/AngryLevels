@@ -358,6 +358,14 @@
       "FileName": "EleganceScripts.dll",
       "Hash": "086f029f53b7ef7c2ea9f6796793131b",
       "Size": 19968
+    },
+    {
+      "Updates": [
+        "e133dd6734a1e5a0791b1c7214594110"
+      ],
+      "FileName": "tristuff.dll",
+      "Hash": "e133dd6734a1e5a0791b1c7214594110",
+      "Size": 25088
     }
   ]
 }
