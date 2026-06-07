@@ -2907,6 +2907,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1779655067
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DILLEGOR/OLD-0-4-REVAMPED/0e141e1c7e0471f0b84f6190f5414fe48c2d6789/Old_0-4_Revamped.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1780841673,
+          "Hash": "6786906374cd52142990c567fdf471fb",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "0-4: A ONE-MACHINE ARMY",
+          "LevelId": "04.onemachinearmyold.revamp",
+          "isSecretLevel": false,
+          "secretCount": 3,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "SLIDE UNINTERRUPTED FOR 12 SECONDS"
+        }
+      ],
+      "Name": "OLD 0-4 REVAMPED",
+      "Author": "DILLEGOR",
+      "Size": 12866161,
+      "Guid": "ecc6678e6bd827d48bbcbae67189fe8b",
+      "Hash": "6786906374cd52142990c567fdf471fb",
+      "FileMD5": "b5a8c336d64800ea659760a7db03da35",
+      "ThumbnailHash": "044938cc41902f2bae0830d593c688c4",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1780841673
     }
   ]
 }
