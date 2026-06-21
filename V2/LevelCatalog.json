@@ -2946,6 +2946,109 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1780841673
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry1",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry2",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry3",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry4",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry5",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry6",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry7",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry8",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry9",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry10",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/3c84459aadd58063db464aa4e4fe89b068bb6532/ULTRAKILL_REENVISIONED.angry11"
+      ],
+      "Updates": [
+        {
+          "Date": 1782042744,
+          "Hash": "3d8237feb2bf5554185fd1d16a1374c4",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "dillegor.prelude.reenvisioned",
+            "dillegor.limbo.reenvisioned",
+            "dillegor.lust.reenvisioned"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "3-RV: SKELETON AND ITS FLESH",
+          "LevelId": "dillegor.gluttony.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "<color=#FF0000>CHOOSE AN ALTERNATE PATH</color>"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "0-RV: MECHANICAL MADNESS",
+          "LevelId": "dillegor.prelude.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO NOT PICK UP ANY WEAPONS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "dillegor.prelude.reenvisioned"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "1-RV: ON THE EDGE OF REALITY",
+          "LevelId": "dillegor.limbo.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FIND THE SECRET EXIT"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "dillegor.prelude.reenvisioned",
+            "dillegor.limbo.reenvisioned"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "2-RV: CITY OF THE FADING WIND",
+          "LevelId": "dillegor.lust.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "ROADKILL A VIRTUE"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-RVE: THE NIGHT CYCLE OF OBLIVION",
+          "LevelId": "dillegor.limbo.challenge",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Credits",
+          "LevelId": "dillegor.creditsact1.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "[ACT I] ULTRAKILL /// REENVISIONED",
+      "Author": "DILLEGOR & thematveykaplay",
+      "Size": 266922080,
+      "Guid": "1c347fa9195ecfc47a9e13c50b997e76",
+      "Hash": "3d8237feb2bf5554185fd1d16a1374c4",
+      "FileMD5": "3feec7bdfe1f59683408c0c7ff63857c",
+      "ThumbnailHash": "83a0152965a5e4d1e69f4316ae52801e",
+      "Locked": false,
+      "EpilepsyWarning": true,
+      "LastUpdate": 1782042744
     }
   ]
 }
