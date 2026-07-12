@@ -3054,6 +3054,40 @@
       "Locked": false,
       "EpilepsyWarning": true,
       "LastUpdate": 1783447509
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/yydhhads/Angry/cece7d2669dbb0cad9186ec5185abd06c8388bd3/bundle/FRAUD__UNNAMED.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1783877025,
+          "Hash": "c5b19173efa8ebb488c71eb8f6b86386",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "FRAUD : UNNAMED",
+          "LevelId": "gluk.fraud.unnamed",
+          "isSecretLevel": false,
+          "secretCount": 2,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "FRAUD : UNNAMED",
+      "Author": "GLUK",
+      "Size": 5001233,
+      "Guid": "f77f92c07c3465c439cde8befab3e32b",
+      "Hash": "c5b19173efa8ebb488c71eb8f6b86386",
+      "FileMD5": "1acbd5065cc7b596033797e25256d7cd",
+      "ThumbnailHash": "2a546b81f40fc1cf996ab2e33cbfa005",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1783877025
     }
   ]
 }
