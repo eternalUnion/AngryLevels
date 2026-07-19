@@ -2576,50 +2576,23 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/6c533d56a26c81bfdfaf977c3faf7f43521bf59d/painatrophy/Pain_Atrophy.angry1",
-        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/6c533d56a26c81bfdfaf977c3faf7f43521bf59d/painatrophy/Pain_Atrophy.angry2",
-        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/6c533d56a26c81bfdfaf977c3faf7f43521bf59d/painatrophy/Pain_Atrophy.angry3",
-        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/6c533d56a26c81bfdfaf977c3faf7f43521bf59d/painatrophy/Pain_Atrophy.angry4",
-        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/6c533d56a26c81bfdfaf977c3faf7f43521bf59d/painatrophy/Pain_Atrophy.angry5"
+        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/da369a3f67613e8d8e2dc052e06a8976d80a5595/1_patch/Pain_Atrophy.angry1",
+        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/da369a3f67613e8d8e2dc052e06a8976d80a5595/1_patch/Pain_Atrophy.angry2",
+        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/da369a3f67613e8d8e2dc052e06a8976d80a5595/1_patch/Pain_Atrophy.angry3"
       ],
       "Updates": [
         {
           "Date": 1776799296,
           "Hash": "0363ef0705f911b42a45a435dbce13fd",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1784458376,
+          "Hash": "5f1fb0d83a5bda045b2a6c384b263261",
+          "Message": "- Improved performance\n- Added Tip Terminals, changed Tip of The Day\n- Removed all* of the oob triggers (for speedrunners)\n- Cheats no longer disable things (for forcerad challenge)\n- Added \"Hall Of Fame\" to level terminal for impressive things\n- Sentry in Sentry Gap room has 0.15 hp\n- Fixed Solid Lava preventing jumping\n- Added message to dual wields\n- Red final dual wield can now be accessed after respawning after triggering red final arena\n- Dual wields can no longer be accessed after completing their respective arenas\n- \"Lava Pit\" room now has less places to stand\n- Moved the ferryman book to the altar\n- Blue Final, Red Final, and Final arenas checkpoints will now reactivate when needed\n- Added some grate walls to make \"Big Square\" slightly less annoying\n- Fixed some instances of enemies getting stuck out of bounds\n- Water in Water Room is now a bit lower\n- Fixed Red Hookpoints not working with auto-aim\n- Changed Red Hookpoint hint text\n- Fixed Cerberi not becoming wounded at half health\n- Removed the Useful Cube, Added the Useful Sphere\n- Added Fun Room"
         }
       ],
       "Levels": [
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "PA-2: WHITE NOISE SKYLINE",
-          "LevelId": "tlswt.painatrophy.level2",
-          "isSecretLevel": false,
-          "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "PA-3: THEN ALL IS FORGIVEN",
-          "LevelId": "tlswt.painatrophy.level3",
-          "isSecretLevel": false,
-          "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
-        },
-        {
-          "requiredCompletedLevelIdsForUnlock": [],
-          "requiredDllNames": [],
-          "LevelName": "PS-1: i dont have a name for this one lol",
-          "LevelId": "tlswt.painatrophy.secret1",
-          "isSecretLevel": false,
-          "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
-        },
         {
           "requiredCompletedLevelIdsForUnlock": [],
           "requiredDllNames": [],
@@ -2633,14 +2606,14 @@
       ],
       "Name": "Pain Atrophy",
       "Author": "tl-s--w-t",
-      "Size": 106205031,
+      "Size": 55580630,
       "Guid": "909b92bd3980eba44a40b1b717bcd54d",
-      "Hash": "0363ef0705f911b42a45a435dbce13fd",
-      "FileMD5": "7e7e3f18b8f04360bc61845e989d5ec4",
+      "Hash": "5f1fb0d83a5bda045b2a6c384b263261",
+      "FileMD5": "d72a548767983d4829631fbd9d61d883",
       "ThumbnailHash": "8fb41d352ce3527c435303408343ab54",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1776799296
+      "LastUpdate": 1784458376
     },
     {
       "Parts": [
