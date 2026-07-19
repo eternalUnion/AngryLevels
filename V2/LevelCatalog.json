@@ -3061,6 +3061,41 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1783877025
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/9381392a67d006ef72e1cc2bb10fed6ebca20311/Bundle.angry1",
+        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/9381392a67d006ef72e1cc2bb10fed6ebca20311/Bundle.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1784458475,
+          "Hash": "46fcc4ff1d38a2442990676fd9619b10",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "SR-1: REVERSE TRANSCENDENCE",
+          "LevelId": "polarfr0stt.sorcery.reversetranscendence",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "SORCERY",
+      "Author": "snowstopper",
+      "Size": 34367040,
+      "Guid": "b4450921471160945b16f9ca99def8a1",
+      "Hash": "46fcc4ff1d38a2442990676fd9619b10",
+      "FileMD5": "bdcac891189f71afb20e6fe99cac57fb",
+      "ThumbnailHash": "36503312b237e7163578e1e01c064ae8",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1784458475
     }
   ]
 }
