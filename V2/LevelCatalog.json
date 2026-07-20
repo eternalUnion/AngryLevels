@@ -3064,14 +3064,19 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/9381392a67d006ef72e1cc2bb10fed6ebca20311/Bundle.angry1",
-        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/9381392a67d006ef72e1cc2bb10fed6ebca20311/Bundle.angry2"
+        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/91cee9d72c6154b3c06e28dfb6abedb25e4503c8/Bundle.angry1",
+        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/91cee9d72c6154b3c06e28dfb6abedb25e4503c8/Bundle.angry2"
       ],
       "Updates": [
         {
           "Date": 1784458475,
           "Hash": "46fcc4ff1d38a2442990676fd9619b10",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1784577409,
+          "Hash": "17302dc13c5518e459ba49a85b2fc26a",
+          "Message": "- Adjusted the lighting of some rooms\n- Rewrote the Tip of the Day\n- Fixed the room after the skull pedestal deloading\n- Door volume lowered"
         }
       ],
       "Levels": [
@@ -3084,18 +3089,28 @@
           "secretCount": 5,
           "levelChallengeEnabled": false,
           "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "SR-2: MURDER FOR THE CROWN",
+          "LevelId": "polarfr0stt.sorcery.murderforthecrown",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
         }
       ],
       "Name": "SORCERY",
       "Author": "snowstopper",
-      "Size": 34367040,
+      "Size": 34430936,
       "Guid": "b4450921471160945b16f9ca99def8a1",
-      "Hash": "46fcc4ff1d38a2442990676fd9619b10",
-      "FileMD5": "bdcac891189f71afb20e6fe99cac57fb",
+      "Hash": "17302dc13c5518e459ba49a85b2fc26a",
+      "FileMD5": "d9c6e742db364b80a068c5d358bf2c68",
       "ThumbnailHash": "36503312b237e7163578e1e01c064ae8",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1784458475
+      "LastUpdate": 1784577409
     }
   ]
 }
