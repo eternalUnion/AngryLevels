@@ -3111,6 +3111,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1784577409
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RedstoneWizard08/EverythingIncLevels/b5af30536dcc04dfb7d7009fa30804dd48f4ae10/Random_Bullshit_Go.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786064994,
+          "Hash": "54568ce3e048c7722b14a4e42099be31",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "William Tell Overheat",
+          "LevelId": "everythinginc.randombullshitgo.prelude",
+          "isSecretLevel": false,
+          "secretCount": 2,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ULTRAKILL: Amalgamations",
+      "Author": "Everything Inc.",
+      "Size": 18489179,
+      "Guid": "3e0201963faa82564b31a8068b9b01f5",
+      "Hash": "54568ce3e048c7722b14a4e42099be31",
+      "FileMD5": "4c377f69f49f5ab48130dc705e01b623",
+      "ThumbnailHash": "d9ef9217d31d97fbecee8f78910cc526",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786064994
     }
   ]
 }
