@@ -3158,13 +3158,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/otterfan65/FRACTALING-ANEW/adbae22a6b33770461133ff6b48c06b2e99f1e30/FRACTALING_ANEW.angry"
+        "https://raw.githubusercontent.com/otterfan65/FRACTALING-ANEW/d013c8b71fd56e9eaafb50a89d7fc9b0931eb330/FRACTALING_ANEW.angry"
       ],
       "Updates": [
         {
           "Date": 1786068976,
           "Hash": "25cb03a7349dd3141a958926d28304e2",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1786078714,
+          "Hash": "8eae35cbff847cd44b4e484ad84980d3",
+          "Message": "- Fixed OOBs not properly killing enemies\n"
         }
       ],
       "Levels": [
@@ -3181,14 +3186,14 @@
       ],
       "Name": "FRACTALING ANEW",
       "Author": "otterfan65",
-      "Size": 20289329,
+      "Size": 20289509,
       "Guid": "023861dc4ba927e43bbb314d75b2ffe0",
-      "Hash": "25cb03a7349dd3141a958926d28304e2",
-      "FileMD5": "41b23165284dc16f93d0461075a55d0f",
+      "Hash": "8eae35cbff847cd44b4e484ad84980d3",
+      "FileMD5": "5f382327ac7434878f47400e15992838",
       "ThumbnailHash": "aa439ee4d7a67c9b054da281b47c28b7",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1786068976
+      "LastUpdate": 1786078714
     }
   ]
 }
