@@ -3069,8 +3069,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/91cee9d72c6154b3c06e28dfb6abedb25e4503c8/Bundle.angry1",
-        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/91cee9d72c6154b3c06e28dfb6abedb25e4503c8/Bundle.angry2"
+        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/40233f36acb806e06de97c01d906551394d8ed1c/Bundle.angry1",
+        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/40233f36acb806e06de97c01d906551394d8ed1c/Bundle.angry2"
       ],
       "Updates": [
         {
@@ -3082,6 +3082,11 @@
           "Date": 1784577409,
           "Hash": "17302dc13c5518e459ba49a85b2fc26a",
           "Message": "- Adjusted the lighting of some rooms\n- Rewrote the Tip of the Day\n- Fixed the room after the skull pedestal deloading\n- Door volume lowered"
+        },
+        {
+          "Date": 1786068883,
+          "Hash": "a98b10dd2ea21a642a8ad18d3af8b31c",
+          "Message": "- Minor geometry and level changes\n- Crediting for custom terminal prefab"
         }
       ],
       "Levels": [
@@ -3108,14 +3113,14 @@
       ],
       "Name": "SORCERY",
       "Author": "snowstopper",
-      "Size": 34430936,
+      "Size": 34532188,
       "Guid": "b4450921471160945b16f9ca99def8a1",
-      "Hash": "17302dc13c5518e459ba49a85b2fc26a",
-      "FileMD5": "d9c6e742db364b80a068c5d358bf2c68",
+      "Hash": "a98b10dd2ea21a642a8ad18d3af8b31c",
+      "FileMD5": "ff18a3c3a87cd317c31a3b95ebf19b45",
       "ThumbnailHash": "36503312b237e7163578e1e01c064ae8",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1784577409
+      "LastUpdate": 1786068883
     },
     {
       "Parts": [
