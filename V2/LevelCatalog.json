@@ -3206,6 +3206,41 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1786078714
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/LertyTheCreature1311/hotelhavoc/3848c838b0cdcdf6ab989e55a548a281e8606d44/HOTELHAVOC.angry1",
+        "https://raw.githubusercontent.com/LertyTheCreature1311/hotelhavoc/3848c838b0cdcdf6ab989e55a548a281e8606d44/HOTELHAVOC.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1786140246,
+          "Hash": "ada417445d22fa2449ab9d3fd868e62d",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "HOTEL HAVOC",
+          "LevelId": "hotelhavoc",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "PARTICIPATE IN THE CYCLE OF LIFE"
+        }
+      ],
+      "Name": "UNSAFE HEAVEN",
+      "Author": "LertyTheCreature1311",
+      "Size": 35711375,
+      "Guid": "538f9e8c03d589a4ba78cd96eb6f8095",
+      "Hash": "ada417445d22fa2449ab9d3fd868e62d",
+      "FileMD5": "e6da86e301fea21a19c6a9c97b8771e4",
+      "ThumbnailHash": "df8c7f82e3a5ef3cfac8d9bc33603552",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786140246
     }
   ]
 }
