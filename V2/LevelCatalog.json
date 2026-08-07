@@ -1361,17 +1361,14 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry1",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry2",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry3",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry4",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry5",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry6",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry7",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry8",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry9",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry10",
-        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/f0a0dcb9bb8210a595549f2a2c9758f2522cd9ad/BLISS%20UPDATE%202/BLISS.angry11"
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry1",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry2",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry3",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry4",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry5",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry6",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry7",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry8"
       ],
       "Updates": [
         {
@@ -1388,6 +1385,11 @@
           "Date": 1770895410,
           "Hash": "425af535ed5be084bbc664aeae0cc6c0",
           "Message": "BLISS UPDATE\n\n\nCHENGELOG:\n\nB-1:\n\n- Fixed softlock at the end of part 1\n- Added book in part 1\n- Changed line in part 2 book\n- Major visual overpass\n- Fixed secret order\n- Made part 2 pathing clearer\n- Added some more waves to encounters\n\nB-2:\n\n- Initial release"
+        },
+        {
+          "Date": 1786123095,
+          "Hash": "50529b32e01eed24dadbc27b353b3613",
+          "Message": "NEW LEVEL: BLISS /// THIRD\n\n-Greatly reduced filesize for all levels\n-Remade the title system from scratch\n-Slight changes to the credits terminal layout\n\nB-1: \n-Slight visual changes to the rooftop area\n-Fixed the bug where the exit elevator opens mid encounter\n\nB-2:\n-Slight visual changes to the pit in the final arena\n\nB-3: \n-Initial release"
         }
       ],
       "Levels": [
@@ -1410,18 +1412,28 @@
           "secretCount": 5,
           "levelChallengeEnabled": true,
           "levelChallengeText": "DON'T EXPLODE THE MAIN PIPE SYSTEM"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "B-3: LIKE THE FIRST PINE CONE",
+          "LevelId": "BLISS.BENCE.THIRD",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WITNESS THE PUNISHMENT IN THE BROKEN REMAINS"
         }
       ],
       "Name": "BLISS",
       "Author": "bence_customlevel",
-      "Size": 266383484,
+      "Size": 176553582,
       "Guid": "444b914dbe3c72046be9dca4e00479dd",
-      "Hash": "425af535ed5be084bbc664aeae0cc6c0",
-      "FileMD5": "31d98d275e2ef69f302cc2c63eb8372b",
+      "Hash": "50529b32e01eed24dadbc27b353b3613",
+      "FileMD5": "b3bc4bf83e120fd79acccf20f06dca98",
       "ThumbnailHash": "9d9b4230d1e36d1f32bea8de1546fc4f",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1770895410
+      "LastUpdate": 1786123095
     },
     {
       "Parts": [
