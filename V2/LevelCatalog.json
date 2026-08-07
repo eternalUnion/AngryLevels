@@ -959,8 +959,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Bence49/CLARITYwawa/24a57f83ec3882c2bc09f9c1268f99680cf47d23/CLARITY_UPDATE1.angry1",
-        "https://raw.githubusercontent.com/Bence49/CLARITYwawa/24a57f83ec3882c2bc09f9c1268f99680cf47d23/CLARITY_UPDATE1.angry2"
+        "https://raw.githubusercontent.com/Bence49/CLARITYwawa/35630635176204ae698c3a3b080d2f81756ae187/CLARITY_UPDATE2.angry1",
+        "https://raw.githubusercontent.com/Bence49/CLARITYwawa/35630635176204ae698c3a3b080d2f81756ae187/CLARITY_UPDATE2.angry2"
       ],
       "Updates": [
         {
@@ -972,6 +972,11 @@
           "Date": 1749898203,
           "Hash": "4652d0efb79749f40abbe341b7ca28af",
           "Message": "- Fixed smaller bugs and issues\n- Adjusted time requirement\n- Fixed part 2 outro having a very broken deathzone"
+        },
+        {
+          "Date": 1786065834,
+          "Hash": "ee0db4a389418974c88e035eb3d79dc4",
+          "Message": "- ported to latest update\n- remade the title system from scratch\n- new bundle icon"
         }
       ],
       "Levels": [
@@ -988,14 +993,14 @@
       ],
       "Name": "CLARITY",
       "Author": "bence_customlevel",
-      "Size": 47495931,
+      "Size": 46508981,
       "Guid": "f94de58205ce45d41ab362c80c703bd2",
-      "Hash": "4652d0efb79749f40abbe341b7ca28af",
-      "FileMD5": "5f8e1918ff63cf39f96e1d29077c6d2a",
-      "ThumbnailHash": "141c9cf0bdec67f8f97c538980ef9e37",
+      "Hash": "ee0db4a389418974c88e035eb3d79dc4",
+      "FileMD5": "f920fcd35ca2009b5fa8e9a49f211582",
+      "ThumbnailHash": "9d8e5252082c9661154af5dc83935d60",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1749898203
+      "LastUpdate": 1786065834
     },
     {
       "Parts": [
