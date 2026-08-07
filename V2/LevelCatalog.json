@@ -3155,6 +3155,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1786064994
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/otterfan65/FRACTALING-ANEW/adbae22a6b33770461133ff6b48c06b2e99f1e30/FRACTALING_ANEW.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786068976,
+          "Hash": "25cb03a7349dd3141a958926d28304e2",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "8-?: FRACTALING ANEW",
+          "LevelId": "otterfan65.fractaling.anew",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "RESCUE FLORP"
+        }
+      ],
+      "Name": "FRACTALING ANEW",
+      "Author": "otterfan65",
+      "Size": 20289329,
+      "Guid": "023861dc4ba927e43bbb314d75b2ffe0",
+      "Hash": "25cb03a7349dd3141a958926d28304e2",
+      "FileMD5": "41b23165284dc16f93d0461075a55d0f",
+      "ThumbnailHash": "aa439ee4d7a67c9b054da281b47c28b7",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786068976
     }
   ]
 }
