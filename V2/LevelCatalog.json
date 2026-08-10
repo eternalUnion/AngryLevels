@@ -3246,6 +3246,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1786140246
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/engelbertwagner7/1-4clairdelune/ce08193a7fb9d92d6bdf510a0c77cd84288a3ed8/1-4_Clair_De_Lune.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786326143,
+          "Hash": "b175649ab216d934d97b0340c17732d2",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-4: Clair De Lune",
+          "LevelId": "engelbertwagner.UQsb_Fm",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "Level: 1-4: Clair De Lune",
+      "Author": "engelbertwagner7@gmail.com",
+      "Size": 13674200,
+      "Guid": "bd8177b9b74244942b510a459be6f31a",
+      "Hash": "b175649ab216d934d97b0340c17732d2",
+      "FileMD5": "37af74e1a434fcd243a954e1a537b7d6",
+      "ThumbnailHash": "2236d5b3ce3524f04cb851eda66ea354",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786326143
     }
   ]
 }
