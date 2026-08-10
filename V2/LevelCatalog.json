@@ -2939,17 +2939,17 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry1",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry2",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry3",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry4",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry5",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry6",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry7",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry8",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry9",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry10",
-        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/ad5bb0c74c44860da3ccadae1f2d8f45a8ab6db8/ULTRAKILL_REENVISIONED.angry11"
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry1",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry10",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry11",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry2",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry3",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry4",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry5",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry6",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry7",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry8",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry9"
       ],
       "Updates": [
         {
@@ -2961,6 +2961,11 @@
           "Date": 1783447509,
           "Hash": "a30ffaa385d25304d88da718c76fd721",
           "Message": "- Fixed EVERY SINGLE MISCLIP in the levels(except one in 1-RVE)\n- Added new out of bounds messages\n- Fixed 0-RV lava room having default probuilder textures\n- Improved lighting in 0-RV\n- Fixed lighting bugs in 0-RV\n- Fixed a checkpoint in 0-RV not deloading the 9th room\n- Increased 1-RV P rank time\n- Fixed a checkpoint in 1-RV not loading its corresponding room\n- Fixed 1-RV and 1-RVE Pipes getting the player stuck\n- Fixed a clip in mirage's room in 2-RV\n- Nerfed mindflayer alpha to only spawn an acid cloud with a red explosion on death instead of two homing acid projectiles and a red explosion\n- Fixed a rare softlock in 3-RV caused by the flesh prison eyes getting stuck out of bounds sometimes\n- Improved visuals in 3-RV\n- Improved secret book acquisition on 3-RV\n- Miscellaneous minor fixes"
+        },
+        {
+          "Date": 1786326033,
+          "Hash": "4c2d2b5e80c0a104bbc194e88d9bd2da",
+          "Message": "- Fixed more misclip spots(I said every in the last patch note for aura)\n- Reworked three-headed cerberi to work without addressables(the stomp shockwave now appears at their foot)\n- Swordsmachine in the escape sequence now shoots one hitscan beam instead of thirteen(Huge thanks to CyruzPlayz for helping with this one)\n- Fixed a visual bug with some flower pillars on 1-RV\n- Fixed some pistons on 1-RV and 1-RVE instakilling the player\n- Added gibs to hideous mass' egg in 1-RV\n- Added a new OOB message to 1-RVE\n- Removed 1-RVE radiance enemies having a damage buff(THOSE WERE MISCLICKS I'M SORRY)\n- 2-RV has been successfully optimized\n- Fixed mindflayer alpha's projectiles not exploding after 15 seconds\n- Fixed different visuals not working with wide screens in 2-RV\n- The Green Skull now disappears from player's hand when restarting from the checkpoint in 2-RV\n- Fixed player not freezing in 2-RV during the no signal segment\n- Changed huge hideous mass' apperance in 3-RV\n- Fixed a gap between a wall and the ceiling in 3-RV's red skull room\n- 3-1's scrapped room now appears in 3-RV's secret room with the Parasite's entry\n- Fixed some walls having visual holes because of moving textures in 3-RV\n- Changed hideous mass' appearance in 3-RV's bone bridge\n- Reworked 3-RV's big mouth door\n- Added a teleporter to the main path to 3-RV's alt path in case someone wants to p rank the level with the challenge\n- Other miscellaneous minor fixes"
         }
       ],
       "Levels": [
@@ -3036,14 +3041,14 @@
       ],
       "Name": "[ACT I] ULTRAKILL /// REENVISIONED",
       "Author": "DILLEGOR & thematveykaplay",
-      "Size": 269351665,
+      "Size": 272354598,
       "Guid": "1c347fa9195ecfc47a9e13c50b997e76",
-      "Hash": "a30ffaa385d25304d88da718c76fd721",
-      "FileMD5": "6d95fd2154c0ab7285910eeb9bc5deaf",
+      "Hash": "4c2d2b5e80c0a104bbc194e88d9bd2da",
+      "FileMD5": "936dd4aeef3b2388d7adbb2710f9cefb",
       "ThumbnailHash": "83a0152965a5e4d1e69f4316ae52801e",
       "Locked": false,
       "EpilepsyWarning": true,
-      "LastUpdate": 1783447509
+      "LastUpdate": 1786326033
     },
     {
       "Parts": [
