@@ -3280,6 +3280,174 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1786326143
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry2",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry3",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry4",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry5"
+      ],
+      "Updates": [
+        {
+          "Date": 1786454015,
+          "Hash": "c053b9b00c04e1e4aa3fcc69abddb169",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "The Template",
+          "LevelId": "rudejam.blockout.template",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": "Cook Hard"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MONOCHROME MANIA",
+          "LevelId": "blockout.hyperchroma",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DROP A POWER INTO A LIVE CURRENT"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "I SEE NO HEAVEN",
+          "LevelId": "blockout.ISNH",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "WATERS OF NAZARETH",
+          "LevelId": "blockout.nazareth",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MEANINGFUL POLITICAL MESSAGE ABOUT CONSUMERISM",
+          "LevelId": "blockout.MEANINGFULPOLITICALMESSAGEABOUTCONSUMERISM",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Side B",
+          "LevelId": "blockout.sideb",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "AS ABOVE, SO BELOW",
+          "LevelId": "blockout.AASB",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "FR-1: BURN, BABY, BURN",
+          "LevelId": "blockout.Fringes",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Luna Dial",
+          "LevelId": "blockout.lunadial",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MOSSED OUT",
+          "LevelId": "blockout.mossedoutport",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "EAT THE MOSS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "2",
+          "LevelId": "blockout.2",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "HARMONY: MOVING ON... NEW FUTURE",
+          "LevelId": "blockout.harmony",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "UNCOVER THE WRITINGS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Normal Level",
+          "LevelId": "blockout.normallevel",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Hello Mary",
+          "LevelId": "blockout.hellomary",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "BLOCKOUT JAM",
+      "Author": "The Rude Community",
+      "Size": 124518576,
+      "Guid": "b1bcd7861614f5c43ad8842627f9d5ff",
+      "Hash": "c053b9b00c04e1e4aa3fcc69abddb169",
+      "FileMD5": "6b3af5c769889cea7309559570a9dc16",
+      "ThumbnailHash": "85229ddd189159a88f7971c30429a3a0",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786454015
     }
   ]
 }
