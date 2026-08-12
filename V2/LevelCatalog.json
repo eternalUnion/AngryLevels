@@ -3283,17 +3283,22 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry1",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry2",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry3",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry4",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/e8d549ab5ce340b8b1b3eb94c9d005653bafe9b2/Blockout_Jam.angry5"
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry2",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry3",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry4",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry5"
       ],
       "Updates": [
         {
           "Date": 1786454015,
           "Hash": "c053b9b00c04e1e4aa3fcc69abddb169",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1786500955,
+          "Hash": "fc80e1de24f08fd4989f381946c191d7",
+          "Message": "Luna dial: \n- fixed a bug where a wave would not activate correctly, causing the level to be impossible to P rank\n- fixed a bug where you could grapple the whiplash point through the cage\n\n2:\n- readded challenge\n\nSide B:\n- clarified some text\n- removed an anti cheese measure in room 8"
         }
       ],
       "Levels": [
@@ -3404,8 +3409,8 @@
           "LevelId": "blockout.2",
           "isSecretLevel": false,
           "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Cook Hard"
         },
         {
           "requiredCompletedLevelIdsForUnlock": [],
@@ -3440,14 +3445,14 @@
       ],
       "Name": "BLOCKOUT JAM",
       "Author": "The Rude Community",
-      "Size": 124518576,
+      "Size": 124408176,
       "Guid": "b1bcd7861614f5c43ad8842627f9d5ff",
-      "Hash": "c053b9b00c04e1e4aa3fcc69abddb169",
-      "FileMD5": "6b3af5c769889cea7309559570a9dc16",
+      "Hash": "fc80e1de24f08fd4989f381946c191d7",
+      "FileMD5": "c81bd2c8cef2631621c465bb0a1e72ce",
       "ThumbnailHash": "85229ddd189159a88f7971c30429a3a0",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1786454015
+      "LastUpdate": 1786500955
     }
   ]
 }
