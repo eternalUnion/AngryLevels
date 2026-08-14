@@ -3458,6 +3458,44 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1786751759
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/659cdff72a45b5733b7bf2d42429b324a1b5bfd9/DETERIORATION_CIRCLE/v1/DETERIORATION_CIRCLE.angry1",
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/659cdff72a45b5733b7bf2d42429b324a1b5bfd9/DETERIORATION_CIRCLE/v1/DETERIORATION_CIRCLE.angry2",
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/659cdff72a45b5733b7bf2d42429b324a1b5bfd9/DETERIORATION_CIRCLE/v1/DETERIORATION_CIRCLE.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1786751884,
+          "Hash": "9e994ccb2fd5bf448a1eeccc0095f0d0",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "DeteriorationCircleUtils.dll"
+          ],
+          "LevelName": "DETERIORATION CIRCLE",
+          "LevelId": "woblay.spitejam5.deteriorationcircle",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WITNESS ALL ANOMALIES"
+        }
+      ],
+      "Name": "DETERIORATION CIRCLE: THE FIFTH EXIT",
+      "Author": "Woblay",
+      "Size": 67137814,
+      "Guid": "689c3dced3604bd46a1df1554136bd0f",
+      "Hash": "9e994ccb2fd5bf448a1eeccc0095f0d0",
+      "FileMD5": "e3d5622d16158994d4e7bb1973259139",
+      "ThumbnailHash": "d913458ecbbcd95a465b18b0d5d13c84",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786751884
     }
   ]
 }
