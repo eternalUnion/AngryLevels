@@ -3283,11 +3283,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry1",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry2",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry3",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry4",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/601ddfccd96bfa197cf8bd32283343b2129351e3/minorfix/Blockout_Jam.angry5"
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry2",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry3",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry4",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry5"
       ],
       "Updates": [
         {
@@ -3299,6 +3299,11 @@
           "Date": 1786500955,
           "Hash": "fc80e1de24f08fd4989f381946c191d7",
           "Message": "Luna dial: \n- fixed a bug where a wave would not activate correctly, causing the level to be impossible to P rank\n- fixed a bug where you could grapple the whiplash point through the cage\n\n2:\n- readded challenge\n\nSide B:\n- clarified some text\n- removed an anti cheese measure in room 8"
+        },
+        {
+          "Date": 1786751759,
+          "Hash": "65c024ca6d9e5254f89958427504cc92",
+          "Message": "Luna dial:\n- added back the cage whiplash clip, but only on repeat playthroughs\nWaters of nazareth:\n- fixed showers being affected by enviromental particles\n- made the heat meter go back to its place when you kill the HiM\n- fixed a bug in room 6 introduced in the previous patch\nI See No Heaven:\n- fixed explosion visuals\nAs Above So Below:\n- fixed doors to be accurate to the jam version"
         }
       ],
       "Levels": [
@@ -3445,14 +3450,14 @@
       ],
       "Name": "BLOCKOUT JAM",
       "Author": "The Rude Community",
-      "Size": 124408176,
+      "Size": 125624219,
       "Guid": "b1bcd7861614f5c43ad8842627f9d5ff",
-      "Hash": "fc80e1de24f08fd4989f381946c191d7",
-      "FileMD5": "c81bd2c8cef2631621c465bb0a1e72ce",
+      "Hash": "65c024ca6d9e5254f89958427504cc92",
+      "FileMD5": "72d7e66c0b10272adee22a1836fc868b",
       "ThumbnailHash": "85229ddd189159a88f7971c30429a3a0",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1786500955
+      "LastUpdate": 1786751759
     }
   ]
 }
