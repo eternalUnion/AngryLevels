@@ -366,6 +366,14 @@
       "FileName": "tristuff.dll",
       "Hash": "e133dd6734a1e5a0791b1c7214594110",
       "Size": 25088
+    },
+    {
+      "Updates": [
+        "2367ec6ad98464878272bf24335f15e7"
+      ],
+      "FileName": "DeteriorationCircleUtils.dll",
+      "Hash": "2367ec6ad98464878272bf24335f15e7",
+      "Size": 10752
     }
   ]
 }
