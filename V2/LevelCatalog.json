@@ -3530,6 +3530,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1786752060
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/AceMac136/UNTETHERED-BLOODSHED/66f387db8318d5dcdc1891d97f28f5420653ea1d/VIOLENCE__UNTETHERED_BLOODSHED.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786752161,
+          "Hash": "57a95ed8c336eae46be28c910af81648",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "BLOODY AMBROSIA",
+          "LevelId": "mac.untetheredbloodshed.bloodyambrosia",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "VIOLENCE /// UNTETHERED BLOODSHED",
+      "Author": "Ace_Mac",
+      "Size": 13469021,
+      "Guid": "61f5c27c705545843a7c5a9f169e9a7f",
+      "Hash": "57a95ed8c336eae46be28c910af81648",
+      "FileMD5": "30fb1b27c90fd7974a1089fe8843994d",
+      "ThumbnailHash": "998134dcd6176831b90826b7b63e367c",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786752161
     }
   ]
 }
