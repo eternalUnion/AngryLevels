@@ -3496,6 +3496,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1786751884
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/yydhhads/Angry/1f567b14b988e49ce264af61933cd8c98450052e/bundle/EVERYTHING_NEW_IS_ALWAYS_OLD.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786752060,
+          "Hash": "415b2243915b77542921ce6bf11f3e37",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "EVERYTHING NEW IS ALWAYS OLD",
+          "LevelId": "gluk.new.huina.govno.uroven",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "EVERYTHING NEW IS ALWAYS OLD",
+      "Author": "GLUK",
+      "Size": 7211929,
+      "Guid": "b318a8a26146c234db6b190705559f5d",
+      "Hash": "415b2243915b77542921ce6bf11f3e37",
+      "FileMD5": "2335d3e04d0600300e588bccc2162ffc",
+      "ThumbnailHash": "bfc151e21098e8a79662307afb23b65c",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786752060
     }
   ]
 }
