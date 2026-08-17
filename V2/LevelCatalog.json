@@ -3564,6 +3564,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1786752161
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/KMatsa/Verdance/85927d48ceb4990edd28c82ed73cb609fd613e5c/VERDANCE.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786933789,
+          "Hash": "69e03f1b1700863498e2651a567f1547",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "VD-1: ACROSS THE SILVER WINDS",
+          "LevelId": "kingmatsa.verdance.acrossthesilverwinds",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "KILL A DEATHCATCHER"
+        }
+      ],
+      "Name": "VERDANCE",
+      "Author": "KingMatsa",
+      "Size": 38466496,
+      "Guid": "d1de6274e9a2569469bb113de09fec3f",
+      "Hash": "69e03f1b1700863498e2651a567f1547",
+      "FileMD5": "45b26d3b522eef83da12add5b2f2da83",
+      "ThumbnailHash": "65846e02600dc7c3d3d4fbbdd251b47f",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786933789
     }
   ]
 }
