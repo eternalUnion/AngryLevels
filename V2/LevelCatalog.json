@@ -1939,7 +1939,7 @@
       "Hash": "a3c669f142067f6739175aac7ac38e05",
       "FileMD5": "515e8cdaaa9fa952719572f5072626cd",
       "ThumbnailHash": "a5a307a0db535f31723d58750faf65d1",
-      "Locked": false,
+      "Locked": true,
       "EpilepsyWarning": false,
       "LastUpdate": 1765635073
     },
