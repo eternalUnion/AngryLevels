@@ -1871,6 +1871,40 @@
     },
     {
       "Parts": [
+        "https://raw.githubusercontent.com/FruitCircuit/TAUKS/d86743bbadc47160cf2e9c88c27945fead55eb33/v1/TABS_level_experiment.angry1",
+        "https://raw.githubusercontent.com/FruitCircuit/TAUKS/d86743bbadc47160cf2e9c88c27945fead55eb33/v1/TABS_level_experiment.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1765635073,
+          "Hash": "a3c669f142067f6739175aac7ac38e05",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TAUKS",
+          "LevelId": "fruitc.tabs1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "Totally Accurate Ultrakill Battle Simulator",
+      "Author": "FruitCircuit",
+      "Size": 32952465,
+      "Guid": "d4c20c4a8ec82b4419c642f7268021a8",
+      "Hash": "a3c669f142067f6739175aac7ac38e05",
+      "ThumbnailHash": "a5a307a0db535f31723d58750faf65d1",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1765635073
+    },
+    {
+      "Parts": [
         "https://raw.githubusercontent.com/DoodleEh/rubicon/c89ffde3c2d5482722814b329f90d6a8191b5268/Rubicon%201.3.1/RUBICON.angry1",
         "https://raw.githubusercontent.com/DoodleEh/rubicon/c89ffde3c2d5482722814b329f90d6a8191b5268/Rubicon%201.3.1/RUBICON.angry2",
         "https://raw.githubusercontent.com/DoodleEh/rubicon/c89ffde3c2d5482722814b329f90d6a8191b5268/Rubicon%201.3.1/RUBICON.angry3"
