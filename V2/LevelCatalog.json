@@ -3150,13 +3150,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/engelbertwagner7/1-4clairdelune/ce08193a7fb9d92d6bdf510a0c77cd84288a3ed8/1-4_Clair_De_Lune.angry"
+        "https://raw.githubusercontent.com/engelbertwagner7/1-4clairdelune/fa7888a09887622fab4159546d1ffdefbb98747c/1-4_Clair_De_Lune1.angry"
       ],
       "Updates": [
         {
           "Date": 1786326143,
           "Hash": "b175649ab216d934d97b0340c17732d2",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1787348736,
+          "Hash": "d2ab088fd89e7f747beb4bb892ba37c7",
+          "Message": "- Added a new challenge\n- Added a tip of the day\n- Made bookshelf lighter\n- Removed a ferryman from wave 10\n- Made it so ferryman cannot attack while you are fighting tundra in wave 10\n- Fixed the Combined Health Bar for Gutteridols\n- Moved tundra to be further away from player when breaking the idol in wave 10\n- Made it so the door to bookshelf room opens upon completion of wave 10 to better telegraph where to go\n- Nerfed a stray that had extremely high radiance values\n- Boiling Blood now deals 5 damage every 1.15 seconds in Ultimate Defense System Boss Wave\n- Boiling Blood will also apply 0.5% hard damage in Ultimate Defense System Boss Wave\n- Made it so virtue enrage preventors properly activate in Patience is a Virtue Boss wave\n- Moved deathcatcher closer to window in wave 5\n- Made the death pit beneath the bridge not an instakill\n- Added a very subtle hint to help the player understand to push the bookcase to the right to prevent softlocks\n- Various minor QOL improvements\n- Got rid of the radi..."
         }
       ],
       "Levels": [
@@ -3167,20 +3172,20 @@
           "LevelId": "engelbertwagner.UQsb_Fm",
           "isSecretLevel": false,
           "secretCount": 0,
-          "levelChallengeEnabled": false,
-          "levelChallengeText": ""
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "PICK UP THE KNUCKLEBLASTER"
         }
       ],
       "Name": "Level: 1-4: Clair De Lune",
       "Author": "engelbertwagner7@gmail.com",
-      "Size": 13674200,
+      "Size": 15061209,
       "Guid": "bd8177b9b74244942b510a459be6f31a",
-      "Hash": "b175649ab216d934d97b0340c17732d2",
-      "FileMD5": "37af74e1a434fcd243a954e1a537b7d6",
+      "Hash": "d2ab088fd89e7f747beb4bb892ba37c7",
+      "FileMD5": "55f68173fdeb6118772973ed2a525090",
       "ThumbnailHash": "2236d5b3ce3524f04cb851eda66ea354",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1786326143
+      "LastUpdate": 1787348736
     },
     {
       "Parts": [
