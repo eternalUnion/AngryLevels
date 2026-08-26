@@ -3473,13 +3473,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/KMatsa/Verdance/85927d48ceb4990edd28c82ed73cb609fd613e5c/VERDANCE.angry"
+        "https://raw.githubusercontent.com/KMatsa/Verdance/47b9dbf19c1e40e6a15d6fa55415d4819973d429/VERDANCE.angry"
       ],
       "Updates": [
         {
           "Date": 1786933789,
           "Hash": "69e03f1b1700863498e2651a567f1547",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1787787421,
+          "Hash": "9101fe6e55a9c6b4f9233fc102fa2f81",
+          "Message": "- Made navigating through the level clearer (with sound indicators aswell)\n- Touched up a few rooms\n- Heavily improved particles\n- Updated all water to match the one found in the last arena\n- Made the VD-1 Book way more noticable during gameplay\n- Updated Level Thumbnail\n- Updated Doorlock\n\n- (Hopefully) Fixed the Sisyphean Insurrectionist getting stuck on the roof of the map and in the walls\n- Fixed backtracking from the exterior back to the ventilation causing you to clip out of the map\n- Fixed a few invisible barriers being clippable"
         }
       ],
       "Levels": [
@@ -3496,14 +3501,14 @@
       ],
       "Name": "VERDANCE",
       "Author": "KingMatsa",
-      "Size": 38466496,
+      "Size": 38789486,
       "Guid": "d1de6274e9a2569469bb113de09fec3f",
-      "Hash": "69e03f1b1700863498e2651a567f1547",
-      "FileMD5": "45b26d3b522eef83da12add5b2f2da83",
+      "Hash": "9101fe6e55a9c6b4f9233fc102fa2f81",
+      "FileMD5": "702013da25354a0d0b0e284f6e7fe81f",
       "ThumbnailHash": "65846e02600dc7c3d3d4fbbdd251b47f",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1786933789
+      "LastUpdate": 1787787421
     }
   ]
 }
