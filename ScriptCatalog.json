@@ -374,6 +374,14 @@
       "FileName": "DeteriorationCircleUtils.dll",
       "Hash": "2367ec6ad98464878272bf24335f15e7",
       "Size": 10752
+    },
+    {
+      "Updates": [
+        "b0c40a80d8551680c90a668752b47cb8"
+      ],
+      "FileName": "UltraParadisoScripts.dll",
+      "Hash": "b0c40a80d8551680c90a668752b47cb8",
+      "Size": 16384
     }
   ]
 }
