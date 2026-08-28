@@ -3509,6 +3509,43 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1787787421
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/jamstroxian/vice-custom-ultrakill/a0d8fa6a4d66f765479e4ab8c4a9678dc5acaba9/version1/VICE.angry1",
+        "https://raw.githubusercontent.com/jamstroxian/vice-custom-ultrakill/a0d8fa6a4d66f765479e4ab8c4a9678dc5acaba9/version1/VICE.angry2",
+        "https://raw.githubusercontent.com/jamstroxian/vice-custom-ultrakill/a0d8fa6a4d66f765479e4ab8c4a9678dc5acaba9/version1/VICE.angry3",
+        "https://raw.githubusercontent.com/jamstroxian/vice-custom-ultrakill/a0d8fa6a4d66f765479e4ab8c4a9678dc5acaba9/version1/VICE.angry4"
+      ],
+      "Updates": [
+        {
+          "Date": 1787949516,
+          "Hash": "2412be31f35fed246830dce5e040dfe0",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "FINIS GLORIAE MUNDI",
+          "LevelId": "jamstroxianhandsome.v1auraloss.level1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "VICE",
+      "Author": "Jamstroxian",
+      "Size": 80371998,
+      "Guid": "5191fae0c7a896a469ce80667edf4b49",
+      "Hash": "2412be31f35fed246830dce5e040dfe0",
+      "FileMD5": "f6b603bff4660baa37310f9627e15c51",
+      "ThumbnailHash": "927a3017c2fa04a506e2fb23228ba718",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1787949516
     }
   ]
 }
