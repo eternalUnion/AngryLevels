@@ -3589,11 +3589,6 @@
     {
       "Parts": [
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry1",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry10",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry11",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry12",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry13",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry14",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry2",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry3",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry4",
@@ -3601,7 +3596,12 @@
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry6",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry7",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry8",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry9"
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry9",
+	"https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry10",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry11",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry12",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry13",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry14"
       ],
       "Updates": [
         {
