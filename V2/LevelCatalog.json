@@ -3585,6 +3585,81 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1788205214
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry1",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry10",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry11",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry12",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry13",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry14",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry2",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry3",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry4",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry5",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry6",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry7",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry8",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry9"
+      ],
+      "Updates": [
+        {
+          "Date": 1788302587,
+          "Hash": "d66801c3ee0ee8f499b0eb0c84dcc9fc",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "UltraParadisoScripts.dll"
+          ],
+          "LevelName": "1-1: MACHINE ON THE MOON",
+          "LevelId": "robi.paradiso.1-1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMPLETE THE LEVEL UNDER 60 SECONDS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "robi.paradiso.1-1"
+          ],
+          "requiredDllNames": [
+            "UltraParadisoScripts.dll"
+          ],
+          "LevelName": "1-2: THE COLD, THE VOID, THE LIGHT OUT",
+          "LevelId": "robi.paradiso.1-2",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "CHARGEBACK A SERAPH"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "UltraParadisoScripts.dll"
+          ],
+          "LevelName": "CREDITS",
+          "LevelId": "robi.paradiso.credits",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "PARADISO: A Force of Fate",
+      "Author": "Robi",
+      "Size": 334933560,
+      "Guid": "56ec420c6d00a194b94d0178f3fa77aa",
+      "Hash": "d66801c3ee0ee8f499b0eb0c84dcc9fc",
+      "FileMD5": "b20de45a38620a51b701856b76f75ef9",
+      "ThumbnailHash": "d00d4e57f8a631e0d4b23c876acf675a",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1788302587
     }
   ]
 }
