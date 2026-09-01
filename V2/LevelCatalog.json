@@ -3189,11 +3189,11 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry1",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry2",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry3",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry4",
-        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry5"
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry2",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry3",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry4",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/d44c292b0ec47e5a979f8ae0cbee69e7437fddd9/minorfix2/Blockout_Jam.angry5"
       ],
       "Updates": [
         {
@@ -3210,11 +3210,6 @@
           "Date": 1786751759,
           "Hash": "65c024ca6d9e5254f89958427504cc92",
           "Message": "Luna dial:\n- added back the cage whiplash clip, but only on repeat playthroughs\nWaters of nazareth:\n- fixed showers being affected by enviromental particles\n- made the heat meter go back to its place when you kill the HiM\n- fixed a bug in room 6 introduced in the previous patch\nI See No Heaven:\n- fixed explosion visuals\nAs Above So Below:\n- fixed doors to be accurate to the jam version"
-        },
-        {
-          "Date": 1788205317,
-          "Hash": "2a9f69bbf9177344c9e18b00ed398db1",
-          "Message": "Waters of nazareth:\n- fixed the heat indicator acting weird on checkpoint\n- fixed collider issues\nNormal Level: \n- fixed collider issues\nSide B:\n- fixed collider issues\n"
         }
       ],
       "Levels": [
@@ -3361,14 +3356,14 @@
       ],
       "Name": "BLOCKOUT JAM",
       "Author": "The Rude Community",
-      "Size": 125639369,
+      "Size": 125624219,
       "Guid": "b1bcd7861614f5c43ad8842627f9d5ff",
-      "Hash": "2a9f69bbf9177344c9e18b00ed398db1",
-      "FileMD5": "1508c8604c961dea9824975f4fe9d02b",
+      "Hash": "65c024ca6d9e5254f89958427504cc92",
+      "FileMD5": "72d7e66c0b10272adee22a1836fc868b",
       "ThumbnailHash": "85229ddd189159a88f7971c30429a3a0",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1788205317
+      "LastUpdate": 1786751759
     },
     {
       "Parts": [
