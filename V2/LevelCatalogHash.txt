@@ -1,1 +1,3665 @@
-051508efab62e66e686ec96e796ea44f
+{
+  "Levels": [
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/bongwaterfumes/naruto/a50599615b619ab111c5f9bd57d30291922a251d/new%20years%20update/naruto.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1742478348,
+          "Hash": "93f6c880c5352cf9a7bd9549f5ebecad",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1747690489,
+          "Hash": "b45966dd59dc7082fc263474a3c65cbc",
+          "Message": "- Added a few things...\n- Fixed some stuff that was broken.. Like my soul...\n- Datebayo! Believe it!"
+        },
+        {
+          "Date": 1770894959,
+          "Hash": "a3dfeccfc57bd88ec99aa45e5cc08e42",
+          "Message": "- Added a special new years update\n- Removed brainrot... those chuds won't be able to handle our great meme reset... big big chungus!\n- Made things a lot better! Datebayo! Believe it! Have a sugoi 2016!"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "naruto",
+          "LevelId": "naruto.naruto.naruto",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "naruto",
+      "Author": "naruto",
+      "Size": 14838940,
+      "Guid": "f9783fc3d184ccc41a6e2fce58968e33",
+      "Hash": "a3dfeccfc57bd88ec99aa45e5cc08e42",
+      "FileMD5": "a53aa8e63d5e6b1dcf99e317fedbba44",
+      "ThumbnailHash": "c5fb6f67715d3ff978df8998f2b4a9a9",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1770894959
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FNChannel/FunSizedHeresy/bd64dc92b23db72fdca0e4b2bd96e7f8c86d90b1/Rename/FunSizedHeresyRevamp.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1742651148,
+          "Hash": "6bc51202e25d3fc4c97b4d285e5ba760",
+          "Message": "-Revamped the levels aesthetics to match revamped heresy\n-Reworked third arena and hookpoint hallway from the ground up\n-Changed Tip of the day to something new\n-Added a new original song\n-Hank griffin was shot 3 times in the chest and is in a coma so now challenge has been removed for the time being cuz of that\n-Made P rank requirements(Time and Style) more lenient so its easier, Kills has been updated too"
+        },
+        {
+          "Date": 1745662576,
+          "Hash": "af21bae0d44964e4cb1859914be65528",
+          "Message": "- Added 2 new secrets\n- Added the challenge\n- Added a marketable plushie of the developer(Thank you Fuchsium!)\n- Updated Credits terminal\n- Library Arena now has Lighting for extra coolness\n- Fixed the Coffin Fire being broken/static, it now is animated like the base game\n- Some Soldiers and Schisms have been swapped for Strays in the final arena\n- Fixed some easy to clip through surfaces\n- Some small fixes here and there"
+        },
+        {
+          "Date": 1745875787,
+          "Hash": "03c0aca5e6a6fcb4dbf0bcecc0223464",
+          "Message": "- Added an invisible checkpoint to the intro hallway, so when you die in the first arena the level doesnt reset\n- Dev plushie is now Unlit, like all other standard dev plushies\n- Fixed challenge triggering altar not being invisible\n- Door that opens when you pick up the blue key now has blue eyes on both sides instead of just 1\n- Fixed the Crossroads checkpoint looking wrong"
+        },
+        {
+          "Date": 1750356685,
+          "Hash": "e59d5bc5c06cfb64595b6de15bfb92d4",
+          "Message": "- Revamped Second Arena and 5th room visually\n- First Arena and Final Arena are now more dynamic\n- Reduced Length of final arena\n- Plushie now makes sounds when picked up and thrown\n- Added an official any% route\n- Lightning in Third Arena is now red\n- Added several anti-misclip/oob instakill triggers outside of the map"
+        },
+        {
+          "Date": 1754394968,
+          "Hash": "c67f4053200a44e47b1a2835d730e9ff",
+          "Message": "- Changed author name of the bundle to my new username"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "6-B: FIRES WITHIN FIRES",
+          "LevelId": "fnchannel.fsheresy.fireswithinfires",
+          "isSecretLevel": false,
+          "secretCount": 3,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "MAKE A TERRIBLE JOKE"
+        }
+      ],
+      "Name": "Fun Sized Heresy",
+      "Author": "AstralOcean",
+      "Size": 20966074,
+      "Guid": "ae6eeb9c8e3741441986985171f75b56",
+      "Hash": "c67f4053200a44e47b1a2835d730e9ff",
+      "FileMD5": "5a60c6bb8ab34dcd570f939716bcbb4b",
+      "ThumbnailHash": "1130cf47b921e83b0edd56b5f3d120f1",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1754394968
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry1",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry2",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry3",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry4",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry5",
+        "https://raw.githubusercontent.com/Holawenasx2/Earth-Second---Starry-Night...-Freedom-Dive./d1b63db2ca07a12bd929d99000760975d9ee7019/Lore%20Update/test.angry6"
+      ],
+      "Updates": [
+        {
+          "Date": 1743425147,
+          "Hash": "bd4b00357e5608b4f8d238c28b819c57",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1746182869,
+          "Hash": "f1444a9af4e95c94089509df63684d50",
+          "Message": "- Fixed Idols\n- Added Secrets (Not those secrets but like, other secrets)\n- Added a Speedrun Skip\n- Added an Alternate Ending"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "STARRY NIGHT... FREEDOM DIVE.",
+          "LevelId": "aaaa.aaaaaa.aaaaaeeeeeaaa",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "<color=#00DDEE>Earth Second - Freedom!</color>",
+      "Author": "<color=#EA33EE>Holawenasx2</color>",
+      "Size": 127829690,
+      "Guid": "f907c5991d40a2a48941d1c1dde860c7",
+      "Hash": "f1444a9af4e95c94089509df63684d50",
+      "FileMD5": "37a3fc9b784f9a43f47c5af0692f7dfb",
+      "ThumbnailHash": "efc73a725eff8c92b3df563cd6606529",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1746182869
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/3092e587d0251195909f4a77046304c7073c9fb5/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry1",
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/3092e587d0251195909f4a77046304c7073c9fb5/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry2",
+        "https://raw.githubusercontent.com/BlckwtrNorthstar/VIOLENCE-OUTREACH-TRENCH-RAIDER/3092e587d0251195909f4a77046304c7073c9fb5/VIOLENCE_OUTREACH__TRENCH_RAIDER.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1743425148,
+          "Hash": "c14464732ac5ea842a00fa313bb71f15",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1749387038,
+          "Hash": "03bbd62b347b1f24a8d2bc69fe2e3153",
+          "Message": "- ADDED FULL SONG\n- RE-DID PARTICLE AMBIANCE\n- FIXED ZFIGHTING\n- POLISH(ED) GEOMETRY\n- HEAVILY RE-OPTIMIZED LEVEL\n- ADDED NEW SECTION TO AQUIRE RED SKULL FROM\n- MADE BOMBS LESS LAGGY\n- ADDED CHALLENGE\n- ADDED AIRSHIP SCENE\n- patched OOB no-clips (also added a new one)\n- changed P% requirements\n- added credits improved terminal\n- added small bunker around first room and elevator door\n- edited gas visuals\n- changed gas damage and function\n- re-did gas introduction\n- added small details to tunnel section\n- added secret door to path, hid the breakable better, and added visual warnings to discourage going that way instead of back up\n- fixed count down checkpoint nuke bug\n- changed depot arena idol to be radiant\n- added trench filth\n- changed trench charge start by adding whistle\n- made 3rd wave of the trench charge spawn in machines and crush an insurr pair via drop pod bombs\n- moved secret #4\n- added gas mask enemies and introduction\n- added light in front of red skull altar to make path more obvious\n- added ceilings above secret areas\n- added secret red/blue bossfight\n- made secret hank helmet key more obvious via skull effects\n- added door frame to radio room\n- delayed title and music drop\n- added more obvious way to get out of the Gutterman nook when taking the secret path via a lever that breaks the wall\n- tweaked final arena\n- made the room 2 idol radiant and cover a Gutterman\n- added secret credits\n- added shop at start of trench charge\n- replaced some secrets, moved one secret"
+        },
+        {
+          "Date": 1773176012,
+          "Hash": "d7ad0ac7477f14f49975ee2a40925556",
+          "Message": "Violence Outreach update:\n- Ported to Fraud\n- Made level beatable with no enemies enabled\n- Changed the way the challenge is done\n- Made bundle P-Rankable (removed inaccessible scene)\n- Re-did blue skull arena\n- Added tank scene\n- Added more decor around map\n- Replaced Carcass with Power in final arena\n- Repurposed the secret tunnel path\n- Added more blockers to secret tunnel path\n- Added improved direction in tunnel escape sequence via HUD messages\n- Removed optimization terminal\n- Removed radio tower\n- Added new method to activate the secret radio\n- Added air drop sequence for obtaining blue skull\n- Added blocker to prevent book from falling out of the world\n- Changed level icon\n- Changed 7-5 icon\n- Updated credits"
+        },
+        {
+          "Date": 1773193642,
+          "Hash": "0b4353a0bcfd087459369eb05388ec7c",
+          "Message": "- Added clearer direction for challenge and how to do it\n- Fixed issue with the radio not being breakable with no enemies or when coming from the secret tunnel path\n- Added Grey to credits\n- Fixed bug where gas stalkers had no animations\n- Changed online level icon\n- Fixed bug where gas introduction HUD message persisted when having no enemies enabled\n- Fixed meshes of water in craters"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "7-5: BACK TO BASICS",
+          "LevelId": "CRUSADE",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DESTROY THE AIRSHIP"
+        }
+      ],
+      "Name": "VIOLENCE OUTREACH /// TRENCH RAIDER",
+      "Author": "Blckwtr_Northstar",
+      "Size": 56276275,
+      "Guid": "753954cce2a3c514bad1136a2e88f14f",
+      "Hash": "0b4353a0bcfd087459369eb05388ec7c",
+      "FileMD5": "944c3dbed1881cb0bb63f7c3ba1f9cf3",
+      "ThumbnailHash": "cb3ec3e0c7b498d767ddb3371f34c900",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1773193642
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry1",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry2",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry3",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry4",
+        "https://raw.githubusercontent.com/RobiFox/FRAUD/7de9a2b390f2a4931535a2a03b0c5f3afef11a97/FRAUDULENCE.angry5"
+      ],
+      "Updates": [
+        {
+          "Date": 1744461948,
+          "Hash": "9ac795e17149a0d4f9fca85a21430d46",
+          "Message": "Updated to the new ULTRAKILL version"
+        },
+        {
+          "Date": 1745961939,
+          "Hash": "0d1a863c5b6790f49a4e44de1d726934",
+          "Message": "- Fixed cultist overlay not disappearing\n- Fixed 8-2 title showing up earlier than intended"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "Waffle.Fraudulence.dll"
+          ],
+          "LevelName": "8-1: FOOLS GOLD",
+          "LevelId": "Spelunky.FRAUDULENCE_FIRST",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO NOT PICK UP ANY SKULLS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "Spelunky.FRAUDULENCE_FIRST"
+          ],
+          "requiredDllNames": [
+            "Waffle.Fraudulence.dll"
+          ],
+          "LevelName": "8-2: HIGH SOCIETY",
+          "LevelId": "Spelunky.FRAUDULENCE_SECOND",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO NOT KILL ANY CULTISTS"
+        }
+      ],
+      "Name": "FRAUDULENCE",
+      "Author": "Spelunky",
+      "Size": 108749957,
+      "Guid": "033ce9db13ba74d4aa07bdae343d49c2",
+      "Hash": "0d1a863c5b6790f49a4e44de1d726934",
+      "FileMD5": "5e8b4d5887f0369023543079b59f230a",
+      "ThumbnailHash": "49dec247c77d3055a58bf2e591ecc2b8",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1745961939
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RobiFox/WOWD/00a42da60172baf5a78f1097dbf7fbbc4161e92a/Walls_of_Wicked_Dreams.angry1",
+        "https://raw.githubusercontent.com/RobiFox/WOWD/00a42da60172baf5a78f1097dbf7fbbc4161e92a/Walls_of_Wicked_Dreams.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1745680323,
+          "Hash": "6ff1f2c547965e34b882d4c77c5e6b1d",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1745694083,
+          "Hash": "abcd11dc3f6502e4da1699c00a460bf9",
+          "Message": "- Made challenge slightly more visible/obvious\n- Fixed Swordsmachine not breaking Cerberus pedestal\n- Added a tiny teaser for the boss"
+        },
+        {
+          "Date": 1745962512,
+          "Hash": "ab61095c56a4faa48b7977821598e02b",
+          "Message": "- Made challenge more visible\n- Water damage in second room now pushes you higher"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "WALLS OF WICKED DREAMS",
+          "LevelId": "robi.heresy.wowd",
+          "isSecretLevel": false,
+          "secretCount": 3,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE SECRET ENCOUNTER"
+        }
+      ],
+      "Name": "WALLS OF WICKED DREAMS",
+      "Author": "Robi",
+      "Size": 40686957,
+      "Guid": "309b60fc131a95d49921d31c0ec7560f",
+      "Hash": "ab61095c56a4faa48b7977821598e02b",
+      "FileMD5": "eb54121c93de61cef5ec418be49d44cd",
+      "ThumbnailHash": "e69b26b97a11136a2f1ef14f7748aad4",
+      "Locked": true,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1745962512
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/willem1321-abandonedinplace/368db147c35bfc70ba0016f94ff9b67c3fc9b56d/abandonedinplace1.1.1/Abandoned_In_Place.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1745696378,
+          "Hash": "86da72f7e166d42409f92e007ff1a0c4",
+          "Message": "- Removed 6 enemies for balance reasons\n- Replaced some old earthmover textures with new ones made by _antlers.\n- Updated alarm model\n- Added tip of the day\n- Moved and improved a secret"
+        },
+        {
+          "Date": 1745698300,
+          "Hash": "676fe0c713dff1c4cbfcc2065d5f7810",
+          "Message": "- Fixed a last minute oob\n- Fixed encounter that triggered early"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Abandoned In Place",
+          "LevelId": "willem1321-abandonedinplace",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE HARD DEATH MODE"
+        }
+      ],
+      "Name": "Abandoned In Place",
+      "Author": "Willem1321",
+      "Size": 23827611,
+      "Guid": "c5f273cc16751b64ea9c0a9b47b7ff82",
+      "Hash": "676fe0c713dff1c4cbfcc2065d5f7810",
+      "FileMD5": "c8ad7216ba69b52cffdea38ef542eae3",
+      "ThumbnailHash": "0bfe3942ac262f5cec79d32463b51cc4",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1745698300
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Megg4underscore/THE-HOUSE-OF-WRATH/0f5ccb0b6124c9c1af0227d6394b260e6e826859/Smallfix_update/THE_HOUSE_OF_WRATH.angry1"
+      ],
+      "Updates": [
+        {
+          "Date": 1745764707,
+          "Hash": "e0bd737ad6698b84ba10b2147dc9308e",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1746182614,
+          "Hash": "688fb49b09b8e877e9976dccacba1238",
+          "Message": "- Fixed rain in the red room clipping through the ceiling\n- Outdoors Zone Trigger at the start will now turn off\n- Redone some of the de-activation and activation of rooms"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "THE HOUSE OF WRATH",
+          "LevelId": "THOW.essentials",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT BOTH END ENCOUNTERS"
+        }
+      ],
+      "Name": "THE HOUSE OF WRATH",
+      "Author": "__megga",
+      "Size": 15137700,
+      "Guid": "3707483841d6ed84383be5b1285ea87a",
+      "Hash": "688fb49b09b8e877e9976dccacba1238",
+      "FileMD5": "20ad34270b0145962bc00a559b0e0f23",
+      "ThumbnailHash": "5928f79d66f4be38771a097ec76256d0",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1746182613
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/YoullTim/APrimumMobile/e26c19e8dcf68840f62456b3cdc762e0045136d6/A_Primum_Mobile.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1745841929,
+          "Hash": "87d4445dff16ea54c9b094a6bf76e895",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "PM-1: FALL FROM GRACE",
+          "LevelId": "YoullTim.APrimumMobile1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "<color=#ffdf52>A PRIMUM MOBILE</color>",
+      "Author": "YoullTim",
+      "Size": 24613315,
+      "Guid": "fd4229c3005a73744ab5a4597cfaf75f",
+      "Hash": "87d4445dff16ea54c9b094a6bf76e895",
+      "FileMD5": "b73b70779eb4da192c07e2d1f20488d4",
+      "ThumbnailHash": "96a30fa8bdefb3930fdcd61826b72abb",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1745841929
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/ElequacityStudios/RELUDE/496e35e6df24fa74a018d16ac25070cc2dd35138/Re-Prelude.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1745852777,
+          "Hash": "4c86f26f50226d445a186c1863e826d4",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1745866665,
+          "Hash": "ad1e603422258924f8dc7f25c1f15321",
+          "Message": "- Fixed light bug in the last room\n- Fixed the lag spike when the first room doors opened"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "R0-1: HEATSEEKER",
+          "LevelId": "elequacity.relude.heatseeker",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "RELUDE",
+      "Author": "Elequacity",
+      "Size": 4579558,
+      "Guid": "97220d9c4569778488734e80e0daa734",
+      "Hash": "ad1e603422258924f8dc7f25c1f15321",
+      "FileMD5": "c7e26800fccb23e57eae3d8a57bf9ee6",
+      "ThumbnailHash": "fdc965a8d3fec25ebf3e93285977ceae",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1745866665
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/Epitaph/553ed80f6504cf58d539c6fcadb660f1afbabe90/Epitaph1.2/EPITAPH.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1745962671,
+          "Hash": "8aaf75040795b9b4c8d06c8ccb490894",
+          "Message": "- Ported to ULTRA_REVAMP update\n- Fixed drones having the wrong texture in the final arena\n- Nerfed final arena\n- Minor visual updates"
+        },
+        {
+          "Date": 1746460982,
+          "Hash": "b0ccf274ca0a5c149ad2ccbc14029934",
+          "Message": "- Fixed firstroom oob (catastrophic)\n- Fixed some softlocks"
+        },
+        {
+          "Date": 1773437179,
+          "Hash": "80fe6d7f411d8bd42b54e24b2bd84a64",
+          "Message": "- Ported to FRAUD\n- Made the level look cool. You should play to find out why\n- Fixed navmesh issues"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Epitaph",
+          "LevelId": "willem1321-epitaph",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "EPITAPH",
+      "Author": ".willem1321",
+      "Size": 15622315,
+      "Guid": "a9137dc898362c44593878839cd899a6",
+      "Hash": "80fe6d7f411d8bd42b54e24b2bd84a64",
+      "FileMD5": "baba6fc8061ad5a290565a9d5a2d4c79",
+      "ThumbnailHash": "43d76d714b8ef23515650007a9c0807e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1773437179
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FruitCircuit/v3showdown/d7be74643d5f57bd97f087df7623640d8f218625/build2/V3s_Showdown.angry1",
+        "https://raw.githubusercontent.com/FruitCircuit/v3showdown/d7be74643d5f57bd97f087df7623640d8f218625/build2/V3s_Showdown.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1746047861,
+          "Hash": "0ec1b148eebf1ce4f81ec2c695989ea4",
+          "Message": "- Ported to ultra_revamp\n[PHASE 1]\n- Shotgun bug fixed\n- V3 blows themselves up less (hopefully)\n[PHASE 2]\n- Some attacks nerfed (mainly the lasers)\n- Minor visual tweaks"
+        },
+        {
+          "Date": 1748708687,
+          "Hash": "157c69ae1d019d50b2a2ef7ea6183fbf",
+          "Message": "- Minor fixes for phase 1\n- General balance changes for phase 2"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Phase 1",
+          "LevelId": "t.trinity.v3",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Phase 2",
+          "LevelId": "trinity.v3mech",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": "winner!"
+        }
+      ],
+      "Name": "<color=#FFFFFF>V3</color>'s Showdown",
+      "Author": "t.trinity",
+      "Size": 34899270,
+      "Guid": "91a952cfd5574ef47bf624e09c311260",
+      "Hash": "157c69ae1d019d50b2a2ef7ea6183fbf",
+      "FileMD5": "85e865c840ab30f86b456cebdd8fe9ed",
+      "ThumbnailHash": "9fb556ee9d68511899c6300c781c8c9e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1748708687
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/PhantomBlader9556/FA-2/e3cbb99076bfdc37a2f2ef59f19ab73ecbe07aff/false_ascendence_2.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1746461205,
+          "Hash": "e79af3de199fb6b4aa58f2fbcbb83176",
+          "Message": "- Ported for ultra_revamp\n- Added a secret encounter"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "False Ascendence 2",
+          "LevelId": "phantom.falsefdsafgsgsrga.adgsdf",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Thannnkjs YOu. "
+        }
+      ],
+      "Name": "False Ascendance 2",
+      "Author": "PhantomBlader",
+      "Size": 14972564,
+      "Guid": "495300b85838d9246aad4d9f6c6393bc",
+      "Hash": "e79af3de199fb6b4aa58f2fbcbb83176",
+      "FileMD5": "857b27999fb98d00ee8175a9e330231d",
+      "ThumbnailHash": "84f39ee9dcd5bb67dce5d9a011191a29",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1746461205
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/d63712e113957ced6f44baa5b9fe2c3ce680e555/TOWER_OF_STEEL.angry1",
+        "https://raw.githubusercontent.com/plonkiiiii/TowerOfSlop/d63712e113957ced6f44baa5b9fe2c3ce680e555/TOWER_OF_STEEL.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1746574279,
+          "Hash": "30106c05db6b04d48ba1a8d62fa7b65c",
+          "Message": "- Ported for ULTrA_REVAMP update\n- Updated environmental particles for modern Ultrakill\n- Added some extra minor details\n- Added Teaser for second Level"
+        },
+        {
+          "Date": 1746634515,
+          "Hash": "bc6293ee68f7f904b802c1248d1d152c",
+          "Message": "- Quick minor patch for Requirements and Challenge text in credits terminal"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TOTAL WAR",
+          "LevelId": "tos_1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T KILL THE IDOLED MINDFLAYER"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "tos_1"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "THE REFUGE",
+          "LevelId": "tos_2",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "TOWER OF STEEL",
+      "Author": "plonk",
+      "Size": 39845822,
+      "Guid": "adb0ef3e5cc07c84889dd27f7898af96",
+      "Hash": "bc6293ee68f7f904b802c1248d1d152c",
+      "FileMD5": "23ef192db2d90981de9d260f0e79d6cb",
+      "ThumbnailHash": "da9094a263fc6d6140f5b182db612bf7",
+      "Locked": true,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1746634515
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/356d38dd6ac9026ea2cc8ab65553340e6f0403c1/EasyLevel1.6/SPECIAL_CHRISTMAS_GIFT.angry1",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/356d38dd6ac9026ea2cc8ab65553340e6f0403c1/EasyLevel1.6/SPECIAL_CHRISTMAS_GIFT.angry2",
+        "https://raw.githubusercontent.com/DavieJay2011/EasyLevel/356d38dd6ac9026ea2cc8ab65553340e6f0403c1/EasyLevel1.6/SPECIAL_CHRISTMAS_GIFT.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1746574569,
+          "Hash": "dd776f086f717b14d89bb6c36aeec9b9",
+          "Message": "This patch I could find some different things. I had to fix it for the revamp update. It was very hard and made me very sad. Sorry. It took a long time. It wouldn't port. But i finaly ported it and it should be good now. I added some more tooltips. It's Ravamped now. I fix the quiz so that it could be more accurate to the New Ravamped game. Have fun! Merry Christmas! Special [DATE] Gift 2 Coming soon! Cheers, Player!"
+        },
+        {
+          "Date": 1746634732,
+          "Hash": "299afa373e107914da2d9eac2760c87f",
+          "Message": "The im-stupid Patch"
+        },
+        {
+          "Date": 1775465795,
+          "Hash": "b9f5af2de9e24104280ace8745cc3581",
+          "Message": "Well, I finished up the freud update to the level! It could have some fun and bombastic ideas, or some challenging and cruelty. Did you find the new parts of the level! I hope you enjoy until the next one! I will copy down the development port here."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "EASYLEVEL.dll"
+          ],
+          "LevelName": "So Happy to Be Back home",
+          "LevelId": "DavieJay2011.ChristmasGifttotheChristmasUltra-killCommunity.....SohappeytofinallybebackhomeForchristmasGiftswinter ",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Gained 100 Coins"
+        }
+      ],
+      "Name": "SPECIAL CHRISTMAS GIFT",
+      "Author": "debatable, rednova",
+      "Size": 66864815,
+      "Guid": "868d6d05d8121b04981b9941ae32229f",
+      "Hash": "b9f5af2de9e24104280ace8745cc3581",
+      "FileMD5": "8938c1f3c9631ae3ce0ad5b573202d6d",
+      "ThumbnailHash": "17d4541b9e04b8b1c9ef1290b834b4c5",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1775465795
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/a26d11ebafdaa4850cf0691d9c338ae1d8a93a5c/1.2.2/Hell_Facility.angry1",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/a26d11ebafdaa4850cf0691d9c338ae1d8a93a5c/1.2.2/Hell_Facility.angry2",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/a26d11ebafdaa4850cf0691d9c338ae1d8a93a5c/1.2.2/Hell_Facility.angry3",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/a26d11ebafdaa4850cf0691d9c338ae1d8a93a5c/1.2.2/Hell_Facility.angry4",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/a26d11ebafdaa4850cf0691d9c338ae1d8a93a5c/1.2.2/Hell_Facility.angry5",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/a26d11ebafdaa4850cf0691d9c338ae1d8a93a5c/1.2.2/Hell_Facility.angry6",
+        "https://raw.githubusercontent.com/bobot-dev/Athena-Research-Facility/a26d11ebafdaa4850cf0691d9c338ae1d8a93a5c/1.2.2/Hell_Facility.angry7"
+      ],
+      "Updates": [
+        {
+          "Date": 1746742040,
+          "Hash": "e3ed2def44b36fa43b622fc2913e1049",
+          "Message": "i have far more planned for this level but a lot of that will happen when level 2 is ready so for now this is just a quick patch to get things working again\n\n- updated to work with the ULTRA_REVAMP update\n- minor visual updates\n- i got married so updated deezeehuh's credit to refer to her as my wife to reflect that\n- fixed that one missing collider everyone has been telling me is missing for months\n- the elevator broke really badly in a bunch of ways so its been redone on a technical level unfortunately this has resulted in it being a bit slower"
+        },
+        {
+          "Date": 1746951752,
+          "Hash": "1c6446945376aff43bd14d99305027b5",
+          "Message": "- Bobot has been freed from eternal slumber\n- Overseers and Teleporting Idols are no longer missing their spawn effects\n- Teleporting Idols have had the colour of their shatter vfx updated to fit better with the rest of their visuals"
+        },
+        {
+          "Date": 1752141079,
+          "Hash": "6eaa372f94764a943ad611018b8e99a8",
+          "Message": "Overseer deal damage again\nNew Overseer intro"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll",
+            "HeartOfTheMachineScripts.dll"
+          ],
+          "LevelName": "HEART OF THE MACHINE",
+          "LevelId": "bobot.hellfacility.hotm",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "ENSURE THE 4 DEVELOPERS' SAFETY"
+        }
+      ],
+      "Name": "ATHENA RESEARCH FACILITY",
+      "Author": "Bobot & deezeehuh",
+      "Size": 160364148,
+      "Guid": "255ce156d5ae53c449106c1a31ed384a",
+      "Hash": "6eaa372f94764a943ad611018b8e99a8",
+      "FileMD5": "03d3e296359b402deee0446a9db6c2ad",
+      "ThumbnailHash": "155b2c8bc80df34f6f84a679f3c21a18",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1752141079
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/bee6cc27c8d86ca0cad65a97835cb0fa9db678f2/ULTRAKILL_OPERETTAS.angry1",
+        "https://raw.githubusercontent.com/wiendosjogos/ULTRAKILL-OPERETAS/bee6cc27c8d86ca0cad65a97835cb0fa9db678f2/ULTRAKILL_OPERETTAS.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1746976024,
+          "Hash": "6be3e84680fe06c4d8b33f8244d75b81",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1747508922,
+          "Hash": "c70d964fcc91a1e41b83f4e74b81d325",
+          "Message": "- Added new text in Musics tab in Credits Terminal\n- Fixed the tagging of some Doors\n- Fixed the tagging on some stairs so now Guttermen explode in them instead of just existing"
+        },
+        {
+          "Date": 1775984711,
+          "Hash": "a8d8f49def776fa4aa3dd4ee06c43f4b",
+          "Message": "- Added some fraud enemies\n- Reduced the enemy count a bit, making the level go a bit smoother now\n- Reduced the P-Rank style requirement from 40000 to 30000 to accommodate for that\n- The Swordsmachines \"Tundra\" and \"Agony\" have been buffed from 75 health to 90\n- Unfortunately, due to an unexplainable glitch that happened randomly, the Swordsmachines \"Tundra\" and \"Agony\" display a green healthbar for a small second. Pay no mind to that, they're still very much killable and do not heal."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-O: WHAT COULD HAVE BEEN",
+          "LevelId": "tuli.snowlimbo",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ULTRAKILL OPERETTAS",
+      "Author": "defo_tulipa",
+      "Size": 35771672,
+      "Guid": "7b9762c4a51906e4ca36acfcbcdbde3e",
+      "Hash": "a8d8f49def776fa4aa3dd4ee06c43f4b",
+      "FileMD5": "458681280be0be5c71f385acb6e22dc8",
+      "ThumbnailHash": "a1ecf232cb6d313ff381eec370b6cdb2",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1775984711
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/benjaminwcfrank/Ultrakill-MACHINATION/7dd7aa8e4671a01d43eec8619920ca67cced3692/Patch011-V3/MACHINATION.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1747252587,
+          "Hash": "d77620d0ae0099246b48faec94a29f07",
+          "Message": "- Updated to Ultra_Revamp compatibility (Holy shit this took a LOT of time and work)\n- Added new Copyright-Claim-Free music composed by WOOSP (Original music can still be played via toggling the record player in the start room)\n- Added Demo for M-2 (Don't expect it anytime soon - it'll be done when it's done)\n- Slightly reduced encounter difficulty in every major arena (As a standalone map the difficulty was fine, but as level 1 of a set of 4 it was too much)\n- Removed first cooldown encounter (It was really lame and didn't add anything to the level)\n- Improved performance throughout the level (If it's still laggy, just know it used to be much MUCH worse)\n- Removed a tiny bit of eye-candy in places you won't notice (It caused even more lag post Ultra_Revamp update)\n- Added a tiny bit of eye-candy in places you won't notice (Not enough to drop FPS, but enough to fill in some blank spots)\n- Fixed secret cat number 3 not being properly illuminated (Meow!)\n- Made mandatory progression vent cover ajar to better indicate that it can be accessed early (Almost nobody noticed this lmao)\n- Changed location of busted vent cover after blue skull pickup to better indicate to the player where to go (It's not supposed to be that complicated)\n- Simplified lighting in final arena (You won't notice any difference)\n- Oil spill is no longer spilled oil but instead spilled slippery orange kool-aid (It being oil was hacky and no longer works right post Ultra_Revamp update)\n- Rebalanced light level in intro (Less dark in some places to make it feel more dark in other places)\n- Improved chains model shown after blue skull pickup (2spoopy4u)\n- Player can no longer softlock themselves in the 2nd arena secret room (No longer requires whiplash to exit)\n- Secret cheese pickup now acts like soap because I got sufficient hate mail complaining about it (Yummy!)"
+        },
+        {
+          "Date": 1747508764,
+          "Hash": "1c30dc7b2299ecd4f8f4d229b999d7da",
+          "Message": "- Added extra redundancy to final floor break logic in final arena (On rare occasions it would not break, will probably break every time now)\n- Fixed bug where Mass death in final arena wouldn't trigger events properly\n- Fixed blood splatters appearing on SpinNeedles\n- Skull in cage in first arena arena now uses white salt altar\n- Added Navblockers to second arena catwalk to encourage two strays to get killed via the environmental fire hazard ( +AIR FRIED)"
+        },
+        {
+          "Date": 1750967194,
+          "Hash": "6df32c1c2c11e6941950813538a3f05c",
+          "Message": "M-1:\n- Fixed credits names\n- Fixed some gears in first arena hurting the player when in their \"off\" state\n- Fixed some steam jet particles clipping through walls in a very obvious place\n- Fixed burning pit in second arena not properly killing enemies (+OOF OUCH OWIE THAT'S 2 HOT 4 ME)\n- Fixed spinning wall fans in second arena not always spinning on level load\n- Added \"Ping!\" sound and effect to hookpoints when they spawn in or change - Thanks Bongwater!\n- Made tiny rewrite to song revamped description\n\nM-2 Demo:\n- Added a demo-specific challenge\n- Made second line of nixie-tube text a tiny bit more interesting by adding extra sparks and audio to its turning on sequence\n- Lowered the frequency of idle sparks in dark computer room just a little bit\n- Fixed computer startup sound replaying every time second room is unloaded and then reloaded"
+        },
+        {
+          "Date": 1773454325,
+          "Hash": "0b9c02330c82911ed28661e4fdd4abe2",
+          "Message": "- Ported to Fraud standards\n- Tweaked enemy placement an itsy bitsy teeny weeny bit\n- Replaced pre-REVAMP Light Pillars with my own kinda shitty version since the old ones don't work anymore.\n- Started working on M2 again after like a year of working on other stuff. Back to the UltraGrind."
+        },
+        {
+          "Date": 1777499064,
+          "Hash": "1516d705602eefa366637f49dc89e089",
+          "Message": "M1:\nUpgraded M1 to OSHA safety standards (Disable Enemy Spawns or No-Monsters required to see changes)\nChanged enemy encounters drastically so enemy placement and roster now harmonize much better with eachother and the environment. (Original enemy placement was very dated and I've learned a lot since then - new arrangement better reflects how I originally wanted the level to play)\nReset leaderboards to account for new enemy placement (Sorry speedrunners, but I did leave the OOB clips and cheese <3)\nRemoved Clash Mode Cheat compatibility because it was fucked beyond repair (Why is almost everything invisible????)\nAdded checkpoint teleport cheat compatibility (Teleporting more than once can break the dynamic music system though...)\nInsurrectionists can no longer stand/land on finale arena's spin-needles or upper walls (This took a LOT of time and effort to patch out holy shit you have no idea)\nAdded warning to start of level if player chooses original M1 music. (Don't want anyone playing the level with copyrighted music unless they are 100% aware it's copyrighted)\nFixed numerous lighting issues with some props and environment gibs (Ultrakill's vertex lighting system continues to give me grief)\nOnce blue skull acquired and player backtracks to spoopy chain room, door locks behind player forcing them to discover open pipe (It's really obvious c'mon)\nRemoved cooldown encounter between 2nd and 3rd arena (It was pretty lame tbh)\nFixed rare softlock that occurs with final checkpoint\nFixed weird collision softlock on opening boiler \nM2 Demo:\nFixed light glows on opening catwalk not facing player properly\nFixed missing audio droning sounds in opening catwalk\nAdded bunch of pictures of M2's current development\n\nScripts:\nFixed null error within shitty chuff script\nFixed null error within shitty spark sequencer script"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "MachinationM-1V2"
+          ],
+          "requiredDllNames": [
+            "STLPShittyScripts.dll"
+          ],
+          "LevelName": "M-2: I DREAM OF WIRES [DEMO]",
+          "LevelId": "MachinationM-2DEMO",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FIND A HIDDEN SOURCE OF INSPIRATION"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "STLPShittyScripts.dll"
+          ],
+          "LevelName": "M-1: THE BLASTPIPE",
+          "LevelId": "MachinationM-1V2",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "TURN ON THE LIGHTS"
+        }
+      ],
+      "Name": "MACHINATION",
+      "Author": "Streetlamp",
+      "Size": 98894860,
+      "Guid": "a1f9bb7c418870d499158f9c2b55731e",
+      "Hash": "1516d705602eefa366637f49dc89e089",
+      "FileMD5": "d65a4eff1dfac2adbd52f921fe4f7348",
+      "ThumbnailHash": "1d8c82f58fb5a5115fc133df342db46b",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1777499064
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/sandeater21/violencecoolswag/b25c4c40a495fd80d70a492c426990f7c92daca0/1.2/VIOLENCE__CHORUS_OF_THE_DAMNED.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1748166512,
+          "Hash": "301e718fc7f24fc40a9e36140ae55f15",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1750353558,
+          "Hash": "63325a3e861e2374ca83587c0d70505d",
+          "Message": "- 3rd blood tree instafills when the ferryman dies\n- Added some more decoration\n- Changed 3rd secret to a supercharge one\n- Challenge stays completed after dying\n- Other stuff i forgot\n- Added gringle. Okay!"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "7-?:  CHORUS OF THE DAMNED",
+          "LevelId": "se.cotd",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "GREET THE EARTHMOVER"
+        }
+      ],
+      "Name": "CHORUS OF THE DAMNED",
+      "Author": "sandeater",
+      "Size": 19004724,
+      "Guid": "8d399877dc56cc847b8f02f9c17ce726",
+      "Hash": "63325a3e861e2374ca83587c0d70505d",
+      "FileMD5": "7daec00176a9a013fd1e8fe8c21ce226",
+      "ThumbnailHash": "a0979d70a3b7893fceced8b736d30359",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1750353558
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/Filth-Tycoon/2e7811566b0587e288fd75dee5d4c8c500b77008/Tycoon%20v1.1/The_Tycoon.angry1",
+        "https://raw.githubusercontent.com/William1321/Filth-Tycoon/2e7811566b0587e288fd75dee5d4c8c500b77008/Tycoon%20v1.1/The_Tycoon.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1748203921,
+          "Hash": "f1a6d53d9e3285c4a93cb9d36a0160ce",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1748465215,
+          "Hash": "eee5d7c9157557a4f9882b23cebbe01f",
+          "Message": "- Fixed tab panel header\n- Added an option to turn off the filter in the credits terminal\n- End pit should work 100% of the time now\n- Misc changes"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "THE FILTH ISLAND",
+          "LevelId": "grinchland.filthtycoon",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Kill a Friend"
+        }
+      ],
+      "Name": "Filth <color=#fb2f49>Island</color>",
+      "Author": "antlers, William1321, PhantomBlader",
+      "Size": 45908039,
+      "Guid": "daddc88d189aff74ea13efdb950ca474",
+      "Hash": "eee5d7c9157557a4f9882b23cebbe01f",
+      "FileMD5": "5707056178bdc3f9b8d57366a3847242",
+      "ThumbnailHash": "b5b6cedab756ccba8614e69c2bd1817a",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1748465215
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/AlexPlaysRR/inferno_ultrakill/35d9fc6567a72e1b0794a627917d8bb78de8048d/revamp1/colorredInfernocolor.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1748464919,
+          "Hash": "f8ca919f5c0b662552ee1c6274a05b56",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "IN-1: Rubble In The Sky",
+          "LevelId": "pixelpower.layer.i1",
+          "isSecretLevel": false,
+          "secretCount": 4,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "no challenge yet"
+        }
+      ],
+      "Name": "<color=red>Inferno</color>",
+      "Author": "<color=orange>Alex Plays</color> & <color=blue>JoshieGuy3000</color>",
+      "Size": 19342316,
+      "Guid": "e8607aa1b4abd4d4796c60e3c7dfbcb6",
+      "Hash": "f8ca919f5c0b662552ee1c6274a05b56",
+      "FileMD5": "e1d0c04d2141f0736d6831c76d5ab307",
+      "ThumbnailHash": "a6bbf79bf575a525ecaa54d7467bd5da",
+      "Locked": true,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1748464919
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Bence49/CLARITYwawa/35630635176204ae698c3a3b080d2f81756ae187/CLARITY_UPDATE2.angry1",
+        "https://raw.githubusercontent.com/Bence49/CLARITYwawa/35630635176204ae698c3a3b080d2f81756ae187/CLARITY_UPDATE2.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1748465584,
+          "Hash": "2715bbb0a4071db4fb5e47bf048fd578",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1749898203,
+          "Hash": "4652d0efb79749f40abbe341b7ca28af",
+          "Message": "- Fixed smaller bugs and issues\n- Adjusted time requirement\n- Fixed part 2 outro having a very broken deathzone"
+        },
+        {
+          "Date": 1786065834,
+          "Hash": "ee0db4a389418974c88e035eb3d79dc4",
+          "Message": "- ported to latest update\n- remade the title system from scratch\n- new bundle icon"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "CLARITY /// TRILOGY",
+          "LevelId": "BENCE.CLARITY.49",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DONT TRIGGER THE SECURITY SYSTEMS"
+        }
+      ],
+      "Name": "CLARITY",
+      "Author": "bence_customlevel",
+      "Size": 46508981,
+      "Guid": "f94de58205ce45d41ab362c80c703bd2",
+      "Hash": "ee0db4a389418974c88e035eb3d79dc4",
+      "FileMD5": "f920fcd35ca2009b5fa8e9a49f211582",
+      "ThumbnailHash": "9d8e5252082c9661154af5dc83935d60",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786065834
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/958ed89f6e97a76243ffb0a59f8dfe46843a171a/BLOOD_PLEASE/Fraud/BLOOD_PLEASE.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1748912490,
+          "Hash": "2240ff8a99ce68422947b0515676922b",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1749044217,
+          "Hash": "0f3c8abe8ae68cf1d4942db8ad428082",
+          "Message": "- Miscellaneous small fixes\n- Fixed the rare inability to bring out your weapon despite having them (hopefully)\n- Gameplay animations move a little faster\n- Added Dev Plushie"
+        },
+        {
+          "Date": 1749387199,
+          "Hash": "79085b5c69d357c4faf6f6c86c28c6a0",
+          "Message": "More miscellaneous small fixes"
+        },
+        {
+          "Date": 1775597537,
+          "Hash": "b2f66665a1e07b6ef0b32b8a313c0e1d",
+          "Message": "- Ported to Fraud (17b2)\n- Added challenge\n- Added most Fraud enemies and rebalanced progression\n- Increased P-Rank requirements and reset P-Rank leaderboards\n- Moved the entrant logic and processing system to custom scripts for future plans. Not having the script will lock the level due to how critical it is\n- Disabling blood & gore now correctly disables all custom instances of it (does not affect gameplay)\n- Fixed some enemies being rotated\n- Visual updates"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "BloodPleaseScripts.dll"
+          ],
+          "LevelName": "GLORY TO MANKIND",
+          "LevelId": "woosp.BloodPlease",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "SABOTAGE YOUR EMPLOYER"
+        }
+      ],
+      "Name": "BLOOD, PLEASE",
+      "Author": "Woosp",
+      "Size": 12357209,
+      "Guid": "502893de07ef2c94daf31d98f1591396",
+      "Hash": "b2f66665a1e07b6ef0b32b8a313c0e1d",
+      "FileMD5": "6ccede708370056509b24db9962a1910",
+      "ThumbnailHash": "4b883105ee85180e6dea16684a64c989",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1775597537
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RedNova1/BeneathCyberia/f2dfe113874bb66073208b83b25b562a5a923c26/Level%201.4/BeneathCyberia.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1749898874,
+          "Hash": "7e871377e295c4c4ab14096e36ebbfdc",
+          "Message": "Port to ULTRA_Revamp"
+        },
+        {
+          "Date": 1772399019,
+          "Hash": "1e4957a1550e29b4c81d4eafd06af788",
+          "Message": "- Port to 17A\n- Lower P rank style req (27500 -> 22500)\n- Fix bug where you can get locked out of blue skull arena 2\n- Fix sound effect volume"
+        },
+        {
+          "Date": 1774868177,
+          "Hash": "210d3e53741e45140af0264465108db2",
+          "Message": "Fixed softlock in red skull room<size=12> I love you speedrunners</size>"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "2-EXTRA: BENEATH CYBERIA",
+          "LevelId": "RedNova.BeneathCyberia",
+          "isSecretLevel": false,
+          "secretCount": 3,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "BENEATH CYBERIA",
+      "Author": "RedNova",
+      "Size": 12174287,
+      "Guid": "47c17570aefdcf5408cdef8bfa807c2a",
+      "Hash": "210d3e53741e45140af0264465108db2",
+      "FileMD5": "b59d2ad55fad4c309eab981a041d6d23",
+      "ThumbnailHash": "4d8c17d72727c4e6c936305015229725",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1774868177
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/aggravateexe/MINESHAFTS/b9899434d69f9ada4ee280d7a9384f9924cfaf8e/1.0/MINESHAFTS.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1750356902,
+          "Hash": "386848cbd7aae3a43ab634ae9d84e8e2",
+          "Message": "Ported and overhauled Into The Abyss to the ULTRAKILL_REVAMP Update"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MS-1: INTO THE ABYSS",
+          "LevelId": "aggravateexe.mineshafts.first",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "MINESHAFTS",
+      "Author": "aggravateexe",
+      "Size": 42993845,
+      "Guid": "b400cc165732e6946a32756742296dae",
+      "Hash": "386848cbd7aae3a43ab634ae9d84e8e2",
+      "FileMD5": "1bd3f8a477a1151454cff33bd458beab",
+      "ThumbnailHash": "f62ddc5d73237c2aea6b3a2144c69e2b",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1750356902
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry1",
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry2",
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry3",
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry4",
+        "https://raw.githubusercontent.com/sandeater21/tsta/380d2f228923f908679d86c245a6c054cda9c4e4/tsta1/4.0/TSTA__ACT_1__PRELUDE.angry5"
+      ],
+      "Updates": [
+        {
+          "Date": 1752516065,
+          "Hash": "02ac97ea09e6d21498fa7173c2a63ed7",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1753872137,
+          "Hash": "c0d236463a7724c41b4e82a00650c408",
+          "Message": "- Leaving the first room in TA-I without starting the timer is no longer possible\n- Small visual tweaks for both levels\n- Small changes to circleOS\n- Taught triangle some new songs"
+        },
+        {
+          "Date": 1759161202,
+          "Hash": "03e0419cbb434554b893e4dfa17bc5b2",
+          "Message": "- Added TA-1\n- Updated start and end elevators\n- Taught triangle some new songs"
+        },
+        {
+          "Date": 1761606602,
+          "Hash": "59bba05325f01bb45a11df7879898460",
+          "Message": "- Added TA-S\n\nTA-I:\n- Added challenge\n- Lowered style requirement\n- Updated visuals slightly\n\nTA-0:\n- Waterfall looks better\n\nTA-1:\n- Bouncy death pits are less weird\n- Level now works with enemies disabled"
+        },
+        {
+          "Date": 1770895179,
+          "Hash": "dc0e9e71dd2e7d84f9de6e0ce8fceb1e",
+          "Message": "UPDATE FOR TSTA /// ACT 1 + PRELUDE\n\nCHANGELOG:\n- Added TA-2\n\nTA-0:\n- Moved 5th secret\n- EXTREMELY minor visual fix in one of the rooms"
+        },
+        {
+          "Date": 1773259454,
+          "Hash": "3053049be7f9782418a671fd27c95d64",
+          "Message": "-ported to fraud\n\nTA-I:\n-added a few shelves and boxes in the dark area\n-added color to fraud in the terminal\n\nTA-0:\n-fixed swordsmachine in the red path looking enraged when its not\n\nTA-1:\n-the first idol in the bts area no longer pushes you\n\nTA-2:\n-removed lights from a locked door\n-fixed the control room sometimes being disabled when it shouldnit be"
+        },
+        {
+          "Date": 1780841614,
+          "Hash": "c6201ec03ff78414786b2d678a1eea24",
+          "Message": "- Added TA-3\n- Removed damage buffs from radiant enemies to be consistent with the encores\n- You can now unleash The Bees.\n\nTA-1:\n- Added two green hookpoints in the final arena\n- Final arena intro can now be skipped"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "se.tstaI"
+          ],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
+          "LevelName": "TA-0: VITRIFICATION ORDER",
+          "LevelId": "se.tsta0",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE SECRET ENCOUNTER"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "se.tsta0"
+          ],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
+          "LevelName": "TA-1: 15 ACRES OF BROKEN GLASS",
+          "LevelId": "se.tsta1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "MAKE A KIND DONATION"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "se.tsta1"
+          ],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
+          "LevelName": "TA-2: OBVERSE OF THE OLD WIND",
+          "LevelId": "se.tsta2",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "SOLVE THEIR RIDDLES"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "se.tsta2"
+          ],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
+          "LevelName": "TA-3: THE WET MOIST",
+          "LevelId": "se.tsta3",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T STAND ON FLESH"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
+          "LevelName": "TA-I: SUNFALL",
+          "LevelId": "se.tstaI",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "HOLD YOUR HORSES"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "tristuff.dll"
+          ],
+          "LevelName": "TA-S: DEEP ROCK INFERNO",
+          "LevelId": "se.tstaS",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "TSTA /// ACT 1 + PRELUDE",
+      "Author": "sandeater",
+      "Size": 125763646,
+      "Guid": "6b6d65dd70cc04e4a96d3de53aea23ae",
+      "Hash": "c6201ec03ff78414786b2d678a1eea24",
+      "FileMD5": "6ae1718a5dfbff5cdfc483e406f62841",
+      "ThumbnailHash": "cf152fbd6dde00232204b5d6f373fdb3",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1780841614
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/1c8462d37152d8775a4e88c3c272a62ac04158ee/WHFO%20Update%202/When_Hell_Freezes_Over.angry1",
+        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/1c8462d37152d8775a4e88c3c272a62ac04158ee/WHFO%20Update%202/When_Hell_Freezes_Over.angry2",
+        "https://raw.githubusercontent.com/BadPunZ2/When-Hell-Freezes-Over/1c8462d37152d8775a4e88c3c272a62ac04158ee/WHFO%20Update%202/When_Hell_Freezes_Over.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1753129389,
+          "Hash": "7d173679bc9fe9d4faec387b0f2f0d4a",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1753871430,
+          "Hash": "6acfe92f10bd12e47be2e2f5712a8579",
+          "Message": "- Fixed collision issues\n- (Hopefully) fixed a bug where a checkpoint would sometimes not work\n- Made the Tip of the Day less confusing\n- Other small fixes"
+        },
+        {
+          "Date": 1772426341,
+          "Hash": "481fab64e49f8fe4db7f8f6953a1e24b",
+          "Message": "-Updated level for Fraud\n-Added some Fraud assets for a little detail"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "When Hell Freezes Over",
+          "LevelId": "punzstayfrosty",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BREAK THE 5-SECOND RULE"
+        }
+      ],
+      "Name": "WHEN HELL FREEZES OVER",
+      "Author": "BadPunZ",
+      "Size": 66176931,
+      "Guid": "37aee3b762328d048be26df496f77fdd",
+      "Hash": "481fab64e49f8fe4db7f8f6953a1e24b",
+      "FileMD5": "39f851ca63ea2a6e5a08f16eef99500b",
+      "ThumbnailHash": "36ef38a64f42ac63157a11d294f17de1",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1772426341
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RedNova1/Novakaizo/cb81e65a718fe608b1e3a41f873b5876eeaebccd/Level/novakaizo.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1753870395,
+          "Hash": "8f45d3cfff88c684b857178eeb684655",
+          "Message": "Port to ULTRA_REVAMP"
+        },
+        {
+          "Date": 1776300900,
+          "Hash": "5f61652c4cfdbc9419b6ad37412ac130",
+          "Message": "- Migrate to fraud with a fresh new obstacles!"
+        },
+        {
+          "Date": 1776799408,
+          "Hash": "bd828606558f9b7468e67635a780589d",
+          "Message": "- Flayer spawns in the main room of its arena\n- Animated lava texture\n- Fixed cerb arena ending prematurely\n- Forced whiplash on level load"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "N-1: SINSANE",
+          "LevelId": "RedNova_NovaKaizo1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "NOVAKAIZO [REMAKE]",
+      "Author": "RedNova",
+      "Size": 7871570,
+      "Guid": "f38753c95f382ad40b672e07f73ed298",
+      "Hash": "bd828606558f9b7468e67635a780589d",
+      "FileMD5": "82b01dff65315355eb5d9eb576d81ded",
+      "ThumbnailHash": "50f949736fe8426989fdd93ae3b6b646",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1776799408
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry1",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry2",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry3",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry4",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry5",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry6",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry7",
+        "https://raw.githubusercontent.com/Bencegit49/BLISSWAWA-/80609e403830d73790ba439e4a7fd70ef9bdb9e6/BLISS%20UPDATE%204/BLISS.angry8"
+      ],
+      "Updates": [
+        {
+          "Date": 1753871198,
+          "Hash": "456fc566b1b30cb4dbb09312c523f0d5",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1754392445,
+          "Hash": "4dc6143f93f5f714187b790a6e01da8c",
+          "Message": "- <color=red>Wiped any% leaderboard</color>\n- Fixed a few large issues at the end of the level"
+        },
+        {
+          "Date": 1770895410,
+          "Hash": "425af535ed5be084bbc664aeae0cc6c0",
+          "Message": "BLISS UPDATE\n\n\nCHENGELOG:\n\nB-1:\n\n- Fixed softlock at the end of part 1\n- Added book in part 1\n- Changed line in part 2 book\n- Major visual overpass\n- Fixed secret order\n- Made part 2 pathing clearer\n- Added some more waves to encounters\n\nB-2:\n\n- Initial release"
+        },
+        {
+          "Date": 1786123095,
+          "Hash": "50529b32e01eed24dadbc27b353b3613",
+          "Message": "NEW LEVEL: BLISS /// THIRD\n\n-Greatly reduced filesize for all levels\n-Remade the title system from scratch\n-Slight changes to the credits terminal layout\n\nB-1: \n-Slight visual changes to the rooftop area\n-Fixed the bug where the exit elevator opens mid encounter\n\nB-2:\n-Slight visual changes to the pit in the final arena\n\nB-3: \n-Initial release"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "B-1: PICTURED AS PERFECT",
+          "LevelId": "BLISS.BENCE.FIRST",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE LEVEL UNDER 90 SECONDS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "B-2: MY PAST IN TOMBSTONES",
+          "LevelId": "BLISS.BENCE.SECOND",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T EXPLODE THE MAIN PIPE SYSTEM"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "B-3: LIKE THE FIRST PINE CONE",
+          "LevelId": "BLISS.BENCE.THIRD",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WITNESS THE PUNISHMENT IN THE BROKEN REMAINS"
+        }
+      ],
+      "Name": "BLISS",
+      "Author": "bence_customlevel",
+      "Size": 176553582,
+      "Guid": "444b914dbe3c72046be9dca4e00479dd",
+      "Hash": "50529b32e01eed24dadbc27b353b3613",
+      "FileMD5": "b3bc4bf83e120fd79acccf20f06dca98",
+      "ThumbnailHash": "9d9b4230d1e36d1f32bea8de1546fc4f",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786123095
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/ballfartchungus43/a-better-tomorrow/43ecf27e81096419d7ffa62507e84b7eb0732275/Update%201/A_BETTER_TOMORROW.angry1",
+        "https://raw.githubusercontent.com/ballfartchungus43/a-better-tomorrow/43ecf27e81096419d7ffa62507e84b7eb0732275/Update%201/A_BETTER_TOMORROW.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1753871672,
+          "Hash": "9bafe21d561415d81945be5a8d38fb81",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1754395185,
+          "Hash": "4db60c443bc4f1f74fdea389759e1f35",
+          "Message": "- Fixed wrong texture on the water\n- Fixed Red Skull Door not closing\n- Change Mindflayer Material"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "A BETTER TOMORROW",
+          "LevelId": "ballfartchungus.aBetterTomorrow",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "A BETTER TOMORROW",
+      "Author": "ballfartchungus43",
+      "Size": 33777863,
+      "Guid": "7f81ed204a23f344cae585e2c143e6a3",
+      "Hash": "4db60c443bc4f1f74fdea389759e1f35",
+      "FileMD5": "4b77d8a2ac4027898e1687f941a6ef73",
+      "ThumbnailHash": "0bb26d5cd5eb70b134b32842cd5586f9",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1754395185
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RobiFox/rude-sisyphus/0af0cf3e5baef1e0dc10a458a550c7ed8ab49341/Sisyphus.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1754393951,
+          "Hash": "0315757d534517fee3a06845c86645d2",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "sisyphus",
+          "LevelId": "robi.lvl.sisyphus",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "Sisyphus",
+      "Author": "Robi",
+      "Size": 11837298,
+      "Guid": "74a84340cef6cbc4a8a5a090878b7340",
+      "Hash": "0315757d534517fee3a06845c86645d2",
+      "FileMD5": "b161141894e748434befe41f7e43bba0",
+      "ThumbnailHash": "a9d54dc25856f1aa857da724e705b5d9",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1754393951
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry1",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry2",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry3",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry4",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry5",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry6",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry7",
+        "https://raw.githubusercontent.com/Raifuuu/Envy/5aa4eb9be0e9934fc094a3051b14d415fff6db10/Envy%20Ported%201.1/ENVY.angry8"
+      ],
+      "Updates": [
+        {
+          "Date": 1755802297,
+          "Hash": "2300fae8acb5305afdc903457cdbcd6a",
+          "Message": "* e-1 and e-2 were slightly revamped\n* e-3 and e-4 were ported\n* big thanks to @Hinestraza for helping unwrap this mess of a layer"
+        },
+        {
+          "Date": 1760903273,
+          "Hash": "127a19fc07e63514faabadec00d97efa",
+          "Message": "- e-1 ending was touched up\n- e-3 completely revamped by YoullTim with a little touch by bongwater (vertical library room)"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "E-1: LOST FIELDS OF GOLD",
+          "LevelId": "RaifuLostFieldsenvyb",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T TOUCH THE GRASS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "RaifuLostFieldsenvyb"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "E-2: PALACE OF BLACK SPIRES",
+          "LevelId": "raifuenvypalaceforbundle",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WALK IN THE MIST OF ASHEN REMAINS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "raifuenvypalaceforbundle"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "E-3: CASTLE MANIAC",
+          "LevelId": "RaifuCastleManiacTheReal",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FIND THE DREADFUL SECRET"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "RaifuCastleManiacTheReal"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "E-4: EVERY STAR IN THE SKY",
+          "LevelId": "RaifuEveryStarInTheSkyReal",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMMIT THE CARDINAL SIN AND PAY FOR IT"
+        }
+      ],
+      "Name": "ENVY",
+      "Author": "Raifu",
+      "Size": 190769059,
+      "Guid": "515486d54abac2a4694e34cb1b31d18f",
+      "Hash": "127a19fc07e63514faabadec00d97efa",
+      "FileMD5": "dcd181e162e0ebd30c345444c79de8fb",
+      "ThumbnailHash": "1982f02cc375a2172d9da810344de46a",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1760903273
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Doodleeee/Affliction/dec8119a80450ac481c8da4f18e41a94c9e05f1f/Affliction.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1756295865,
+          "Hash": "d4ca8fe2ca68da64193c6529e276e4dd",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Affliction",
+          "LevelId": "Affliction",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "The disastrous path"
+        }
+      ],
+      "Name": "Affliction",
+      "Author": "Slumbomb, Akita, Distant Land",
+      "Size": 19604370,
+      "Guid": "35c20663906d7b041a246ad55ff850cb",
+      "Hash": "d4ca8fe2ca68da64193c6529e276e4dd",
+      "FileMD5": "192328ccc941e632498baa2163b42b65",
+      "ThumbnailHash": "b7476fa59c82316cb555bb03d076670b",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1756295865
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/hinestraza/7empestangry/20d56511aa00a6fdc3fb9c256e38b64e3b3ba03d/7empest%201.1/7EMPEST.angry1",
+        "https://raw.githubusercontent.com/hinestraza/7empestangry/20d56511aa00a6fdc3fb9c256e38b64e3b3ba03d/7empest%201.1/7EMPEST.angry2",
+        "https://raw.githubusercontent.com/hinestraza/7empestangry/20d56511aa00a6fdc3fb9c256e38b64e3b3ba03d/7empest%201.1/7EMPEST.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1757009043,
+          "Hash": "68b59602ee1440217adf260a61cf9c1c",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1757368572,
+          "Hash": "1b6272eca6abf6963a4b17abcfe3a464",
+          "Message": "- P rank has been fixed\n- Challenge has been fixed\n- Occlusion Errors Fixed\n- One or two details have been added that werent included in initial release as well as sealing one or two gaps\n- Added rich pressence icon"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TS-1: DEAD FLAG BLUES",
+          "LevelId": "hinestraza.tempest.os1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BREAK ALL MONITORS"
+        }
+      ],
+      "Name": "7EMPEST",
+      "Author": "Hinestraza",
+      "Size": 64943742,
+      "Guid": "977aaa88f562a674481260850dd91c01",
+      "Hash": "1b6272eca6abf6963a4b17abcfe3a464",
+      "FileMD5": "af72b063731f78aa1505e786f5a135be",
+      "ThumbnailHash": "a7c919fe0b5d6ad1717316e752e00cb1",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1757368572
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Draghtnim/Loadout-Hell/cab2fed66a1012974aec22bde5c137f4ae5cbd8f/Port/Loadout_Hell.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1759161787,
+          "Hash": "343b820e3a647e448be2b14b4ba429c3",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1760902388,
+          "Hash": "5f1f0b3efffbf6346b06a32db7f31ee9",
+          "Message": "- Fixed an annoying bug that would make the arena dark\n- Sisyphus prime has an adjusted animation and no longer dies after the terminal pops up\n- Tab panel header no longer displays the incorrect name"
+        },
+        {
+          "Date": 1765635655,
+          "Hash": "3234b6becb9f9e5409db6aa8496a90e6",
+          "Message": "- Fixed an issue where the player would get softlocked if all weapons weren't unlocked yet"
+        },
+        {
+          "Date": 1777918561,
+          "Hash": "0e4eb388ca7f51343b936af73a7dbd61",
+          "Message": "- Ported to fraud\n- Replaced gabriel with a power (gabriel sucks to use in rude)"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "UNHOLY ROULETTE",
+          "LevelId": "Draghtnim.buckshot",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Don't use any bonuses."
+        }
+      ],
+      "Name": "Loadout Hell",
+      "Author": "Draghtnim",
+      "Size": 13957460,
+      "Guid": "588d26e6fafdb3645aa2f8cf0b8d724a",
+      "Hash": "0e4eb388ca7f51343b936af73a7dbd61",
+      "FileMD5": "160bcf74589e5e9a6a0d74479bb78f84",
+      "ThumbnailHash": "d9fdc3dc7351cdd51d2e13b24bc41300",
+      "Locked": false,
+      "EpilepsyWarning": true,
+      "LastUpdate": 1777918561
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/CyrusPlayz-bit/Totally-Serious/31eabd1f3f6992c1cbf77d1005bc4b4c90a16c78/Totally_Serious_Definitive_Edition.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1760902732,
+          "Hash": "9a00869fc9485464fafc173a59277974",
+          "Message": "- Complete revamp of the above ground map\n- Reworked all of the arenas\n- Reworked and expanded on the section after the drop to build up to the boss better\n- Reworked the custom boss(new model and modified attacks)\n- Added custom Boss music\n- Added Credits and other terminals\n- Repositioned the old secrets and added two more secrets to get the total up to 5 secrets"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "A Verdant Encounter",
+          "LevelId": "1111",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO THE PACIFIST ROUTE"
+        }
+      ],
+      "Name": "Totally Serious DEFINITIVE EDITION",
+      "Author": "CyrusPlayz",
+      "Size": 13961977,
+      "Guid": "ea218d818a5626b4cad876fa6520ec0b",
+      "Hash": "9a00869fc9485464fafc173a59277974",
+      "FileMD5": "e1a792d1335c2f68c57c8813ce0eaa63",
+      "ThumbnailHash": "58ab44dbb2f87da84d7548bcd08ab7b6",
+      "Locked": true,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1760902732
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/431d838e4dfffc9fbbec0f3703965b2b20a4ea7c/uk_flatgrass%203.0/uk_flatgrass.angry1",
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/431d838e4dfffc9fbbec0f3703965b2b20a4ea7c/uk_flatgrass%203.0/uk_flatgrass.angry2",
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/431d838e4dfffc9fbbec0f3703965b2b20a4ea7c/uk_flatgrass%203.0/uk_flatgrass.angry3",
+        "https://raw.githubusercontent.com/William1321/uk_flatgrass/431d838e4dfffc9fbbec0f3703965b2b20a4ea7c/uk_flatgrass%203.0/uk_flatgrass.angry4"
+      ],
+      "Updates": [
+        {
+          "Date": 1760903422,
+          "Hash": "1cc18f15294ac0d4e9347775f8ed3d7c",
+          "Message": "- Since i lost the old scene file i have remade the level from the ground up\n- Updated environments and bosses with revamp changes\n- Added 0-5 environment\n- Replaced 7-4 with a 7-1 environment\n- Removed the need for the custom script\n- Added settings menu\n- Earthmover bakes navmesh on spawn now; enemies will properly move\n- Added setting to rebake navmesh on environment switch\n- All environments and bosses will play their respective music now, customizable in settings"
+        },
+        {
+          "Date": 1773175173,
+          "Hash": "a50f1dc0d86672a458171bb8154c783c",
+          "Message": "-Added Geryon, Watcher of the Skies as a spawnable boss\n-Added 2 new environments (8-1 and 8-3)\n-Added back 7-4 environment\n-Removed firstroom \n-Minor improvements to previous environments\n\nKNOWN ISSUES:\nShop bug (magenta sprites will show up occasionally)\nEnemy rockets do not explode\nEarthmover security system is broken as hell"
+        },
+        {
+          "Date": 1781635564,
+          "Hash": "289e3f0bba71323469e525f64ad81984",
+          "Message": "uk_flatgrass DESTRUCTIBLE HOUSE update\n- New destructible house made by Rednova\n- Fixed all magenta sprite issues\n- Earthmover is 100% functional except for some minor visual bugs"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "uk_flatgrass ",
+          "LevelId": "willem1321.ukflatgrass",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "uk_flatgrass (Destructible House Update)",
+      "Author": ".willem1321",
+      "Size": 80425063,
+      "Guid": "02ed3b9674fc9f14f9bb005f1dab5c2f",
+      "Hash": "289e3f0bba71323469e525f64ad81984",
+      "FileMD5": "16349b35d511addec6db195eb2f8e5e2",
+      "ThumbnailHash": "120209be99b3f9388620848f79649f05",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1781635564
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Draghtnim/Struct/7182e84ce5865173c35cc436e8751b8d6166719f/visualsfix/parted/STRUCT_Test.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/Struct/7182e84ce5865173c35cc436e8751b8d6166719f/visualsfix/parted/STRUCT_Test.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1763493117,
+          "Hash": "35fa7a5c98fe7f64088bfbf55cd3a11d",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1765635814,
+          "Hash": "fd1f1df5c686a2a46ad8c9c917bf61e3",
+          "Message": "- Made it so you can skip endings when after getting it once\n- Adjusted some triggers\n- Made it so you can walk home on foot\n- You can now skip the elevator by slamming into it 3 times\n- Mörkö"
+        },
+        {
+          "Date": 1772388957,
+          "Hash": "3162d15abc3d08348b6a60b8e791a68d",
+          "Message": "-ported to fraud\n-remodeled some places with the new fraud assets\n-added information about the camera indicator\n-renamed style bonus to match the name of the ending\n-fixed elevator oob"
+        },
+        {
+          "Date": 1777638121,
+          "Hash": "0fb34f958ee0cc843b83093ff91e2b14",
+          "Message": "- Fixed minor visual bugs"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "BROKEN BRICKS IN THE WALL",
+          "LevelId": "Drag.rj4",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "STRUCT",
+      "Author": "Draghtnim, Woosp, AstralOcean",
+      "Size": 38271903,
+      "Guid": "bc5d2a95dcfd93349878e54862d1b220",
+      "Hash": "0fb34f958ee0cc843b83093ff91e2b14",
+      "FileMD5": "72e4646d9e32a51b6daf9f621360332c",
+      "ThumbnailHash": "facefa2dea3e37921d315c643f94eb73",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1777638121
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/PrestoPesto/pesto-ultrakill/904b5afd459abd7779673907819493318fc62128/Galleries%201.3.0/GALLERIES_AT_THE_END_OF_THE_WORLD.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1763493793,
+          "Hash": "b380eec24833f8545a4a1c21bac6fbf9",
+          "Message": "Initial upload"
+        },
+        {
+          "Date": 1765635930,
+          "Hash": "0c3f5a912b71b0b4792282d036354230",
+          "Message": "Additions:\n   - Added Artwork Information, a togglable setting that displays real-world information about the art and artists.\n   - Added additional artworks and model credits to the credits terminal.\n   - Added a method to speed up initial loading and activate speedrun skips.\n   - Added the horrors.\n\nChanges:\n   - Replaced 2 paintings to ensure accuracy of sources.\n\nFixes: \n   - Addressed several out-of-bounds clipping errors.\n   - Fixed numerous small visual bugs with the gallery, particles, and more.\n   - Attempted to fix a rare potential softlock.\n   - Fixed a small spelling error with an artist's name.\n   - Attempted to fix a bug allowing the challenge to be completed early."
+        },
+        {
+          "Date": 1772582209,
+          "Hash": "d7c987c47b3e30d489648959e5451fd4",
+          "Message": "Version:\n   - Updated to Fraud.\n\nAdditions:\n   - Created a Discord server for reporting bugs.\n\nChanges:\n   - Made it more obvious when normals have been inverted.\n\nFixes:\n   - Fixed skybox rendering issues.\n   - Fixed several particle color issues.\n   - Removed some visual inconsistencies."
+        },
+        {
+          "Date": 1776907136,
+          "Hash": "2f3683e51f03ecf4098cdf9054f26217",
+          "Message": "Version:\n   - Updated to Fraud, version 17b3\n\nFixes:\n   - Fixed speedrun skips not properly activating."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "ForceFinalRank.dll",
+            "GalleryArmFix.dll"
+          ],
+          "LevelName": "GALLERIES AT THE END OF THE WORLD",
+          "LevelId": "presto.break.hall",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "UNDER CONSTRUCTION"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "U-E: WHEN THE MIRROR BREAKS",
+          "LevelId": "presto.break.boss",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "GALLERIES AT THE END OF THE WORLD",
+      "Author": "PrestoPesto",
+      "Size": 47855047,
+      "Guid": "a9d6e67d9f77dbc4895aaefd9ec2ae19",
+      "Hash": "2f3683e51f03ecf4098cdf9054f26217",
+      "FileMD5": "bece04902c1b4ba6d501d84171452742",
+      "ThumbnailHash": "bfadec202ee9fb49515d35fffb7cbe2d",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1776907136
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FruitCircuit/TAUKS/d86743bbadc47160cf2e9c88c27945fead55eb33/v1/TABS_level_experiment.angry1",
+        "https://raw.githubusercontent.com/FruitCircuit/TAUKS/d86743bbadc47160cf2e9c88c27945fead55eb33/v1/TABS_level_experiment.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1765635073,
+          "Hash": "a3c669f142067f6739175aac7ac38e05",
+          "Message": "Initial upload"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TAUKS",
+          "LevelId": "fruitc.tabs1",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "Totally Accurate Ultrakill Battle Simulator",
+      "Author": "FruitCircuit",
+      "Size": 32952465,
+      "Guid": "d4c20c4a8ec82b4419c642f7268021a8",
+      "Hash": "a3c669f142067f6739175aac7ac38e05",
+      "FileMD5": "515e8cdaaa9fa952719572f5072626cd",
+      "ThumbnailHash": "a5a307a0db535f31723d58750faf65d1",
+      "Locked": true,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1765635073
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DoodleEh/rubicon/c89ffde3c2d5482722814b329f90d6a8191b5268/Rubicon%201.3.1/RUBICON.angry1",
+        "https://raw.githubusercontent.com/DoodleEh/rubicon/c89ffde3c2d5482722814b329f90d6a8191b5268/Rubicon%201.3.1/RUBICON.angry2",
+        "https://raw.githubusercontent.com/DoodleEh/rubicon/c89ffde3c2d5482722814b329f90d6a8191b5268/Rubicon%201.3.1/RUBICON.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1765635498,
+          "Hash": "2c6ccc1a9c904ec421b63c2390fb2b9d",
+          "Message": "Ported to ULTRA_REVAMP update."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "CarcassEnemy.dll"
+          ],
+          "LevelName": "R-1: CARCASS",
+          "LevelId": "remphase.hydraxous.rubicon.first",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "MAKE A QUESTIONABLE PURCHASE"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "remphase.hydraxous.rubicon.first"
+          ],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll",
+            "CameraAdjustments.dll",
+            "CarcassEnemy.dll"
+          ],
+          "LevelName": "R-2: BOTTOMLESS PIT",
+          "LevelId": "remphase.hydraxous.rubicon.second",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WIN THE ULTIMATE PRIZE"
+        }
+      ],
+      "Name": "Rubicon",
+      "Author": "Rem_Safe_Space, Hydraxous, Duv",
+      "Size": 74762702,
+      "Guid": "c787a9514436db941be69ef24af53010",
+      "Hash": "2c6ccc1a9c904ec421b63c2390fb2b9d",
+      "FileMD5": "77b619ac0e6d2b073adb97aabc2ee1f7",
+      "ThumbnailHash": "c6c5b6f2166da671f6b228261920cc93",
+      "Locked": true,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1765635498
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/Six-Thousand-Feet-Under-AKA-STFU-/32042dfb0f81a344536f7e67c27420451c049531/STFU%20partitioned/Six_Thousand_Feet_Under.angry1",
+        "https://raw.githubusercontent.com/William1321/Six-Thousand-Feet-Under-AKA-STFU-/32042dfb0f81a344536f7e67c27420451c049531/STFU%20partitioned/Six_Thousand_Feet_Under.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1770895649,
+          "Hash": "4c77c4de6542bfd4eb78968036be8d2a",
+          "Message": "- Ported to ULTRA_REVAMP. Assets were not updated. Its cool though its like a little time capsule of pre-revamp\n- Added jump pads to the blue arena\n- Removed unnecessary invisible walls\n- Added back Undersea Craze, Song played in level is picked at random"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Six Thousand Feet Under",
+          "LevelId": "willem1321-sixthousandfeetunder",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "SKIP THE RED/BLUE ENCOUNTERS"
+        }
+      ],
+      "Name": "Six Thousand Feet Under",
+      "Author": ".willem1321",
+      "Size": 40018799,
+      "Guid": "364b293c6f0f7194eb45a6da127f7958",
+      "Hash": "4c77c4de6542bfd4eb78968036be8d2a",
+      "FileMD5": "6da3ac3e1a572f43fd8b8c21e352e260",
+      "ThumbnailHash": "86d081743ca0094f10c2c3c737c0a65e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1770895649
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FNChannel/MoonlightGuideUs/2f5afde80841af96623ad1c92e5c1c75279ae60f/1.0.2%20for%20real%20this%20time/Moonlight_Guide_Us.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1772833706,
+          "Hash": "871568238fcf7ee4cb33d5167fa5552a",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1772906729,
+          "Hash": "d30edadad1ea2884796d8ccb00cb794c",
+          "Message": "- Final Arena now uses normal guttermen and guttertanks instead of their drop pod variants to fix a bug where upon checkpointing, the arena would break, sorry about that!\n- Room 18's vista has been updated to be slightly cooler\n- Added Occlusion Culling(how did i forget this)\n- Added a hint to secret 3\n- Updated Credits\n- Fixed first secret room not having complete collision in the ceiling \n- Minor fixes here and there"
+        },
+        {
+          "Date": 1773573866,
+          "Hash": "88e290598d35547459769a9ef2887239",
+          "Message": "- Added caustics to Room 2 cuz it looks cool\n- Moon Atrium(Room 5) now has a casing for the altar which opens up after the player gets close enough\n- You can now pick up the red skull at longer distances once the altar casing opens up, arena trigger has been vastly expanded to compensate, just don't go too far though...\n- Fixed an issue where a Soldier on Room 2 would not spawn in the correct location due to a NavMesh mishap(i cant remember if this was fixed in 1.0.1 sob)\n- Fixed Secret 4 cubby letting the player see outside of the map due to occlusion culling\n- I think i fixed other stuff idk its 12 am let me sleep.\n- otag is real. hide."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MOONLIGHT GUIDE US",
+          "LevelId": "astralocean.moonlightguideus",
+          "isSecretLevel": false,
+          "secretCount": 4,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "GIVE THE MOURNER A FACE"
+        }
+      ],
+      "Name": "MOONLIGHT GUIDE US",
+      "Author": "AstralOcean",
+      "Size": 23698060,
+      "Guid": "22ac1cebcb99a7a4197e9b42848b85a9",
+      "Hash": "88e290598d35547459769a9ef2887239",
+      "FileMD5": "088043e3815609bfba96d00300d4eea6",
+      "ThumbnailHash": "6006ac9feb3da57b337388757fee5c26",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1773573866
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Draghtnim/thebloodisalie/f9edf1704ea9d2a75f438250dcc870d86d8ca25b/Community/V1/The_Blood_Is_A_Lie.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1772968008,
+          "Hash": "e40dfec69a5eea144ba30596aa4f66d6",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1772985788,
+          "Hash": "6f84260a24ae92343aab686b9e301c92",
+          "Message": "- Added an indication for the last shot portal \n- Fixed minor visual glitch in first room\n- Added wires to strengthen connection between receivers and door\n- Improved portal placement logic "
+        },
+        {
+          "Date": 1773259243,
+          "Hash": "5c0a323b7dd87ac4a85dee3e9c950473",
+          "Message": "- ACTUALLY fixed the visual glitch in the first room\n- killed a bug that would cause the reciever to be permanently enabled (sorry speedrunners)\n- added the ability to go through portals\n- made it clearer which side of the cube shoots out the laser"
+        },
+        {
+          "Date": 1779589443,
+          "Hash": "491749969fe61d443aa0621b00ea4fed",
+          "Message": "-Remade the backend of the level\n-Added 2 more chambers: \"Crossbeams\" by draghtnim, and \"Lasers And Lasers\" by Sandeater21\n-Added Credits"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "SpawnArmFix.dll"
+          ],
+          "LevelName": "Triple Laser",
+          "LevelId": "Draghtnim.aperture",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "SpawnArmFix.dll"
+          ],
+          "LevelName": "Crossbeams",
+          "LevelId": "Portal.DraghtnimPuzzle",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "SpawnArmFix.dll"
+          ],
+          "LevelName": "Lasers And Lasers",
+          "LevelId": "Portal.LaserAndLasers",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "SpawnArmFix.dll"
+          ],
+          "LevelName": "Credits",
+          "LevelId": "Portal.Credits",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "The Blood Is A Lie: Community Test Chambers",
+      "Author": "Draghtnim",
+      "Size": 21774158,
+      "Guid": "3289eb61a492d9d49aaf186ce05ef5f9",
+      "Hash": "491749969fe61d443aa0621b00ea4fed",
+      "FileMD5": "81fef298188f415df2e51c2950b68513",
+      "ThumbnailHash": "1ecd513a3d73ebdf3f05d277be0ec4f8",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1779589443
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/William1321/skilltests/66635913e07f1991de4a7f6f2e071131407748dd/partitioned%20skilltests%203.0/arealis.angry1",
+        "https://raw.githubusercontent.com/William1321/skilltests/66635913e07f1991de4a7f6f2e071131407748dd/partitioned%20skilltests%203.0/arealis.angry2",
+        "https://raw.githubusercontent.com/William1321/skilltests/66635913e07f1991de4a7f6f2e071131407748dd/partitioned%20skilltests%203.0/arealis.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1773691915,
+          "Hash": "c3e18b3bc41b04947be8fb97c6b42dee",
+          "Message": "Ported to FRAUD\n- Major visual overhaul\n- Reworked most encounters, added FRAUD enemies\n- Completely remade Jump Pillars, they're now Dash Pillars and can be grappled onto\n- AR-1 now uses uncompressed high quality versions of its songs\n- New secret encounter for AR-1\n- Added tip of the day\n- Enemies should no longer clip into objects\n- New firstroom and finalroom\n- Fixed secrets"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "AR-1: WELCOME TO THE MACHINE",
+          "LevelId": "willem1321-skilltest2",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE SECRET ENCOUNTER"
+        }
+      ],
+      "Name": "AREALIS /// SKILLTESTS",
+      "Author": ".willem1321",
+      "Size": 60772829,
+      "Guid": "3ed7bda0dfe2f81438a35d1c5c96fcb1",
+      "Hash": "c3e18b3bc41b04947be8fb97c6b42dee",
+      "FileMD5": "4cbdf53b14e80a9aa40ac8519917f091",
+      "ThumbnailHash": "dd9c6b2f9ca5ebc2093aa4462917f3f1",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1773691915
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/0d50613e7054c0b4f078a0bd66217ae5e581fb28/Angry/ULTRAKILL__REPRISE.angry1",
+        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/0d50613e7054c0b4f078a0bd66217ae5e581fb28/Angry/ULTRAKILL__REPRISE.angry2",
+        "https://raw.githubusercontent.com/Smallkloon/UltrakillReprise/0d50613e7054c0b4f078a0bd66217ae5e581fb28/Angry/ULTRAKILL__REPRISE.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1774481029,
+          "Hash": "9cc046847c9e58322ef55ac3c1e7de18",
+          "Message": "- Updated for Fraud (17b2)\n- Revamped Visuals\n- Various Bugfixes and Optimizations\n- Persistent Challenge Mode and Challenge Modifiers QoL (Forceradiance, Forcesand)"
+        },
+        {
+          "Date": 1774723209,
+          "Hash": "636b12903bd22fda838de03352434716",
+          "Message": "- Attempted to fix some accidental OOB clips from untagged geometry and missing/weird colliders\n- Fixed and smoothed NoMo/NoMoW inbounds routes\n- Readded terminals to end of level\n\n0-R:\n- Lava in the lava room now bounces the player\n- Extended Angry Gate tutorial pop-up duration\n- Some instances of heatwaves now use fullscreen heatwaves\n\n1-R:\n- Fixed third arena chance of ending with an enemy remaining\n- Fixed some electricity being unable to hurt the player in a specific hallway\n- Made aforementioned electricity into one trigger to avoid different overlapping ticks of damage\n- Attempted to fix enemies warping to lower platform in 2-story arena\n- Made secret sequence a little more clear"
+        },
+        {
+          "Date": 1775799001,
+          "Hash": "a3ff8732d6d567f0cc718b32c8b88648",
+          "Message": "- Most Malicious Faces that are blessed are now stationary\n\n0-R:\n- All fans now instakill :)\n\n1-R:\n- Fixed a rare case of damage ticks from a hurtzone lingering after exiting\n- Window at the top of the vertical arena can be broken manually after completion \n- Small visual and enemy placement tweaks in final arena to prevent schisms from hiding\n- Fixed a rare issue where tundra would get stuck in the left generator room\n- Updated meteor shower visuals in final room"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "CustomEndscreen.dll",
+            "UKReprise_Utils.dll"
+          ],
+          "LevelName": "1-R: A DREAM OF HOME",
+          "LevelId": "Smallkloon.LimboReprise",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMPLETE THE LEVEL IN CHALLENGE MODE"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "2-R: FAREWELL AT THE END OF EDEN",
+          "LevelId": "Smallkloon.LustReprise",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMPLETE THE LEVEL IN CHALLENGE MODE"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "CustomEndscreen.dll",
+            "UKReprise_Utils.dll"
+          ],
+          "LevelName": "0-R: ASHES TO ASHES",
+          "LevelId": "Smallkloon.PreludeReprise",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMPLETE THE LEVEL IN CHALLENGE MODE"
+        }
+      ],
+      "Name": "ULTRAKILL /// REPRISE",
+      "Author": "Small and Woosp",
+      "Size": 51617685,
+      "Guid": "727cca746f27c4147b4d4bcc406209de",
+      "Hash": "a3ff8732d6d567f0cc718b32c8b88648",
+      "FileMD5": "d4b0ff3dbda05420415ed50fd7fdff85",
+      "ThumbnailHash": "fbc6d7b73c9a8e04272bcadd64fd1be0",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1775799001
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRABLOX/2bbc6cfd4d93b0e0979f1092feb56741f438cd7a/ULTRABLOXcart.angry1",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRABLOX/2bbc6cfd4d93b0e0979f1092feb56741f438cd7a/ULTRABLOXcart.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1774635024,
+          "Hash": "958111d7d5b51c7ebe8e1c1ce52b5535",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1778322606,
+          "Hash": "0322d461fc8670744a76e80a259f6784",
+          "Message": "- Cart ride into Gabriel added\n- Music now rotates\n- Fixed Gamepasses not showing in Hell obby"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "HELL OBBY",
+          "LevelId": "clashmode.shitpost.robloxobby",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "CART RIDE INTO GABRIEL",
+          "LevelId": "cart.ride.sisyphus",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ULTRABLOX",
+      "Author": "DILLEGOR",
+      "Size": 46059765,
+      "Guid": "db6b6fcc1dd0bb94fb61e14def3dec90",
+      "Hash": "0322d461fc8670744a76e80a259f6784",
+      "FileMD5": "e0419cce9ef69bd5b5eb540ff90f4026",
+      "ThumbnailHash": "ad986d8c6170b09747b49ca3b0396c6f",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1778322606
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/wiendosjogos/GUTTERMANS-PUBLIC-EXECUTION/f1bf8a50cee0e194a362872adbfda0989c9fbbfa/violencestuffold.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1774757887,
+          "Hash": "793f7e524c9e9744aafc9141a197c65c",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "GUTTERMAN'S PUBLIC EXECUTION",
+          "LevelId": "tulipa.violence.oldlevel",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "GUTTERMAN'S PUBLIC EXECUTION",
+      "Author": "eclipsed_tulipa",
+      "Size": 5348857,
+      "Guid": "b8aeaca24867e4141a204385a7a04e7a",
+      "Hash": "793f7e524c9e9744aafc9141a197c65c",
+      "FileMD5": "575d514be4a143250f9171227b71e47b",
+      "ThumbnailHash": "0639b9a6a2d17411a55f125f2349dae2",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1774757887
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/engelbertwagner7/1-2theburningworld/ea79f5f3b7f6ed3873fd16463da26dbe1c1ddf9a/Vogelbeobachtung/1-2_The_Burning_World.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1775026936,
+          "Hash": "f6c63082c5c5d7a469b712584ca384ab",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1775070047,
+          "Hash": "d50013b3314274443829a81e6a528778",
+          "Message": "Hoppla! Ich glaube, ich habe bei der Veröffentlichung meines Levels ganz schön Mist gebaut. Haha! Jetzt sollte es aber wieder klappen – anscheinend haben die Checkpoints nicht richtig funktioniert. Auch die Hierarchie war etwas seltsam. Na ja, das war’s erstmal. Tschüss!"
+        },
+        {
+          "Date": 1775296757,
+          "Hash": "3843e662b55302a4b83ec8379c22dd0d",
+          "Message": "Ich glaube, das wird das letzte Update für dieses Level sein! Ich bin ziemlich zufrieden damit, wie es jetzt aussieht, und bin sehr dankbar für all die Unterstützung, die ich bekommen habe! Ich habe hauptsächlich Fehler behoben und neue Elemente hinzugefügt – viel Spaß damit!"
+        },
+        {
+          "Date": 1777202371,
+          "Hash": "17f68152157c01f47a6fadfa45b42abf",
+          "Message": "Endlich habe ich dem Level eine echte Herausforderung hinzugefügt!\nUnsere Level-Bewertung ist jetzt positiv! Vielen Dank!"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-2: The Burning World",
+          "LevelId": "goddammit",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Hunt The Birds In One Life For a Prize!"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "",
+          "LevelId": "puzzle",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "Level: 1-2: The Burning World",
+      "Author": "engelbertwagner7@gmail.com",
+      "Size": 25454209,
+      "Guid": "da877611bf18e63478de3a03613f6225",
+      "Hash": "17f68152157c01f47a6fadfa45b42abf",
+      "FileMD5": "71622fa8f6febe10fe25020a0b9b55b3",
+      "ThumbnailHash": "2c8dbe2943ff1823f5ebda51f06e8c04",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1777202371
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/skeleton-banging-shield/8-E-patch-1.1/79d6c0f7d4ccceb13b85ae0ed6782de1875b798c/Fraud_asa.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1775915800,
+          "Hash": "1c6edd11f95db4d429a964333b243785",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1777156450,
+          "Hash": "5c4a39b5b12e1b246b521e4b75a2f14a",
+          "Message": "- Added custom music\n- Updated thumbnail\n- Revamped second DeathCatcher arena\n- The position of some enemies has been changed\n- Fixed incorrect column collision in the Ferryman arena\n- Fixed previous rooms disappearing in some places\n- Fixed the issue where portals in the last room would not work correctly after loading a checkpoint\n- Fixed missing collision near the wall in the first backrooms arena\n- Fixed \"veshalka\" softlock\n- Fixed a bug where combat music would play when there were no enemies in some arenas\n- Fixed a broken portal in the arena with Radiant Power\n- Slightly increased Radiant Power health\n- Now to get P-rank need to kill 128 enemies instead of 123 as before"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "8-E: ALL IN ONE",
+          "LevelId": "151",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ALL IN ONE",
+      "Author": "thematveykaplay",
+      "Size": 27636620,
+      "Guid": "79ca7807eab285c4d857d6d3720b5e65",
+      "Hash": "5c4a39b5b12e1b246b521e4b75a2f14a",
+      "FileMD5": "b42f7d9fd2fb84d8d1ada061cc6171da",
+      "ThumbnailHash": "032865806d7d0e69ee38a76e1dda4ac6",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1777156450
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/layzyidiot/ULTRAKILLCustomLevels/7ec4b3ef39051d218dc2970dd0e0b9a6b08022c5/FNAF/ONE_LONG_AFTERNOON_AT_FILTHYS.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1776296261,
+          "Hash": "e5b6778867172d04dac9aca521555b21",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Filthy's Diner",
+          "LevelId": "lazy.fnaf.stupidlevel",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WIN IN EVIL MODE"
+        }
+      ],
+      "Name": "One Long Afternoon At Filthy's",
+      "Author": "lazy",
+      "Size": 14402750,
+      "Guid": "f73851455fc0d964fad425713d1784d6",
+      "Hash": "e5b6778867172d04dac9aca521555b21",
+      "FileMD5": "6afd3ea96642a1a9982857da57ca5bfa",
+      "ThumbnailHash": "6647d38714f7c851bff10e40d42e7149",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1776296261
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/da369a3f67613e8d8e2dc052e06a8976d80a5595/1_patch/Pain_Atrophy.angry1",
+        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/da369a3f67613e8d8e2dc052e06a8976d80a5595/1_patch/Pain_Atrophy.angry2",
+        "https://raw.githubusercontent.com/tl-s-w-t/pain_atrophy/da369a3f67613e8d8e2dc052e06a8976d80a5595/1_patch/Pain_Atrophy.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1776799296,
+          "Hash": "0363ef0705f911b42a45a435dbce13fd",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1784458376,
+          "Hash": "5f1fb0d83a5bda045b2a6c384b263261",
+          "Message": "- Improved performance\n- Added Tip Terminals, changed Tip of The Day\n- Removed all* of the oob triggers (for speedrunners)\n- Cheats no longer disable things (for forcerad challenge)\n- Added \"Hall Of Fame\" to level terminal for impressive things\n- Sentry in Sentry Gap room has 0.15 hp\n- Fixed Solid Lava preventing jumping\n- Added message to dual wields\n- Red final dual wield can now be accessed after respawning after triggering red final arena\n- Dual wields can no longer be accessed after completing their respective arenas\n- \"Lava Pit\" room now has less places to stand\n- Moved the ferryman book to the altar\n- Blue Final, Red Final, and Final arenas checkpoints will now reactivate when needed\n- Added some grate walls to make \"Big Square\" slightly less annoying\n- Fixed some instances of enemies getting stuck out of bounds\n- Water in Water Room is now a bit lower\n- Fixed Red Hookpoints not working with auto-aim\n- Changed Red Hookpoint hint text\n- Fixed Cerberi not becoming wounded at half health\n- Removed the Useful Cube, Added the Useful Sphere\n- Added Fun Room"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "PA-1: ...I COULD SAY HEAVEN SENT ME",
+          "LevelId": "tlswt.painatrophy.level1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Kill 601 Enemies"
+        }
+      ],
+      "Name": "Pain Atrophy",
+      "Author": "tl-s--w-t",
+      "Size": 55580630,
+      "Guid": "909b92bd3980eba44a40b1b717bcd54d",
+      "Hash": "5f1fb0d83a5bda045b2a6c384b263261",
+      "FileMD5": "d72a548767983d4829631fbd9d61d883",
+      "ThumbnailHash": "8fb41d352ce3527c435303408343ab54",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1784458376
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Smallkloon/UltraMahjong/1421256ba7d2519eb24c1413c6ccc6f98c4d0d72/MAHJONG_8-S.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1777498723,
+          "Hash": "5b132c1648c6c7e4b8710b317d6411c7",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1777992872,
+          "Hash": "5ebc5335d917adf49b1bda2391902048",
+          "Message": "- fixed a bug where the timer would start immediately\n- fixed a bug where the player could have no weapons in hand\n- adjusted testament terminal slightly :)"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "UltraMahjong.dll"
+          ],
+          "LevelName": "8-S: TURTLES ALL THE WAY DOWN",
+          "LevelId": "Mahjong.Small",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "MAHJONG 8-S",
+      "Author": "Small and Zoey Mahjong",
+      "Size": 17603209,
+      "Guid": "68d3098eea5565140a2678419cc0f18b",
+      "Hash": "5ebc5335d917adf49b1bda2391902048",
+      "FileMD5": "0cf20947da48f030ce1247710164b35c",
+      "ThumbnailHash": "5391e2bad1e95fba7553a083e79096e2",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1777992872
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/PrestoPesto/pesto-ultrakill/b5e7fc55e16a978823699d2932e81210fb7b1b7d/DEATH_DESCENT_REVAMPED.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1777992702,
+          "Hash": "0a107ca3a74fc184e8f6130773544576",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-D: FREE MIND LOOP",
+          "LevelId": "presto.descent.level1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T FIGHT THE FINAL ENCOUNTER"
+        }
+      ],
+      "Name": "DEATH DESCENT: REVAMPED",
+      "Author": "PrestoPesto",
+      "Size": 33668424,
+      "Guid": "b4033c9ef5daa8549afd2975bb4ffde3",
+      "Hash": "0a107ca3a74fc184e8f6130773544576",
+      "FileMD5": "7bd155d489ba62cd8de95b2babc7e768",
+      "ThumbnailHash": "f6f636f2ff496cb5fe47a774589e02f8",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1777992702
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DalordX/InfiniteRegression/3b133fbcacdc7765a1b9c5da8f609c8e5ec452f5/FRAUD_INFINITE_REGRESSION.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1778466201,
+          "Hash": "e06daa665c7a1bd4fa34d0b0dbbc1758",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Infinite Regression",
+          "LevelId": "dalord.fraudcustom",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Don't Fight The Mirror Reaper"
+        }
+      ],
+      "Name": "FRAUD: INFINITE REGRESSION",
+      "Author": "Dalord350",
+      "Size": 39319485,
+      "Guid": "403c426826a295f4f93f63658ca3eb66",
+      "Hash": "e06daa665c7a1bd4fa34d0b0dbbc1758",
+      "FileMD5": "8abf3325aab709e2c56200b85131ca69",
+      "ThumbnailHash": "fb2132fdface53ae080cdcf5bf8c4462",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1778466201
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/d0dda672e19edb9d4b51e26a18aa0d44f304bcce/Fraud_Bolgia_9.angry1",
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/d0dda672e19edb9d4b51e26a18aa0d44f304bcce/Fraud_Bolgia_9.angry2",
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/d0dda672e19edb9d4b51e26a18aa0d44f304bcce/Fraud_Bolgia_9.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1778878955,
+          "Hash": "0f1be55fb43b560478202b35132ccef9",
+          "Message": "8.9-1:\nInitial Upload\n8.9-2:\nInitial Upload"
+        },
+        {
+          "Date": 1779114385,
+          "Hash": "5af5c6e52b036654991e34b5cbb99a71",
+          "Message": "8.9-1:\nAdded more checkpoints\nChanged some arenas\nAdded more breaks\nAdded custom music"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "8.9-1: ADIEU ANIMUS",
+          "LevelId": "stickmin.Bolgia9.Adieu",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE SECRET ARENA"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "stickmin.Bolgia9.Adieu"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "8.9-2: AD ASTRA PER SANGUE [WIP]",
+          "LevelId": "stickmin.Bolgia9.Stars",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "FRAUD: BOLGIA 9",
+      "Author": "Stickmin",
+      "Size": 61560208,
+      "Guid": "663b74c00b65e70498dca404573b03bf",
+      "Hash": "5af5c6e52b036654991e34b5cbb99a71",
+      "FileMD5": "d60a19017c18a5edcf70ab68a8a59aae",
+      "ThumbnailHash": "a601bd165bb45e4e5605190d53cffb98",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1779114385
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/BalloonWasp/ultrakill-custom-levels/cb9d8ebca91f6bd0bb21b8d1ec8aa72f29000839/ELEGANCE/Patch01/ELEGANCE.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1779589330,
+          "Hash": "15b142efd34495442b99610eac5ad0aa",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1779896334,
+          "Hash": "7f01bd43e8b7cfb44a3f11a0bc2010a9",
+          "Message": "- Slightly loosened P-Rank requirements\n- Adjusted lighting in some darker places to aid visibility\n- Added a clearer indication to the terminal's chime\n- Fixed some geometry that were on the incorrect tags, layers, or missing colliders\n- Fixed a rare case of an arena activating and being stuck outside of it\n- Various fixes and tweaks"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "EleganceScripts.dll"
+          ],
+          "LevelName": "BEAUTIFUL, BLOOMING CRIMSON",
+          "LevelId": "woosp.Elegance",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FACE THE CONSEQUENCES OF YOUR ACTIONS"
+        }
+      ],
+      "Name": "THE ELEGANCE OF HELL ITSELF",
+      "Author": "Woosp",
+      "Size": 33233948,
+      "Guid": "df5521857e75474468c4e1fd2f67a59b",
+      "Hash": "7f01bd43e8b7cfb44a3f11a0bc2010a9",
+      "FileMD5": "8ef8d720c78b1d61ccbbbd9bba4a72e3",
+      "ThumbnailHash": "3c2050684a010c1983ea4e5a73a0995e",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1779896334
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Smallkloon/Whitebox/877e07802d74eb9ccf072e4ae67f87c2c8823311/WHITEBOX.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1779651860,
+          "Hash": "577ff66774c41304bb5bd0bcd22dfacc",
+          "Message": "- Updated to Fraud\n- Removed an enemy from the final arena\n- Changed some visuals and fixed z fighting issues\n- Added a QoL checkpoint to the first room"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "W-1: BLANK SLATE",
+          "LevelId": "Smallkloon.whitebox",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "WHITEBOX FRAUD PORT",
+      "Author": "Small",
+      "Size": 8502385,
+      "Guid": "d90ddfc949d091240a9ca886bc7785c2",
+      "Hash": "577ff66774c41304bb5bd0bcd22dfacc",
+      "FileMD5": "2f4b6b4d27a08d37a44c8ff8704e6b10",
+      "ThumbnailHash": "50bc63bb48d69aa1f2f569dc99e21de9",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1779651860
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Smallkloon/cania/0da4d155c8c372fb814bbd22b26f4ccea3c3b78b/CANIA.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1779655067,
+          "Hash": "369116d4d1ac864469545be27f3179e7",
+          "Message": "- Updated to Fraud \n- Changed snow textures"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "THE LONE AND LEVEL SANDS",
+          "LevelId": "SmallSpelunky.CANIA_DIAPHONY ",
+          "isSecretLevel": false,
+          "secretCount": 1,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO NOT DESTROY ANY RED BARRELS"
+        }
+      ],
+      "Name": "CANIA",
+      "Author": "Spelunky, AkitA, & Small",
+      "Size": 43321311,
+      "Guid": "4837f9ca4a704014cb078b0a427dc546",
+      "Hash": "369116d4d1ac864469545be27f3179e7",
+      "FileMD5": "9558836926f105b67e66e580c242f30e",
+      "ThumbnailHash": "378f9fffaea118abd2c536d5e1316a78",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1779655067
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DILLEGOR/OLD-0-4-REVAMPED/0e141e1c7e0471f0b84f6190f5414fe48c2d6789/Old_0-4_Revamped.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1780841673,
+          "Hash": "6786906374cd52142990c567fdf471fb",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "0-4: A ONE-MACHINE ARMY",
+          "LevelId": "04.onemachinearmyold.revamp",
+          "isSecretLevel": false,
+          "secretCount": 3,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "SLIDE UNINTERRUPTED FOR 12 SECONDS"
+        }
+      ],
+      "Name": "OLD 0-4 REVAMPED",
+      "Author": "DILLEGOR",
+      "Size": 12866161,
+      "Guid": "ecc6678e6bd827d48bbcbae67189fe8b",
+      "Hash": "6786906374cd52142990c567fdf471fb",
+      "FileMD5": "b5a8c336d64800ea659760a7db03da35",
+      "ThumbnailHash": "044938cc41902f2bae0830d593c688c4",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1780841673
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry1",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry2",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry3",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry4",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry5",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry6",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry7",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry8",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry9",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry10",
+        "https://raw.githubusercontent.com/DILLEGOR/ULTRAKILL-REENVISIONED-ACT-I/280d6ee058f5158c29a3e0fb19da04a3d03afb3f/ULTRAKILL_REENVISIONED.angry11"
+      ],
+      "Updates": [
+        {
+          "Date": 1782042744,
+          "Hash": "3d8237feb2bf5554185fd1d16a1374c4",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1783447509,
+          "Hash": "a30ffaa385d25304d88da718c76fd721",
+          "Message": "- Fixed EVERY SINGLE MISCLIP in the levels(except one in 1-RVE)\n- Added new out of bounds messages\n- Fixed 0-RV lava room having default probuilder textures\n- Improved lighting in 0-RV\n- Fixed lighting bugs in 0-RV\n- Fixed a checkpoint in 0-RV not deloading the 9th room\n- Increased 1-RV P rank time\n- Fixed a checkpoint in 1-RV not loading its corresponding room\n- Fixed 1-RV and 1-RVE Pipes getting the player stuck\n- Fixed a clip in mirage's room in 2-RV\n- Nerfed mindflayer alpha to only spawn an acid cloud with a red explosion on death instead of two homing acid projectiles and a red explosion\n- Fixed a rare softlock in 3-RV caused by the flesh prison eyes getting stuck out of bounds sometimes\n- Improved visuals in 3-RV\n- Improved secret book acquisition on 3-RV\n- Miscellaneous minor fixes"
+        },
+        {
+          "Date": 1786326033,
+          "Hash": "4c2d2b5e80c0a104bbc194e88d9bd2da",
+          "Message": "- Fixed more misclip spots(I said every in the last patch note for aura)\n- Reworked three-headed cerberi to work without addressables(the stomp shockwave now appears at their foot)\n- Swordsmachine in the escape sequence now shoots one hitscan beam instead of thirteen(Huge thanks to CyruzPlayz for helping with this one)\n- Fixed a visual bug with some flower pillars on 1-RV\n- Fixed some pistons on 1-RV and 1-RVE instakilling the player\n- Added gibs to hideous mass' egg in 1-RV\n- Added a new OOB message to 1-RVE\n- Removed 1-RVE radiance enemies having a damage buff(THOSE WERE MISCLICKS I'M SORRY)\n- 2-RV has been successfully optimized\n- Fixed mindflayer alpha's projectiles not exploding after 15 seconds\n- Fixed different visuals not working with wide screens in 2-RV\n- The Green Skull now disappears from player's hand when restarting from the checkpoint in 2-RV\n- Fixed player not freezing in 2-RV during the no signal segment\n- Changed huge hideous mass' apperance in 3-RV\n- Fixed a gap between a wall and the ceiling in 3-RV's red skull room\n- 3-1's scrapped room now appears in 3-RV's secret room with the Parasite's entry\n- Fixed some walls having visual holes because of moving textures in 3-RV\n- Changed hideous mass' appearance in 3-RV's bone bridge\n- Reworked 3-RV's big mouth door\n- Added a teleporter to the main path to 3-RV's alt path in case someone wants to p rank the level with the challenge\n- Other miscellaneous minor fixes"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "dillegor.prelude.reenvisioned",
+            "dillegor.limbo.reenvisioned",
+            "dillegor.lust.reenvisioned"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "3-RV: SKELETON AND ITS FLESH",
+          "LevelId": "dillegor.gluttony.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "<color=#FF0000>CHOOSE AN ALTERNATE PATH</color>"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "0-RV: MECHANICAL MADNESS",
+          "LevelId": "dillegor.prelude.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO NOT PICK UP ANY WEAPONS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "dillegor.prelude.reenvisioned"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "1-RV: ON THE EDGE OF REALITY",
+          "LevelId": "dillegor.limbo.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FIND THE SECRET EXIT"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "dillegor.prelude.reenvisioned",
+            "dillegor.limbo.reenvisioned"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "2-RV: CITY OF THE FADING WIND",
+          "LevelId": "dillegor.lust.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "ROADKILL A VIRTUE"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-RVE: THE NIGHT CYCLE OF OBLIVION",
+          "LevelId": "dillegor.limbo.challenge",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Credits",
+          "LevelId": "dillegor.creditsact1.reenvisioned",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "[ACT I] ULTRAKILL /// REENVISIONED",
+      "Author": "DILLEGOR & thematveykaplay",
+      "Size": 272354598,
+      "Guid": "1c347fa9195ecfc47a9e13c50b997e76",
+      "Hash": "4c2d2b5e80c0a104bbc194e88d9bd2da",
+      "FileMD5": "936dd4aeef3b2388d7adbb2710f9cefb",
+      "ThumbnailHash": "83a0152965a5e4d1e69f4316ae52801e",
+      "Locked": false,
+      "EpilepsyWarning": true,
+      "LastUpdate": 1786326033
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/yydhhads/Angry/cece7d2669dbb0cad9186ec5185abd06c8388bd3/bundle/FRAUD__UNNAMED.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1783877025,
+          "Hash": "c5b19173efa8ebb488c71eb8f6b86386",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "FRAUD : UNNAMED",
+          "LevelId": "gluk.fraud.unnamed",
+          "isSecretLevel": false,
+          "secretCount": 2,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "FRAUD : UNNAMED",
+      "Author": "GLUK",
+      "Size": 5001233,
+      "Guid": "f77f92c07c3465c439cde8befab3e32b",
+      "Hash": "c5b19173efa8ebb488c71eb8f6b86386",
+      "FileMD5": "1acbd5065cc7b596033797e25256d7cd",
+      "ThumbnailHash": "2a546b81f40fc1cf996ab2e33cbfa005",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1783877025
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/40233f36acb806e06de97c01d906551394d8ed1c/Bundle.angry1",
+        "https://raw.githubusercontent.com/polarfr0stt/SORCERY-FIRST/40233f36acb806e06de97c01d906551394d8ed1c/Bundle.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1784458475,
+          "Hash": "46fcc4ff1d38a2442990676fd9619b10",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1784577409,
+          "Hash": "17302dc13c5518e459ba49a85b2fc26a",
+          "Message": "- Adjusted the lighting of some rooms\n- Rewrote the Tip of the Day\n- Fixed the room after the skull pedestal deloading\n- Door volume lowered"
+        },
+        {
+          "Date": 1786068883,
+          "Hash": "a98b10dd2ea21a642a8ad18d3af8b31c",
+          "Message": "- Minor geometry and level changes\n- Crediting for custom terminal prefab"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "SR-1: REVERSE TRANSCENDENCE",
+          "LevelId": "polarfr0stt.sorcery.reversetranscendence",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "SR-2: MURDER FOR THE CROWN",
+          "LevelId": "polarfr0stt.sorcery.murderforthecrown",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "SORCERY",
+      "Author": "snowstopper",
+      "Size": 34532188,
+      "Guid": "b4450921471160945b16f9ca99def8a1",
+      "Hash": "a98b10dd2ea21a642a8ad18d3af8b31c",
+      "FileMD5": "ff18a3c3a87cd317c31a3b95ebf19b45",
+      "ThumbnailHash": "36503312b237e7163578e1e01c064ae8",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786068883
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RedstoneWizard08/EverythingIncLevels/b5af30536dcc04dfb7d7009fa30804dd48f4ae10/Random_Bullshit_Go.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786064994,
+          "Hash": "54568ce3e048c7722b14a4e42099be31",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "William Tell Overheat",
+          "LevelId": "everythinginc.randombullshitgo.prelude",
+          "isSecretLevel": false,
+          "secretCount": 2,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ULTRAKILL: Amalgamations",
+      "Author": "Everything Inc.",
+      "Size": 18489179,
+      "Guid": "3e0201963faa82564b31a8068b9b01f5",
+      "Hash": "54568ce3e048c7722b14a4e42099be31",
+      "FileMD5": "4c377f69f49f5ab48130dc705e01b623",
+      "ThumbnailHash": "d9ef9217d31d97fbecee8f78910cc526",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786064994
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/otterfan65/FRACTALING-ANEW/8d9a075f08867fc0ac928f5966eeaa74be6b34d5/FRACTALING_ANEW.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786068976,
+          "Hash": "25cb03a7349dd3141a958926d28304e2",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1786078714,
+          "Hash": "8eae35cbff847cd44b4e484ad84980d3",
+          "Message": "- Fixed OOBs not properly killing enemies\n"
+        },
+        {
+          "Date": 1787348675,
+          "Hash": "4a4a4206ccd8ac54fb98de1722c9eec5",
+          "Message": "- (Hopefully) fixed some enemies incorrectly respawning\n- Fixed the challenge being incorrectly marked as complete in some cases (you will have to drop and pick up Florp again for the challenge to count if you respawn while holding him)\n- Slightly changed the 4th secret orb - it was originally only visible through portals, but this was difficult to notice & you were more likely to just stumble into a seemingly invisible secret instead\n- Fixed a slightly misaligned collider\n- Evil cube is now twice as evil"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "8-?: FRACTALING ANEW",
+          "LevelId": "otterfan65.fractaling.anew",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "RESCUE FLORP"
+        }
+      ],
+      "Name": "FRACTALING ANEW",
+      "Author": "otterfan65",
+      "Size": 20348772,
+      "Guid": "023861dc4ba927e43bbb314d75b2ffe0",
+      "Hash": "4a4a4206ccd8ac54fb98de1722c9eec5",
+      "FileMD5": "cb11c91fb9a5354c15d7379c4ebe409e",
+      "ThumbnailHash": "aa439ee4d7a67c9b054da281b47c28b7",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1787348675
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/LertyTheCreature1311/hotelhavoc/3848c838b0cdcdf6ab989e55a548a281e8606d44/HOTELHAVOC.angry1",
+        "https://raw.githubusercontent.com/LertyTheCreature1311/hotelhavoc/3848c838b0cdcdf6ab989e55a548a281e8606d44/HOTELHAVOC.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1786140246,
+          "Hash": "ada417445d22fa2449ab9d3fd868e62d",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "HOTEL HAVOC",
+          "LevelId": "hotelhavoc",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "PARTICIPATE IN THE CYCLE OF LIFE"
+        }
+      ],
+      "Name": "UNSAFE HAVEN",
+      "Author": "LertyTheCreature1311",
+      "Size": 35711375,
+      "Guid": "538f9e8c03d589a4ba78cd96eb6f8095",
+      "Hash": "ada417445d22fa2449ab9d3fd868e62d",
+      "FileMD5": "e6da86e301fea21a19c6a9c97b8771e4",
+      "ThumbnailHash": "df8c7f82e3a5ef3cfac8d9bc33603552",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786140246
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/engelbertwagner7/1-4clairdelune/fa7888a09887622fab4159546d1ffdefbb98747c/1-4_Clair_De_Lune1.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786326143,
+          "Hash": "b175649ab216d934d97b0340c17732d2",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1787348736,
+          "Hash": "d2ab088fd89e7f747beb4bb892ba37c7",
+          "Message": "- Added a new challenge\n- Added a tip of the day\n- Made bookshelf lighter\n- Removed a ferryman from wave 10\n- Made it so ferryman cannot attack while you are fighting tundra in wave 10\n- Fixed the Combined Health Bar for Gutteridols\n- Moved tundra to be further away from player when breaking the idol in wave 10\n- Made it so the door to bookshelf room opens upon completion of wave 10 to better telegraph where to go\n- Nerfed a stray that had extremely high radiance values\n- Boiling Blood now deals 5 damage every 1.15 seconds in Ultimate Defense System Boss Wave\n- Boiling Blood will also apply 0.5% hard damage in Ultimate Defense System Boss Wave\n- Made it so virtue enrage preventors properly activate in Patience is a Virtue Boss wave\n- Moved deathcatcher closer to window in wave 5\n- Made the death pit beneath the bridge not an instakill\n- Added a very subtle hint to help the player understand to push the bookcase to the right to prevent softlocks\n- Various minor QOL improvements\n- Got rid of the radi..."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "1-4: Clair De Lune",
+          "LevelId": "engelbertwagner.UQsb_Fm",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "PICK UP THE KNUCKLEBLASTER"
+        }
+      ],
+      "Name": "Level: 1-4: Clair De Lune",
+      "Author": "engelbertwagner7@gmail.com",
+      "Size": 15061209,
+      "Guid": "bd8177b9b74244942b510a459be6f31a",
+      "Hash": "d2ab088fd89e7f747beb4bb892ba37c7",
+      "FileMD5": "55f68173fdeb6118772973ed2a525090",
+      "ThumbnailHash": "2236d5b3ce3524f04cb851eda66ea354",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1787348736
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry1",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry2",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry3",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry4",
+        "https://raw.githubusercontent.com/Draghtnim/minirudejam2/30792bcd1354cbe98c53402e7b0fa483c4b49348/minorfix3/BLOCKOUT_JAM.angry5"
+      ],
+      "Updates": [
+        {
+          "Date": 1786454015,
+          "Hash": "c053b9b00c04e1e4aa3fcc69abddb169",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1786500955,
+          "Hash": "fc80e1de24f08fd4989f381946c191d7",
+          "Message": "Luna dial: \n- fixed a bug where a wave would not activate correctly, causing the level to be impossible to P rank\n- fixed a bug where you could grapple the whiplash point through the cage\n\n2:\n- readded challenge\n\nSide B:\n- clarified some text\n- removed an anti cheese measure in room 8"
+        },
+        {
+          "Date": 1786751759,
+          "Hash": "65c024ca6d9e5254f89958427504cc92",
+          "Message": "Luna dial:\n- added back the cage whiplash clip, but only on repeat playthroughs\nWaters of nazareth:\n- fixed showers being affected by enviromental particles\n- made the heat meter go back to its place when you kill the HiM\n- fixed a bug in room 6 introduced in the previous patch\nI See No Heaven:\n- fixed explosion visuals\nAs Above So Below:\n- fixed doors to be accurate to the jam version"
+        },
+        {
+          "Date": 1788205317,
+          "Hash": "2a9f69bbf9177344c9e18b00ed398db1",
+          "Message": "Waters of nazareth:\n- fixed the heat indicator acting weird on checkpoint\n- fixed collider issues\nNormal Level: \n- fixed collider issues\nSide B:\n- fixed collider issues\n"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "The Template",
+          "LevelId": "rudejam.blockout.template",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": "Cook Hard"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MONOCHROME MANIA",
+          "LevelId": "blockout.hyperchroma",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DROP A POWER INTO A LIVE CURRENT"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "I SEE NO HEAVEN",
+          "LevelId": "blockout.ISNH",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "WATERS OF NAZARETH",
+          "LevelId": "blockout.nazareth",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MEANINGFUL POLITICAL MESSAGE ABOUT CONSUMERISM",
+          "LevelId": "blockout.MEANINGFULPOLITICALMESSAGEABOUTCONSUMERISM",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Side B",
+          "LevelId": "blockout.sideb",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "AS ABOVE, SO BELOW",
+          "LevelId": "blockout.AASB",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "FR-1: BURN, BABY, BURN",
+          "LevelId": "blockout.Fringes",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Luna Dial",
+          "LevelId": "blockout.lunadial",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "MOSSED OUT",
+          "LevelId": "blockout.mossedoutport",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "EAT THE MOSS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "2",
+          "LevelId": "blockout.2",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Cook Hard"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "HARMONY: MOVING ON... NEW FUTURE",
+          "LevelId": "blockout.harmony",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "UNCOVER THE WRITINGS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Normal Level",
+          "LevelId": "blockout.normallevel",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Hello Mary",
+          "LevelId": "blockout.hellomary",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "BLOCKOUT JAM",
+      "Author": "The Rude Community",
+      "Size": 125639369,
+      "Guid": "b1bcd7861614f5c43ad8842627f9d5ff",
+      "Hash": "2a9f69bbf9177344c9e18b00ed398db1",
+      "FileMD5": "1508c8604c961dea9824975f4fe9d02b",
+      "ThumbnailHash": "85229ddd189159a88f7971c30429a3a0",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1788205317
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/659cdff72a45b5733b7bf2d42429b324a1b5bfd9/DETERIORATION_CIRCLE/v1/DETERIORATION_CIRCLE.angry1",
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/659cdff72a45b5733b7bf2d42429b324a1b5bfd9/DETERIORATION_CIRCLE/v1/DETERIORATION_CIRCLE.angry2",
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/659cdff72a45b5733b7bf2d42429b324a1b5bfd9/DETERIORATION_CIRCLE/v1/DETERIORATION_CIRCLE.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1786751884,
+          "Hash": "9e994ccb2fd5bf448a1eeccc0095f0d0",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "DeteriorationCircleUtils.dll"
+          ],
+          "LevelName": "DETERIORATION CIRCLE",
+          "LevelId": "woblay.spitejam5.deteriorationcircle",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "WITNESS ALL ANOMALIES"
+        }
+      ],
+      "Name": "DETERIORATION CIRCLE: THE FIFTH EXIT",
+      "Author": "Woblay",
+      "Size": 67137814,
+      "Guid": "689c3dced3604bd46a1df1554136bd0f",
+      "Hash": "9e994ccb2fd5bf448a1eeccc0095f0d0",
+      "FileMD5": "e3d5622d16158994d4e7bb1973259139",
+      "ThumbnailHash": "d913458ecbbcd95a465b18b0d5d13c84",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786751884
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/yydhhads/Angry/1f567b14b988e49ce264af61933cd8c98450052e/bundle/EVERYTHING_NEW_IS_ALWAYS_OLD.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786752060,
+          "Hash": "415b2243915b77542921ce6bf11f3e37",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "EVERYTHING NEW IS ALWAYS OLD",
+          "LevelId": "gluk.new.huina.govno.uroven",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "EVERYTHING NEW IS ALWAYS OLD",
+      "Author": "GLUK",
+      "Size": 7211929,
+      "Guid": "b318a8a26146c234db6b190705559f5d",
+      "Hash": "415b2243915b77542921ce6bf11f3e37",
+      "FileMD5": "2335d3e04d0600300e588bccc2162ffc",
+      "ThumbnailHash": "bfc151e21098e8a79662307afb23b65c",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786752060
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/AceMac136/UNTETHERED-BLOODSHED/66f387db8318d5dcdc1891d97f28f5420653ea1d/VIOLENCE__UNTETHERED_BLOODSHED.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786752161,
+          "Hash": "57a95ed8c336eae46be28c910af81648",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "BLOODY AMBROSIA",
+          "LevelId": "mac.untetheredbloodshed.bloodyambrosia",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "VIOLENCE /// UNTETHERED BLOODSHED",
+      "Author": "Ace_Mac",
+      "Size": 13469021,
+      "Guid": "61f5c27c705545843a7c5a9f169e9a7f",
+      "Hash": "57a95ed8c336eae46be28c910af81648",
+      "FileMD5": "30fb1b27c90fd7974a1089fe8843994d",
+      "ThumbnailHash": "998134dcd6176831b90826b7b63e367c",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1786752161
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/KMatsa/Verdance/47b9dbf19c1e40e6a15d6fa55415d4819973d429/VERDANCE.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1786933789,
+          "Hash": "69e03f1b1700863498e2651a567f1547",
+          "Message": "Initial upload."
+        },
+        {
+          "Date": 1787787421,
+          "Hash": "9101fe6e55a9c6b4f9233fc102fa2f81",
+          "Message": "- Made navigating through the level clearer (with sound indicators aswell)\n- Touched up a few rooms\n- Heavily improved particles\n- Updated all water to match the one found in the last arena\n- Made the VD-1 Book way more noticable during gameplay\n- Updated Level Thumbnail\n- Updated Doorlock\n\n- (Hopefully) Fixed the Sisyphean Insurrectionist getting stuck on the roof of the map and in the walls\n- Fixed backtracking from the exterior back to the ventilation causing you to clip out of the map\n- Fixed a few invisible barriers being clippable"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "VD-1: ACROSS THE SILVER WINDS",
+          "LevelId": "kingmatsa.verdance.acrossthesilverwinds",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "KILL A DEATHCATCHER"
+        }
+      ],
+      "Name": "VERDANCE",
+      "Author": "KingMatsa",
+      "Size": 38789486,
+      "Guid": "d1de6274e9a2569469bb113de09fec3f",
+      "Hash": "9101fe6e55a9c6b4f9233fc102fa2f81",
+      "FileMD5": "702013da25354a0d0b0e284f6e7fe81f",
+      "ThumbnailHash": "65846e02600dc7c3d3d4fbbdd251b47f",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1787787421
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/jamstroxian/vice-custom-ultrakill/a0d8fa6a4d66f765479e4ab8c4a9678dc5acaba9/version1/VICE.angry1",
+        "https://raw.githubusercontent.com/jamstroxian/vice-custom-ultrakill/a0d8fa6a4d66f765479e4ab8c4a9678dc5acaba9/version1/VICE.angry2",
+        "https://raw.githubusercontent.com/jamstroxian/vice-custom-ultrakill/a0d8fa6a4d66f765479e4ab8c4a9678dc5acaba9/version1/VICE.angry3",
+        "https://raw.githubusercontent.com/jamstroxian/vice-custom-ultrakill/a0d8fa6a4d66f765479e4ab8c4a9678dc5acaba9/version1/VICE.angry4"
+      ],
+      "Updates": [
+        {
+          "Date": 1787949516,
+          "Hash": "2412be31f35fed246830dce5e040dfe0",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "FINIS GLORIAE MUNDI",
+          "LevelId": "jamstroxianhandsome.v1auraloss.level1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "VICE",
+      "Author": "Jamstroxian",
+      "Size": 80371998,
+      "Guid": "5191fae0c7a896a469ce80667edf4b49",
+      "Hash": "2412be31f35fed246830dce5e040dfe0",
+      "FileMD5": "f6b603bff4660baa37310f9627e15c51",
+      "ThumbnailHash": "927a3017c2fa04a506e2fb23228ba718",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1787949516
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RACH3LLLLL/whaha/d9b73feffc948ed692edd00e4e846a2253a2a0b1/AAAAAAAAAAAAAAAAAAAAAAAAAA.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1788205214,
+          "Hash": "c3ea8af58afd82842befc044c5886053",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "EVERYTHING SEAMS CLEAR",
+          "LevelId": "rachel.uhhh.something",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "Hull Of Knowledge",
+      "Author": "RACH3L",
+      "Size": 6276226,
+      "Guid": "66c59e119eed2ff4ea1b86296bc35d90",
+      "Hash": "c3ea8af58afd82842befc044c5886053",
+      "FileMD5": "eafd9b79df5c186a25bf4c85e9b64779",
+      "ThumbnailHash": "7f96390f00fd08a72baf5a1f319f9061",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1788205214
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry1",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry10",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry11",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry12",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry13",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry14",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry2",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry3",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry4",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry5",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry6",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry7",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry8",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry9"
+      ],
+      "Updates": [
+        {
+          "Date": 1788302587,
+          "Hash": "d66801c3ee0ee8f499b0eb0c84dcc9fc",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "UltraParadisoScripts.dll"
+          ],
+          "LevelName": "1-1: MACHINE ON THE MOON",
+          "LevelId": "robi.paradiso.1-1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "COMPLETE THE LEVEL UNDER 60 SECONDS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "robi.paradiso.1-1"
+          ],
+          "requiredDllNames": [
+            "UltraParadisoScripts.dll"
+          ],
+          "LevelName": "1-2: THE COLD, THE VOID, THE LIGHT OUT",
+          "LevelId": "robi.paradiso.1-2",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "CHARGEBACK A SERAPH"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "UltraParadisoScripts.dll"
+          ],
+          "LevelName": "CREDITS",
+          "LevelId": "robi.paradiso.credits",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "PARADISO: A Force of Fate",
+      "Author": "Robi",
+      "Size": 334933560,
+      "Guid": "56ec420c6d00a194b94d0178f3fa77aa",
+      "Hash": "d66801c3ee0ee8f499b0eb0c84dcc9fc",
+      "FileMD5": "b20de45a38620a51b701856b76f75ef9",
+      "ThumbnailHash": "d00d4e57f8a631e0d4b23c876acf675a",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1788302587
+    }
+  ]
+}
