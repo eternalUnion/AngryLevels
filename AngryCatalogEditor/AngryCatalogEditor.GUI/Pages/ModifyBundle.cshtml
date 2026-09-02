@@ -396,7 +396,7 @@
                     .map(e => e.download_url.replace(`/${repoOwner}/${repoName}/${repoBranch}/`, `/${repoOwner}/${repoName}/${sha}/`));
 
                 // Use numeric sort instead of lexicographic sort
-                partedFiles.sort((e1, e2) => Number(e1.substring(e1.lastIndexOf('.') + 6)) > Number(e2.substring(e2.lastIndexOf('.') + 6)))
+                partedFiles.sort((e1, e2) => Number(e1.substring(e1.lastIndexOf('.') + 6)) - Number(e2.substring(e2.lastIndexOf('.') + 6)))
                 console.log(partedFiles);
 
                 newExternalUrls = partedFiles;
