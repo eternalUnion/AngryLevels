@@ -3597,7 +3597,7 @@
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry7",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry8",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry9",
-	"https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry10",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry10",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry11",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry12",
         "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry13",
@@ -3660,6 +3660,41 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1788302587
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/fa9b81c81ad37ed225c7479724f7170c2b4e5dc1/A_SEAM_IN_REALITY.angry1",
+        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/fa9b81c81ad37ed225c7479724f7170c2b4e5dc1/A_SEAM_IN_REALITY.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1788572009,
+          "Hash": "723c843b8bf5ea442a839fd148409c51",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "HIGHER POWER",
+          "LevelId": "mac.aseaminreality.higherpower",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "KILL THE STALKING MIRROR REAPER"
+        }
+      ],
+      "Name": "A SEAM IN REALITY",
+      "Author": "Ace_Mac",
+      "Size": 30328542,
+      "Guid": "1ff9483fe2a30684a911ef026ec18f33",
+      "Hash": "723c843b8bf5ea442a839fd148409c51",
+      "FileMD5": "d10dbd612728a49156a366d2ab98d070",
+      "ThumbnailHash": "129fb701154838cc6a69af2132dcf167",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1788572009
     }
   ]
 }
