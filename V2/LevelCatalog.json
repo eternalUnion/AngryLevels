@@ -2639,9 +2639,10 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/d0dda672e19edb9d4b51e26a18aa0d44f304bcce/Fraud_Bolgia_9.angry1",
-        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/d0dda672e19edb9d4b51e26a18aa0d44f304bcce/Fraud_Bolgia_9.angry2",
-        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/d0dda672e19edb9d4b51e26a18aa0d44f304bcce/Fraud_Bolgia_9.angry3"
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/aa14d8185854b698458121a1061f32078442ed40/Fraud_Bolgia_9.angry1",
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/aa14d8185854b698458121a1061f32078442ed40/Fraud_Bolgia_9.angry2",
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/aa14d8185854b698458121a1061f32078442ed40/Fraud_Bolgia_9.angry3",
+        "https://raw.githubusercontent.com/StickminGames/FraudBolgia9/aa14d8185854b698458121a1061f32078442ed40/Fraud_Bolgia_9.angry4"
       ],
       "Updates": [
         {
@@ -2653,6 +2654,11 @@
           "Date": 1779114385,
           "Hash": "5af5c6e52b036654991e34b5cbb99a71",
           "Message": "8.9-1:\nAdded more checkpoints\nChanged some arenas\nAdded more breaks\nAdded custom music"
+        },
+        {
+          "Date": 1788642297,
+          "Hash": "6b5daa4b4c8191f4e9589827f8ffea32",
+          "Message": "8.9-1:\nReduced lagspikes\nFixed some bugs\n\n8.9-2:\nAdded purple hookpoints\nChanged some arenas\nAdded secrets\nDeath zones no longer take you back to the start of the level\nThe level is now finished\n\n8.9-3:\nParty? Take one chicken wing"
         }
       ],
       "Levels": [
@@ -2671,24 +2677,24 @@
             "stickmin.Bolgia9.Adieu"
           ],
           "requiredDllNames": [],
-          "LevelName": "8.9-2: AD ASTRA PER SANGUE [WIP]",
+          "LevelName": "8.9-2: AD ASTRA PER SANGUE",
           "LevelId": "stickmin.Bolgia9.Stars",
           "isSecretLevel": false,
-          "secretCount": 0,
+          "secretCount": 5,
           "levelChallengeEnabled": false,
           "levelChallengeText": ""
         }
       ],
       "Name": "FRAUD: BOLGIA 9",
       "Author": "Stickmin",
-      "Size": 61560208,
+      "Size": 79723484,
       "Guid": "663b74c00b65e70498dca404573b03bf",
-      "Hash": "5af5c6e52b036654991e34b5cbb99a71",
-      "FileMD5": "d60a19017c18a5edcf70ab68a8a59aae",
+      "Hash": "6b5daa4b4c8191f4e9589827f8ffea32",
+      "FileMD5": "2e817b3faf52ff581d94f999fc1c8298",
       "ThumbnailHash": "a601bd165bb45e4e5605190d53cffb98",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1779114385
+      "LastUpdate": 1788642297
     },
     {
       "Parts": [
