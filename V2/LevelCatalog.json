@@ -3593,26 +3593,31 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry1",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry2",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry3",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry4",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry5",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry6",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry7",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry8",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry9",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry10",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry11",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry12",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry13",
-        "https://raw.githubusercontent.com/RobiFox/Paradiso/5fd37e7922338baef05c73d189e2be1fb8312552/Paradiso.angry14"
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry1",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry2",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry3",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry4",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry5",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry6",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry7",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry8",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry9",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry10",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry11",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry12",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry13",
+        "https://raw.githubusercontent.com/RobiFox/Paradiso/5032860a779225a45675bf54dbae94b2b704f906/Paradiso.angry14"
       ],
       "Updates": [
         {
           "Date": 1788302587,
           "Hash": "d66801c3ee0ee8f499b0eb0c84dcc9fc",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1788637766,
+          "Hash": "8ab1f0925bea83b4db1ca5ee7b30d6c8",
+          "Message": "- 1-1: missing title drop fixed\n- 1-2: fixed hole in geometry\n- seraphim are now custom script based\n- difficulty dependent teleport cooldown and teleport timer\n- can no longer teleport mid attack\n- can no longer teleport with screwdriver attached\n- overall easier to deal with them\n- can now only teleport to places within line of sight\n- are now only parriable during an attack\n- credits book updated"
         }
       ],
       "Levels": [
@@ -3657,14 +3662,14 @@
       ],
       "Name": "PARADISO: A Force of Fate",
       "Author": "Robi",
-      "Size": 334933560,
+      "Size": 335417799,
       "Guid": "56ec420c6d00a194b94d0178f3fa77aa",
-      "Hash": "d66801c3ee0ee8f499b0eb0c84dcc9fc",
-      "FileMD5": "b20de45a38620a51b701856b76f75ef9",
+      "Hash": "8ab1f0925bea83b4db1ca5ee7b30d6c8",
+      "FileMD5": "b7f59f4bf72a457d99314e3ca5ee10c0",
       "ThumbnailHash": "d00d4e57f8a631e0d4b23c876acf675a",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1788302587
+      "LastUpdate": 1788637766
     },
     {
       "Parts": [
