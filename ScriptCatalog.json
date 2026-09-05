@@ -377,11 +377,12 @@
     },
     {
       "Updates": [
-        "b0c40a80d8551680c90a668752b47cb8"
+        "b0c40a80d8551680c90a668752b47cb8",
+        "b1651d3a77495b4e54bd9650f626b09e"
       ],
       "FileName": "UltraParadisoScripts.dll",
-      "Hash": "b0c40a80d8551680c90a668752b47cb8",
-      "Size": 16384
+      "Hash": "b1651d3a77495b4e54bd9650f626b09e",
+      "Size": 21504
     }
   ]
 }
