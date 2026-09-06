@@ -3711,6 +3711,54 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1788572009
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/FruitCircuit/AND-THE-CROWD-GOES-WILD/bd10f040028e2894512b79d45a83893c8b05fefe/Revamp/THE_CYBER_GRIND.angry1",
+        "https://raw.githubusercontent.com/FruitCircuit/AND-THE-CROWD-GOES-WILD/bd10f040028e2894512b79d45a83893c8b05fefe/Revamp/THE_CYBER_GRIND.angry2",
+        "https://raw.githubusercontent.com/FruitCircuit/AND-THE-CROWD-GOES-WILD/bd10f040028e2894512b79d45a83893c8b05fefe/Revamp/THE_CYBER_GRIND.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1788684314,
+          "Hash": "9a53a7d0ecf3e81438557621c78486d5",
+          "Message": "- Level ported to fraud!\n- Full visual and gameplay revamp!!!!!!\n- New improved tracks by BadLuckBoi (all 3 of em!)\n- Boss rework :)\n- Brand new ending sequence!!!\n- Performance improvements\n- An extra surprise...\n\nShapeshifter polish and fixes:\n- Logic fully remade for fraud\n- Made differentiation between variants clearer\n- New variant\n- Added fraud enemies to shift pool\n- Hitbox no longer sucks\n- Added terminal entry\n\nBoss changes:\n- 3 new attacks, and polish for old ones\n- Fixed beam attack only triggering in the first 20 seconds of the fight\n- New early boss track\n- Hitbox also improved\n- Added terminal entry"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "AND THE CROWD GOES WILD",
+          "LevelId": "Rude.Jam.cool.level",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "PARRY AN ARENA"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "Rude.Jam.cool.level"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "SIMULATION 2 DEMO",
+          "LevelId": "simulation.sandbox.demo",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "AND THE CROWD GOES WILD",
+      "Author": "FruitCircuit, HaphazardlyLad, Kote, BadLuckBoi",
+      "Size": 59330611,
+      "Guid": "e11a91fdcdd962245910c68dc25debea",
+      "Hash": "9a53a7d0ecf3e81438557621c78486d5",
+      "FileMD5": "d3353d0545de4ad4b1ab2a02796e791d",
+      "ThumbnailHash": "f0d09c2115805465cb750f916958ca31",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1788684314
     }
   ]
 }
