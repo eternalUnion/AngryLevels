@@ -3684,14 +3684,19 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/fa9b81c81ad37ed225c7479724f7170c2b4e5dc1/A_SEAM_IN_REALITY.angry1",
-        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/fa9b81c81ad37ed225c7479724f7170c2b4e5dc1/A_SEAM_IN_REALITY.angry2"
+        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/48debd93a60cb604db4d6fd9870869662c9561d3/A_SEAM_IN_REALITY.angry1",
+        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/48debd93a60cb604db4d6fd9870869662c9561d3/A_SEAM_IN_REALITY.angry2"
       ],
       "Updates": [
         {
           "Date": 1788572009,
           "Hash": "723c843b8bf5ea442a839fd148409c51",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1789266567,
+          "Hash": "910a255c2d75d78498ef9d6354178b1a",
+          "Message": "- Renamed challenge to make it more elusive\n- Added OopsBlockers to appropriate portals (hopefully they work)\n- Fixed random untagged wall"
         }
       ],
       "Levels": [
@@ -3703,19 +3708,19 @@
           "isSecretLevel": false,
           "secretCount": 5,
           "levelChallengeEnabled": true,
-          "levelChallengeText": "KILL THE STALKING MIRROR REAPER"
+          "levelChallengeText": "KILL YOUR STALKER"
         }
       ],
       "Name": "A SEAM IN REALITY",
       "Author": "Ace_Mac",
-      "Size": 30328542,
+      "Size": 30333089,
       "Guid": "1ff9483fe2a30684a911ef026ec18f33",
-      "Hash": "723c843b8bf5ea442a839fd148409c51",
-      "FileMD5": "d10dbd612728a49156a366d2ab98d070",
+      "Hash": "910a255c2d75d78498ef9d6354178b1a",
+      "FileMD5": "b245f9e2f120e727f706c7293fef3cdf",
       "ThumbnailHash": "129fb701154838cc6a69af2132dcf167",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1788572009
+      "LastUpdate": 1789266567
     },
     {
       "Parts": [
