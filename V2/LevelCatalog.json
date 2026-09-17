@@ -3769,6 +3769,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1788684314
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/msachelia/CustomLevelStuff/815692e6e68803274b2e6d598eb15495449314ca/ELECTRONICA/ELECTRONICA.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1789681740,
+          "Hash": "e88fa06a14311c043a054a7fb67ab361",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "ET-1: WARMPOP",
+          "LevelId": "achelia.electronica.first",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ELECTRONICA",
+      "Author": "achelia",
+      "Size": 5723031,
+      "Guid": "8203b00ce5d2b364aa2bf5317d84ddfb",
+      "Hash": "e88fa06a14311c043a054a7fb67ab361",
+      "FileMD5": "5152a17b777994d9ce587d1d05ecf53c",
+      "ThumbnailHash": "fd6146f194e87b718ae9b53a9772250b",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1789681740
     }
   ]
 }
