@@ -3700,8 +3700,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/48debd93a60cb604db4d6fd9870869662c9561d3/A_SEAM_IN_REALITY.angry1",
-        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/48debd93a60cb604db4d6fd9870869662c9561d3/A_SEAM_IN_REALITY.angry2"
+        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/4fbcdd0db71195057b1b2fd75e0a0c693bea01dc/A_SEAM_IN_REALITY.angry1",
+        "https://raw.githubusercontent.com/AceMac136/A-SEAM-IN-REALITY/4fbcdd0db71195057b1b2fd75e0a0c693bea01dc/A_SEAM_IN_REALITY.angry2"
       ],
       "Updates": [
         {
@@ -3713,6 +3713,11 @@
           "Date": 1789266567,
           "Hash": "910a255c2d75d78498ef9d6354178b1a",
           "Message": "- Renamed challenge to make it more elusive\n- Added OopsBlockers to appropriate portals (hopefully they work)\n- Fixed random untagged wall"
+        },
+        {
+          "Date": 1791341804,
+          "Hash": "acdfe7f8a7fb25b449609dd524c3b0b9",
+          "Message": "- The level is now possible when enemies are disabled\n- Fixed the deloading and loading trigger overlapping in the Multi-door room\n- Improved navmesh (hopefully) \n- Fixed stairs in the Office being bumpy\n- Removed Schisms in wave 1 of the WAR! arena, as they were slowing the pace down alot\n- P-Rank time is now more lenient. "
         }
       ],
       "Levels": [
@@ -3729,14 +3734,14 @@
       ],
       "Name": "A SEAM IN REALITY",
       "Author": "Ace_Mac",
-      "Size": 30333089,
+      "Size": 30318247,
       "Guid": "1ff9483fe2a30684a911ef026ec18f33",
-      "Hash": "910a255c2d75d78498ef9d6354178b1a",
-      "FileMD5": "b245f9e2f120e727f706c7293fef3cdf",
+      "Hash": "acdfe7f8a7fb25b449609dd524c3b0b9",
+      "FileMD5": "40b6533ceb18ccbf9d1a14618afc95ec",
       "ThumbnailHash": "129fb701154838cc6a69af2132dcf167",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1789266567
+      "LastUpdate": 1791341804
     },
     {
       "Parts": [
