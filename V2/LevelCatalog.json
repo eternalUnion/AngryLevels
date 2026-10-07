@@ -3881,6 +3881,40 @@
       "Locked": false,
       "EpilepsyWarning": true,
       "LastUpdate": 1791342083
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RACH3LLLLL/hardstyle0-4release/2d77d8b39a6efc8fa93510c712ac996830c80d2b/HARDSTYLE.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1791342176,
+          "Hash": "8e97dfadda2bec44299e90faafa2afa8",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "INTO THE MOUTH OF HEAVEN",
+          "LevelId": "rahcel.deluxe.04",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "ULTARKILL: HARDSTYLED",
+      "Author": "RACH3L",
+      "Size": 13726310,
+      "Guid": "b74de8152f11f4541ad22b922457decb",
+      "Hash": "8e97dfadda2bec44299e90faafa2afa8",
+      "FileMD5": "7b7ef221e77e96485ad4a1dab5dd0125",
+      "ThumbnailHash": "87e3258e73a4b38f8d5553b413ac7cd2",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1791342176
     }
   ]
 }
