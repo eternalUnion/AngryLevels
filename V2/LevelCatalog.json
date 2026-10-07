@@ -3834,6 +3834,53 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1789681740
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/RACH3LLLLL/rerrl1.03/cf9ed184ead9da05cb89ca0a8be5243c6aa37f6b/REAL_EYES_REALIZE_REAL_LIES.angry1",
+        "https://raw.githubusercontent.com/RACH3LLLLL/rerrl1.03/cf9ed184ead9da05cb89ca0a8be5243c6aa37f6b/REAL_EYES_REALIZE_REAL_LIES.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1791342083,
+          "Hash": "08f204e976712c141829bc25b44c24a6",
+          "Message": "Initial upload.\n- Ported to Rude\n- REAL EYES WILL FINALLY REALIZE..."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "REAL EYES REALIZE REAL LIES",
+          "LevelId": "Rachel.RERRL.Base",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "FIND THE ENTRACNE..."
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "Rachel.RERRL.Base"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "Flustered Feelings Fell Like Fluttering Falls",
+          "LevelId": "rachel.rerrl.2",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "NEVERENDING STRINGS OF 1s AND 0s",
+      "Author": "RACH3L",
+      "Size": 48535792,
+      "Guid": "cb7344af1470c244ebf034d1202a0555",
+      "Hash": "08f204e976712c141829bc25b44c24a6",
+      "FileMD5": "bbfdde61412df27cff4154702aa24911",
+      "ThumbnailHash": "327c9c299aa7fe2d9a9c43729589a898",
+      "Locked": false,
+      "EpilepsyWarning": true,
+      "LastUpdate": 1791342083
     }
   ]
 }
