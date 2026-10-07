@@ -3915,6 +3915,44 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1791342176
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry1",
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry2",
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry3",
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry4",
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry5"
+      ],
+      "Updates": [
+        {
+          "Date": 1791342249,
+          "Hash": "7cb3310688793ad4dbe1494bc4e0c121",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "Ausdauer",
+          "LevelId": "ausdauer",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "<color=grey>Ausdauer",
+      "Author": "engelbertwagner7@gmail.com",
+      "Size": 104004203,
+      "Guid": "a40b2787f667244428b1a9ac0c1e22f6",
+      "Hash": "7cb3310688793ad4dbe1494bc4e0c121",
+      "FileMD5": "de2067e16712bd4afc0c71f8967c40e5",
+      "ThumbnailHash": "e7fe2b9585071a693d9f5eb47fd2d2aa",
+      "Locked": false,
+      "EpilepsyWarning": true,
+      "LastUpdate": 1791342249
     }
   ]
 }
