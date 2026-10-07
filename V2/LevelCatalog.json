@@ -3450,8 +3450,8 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/AceMac136/UNTETHERED-BLOODSHED/03b7915fd3c4eb44adf6d9256c661e814066f3b9/VIOLENCE__UNTETHERED_BLOODSHED.angry1",
-        "https://raw.githubusercontent.com/AceMac136/UNTETHERED-BLOODSHED/03b7915fd3c4eb44adf6d9256c661e814066f3b9/VIOLENCE__UNTETHERED_BLOODSHED.angry2"
+        "https://raw.githubusercontent.com/AceMac136/UNTETHERED-BLOODSHED/5edb3c9048e0aabbb7f2429a96970d4cacc331df/VIOLENCE__UNTETHERED_BLOODSHED.angry1",
+        "https://raw.githubusercontent.com/AceMac136/UNTETHERED-BLOODSHED/5edb3c9048e0aabbb7f2429a96970d4cacc331df/VIOLENCE__UNTETHERED_BLOODSHED.angry2"
       ],
       "Updates": [
         {
@@ -3463,6 +3463,11 @@
           "Date": 1790373758,
           "Hash": "22da25b6cb7327043aba8fae9a0a0d51",
           "Message": "- Added BLOODY AMBROSIA, BATHED ANEW. A complete remake of the original which has new visuals, new level geometry, slight arena tweaks and an extra challenging harder side path with its own OST for you to embark on.\n- BLOODY AMBROSIA, BATHED ANEW now lets speedrunners skip the usually intended Skull Arena.\n- New icons for the bundle and levels\n- Renamed original to BLOODY AMBROSIA - LEGACY. It's the inferior version, so I'd recommend playing the new one if it's your first time.\n- BLOODY AMBROSIA - LEGACY remains unchanged for the sake of seeing my own progress evolve. "
+        },
+        {
+          "Date": 1791341869,
+          "Hash": "422fdd42b92954741aee8a5b6ee66998",
+          "Message": "- Level and Challenge is now possible when enemies are disabled\n- The Idoled Guttertank now can't go behind the Mannequin Decorations in the final room \n- Fixed a texture in the first room \n- Revamped challenge book lore slightly \n- Moved the trigger in the Blue Skull Arena to be closer to the center\n- The window in the Waiting Room now opens when the Red Skull is picked up"
         }
       ],
       "Levels": [
@@ -3489,14 +3494,14 @@
       ],
       "Name": "VIOLENCE /// UNTETHERED BLOODSHED",
       "Author": "Ace_Mac",
-      "Size": 41370403,
+      "Size": 41371601,
       "Guid": "61f5c27c705545843a7c5a9f169e9a7f",
-      "Hash": "22da25b6cb7327043aba8fae9a0a0d51",
-      "FileMD5": "2e3c2846503dd8d864ac1d70dfb02d50",
+      "Hash": "422fdd42b92954741aee8a5b6ee66998",
+      "FileMD5": "71da575a6e79b1c049edc99e661bc4f3",
       "ThumbnailHash": "acca552192ba5321df335ea6b6cf8bb1",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1790373758
+      "LastUpdate": 1791341869
     },
     {
       "Parts": [
