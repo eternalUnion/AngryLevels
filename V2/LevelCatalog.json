@@ -3953,6 +3953,40 @@
       "Locked": false,
       "EpilepsyWarning": true,
       "LastUpdate": 1791342249
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/boomcat111/THE-GRAND-COMPILATION-ultrakill-level-/a0d66b4b9409748bdd8ec2ab0e31fff1476c2c58/SpiteJam.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1791565205,
+          "Hash": "e82424836b6f9df46a91c941441859c6",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "THE GRAND COMPILATION",
+          "LevelId": "Telemetry.N",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "THE GRAND COMPILATION",
+      "Author": "Luna",
+      "Size": 15828802,
+      "Guid": "d3fa48d5a34bca649b324c06ad999b0d",
+      "Hash": "e82424836b6f9df46a91c941441859c6",
+      "FileMD5": "6ef124d71c18b3d6f2ab7f2c291dd92f",
+      "ThumbnailHash": "01c3a2c6210220c20421804baa4f18da",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1791565205
     }
   ]
 }
