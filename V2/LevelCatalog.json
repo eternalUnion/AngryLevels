@@ -3918,17 +3918,22 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry1",
-        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry2",
-        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry3",
-        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry4",
-        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/6b6a403b47aee9df8c3b5e32a3807e1204fb2a62/AUSDAUER%20Version%202/Ausdauer.angry5"
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/a6cf06a8cd212e42c17d8403fa78d1736f569c3f/AUSDAUER%20Version%203/Ausdauer.angry1",
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/a6cf06a8cd212e42c17d8403fa78d1736f569c3f/AUSDAUER%20Version%203/Ausdauer.angry2",
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/a6cf06a8cd212e42c17d8403fa78d1736f569c3f/AUSDAUER%20Version%203/Ausdauer.angry3",
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/a6cf06a8cd212e42c17d8403fa78d1736f569c3f/AUSDAUER%20Version%203/Ausdauer.angry4",
+        "https://raw.githubusercontent.com/engelbertwagner7/Ausdauer/a6cf06a8cd212e42c17d8403fa78d1736f569c3f/AUSDAUER%20Version%203/Ausdauer.angry5"
       ],
       "Updates": [
         {
           "Date": 1791342249,
           "Hash": "7cb3310688793ad4dbe1494bc4e0c121",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1792178139,
+          "Hash": "20517dfe89f2d514f8ea4ad09062c70f",
+          "Message": "- Outlines have been fixed at the cost of some performance and visual clarity. In fact, i would now recommend to use outlines at all times. Please play the level and let me know if it's worth to keep!\n- Removed the pit portal in 2.1 since it wasn't very fun and just confused the player.\n- Removed decoration from the portals in 3.2 for visual clarity.\n- Moved some enemies around in 3.2.\n- Mirror reaper hands are now parriable! (Arena 3.1's layout has been made harder to compensate!)\n- Removed Panopticon eyes from 3.1, replaced with Mannequins (Kept in 2.1 because i really like how they play there!)\n- Timer manipulation should no longer be possible!\n- Added so, so many Out of Bounds triggers!\n- These changes have theoretically made the level easier, but i would much rather have an easier level than a worse one!\n(However, i do want to add a hard challenge eventually. If you have any ideas, send me an E-mail!)"
         }
       ],
       "Levels": [
@@ -3945,14 +3950,14 @@
       ],
       "Name": "<color=grey>Ausdauer",
       "Author": "engelbertwagner7@gmail.com",
-      "Size": 104004203,
+      "Size": 103789487,
       "Guid": "a40b2787f667244428b1a9ac0c1e22f6",
-      "Hash": "7cb3310688793ad4dbe1494bc4e0c121",
-      "FileMD5": "de2067e16712bd4afc0c71f8967c40e5",
+      "Hash": "20517dfe89f2d514f8ea4ad09062c70f",
+      "FileMD5": "0ed2fed0cd7f909347c24b8ba54de3c0",
       "ThumbnailHash": "e7fe2b9585071a693d9f5eb47fd2d2aa",
       "Locked": false,
       "EpilepsyWarning": true,
-      "LastUpdate": 1791342249
+      "LastUpdate": 1792178139
     },
     {
       "Parts": [
