@@ -3992,6 +3992,42 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1791565205
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/58e33d05da9a5391eafc88796ce880c25e637f0a/REGICIDE.angry1",
+        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/58e33d05da9a5391eafc88796ce880c25e637f0a/REGICIDE.angry2",
+        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/58e33d05da9a5391eafc88796ce880c25e637f0a/REGICIDE.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1792765871,
+          "Hash": "f02339cefc09ba945a1a0c22da5841c8",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "IN THE HALL OF THE MOUNTAIN KING",
+          "LevelId": "apl.regicide.approach",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "REGICIDE",
+      "Author": "Green apples",
+      "Size": 66059282,
+      "Guid": "745e9320f7a9a734aab9570561b14e74",
+      "Hash": "f02339cefc09ba945a1a0c22da5841c8",
+      "FileMD5": "1743a001e52a244e5041c5b5d84c970c",
+      "ThumbnailHash": "7ed23f666a4c75f2af077088a7720883",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1792765871
     }
   ]
 }
