@@ -3995,15 +3995,21 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/58e33d05da9a5391eafc88796ce880c25e637f0a/REGICIDE.angry1",
-        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/58e33d05da9a5391eafc88796ce880c25e637f0a/REGICIDE.angry2",
-        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/58e33d05da9a5391eafc88796ce880c25e637f0a/REGICIDE.angry3"
+        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/55d146a7052cf026884da7201fba50ced718ddc1/REGICIDE.png",
+        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/55d146a7052cf026884da7201fba50ced718ddc1/REGICIDE.angry1",
+        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/55d146a7052cf026884da7201fba50ced718ddc1/REGICIDE.angry2",
+        "https://raw.githubusercontent.com/GreenapplegreenappleUK/Regicide/55d146a7052cf026884da7201fba50ced718ddc1/REGICIDE.angry3"
       ],
       "Updates": [
         {
           "Date": 1792765871,
           "Hash": "f02339cefc09ba945a1a0c22da5841c8",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1793103811,
+          "Hash": "aa4552ce9424622419fc4d45b48b5fe4",
+          "Message": "Lowered S-rank style requirement (sorry about that!)\nFixed a bug where encounters for both paths could be triggered in the first room\nMade the checkpoint in the third room of the blue skull path harder to miss\nFixed a bug where a trigger in the first room was retaining collision even after being activated\nupdated localization files\nremoved herobrine"
         }
       ],
       "Levels": [
@@ -4020,14 +4026,14 @@
       ],
       "Name": "REGICIDE",
       "Author": "Green apples",
-      "Size": 66059282,
+      "Size": 66063742,
       "Guid": "745e9320f7a9a734aab9570561b14e74",
-      "Hash": "f02339cefc09ba945a1a0c22da5841c8",
-      "FileMD5": "1743a001e52a244e5041c5b5d84c970c",
-      "ThumbnailHash": "7ed23f666a4c75f2af077088a7720883",
+      "Hash": "aa4552ce9424622419fc4d45b48b5fe4",
+      "FileMD5": "6602a7012570eaa788187220c545d601",
+      "ThumbnailHash": "57a7402b957acde5e4fc8f2cb7eb69f0",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1792765871
+      "LastUpdate": 1793103811
     }
   ]
 }
