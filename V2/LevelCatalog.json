@@ -4075,6 +4075,41 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1793305895
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/Akshadeep7/FastDL/1ba981c50fb4162126fac58c2d40b890e7d8ea60/UK_Levels/Towers/Clash_N_Slash.angry1",
+        "https://raw.githubusercontent.com/Akshadeep7/FastDL/1ba981c50fb4162126fac58c2d40b890e7d8ea60/UK_Levels/Towers/Clash_N_Slash.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1793306089,
+          "Hash": "2d774a1bc39ff014584629a7561b9de5",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "TOWERING DESIRE",
+          "LevelId": "aksha.toweringdesire.first",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "PARRY \"JOHN CENA\""
+        }
+      ],
+      "Name": "LUST: Towering Desire",
+      "Author": "AkshA",
+      "Size": 46287245,
+      "Guid": "ca6a492b972265c4c88598c9de10bc50",
+      "Hash": "2d774a1bc39ff014584629a7561b9de5",
+      "FileMD5": "c254fed88967f145b092da0e03b156ac",
+      "ThumbnailHash": "74350f7e27f842ed477b1324f2cbe2ea",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1793306089
     }
   ]
 }
