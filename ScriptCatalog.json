@@ -383,6 +383,14 @@
       "FileName": "UltraParadisoScripts.dll",
       "Hash": "b1651d3a77495b4e54bd9650f626b09e",
       "Size": 21504
+    },
+    {
+      "Updates": [
+        "1a8221a5b1fb2363273cd007b18c5e5d"
+      ],
+      "FileName": "Rdj4Procgen.Core.dll",
+      "Hash": "1a8221a5b1fb2363273cd007b18c5e5d",
+      "Size": 88576
     }
   ]
 }
