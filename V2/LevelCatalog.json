@@ -4039,6 +4039,42 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1793103811
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/valerietomfoolery/LamentUpload/9753480eac74da755c4acd048c8f06078ad15af0/Rude_Jam_4.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1793305895,
+          "Hash": "42dcfaaceab9df74f810036caa733f45",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "Rdj4Procgen.Core.dll"
+          ],
+          "LevelName": "LAMENT",
+          "LevelId": "grinchlandteam.rudejam4.main",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "LAMENT",
+      "Author": "Fuchsium, Valerie, Phantomblader, Willem1321, antlers",
+      "Size": 58822604,
+      "Guid": "98f7dff0de498e44b95a721c87d0edc6",
+      "Hash": "42dcfaaceab9df74f810036caa733f45",
+      "FileMD5": "fd8cca016019ca6e7058dd1c75795295",
+      "ThumbnailHash": "85fc7f7e50992f935a803e811f54d8e7",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1793305895
     }
   ]
 }
