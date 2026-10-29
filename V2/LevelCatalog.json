@@ -3383,15 +3383,22 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/659cdff72a45b5733b7bf2d42429b324a1b5bfd9/DETERIORATION_CIRCLE/v1/DETERIORATION_CIRCLE.angry1",
-        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/659cdff72a45b5733b7bf2d42429b324a1b5bfd9/DETERIORATION_CIRCLE/v1/DETERIORATION_CIRCLE.angry2",
-        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/659cdff72a45b5733b7bf2d42429b324a1b5bfd9/DETERIORATION_CIRCLE/v1/DETERIORATION_CIRCLE.angry3"
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/d9258e73b9a7d1319376d359e572530027a0058c/DETERIORATION_CIRCLE/v2/DETERIORATION_CIRCLE.angry1",
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/d9258e73b9a7d1319376d359e572530027a0058c/DETERIORATION_CIRCLE/v2/DETERIORATION_CIRCLE.angry2",
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/d9258e73b9a7d1319376d359e572530027a0058c/DETERIORATION_CIRCLE/v2/DETERIORATION_CIRCLE.angry3",
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/d9258e73b9a7d1319376d359e572530027a0058c/DETERIORATION_CIRCLE/v2/DETERIORATION_CIRCLE.angry4",
+        "https://raw.githubusercontent.com/wilwilbos/Angry-Levels/d9258e73b9a7d1319376d359e572530027a0058c/DETERIORATION_CIRCLE/v2/DETERIORATION_CIRCLE.angry5"
       ],
       "Updates": [
         {
           "Date": 1786751884,
           "Hash": "9e994ccb2fd5bf448a1eeccc0095f0d0",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1793306159,
+          "Hash": "8bf5d2f98bd548242a32ece315e117bc",
+          "Message": "- Added 6 new anomalies (rounding out the total to 50)\n- Added a terminal unlocked after completing the challenge which allows the player to select specific anomalies\n- Reduced lag spikes in the L-shaped hallway when loading new rooms\n- Event Horizon's outro now fades out when exiting the level\n- Added extra platforms to the whiplash course to serve as \"checkpoints\"\n- Remade the space anomaly\n- Reduced the leniency of some answers, so players trying to complete the challenge are less likely to answer correctly by mistake\n- (Hopefully) Fixed gravity changes persisting between anomalies\n- Music will now randomize again after the 5th loop, so players trying to complete the challenge won't have to hear the same soundtrack for an hour\n- Added some more soundtracks\n- Envy and Spite's modified textures and effects will now only apply once they fully stand up\n- Reduced speed of the Gabriel Plushie\n- Modified some of the harder encounters to make difficulty slightly more consistent between anomalies\n- Fixed a bug causing the base room to spawn every time\n- Fixed a softlock caused by the player activating the next anomaly's arena by walking up to the big door in the terminal room\n- Other minor additions and fixes"
         }
       ],
       "Levels": [
@@ -3410,14 +3417,14 @@
       ],
       "Name": "DETERIORATION CIRCLE: THE FIFTH EXIT",
       "Author": "Woblay",
-      "Size": 67137814,
+      "Size": 110624041,
       "Guid": "689c3dced3604bd46a1df1554136bd0f",
-      "Hash": "9e994ccb2fd5bf448a1eeccc0095f0d0",
-      "FileMD5": "e3d5622d16158994d4e7bb1973259139",
+      "Hash": "8bf5d2f98bd548242a32ece315e117bc",
+      "FileMD5": "b3f0b9628885293aaf006bf8babede18",
       "ThumbnailHash": "d913458ecbbcd95a465b18b0d5d13c84",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1786751884
+      "LastUpdate": 1793306159
     },
     {
       "Parts": [
