@@ -4163,6 +4163,109 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1793306240
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/88e2d687bce6efff73d26326ab09202cf24f09f0/Indulgence%20v3.0/INDULGENCE.angry1",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/88e2d687bce6efff73d26326ab09202cf24f09f0/Indulgence%20v3.0/INDULGENCE.angry2",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/88e2d687bce6efff73d26326ab09202cf24f09f0/Indulgence%20v3.0/INDULGENCE.angry3",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/88e2d687bce6efff73d26326ab09202cf24f09f0/Indulgence%20v3.0/INDULGENCE.angry4",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/88e2d687bce6efff73d26326ab09202cf24f09f0/Indulgence%20v3.0/INDULGENCE.angry5",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/88e2d687bce6efff73d26326ab09202cf24f09f0/Indulgence%20v3.0/INDULGENCE.angry6",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/88e2d687bce6efff73d26326ab09202cf24f09f0/Indulgence%20v3.0/INDULGENCE.angry7",
+        "https://raw.githubusercontent.com/bongwaterfumes/indulgence/88e2d687bce6efff73d26326ab09202cf24f09f0/Indulgence%20v3.0/INDULGENCE.angry8"
+      ],
+      "Updates": [
+        {
+          "Date": 1793462732,
+          "Hash": "21d98c931f6a2d54f8550675e949ce11",
+          "Message": "Indulgence v3.0\n\n- Added Level I-3: STARLESS AND BIBLE BLACK\n- Added Level I-4: EVEN TO THE EDGE OF DOOM (Unfinished) accessible via the Credits level\n- Cravens and Neutralizers are now flammable without the need for gasoline\n- Added jiggle physics to Neutralizers (really)\n- Not really sure what else I did, that's all I had written down, sorry\n\nCredits:\n\n- Added Credits for music tracks:\n  - I-3:\n     Forlorn Concrete Cadaver - Raifu\n     Kishi Kaisei (White) - Duv & wintiesnowflake\n     Kishi Kaisei (Black) - Duv & wintiesnowflake\n     Theme of (Lung) Cancer - BlooGoober\n  - I-4:\n     One Hour of Fire (The Summit?) - Duv\n     In Hands of Azrael - Duv & wintiesnowflake\n\n- Added Credits for I-3 & I-4 models & assets\n- Fixed \"Indulgence\" being misspelled as \"Induglence\" (maybe? i might've i dunno)\n\nI'm doing a lot better now, and I'm having fun working on other projects, check out my game Widowmaker my boyfriend and I are working on if you want, I think it's pretty cool. Love you guys. play my level"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "mag.indulgence.level2"
+          ],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll",
+            "CameraAdjustments.dll"
+          ],
+          "LevelName": "I-3: STARLESS AND BIBLE BLACK",
+          "LevelId": "mag.indulgence.level3",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "BEAT THE SECRET ENCOUNTER"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "mag.indulgence.thehallofpain"
+          ],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll",
+            "CameraAdjustments.dll"
+          ],
+          "LevelName": "I-4: EVEN TO THE EDGE OF DOOM (Unfinished)",
+          "LevelId": "mag.indulgence.level4",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "mag.indulgence.level3"
+          ],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll"
+          ],
+          "LevelName": "CREDITS",
+          "LevelId": "mag.indulgence.thehallofpain",
+          "isSecretLevel": true,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll",
+            "CameraAdjustments.dll",
+            "IndulgenceLimboSkybox.dll"
+          ],
+          "LevelName": "I-1: THE DEATH OF PARADIGM",
+          "LevelId": "mag.indulgence.thedeathofparadigm",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DON'T TOUCH ANY WATER"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "mag.indulgence.thedeathofparadigm"
+          ],
+          "requiredDllNames": [
+            "AthenaResearchFacilityUtils.dll"
+          ],
+          "LevelName": "I-2: IF THERE WERE NO THUNDER",
+          "LevelId": "mag.indulgence.level2",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "INTERCEPT A DISTANT SIGNAL"
+        }
+      ],
+      "Name": "INDULGENCE",
+      "Author": "bongwater",
+      "Size": 188036850,
+      "Guid": "31cdd0834c3ac504c8313dcb76ec6545",
+      "Hash": "21d98c931f6a2d54f8550675e949ce11",
+      "FileMD5": "aa48d3dd46be6e2b5ad32a1c562f3ef8",
+      "ThumbnailHash": "56ab238e7c4a7be096c378136c166e32",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1793462732
     }
   ]
 }
