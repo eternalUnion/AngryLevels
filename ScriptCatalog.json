@@ -386,11 +386,12 @@
     },
     {
       "Updates": [
-        "1a8221a5b1fb2363273cd007b18c5e5d"
+        "1a8221a5b1fb2363273cd007b18c5e5d",
+        "cee0df6b91101eb13fd2ec4fb9db6a5b"
       ],
       "FileName": "Rdj4Procgen.Core.dll",
-      "Hash": "1a8221a5b1fb2363273cd007b18c5e5d",
-      "Size": 88576
+      "Hash": "cee0df6b91101eb13fd2ec4fb9db6a5b",
+      "Size": 89088
     }
   ]
 }
