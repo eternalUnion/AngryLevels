@@ -4266,6 +4266,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1793462732
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/TheTurd125/MyLevelIGuess/e96c7c4f2b475543cdc8c3d7036f0680d500a1e5/You_Got_Mail.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1793688401,
+          "Hash": "44071a03e08eb434793b7ced0998954a",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "You've Got Mail!",
+          "LevelId": "atypical.maillevel",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "You've Got Mail!",
+      "Author": "_turd'",
+      "Size": 12025662,
+      "Guid": "30a0efc4b64bf5a459843bbe06b037e5",
+      "Hash": "44071a03e08eb434793b7ced0998954a",
+      "FileMD5": "fb1f2f87bb9a47da71ebfeddfb18507c",
+      "ThumbnailHash": "3e6a9869ec5e916114cccedfd2ddbada",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1793688401
     }
   ]
 }
