@@ -4310,6 +4310,41 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1793688401
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/lskelley0806/Me-levels/3b6cce38e9d8b0d9f643e01310d43d1a80d4ed8d/AH_LAYER_8_FEROCITY.angry1",
+        "https://raw.githubusercontent.com/lskelley0806/Me-levels/3b6cce38e9d8b0d9f643e01310d43d1a80d4ed8d/AH_LAYER_8_FEROCITY.angry2"
+      ],
+      "Updates": [
+        {
+          "Date": 1794021408,
+          "Hash": "bc48f7cd894c10e47a6ca6605d497a17",
+          "Message": "Initial upload.\nThis is my first fully finished level so I hope you enjoy!\n"
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "8-1: A FORGOTTEN DREAM",
+          "LevelId": "AH 8-1",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Dont touch any water"
+        }
+      ],
+      "Name": "FEROCITY",
+      "Author": "Lsk0806",
+      "Size": 38962966,
+      "Guid": "48e40b79374260240a68820a1528e4f0",
+      "Hash": "bc48f7cd894c10e47a6ca6605d497a17",
+      "FileMD5": "80c7af70accf09a4b5eb99f937d49e3c",
+      "ThumbnailHash": "90c98a4aaff5844a7a9e1535b883d683",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1794021408
     }
   ]
 }
