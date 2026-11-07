@@ -1722,13 +1722,18 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/CyrusPlayz-bit/Totally-Serious/31eabd1f3f6992c1cbf77d1005bc4b4c90a16c78/Totally_Serious_Definitive_Edition.angry"
+        "https://raw.githubusercontent.com/CyrusPlayz-bit/Totally-Serious/bfdfc51ef22957cc1bd28f35988bc172aa66aea7/Totally_Serious_Definitive_Edition.angry"
       ],
       "Updates": [
         {
           "Date": 1760902732,
           "Hash": "9a00869fc9485464fafc173a59277974",
           "Message": "- Complete revamp of the above ground map\n- Reworked all of the arenas\n- Reworked and expanded on the section after the drop to build up to the boss better\n- Reworked the custom boss(new model and modified attacks)\n- Added custom Boss music\n- Added Credits and other terminals\n- Repositioned the old secrets and added two more secrets to get the total up to 5 secrets"
+        },
+        {
+          "Date": 1794021626,
+          "Hash": "4d680ec34a921f842bcdc2e34aeea5bc",
+          "Message": "- Ported to Fraud\n- Map geometry has been reworked and made more cohesive\n- Improved the various encounters and their pacing\n- Custom music added for the main level\n- Boss music replaced (I was making a song, but it wasn't very good)\n- Credits updated for new playtesters and the music composer"
         }
       ],
       "Levels": [
@@ -1740,19 +1745,19 @@
           "isSecretLevel": false,
           "secretCount": 5,
           "levelChallengeEnabled": true,
-          "levelChallengeText": "DO THE PACIFIST ROUTE"
+          "levelChallengeText": "GO THE PACIFIST ROUTE"
         }
       ],
       "Name": "Totally Serious DEFINITIVE EDITION",
       "Author": "CyrusPlayz",
-      "Size": 13961977,
+      "Size": 20658493,
       "Guid": "ea218d818a5626b4cad876fa6520ec0b",
-      "Hash": "9a00869fc9485464fafc173a59277974",
-      "FileMD5": "e1a792d1335c2f68c57c8813ce0eaa63",
+      "Hash": "4d680ec34a921f842bcdc2e34aeea5bc",
+      "FileMD5": "63150da418c20f1d801b5d7fe961391d",
       "ThumbnailHash": "58ab44dbb2f87da84d7548bcd08ab7b6",
-      "Locked": true,
+      "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1760902732
+      "LastUpdate": 1794021626
     },
     {
       "Parts": [
