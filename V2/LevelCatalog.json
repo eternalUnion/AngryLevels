@@ -4350,6 +4350,42 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1794021408
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/skeleton-banging-shield/Gaster-evil-level-1/983b90f424cc15971ed418341d83330eb9728a15/Thaksojhfdasljfasla.angry1",
+        "https://raw.githubusercontent.com/skeleton-banging-shield/Gaster-evil-level-1/983b90f424cc15971ed418341d83330eb9728a15/Thaksojhfdasljfasla.angry2",
+        "https://raw.githubusercontent.com/skeleton-banging-shield/Gaster-evil-level-1/983b90f424cc15971ed418341d83330eb9728a15/Thaksojhfdasljfasla.angry3"
+      ],
+      "Updates": [
+        {
+          "Date": 1794714142,
+          "Hash": "cde64455d4f3a3d49a327546fd7c1cfd",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "thematveykaplay level",
+          "LevelId": "1251512",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Watch a silly, goofy, cute and funny Touhou animation for 5 seconds"
+        }
+      ],
+      "Name": "Thematveykaplay Corporation",
+      "Author": "thematveykaplay",
+      "Size": 67863694,
+      "Guid": "e20c82751e997e24ea6a16cb9381881a",
+      "Hash": "cde64455d4f3a3d49a327546fd7c1cfd",
+      "FileMD5": "9cf48f4b2ad9696c24692de065965acb",
+      "ThumbnailHash": "057b930de8fec09380ad8066a96074d2",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1794714142
     }
   ]
 }
