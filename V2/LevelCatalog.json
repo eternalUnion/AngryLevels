@@ -4420,6 +4420,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1794714232
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/melodyy-uk/bloodandhoney/c8348c93ce97b0a240d3d0847ed0c27c7381bad3/Blood_And_Honey.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1794714353,
+          "Hash": "9a0617df23802474c924df7975fd6c69",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "3.4: BLOOD AND HONEY",
+          "LevelId": "meticulouslyrare.gluttonygreed.bloodhoney",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        }
+      ],
+      "Name": "BLOOD AND HONEY",
+      "Author": "meticulouslyrare",
+      "Size": 28513168,
+      "Guid": "060e4e28eca742148a8b3f97977ddbfd",
+      "Hash": "9a0617df23802474c924df7975fd6c69",
+      "FileMD5": "d87bd5350d1e1cb877f4144bef6dac3a",
+      "ThumbnailHash": "ae73772fa15148040d8c869e37be3f4b",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1794714353
     }
   ]
 }
