@@ -4347,7 +4347,7 @@
       "Hash": "bc48f7cd894c10e47a6ca6605d497a17",
       "FileMD5": "80c7af70accf09a4b5eb99f937d49e3c",
       "ThumbnailHash": "90c98a4aaff5844a7a9e1535b883d683",
-      "Locked": false,
+      "Locked": true,
       "EpilepsyWarning": false,
       "LastUpdate": 1794021408
     },
