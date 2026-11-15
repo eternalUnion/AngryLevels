@@ -3906,6 +3906,11 @@
           "Date": 1791342176,
           "Hash": "8e97dfadda2bec44299e90faafa2afa8",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1794715261,
+          "Hash": "2f7f5fa1b8e9e7d43870fe06767f9e92",
+          "Message": "- 1-1 ADDED!\n\n0-4:\n- Moved the \"Tunnel\" room idols to inside the room.\n- Removed the \"Staircase\" Idoled gutterman arena due to problems with it not triggering due to unknown reasons.\n- Decreased the P-rank kills to compensate.\n- Challenge added!!! Please save it!!!\n"
         }
       ],
       "Levels": [
@@ -3916,20 +3921,121 @@
           "LevelId": "rahcel.deluxe.04",
           "isSecretLevel": false,
           "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "RESCUE BEMIS"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "BRING ME WAR",
+          "LevelId": "rachel.hs.1e",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Beat the level with ONLY the nailgun given to you by the Schism Counsel"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            ""
+          ],
+          "requiredDllNames": [],
+          "LevelName": "Little Clover",
+          "LevelId": "rachel.hardstyle.71",
+          "isSecretLevel": false,
+          "secretCount": 2,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            ""
+          ],
+          "requiredDllNames": [],
+          "LevelName": "RAINWALK",
+          "LevelId": "rachel.hs.lust",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "GET MARRIED"
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            ""
+          ],
+          "requiredDllNames": [],
+          "LevelName": "GLUTTONY HARDSTYLE",
+          "LevelId": "Rachel.hs.glutton",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            ""
+          ],
+          "requiredDllNames": [],
+          "LevelName": "GREED HARDSTYLE",
+          "LevelId": "RACHEL.HS.GREED",
+          "isSecretLevel": false,
+          "secretCount": 5,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            ""
+          ],
+          "requiredDllNames": [],
+          "LevelName": "WRATH HARDSTYLE",
+          "LevelId": "RACHEL.HS.WRATH",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": false,
+          "levelChallengeText": ""
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            "rahcel.deluxe.04",
+            "rachel.hs.1e",
+            "rachel.hs.lust",
+            "Rachel.hs.glutton",
+            "RACHEL.HS.GREED",
+            "RACHEL.HS.WRATH",
+            "rachel.hardstyle.71",
+            "RACHEL.HS.FRAUD"
+          ],
+          "requiredDllNames": [],
+          "LevelName": "WAIT OF THE WORLD...",
+          "LevelId": "RACHEL.HS.P2",
+          "isSecretLevel": false,
+          "secretCount": 0,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "Have fun..."
+        },
+        {
+          "requiredCompletedLevelIdsForUnlock": [
+            ""
+          ],
+          "requiredDllNames": [],
+          "LevelName": "FRAUD HARDSTYLE",
+          "LevelId": "RACHEL.HS.FRAUD",
+          "isSecretLevel": false,
+          "secretCount": 0,
           "levelChallengeEnabled": false,
           "levelChallengeText": ""
         }
       ],
       "Name": "ULTARKILL: HARDSTYLED",
       "Author": "RACH3L",
-      "Size": 13726310,
+      "Size": 88753912,
       "Guid": "b74de8152f11f4541ad22b922457decb",
-      "Hash": "8e97dfadda2bec44299e90faafa2afa8",
-      "FileMD5": "7b7ef221e77e96485ad4a1dab5dd0125",
+      "Hash": "2f7f5fa1b8e9e7d43870fe06767f9e92",
+      "FileMD5": "0fdcab2ecdc0c2d90de52a19859c7836",
       "ThumbnailHash": "87e3258e73a4b38f8d5553b413ac7cd2",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1791342176
+      "LastUpdate": 1794715261
     },
     {
       "Parts": [
