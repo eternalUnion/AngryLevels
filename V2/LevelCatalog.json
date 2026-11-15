@@ -4386,6 +4386,40 @@
       "Locked": false,
       "EpilepsyWarning": false,
       "LastUpdate": 1794714142
+    },
+    {
+      "Parts": [
+        "https://raw.githubusercontent.com/yydhhads/Angry/44177428b3d9e9dd64abc4a946b94a5b1e035f16/bundle/fraudconfusion/CONFUSION_0.angry"
+      ],
+      "Updates": [
+        {
+          "Date": 1794714232,
+          "Hash": "d14e9ac226d565841bdbf8df20fe5568",
+          "Message": "Initial upload."
+        }
+      ],
+      "Levels": [
+        {
+          "requiredCompletedLevelIdsForUnlock": [],
+          "requiredDllNames": [],
+          "LevelName": "CONFUSION",
+          "LevelId": "gluk.fraud.opyat.ebaniy.fraud.pizdec",
+          "isSecretLevel": false,
+          "secretCount": 2,
+          "levelChallengeEnabled": true,
+          "levelChallengeText": "DO NOT KILL ANY GUTTERMAN IN THE CURVED ROOM"
+        }
+      ],
+      "Name": "FRAUD : CONFUSION",
+      "Author": "GLUK",
+      "Size": 27465681,
+      "Guid": "82fe58637e3a9aa458e3a23a1ecd5644",
+      "Hash": "d14e9ac226d565841bdbf8df20fe5568",
+      "FileMD5": "37a4b73a481b367cad82438ed671b3f2",
+      "ThumbnailHash": "4d0b7303c6ea6d853c0204841af1d26a",
+      "Locked": false,
+      "EpilepsyWarning": false,
+      "LastUpdate": 1794714232
     }
   ]
 }
