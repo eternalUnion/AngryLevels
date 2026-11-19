@@ -4462,15 +4462,20 @@
     },
     {
       "Parts": [
-        "https://raw.githubusercontent.com/skeleton-banging-shield/Gaster-evil-level-1/983b90f424cc15971ed418341d83330eb9728a15/Thaksojhfdasljfasla.angry1",
-        "https://raw.githubusercontent.com/skeleton-banging-shield/Gaster-evil-level-1/983b90f424cc15971ed418341d83330eb9728a15/Thaksojhfdasljfasla.angry2",
-        "https://raw.githubusercontent.com/skeleton-banging-shield/Gaster-evil-level-1/983b90f424cc15971ed418341d83330eb9728a15/Thaksojhfdasljfasla.angry3"
+        "https://raw.githubusercontent.com/skeleton-banging-shield/Gaster-evil-level-1/909e20c2144c9a760b95aa56799525715d68ab0a/Thaksojhfdasljfasla.angry1",
+        "https://raw.githubusercontent.com/skeleton-banging-shield/Gaster-evil-level-1/909e20c2144c9a760b95aa56799525715d68ab0a/Thaksojhfdasljfasla.angry2",
+        "https://raw.githubusercontent.com/skeleton-banging-shield/Gaster-evil-level-1/909e20c2144c9a760b95aa56799525715d68ab0a/Thaksojhfdasljfasla.angry3"
       ],
       "Updates": [
         {
           "Date": 1794714142,
           "Hash": "cde64455d4f3a3d49a327546fd7c1cfd",
           "Message": "Initial upload."
+        },
+        {
+          "Date": 1795120438,
+          "Hash": "10d9360d341933049a596865cdffbe11",
+          "Message": "Danonya room: \n- improved visuals\n- Added a hook point to make it easier for people to find the secret area up above\n- Added konata cutscene\n\nDrreigor room:\n- Fixed defaulth ProBuilder textures\n- improved room destruction animation\n\nGaster room:\n- gave people a huge hint on how to complete the challenge\n- added funny picture into the pipe beneath the deathcatcher\n\nPinksun (Cyril) room:\n- The door in the middle was replaced with a wooden one due to a visual bug\n- added hint for completing the challenge(you’re looking at the wrong Touhou animation go back to my gasters)\n\nfinal transition room (the right door):\n- improved visuals\n\nZuloman room:\n- Fixed an issue where the idoled Power would get stuck in one spot above the lava\n- added lava particles"
         }
       ],
       "Levels": [
@@ -4487,14 +4492,14 @@
       ],
       "Name": "Thematveykaplay Corporation",
       "Author": "thematveykaplay",
-      "Size": 67863694,
+      "Size": 67280319,
       "Guid": "e20c82751e997e24ea6a16cb9381881a",
-      "Hash": "cde64455d4f3a3d49a327546fd7c1cfd",
-      "FileMD5": "9cf48f4b2ad9696c24692de065965acb",
+      "Hash": "10d9360d341933049a596865cdffbe11",
+      "FileMD5": "9993588d0b9b242ebc1e7bb160e4bce7",
       "ThumbnailHash": "057b930de8fec09380ad8066a96074d2",
       "Locked": false,
       "EpilepsyWarning": false,
-      "LastUpdate": 1794714142
+      "LastUpdate": 1795120438
     },
     {
       "Parts": [
